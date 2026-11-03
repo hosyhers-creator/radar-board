@@ -1,0 +1,229 @@
+{
+ "updated": "2026-11-03",
+ "timezone": "Asia/Shanghai",
+ "baseline": false,
+ "platform_status": {
+  "Google": "部分可行（Playwright 调公开 SearchCreatives RPC，format=VIDEO）；今日取到 492 条视频创意",
+  "Meta": "部分可行（无 API token；Playwright 公开页）；今日取到 176 条。官方 API 待 token。",
+  "TikTok": "部分可行（Playwright 拦截 Top Ads 列表；未登录无品牌关键词搜）；列表素材 {'US': 20, 'KR': 6}，命中竞品 0 条"
+ },
+ "items": [
+  {
+   "badge": "新开投",
+   "competitor": "CapCut/Dreamina",
+   "platform": "google",
+   "regions": [
+    "US"
+   ],
+   "first_shown": "2026-11-02",
+   "title": "CapCut · Dreamina 纯字卡「Access Seedance 2.5」",
+   "stats": "首投 2026-11-02 · Google US · 12 秒 1:1 · 素材 YT yroTi73-NkE",
+   "analysis": "白底黑字只写“DREAMINA · Access Seedance 2.5”，不放任何成片，直接把 Seedance 2.5 当卖点——“谁家能用 Seedance 2.5”已经打到官方投放层面。对 Topview：同效果 3.8 折（$0.22/秒 vs 官方 $0.585/秒）＋30 天无限，正面接。",
+   "link": "https://adstransparency.google.com/advertiser/AR04014080128513474561/creative/CR02536181117455695873?region=US",
+   "cover": "media/ads_google_CR02536181117455695873.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  },
+  {
+   "badge": "新开投",
+   "competitor": "Vidu",
+   "platform": "google",
+   "regions": [
+    "US"
+   ],
+   "first_shown": "2026-10-30",
+   "title": "Vidu · Vidu Q4 万圣节短片",
+   "stats": "首投 2026-10-30 · Google US · 16:9 · 素材 YT 54qPWNa7q3M",
+   "analysis": "南瓜灯成片，下方露出 prompt 输入框和模型选择“Vidu Q4 Preview”，字幕“Vidu Q4 Preview can produce this kind of cinematic shots”——结构是“界面→成片”。节日题材 Topview 不跟，只记这个结构。",
+   "link": "https://adstransparency.google.com/advertiser/AR13500956930192965633/creative/CR04203181482652467201?region=US",
+   "cover": "media/ads_google_CR04203181482652467201.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  },
+  {
+   "badge": "新开投",
+   "competitor": "CapCut/Dreamina",
+   "platform": "google",
+   "regions": [
+    "US"
+   ],
+   "first_shown": "2026-10-29",
+   "title": "CapCut · Dreamina 代理口播「Yes, a full month」",
+   "stats": "首投 2026-10-29 · Google US · 竖屏口播 · 角标 $0.29/month ONLY",
+   "analysis": "代理商 WHATECH 投放：男生对着笔记本电脑口播“对，整整一个月”，角标“$0.29/month ONLY”。按周报换算首月积分只够约 42 秒 720p。对 Topview：用“30 天无限”对比最直接，别跟着打低价首月。",
+   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR06622951488689799169?region=US",
+   "cover": "media/ads_google_CR06622951488689799169.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  },
+  {
+   "badge": "新开投",
+   "competitor": "Vidu",
+   "platform": "google",
+   "regions": [
+    "US"
+   ],
+   "first_shown": "2026-10-29",
+   "title": "Vidu · Vidu Q4 动漫打斗",
+   "stats": "首投 2026-10-29 · Google US · 29 秒 1:1 · 素材 YT MkKRDWf_5Go",
+   "analysis": "戴牛仔帽的机器人在沙漠里追逐打斗，字幕“Make every shot tell a story!”，卖点是叙事画质，没有价格信息。",
+   "link": "https://adstransparency.google.com/advertiser/AR13500956930192965633/creative/CR01392477918336122881?region=US",
+   "cover": "media/ads_google_CR01392477918336122881.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  },
+  {
+   "badge": "新开投",
+   "competitor": "CapCut/Dreamina",
+   "platform": "google",
+   "regions": [
+    "US"
+   ],
+   "first_shown": "2026-10-23",
+   "title": "CapCut · Dreamina「AI 分身 vs 本人」分屏",
+   "stats": "首投 2026-10-23 · Google US · 竖屏上下分屏 · 角标 $0.29/month ONLY",
+   "analysis": "上半是 AI 生成的金发女生站在未来城市夜景里，下半是本人自拍说“I made it on Dreamina”，大字“MADE ON DREAMINA”。和 Topview AI Avatar 完全同题，钩子是“上面那个也是我”。",
+   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR03612682165885599745?region=US",
+   "cover": "media/ads_google_CR03612682165885599745.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  },
+  {
+   "badge": "新开投",
+   "competitor": "CapCut/Dreamina",
+   "platform": "google",
+   "regions": [
+    "US"
+   ],
+   "first_shown": "2026-10-23",
+   "title": "CapCut · Dreamina「29 美分」口播",
+   "stats": "首投 2026-10-23 · Google US · 竖屏口播 · 角标 $0.29 membership offer",
+   "analysis": "墨镜男在走廊里口播，大字“To unlock the special 29-CENT”，全片只卖价格、不展示产品。WHATECH 目前在投的 3 条都是同一个 $0.29 口径，属于价格冲量素材。",
+   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR01201444370079809537?region=US",
+   "cover": "media/ads_google_CR01201444370079809537.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  },
+  {
+   "badge": "新开投",
+   "competitor": "Vidu",
+   "platform": "google",
+   "regions": [
+    "US"
+   ],
+   "first_shown": "2026-10-29",
+   "title": "Vidu · Vidu Q4 动漫模型对比",
+   "stats": "首投 2026-10-29 · Google US · 23 秒 16:9 · 素材 YT IsM9FUTnkTM",
+   "analysis": "星空下一群发光鲸鱼游过云海，字幕“make every shot more cinematic”。Vidu 一周 3 条 Google 视频都在拼动漫画质；Topview 不拼画质，拼价格和工作流。",
+   "link": "https://adstransparency.google.com/advertiser/AR13500956930192965633/creative/CR08583037673386541057?region=US",
+   "cover": "media/ads_google_CR08583037673386541057.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  },
+  {
+   "badge": "在投",
+   "competitor": "CapCut / Dreamina",
+   "platform": "google",
+   "regions": [
+    "KR"
+   ],
+   "first_shown": "2026-10-29",
+   "title": "Dreamina 韩国区：「월 ₩408부터」（每月 408 韩元起）打 Seedance 低价",
+   "stats": "首投 2026-10-29 · 末次展示 11-01（11-03 扫描） · WHATECH MOBILE · 16 秒竖屏",
+   "analysis": "素材只有品牌动画 + 一句「月 ₩408 起，用强大的 Seedance 模型开始新的创作」，不展示任何成片，纯价格钩子；和美国区同期的 $0.29 首月价是同一波。对 Topview 韩国：别跟首月价比，打常态价——T1「Seedance 2.5 一样的效果，3.8折的价格」（$0.22/秒 vs 官方 $0.585/秒）＋30 天无限，并且要给出成片画面，补上对方“只有价格没有作品”的空档。",
+   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR16091015440259612673?region=KR",
+   "cover": "media/ads_google_CR16091015440259612673.jpg",
+   "is_new": false,
+   "is_topview_impersonation": false
+  },
+  {
+   "badge": "在投",
+   "competitor": "CapCut",
+   "platform": "google",
+   "regions": [
+    "KR"
+   ],
+   "first_shown": "2026-10-29",
+   "title": "CapCut 韩国区：「Make your video cinematic」+ 一键 Remove",
+   "stats": "首投 2026-10-29 · 末次展示 11-01（11-03 扫描） · WHATECH MOBILE · 同主题另有 Tiktok Pte. 10-23 起一条",
+   "analysis": "英文界面录屏：选中海边人物 → 点 Remove 一键抠除 → 画面“变电影感”。打的是剪辑端的 AI 修图功能，不是生成模型，在韩国直接用英文 UI 投。对 Topview：对方卖“改已有视频”，我们卖“从 0 生成整条”；韩国版素材建议用韩语界面＋婆家抓马这类本地剧情成片做对比，差异一眼可见。",
+   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR05948909079421255681?region=KR",
+   "cover": "media/ads_google_CR05948909079421255681.jpg",
+   "is_new": false,
+   "is_topview_impersonation": false
+  },
+  {
+   "badge": "在投",
+   "competitor": "Kling",
+   "platform": "google",
+   "regions": [
+    "KR"
+   ],
+   "first_shown": "2026-09-28",
+   "title": "Kling 4.0 韩国区：「理解你的想法」提示词输入框",
+   "stats": "首投 2026-09-28 · 末次展示 11-02（11-03 扫描） · 广告主 毕佳璇（kling.ai）",
+   "analysis": "写实美妆模特拿口红 + 底部提示词输入框，韩文字幕「KlingAI 4.0이 당신의 아이디어를 이해하고」（Kling 4.0 理解你的想法），主打“提示词理解力”，一个多月一直在投。对 Topview：Kling 在韩国押美妆带货＋“懂你”；我们可用同类美妆产品图直接出口播数字人广告，强调不用写提示词。",
+   "link": "https://adstransparency.google.com/advertiser/AR06703520050051022849/creative/CR02444378218728259585?region=KR",
+   "cover": "media/ads_google_CR02444378218728259585.jpg",
+   "is_new": false,
+   "is_topview_impersonation": false
+  },
+  {
+   "badge": "在投",
+   "competitor": "Flova",
+   "platform": "google",
+   "regions": [
+    "KR"
+   ],
+   "first_shown": "2026-09-07",
+   "title": "Flova 韩国区：「连项目文件都能导出」",
+   "stats": "首投 2026-09-07 · 末次展示 11-02（11-03 扫描） · FLOVA PTE. LTD. · 22 秒横屏 · 素材文件名标“低成本快速批量交付”",
+   "analysis": "深色编辑器录屏 + 英文字幕「In Flova, not only can videos be exported, but project files can also be exported」，卖点是“可二次编辑的工程文件”，面向代理商/团队；韩国区沿用英文素材近两个月未换。对 Topview：Flova 打“可交付工程”，我们打“单价 + 无限产能”；面向韩国代理商的素材可加一句韩语“30 天无限”。",
+   "link": "https://adstransparency.google.com/advertiser/AR12554248788425834497/creative/CR05505281701258985473?region=KR",
+   "cover": "media/ads_google_CR05505281701258985473.jpg",
+   "is_new": false,
+   "is_topview_impersonation": false
+  },
+  {
+   "badge": "在投",
+   "competitor": "Flova",
+   "platform": "google",
+   "regions": [
+    "KR"
+   ],
+   "first_shown": "2026-09-08",
+   "title": "Flova 韩国区：「Buy one credit get one free」积分买一送一（香水产品片）",
+   "stats": "首投 2026-09-08 · 末次展示 11-02 · FLOVA PTE. LTD. · 21 秒横屏 · 素材文件名标“skill”",
+   "analysis": "画面是手持香水瓶喷洒的电影感特写，底部大字幕「Buy one credit get one free」，右上 Flova.ai 水印：用产品广告成片当演示，再用“积分翻倍”收口，韩国区沿用英文素材近两个月。对 Topview：对方打“积分翻倍”，我们打“30 天无限”——无限比翻倍更好懂；韩国版可用同类美妆/香水产品图直接出一条成片，结尾放 T1 $0.22/秒 价签。",
+   "link": "https://adstransparency.google.com/advertiser/AR12554248788425834497/creative/CR07015634369968603137?region=KR",
+   "cover": "media/ads_google_CR07015634369968603137.jpg",
+   "is_new": false,
+   "is_topview_impersonation": false
+  },
+  {
+   "badge": "在投",
+   "competitor": "Flova",
+   "platform": "google",
+   "regions": [
+    "KR"
+   ],
+   "first_shown": "2026-09-28",
+   "title": "Flova 韩国区：白色耳机产品片（时间线剪辑演示）",
+   "stats": "首投 2026-09-28 · 末次展示 11-02 · FLOVA PTE. LTD. · 36 秒 · 素材文件名「0908海投-timeline-3-EN」",
+   "analysis": "黑底上旋转的白金色头戴耳机，纯产品质感镜头；文件名写着“海投·timeline”，说明卖点是在时间线里拼出完整产品片，属于大面积铺量的通用素材。对 Topview：同样是“一张产品图→广告片”，我们的差异要落在“直接出带口播/数字人的成片”，而不是只出空镜。",
+   "link": "https://adstransparency.google.com/advertiser/AR12554248788425834497/creative/CR18279766783307022337?region=KR",
+   "cover": "media/ads_google_CR18279766783307022337.jpg",
+   "is_new": false,
+   "is_topview_impersonation": false
+  }
+ ],
+ "note": "11-03 07:43 扫描；网页只展示有本地清晰封面的条目（Meta 条目暂不展示）",
+ "note_kr": "韩国日报：KR 条目取自 2026-11-03 07:43 例行扫描（2026-11-03.json），只展示有本地封面且仍在投的 6 条；Meta KR“新开投”3 条为旧素材/关键词噪音，无本地封面未上页。"
+}

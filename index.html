@@ -1,0 +1,1761 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="robots" content="noindex, nofollow, noarchive" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>素材雷达 · 10-30</title>
+<style>
+  :root {
+    --bg: #f7f8fa;
+    --bg-elev: #eef0f4;
+    --bg-card: #ffffff;
+    --border: #e5e7eb;
+    --border-strong: #d1d5db;
+    --text: #111827;
+    --text-muted: #4b5563;
+    --text-dim: #6b7280;
+    --accent: #2563eb;
+    --accent-soft: #eff6ff;
+    --green: #16a34a;
+    --green-soft: #ecfdf5;
+    --amber: #d97706;
+    --amber-soft: #fffbeb;
+    --shadow: 0 1px 2px rgba(15,23,42,0.04), 0 4px 12px rgba(15,23,42,0.05);
+    --radius: 14px;
+    --gap: 28px;
+    --max: 1080px;
+    --font: "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+      system-ui, -apple-system, sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.55;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* subtle editorial grain / top wash */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background:
+      radial-gradient(ellipse 80% 50% at 50% -10%, rgba(37,99,235,0.06), transparent 55%),
+      radial-gradient(ellipse 40% 30% at 100% 0%, rgba(15,23,42,0.02), transparent 40%);
+    z-index: 0;
+  }
+
+  .wrap {
+    position: relative;
+    z-index: 1;
+    max-width: var(--max);
+    margin: 0 auto;
+    padding: 0 20px 64px;
+  }
+
+  /* ——— Top bar ——— */
+  .topbar {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    backdrop-filter: blur(16px) saturate(1.2);
+    -webkit-backdrop-filter: blur(16px) saturate(1.2);
+    background: rgba(255,255,255,0.88);
+    border-bottom: 1px solid var(--border);
+    margin: 0 -20px;
+    padding: 16px 20px 14px;
+  }
+
+  .topbar-inner {
+    max-width: var(--max);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 14px 24px;
+  }
+
+  .brand h1 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+  }
+
+  .brand .date {
+    margin-top: 4px;
+    font-size: 0.8125rem;
+    color: var(--text-muted);
+  }
+
+  .segments {
+    display: inline-flex;
+    background: var(--bg-elev);
+    border: 1px solid var(--border-strong);
+    border-radius: 999px;
+    padding: 3px;
+    gap: 2px;
+  }
+
+  .segments button {
+    appearance: none;
+    border: none;
+    background: transparent;
+    color: var(--text-muted);
+    font: inherit;
+    font-size: 0.8125rem;
+    font-weight: 560;
+    padding: 8px 14px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+    white-space: nowrap;
+  }
+
+  .segments button:hover { color: var(--text); }
+
+  .segments button.active {
+    background: var(--accent);
+    color: #fff;
+    box-shadow: 0 1px 2px rgba(37,99,235,0.25);
+  }
+
+  /* ——— Lead ——— */
+  .lead {
+    margin-top: 28px;
+    padding: 18px 20px;
+    background: linear-gradient(135deg, #eff6ff, #f8fafc);
+    border: 1px solid #bfdbfe;
+    border-radius: var(--radius);
+  }
+
+  .lead .kicker {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 8px;
+  }
+
+  .lead p {
+    font-size: 0.975rem;
+    color: var(--text);
+  }
+
+  .meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+    margin-top: 16px;
+    font-size: 0.8rem;
+    color: var(--text-dim);
+  }
+
+  .meta-row span strong {
+    color: var(--text-muted);
+    font-weight: 600;
+  }
+
+  /* ——— Grid ——— */
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--gap);
+    margin-top: 28px;
+  }
+
+  @media (min-width: 760px) {
+    .grid { grid-template-columns: 1fr 1fr; }
+  }
+
+  /* ——— Card ——— */
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: calc(var(--radius) + 2px);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: border-color 0.18s, transform 0.18s, box-shadow 0.18s;
+  }
+
+  .card:hover {
+    border-color: var(--border-strong);
+    box-shadow: 0 2px 4px rgba(15,23,42,0.05), 0 8px 20px rgba(15,23,42,0.07);
+    transform: translateY(-1px);
+  }
+
+  .cover {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    max-height: 180px;
+    background: #111827;
+    overflow: hidden;
+  }
+
+  .cover.is-portrait {
+    aspect-ratio: 9 / 16;
+    width: 112px;
+    max-height: 200px;
+    margin: 12px auto 0;
+    border-radius: 10px;
+  }
+
+  .cover.is-square {
+    aspect-ratio: 1 / 1;
+    width: 180px;
+    max-height: 180px;
+    margin: 12px auto 0;
+    border-radius: 10px;
+  }
+
+  .cover.no-img {
+    display: none;
+  }
+
+  .cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .cover-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:
+      linear-gradient(145deg, #eef0f4 0%, #e5e7eb 100%);
+    color: var(--text-dim);
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    user-select: none;
+  }
+
+  .cover-placeholder span {
+    opacity: 0.45;
+  }
+
+  .cover-badges {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    z-index: 2;
+  }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding: 4px 9px;
+    border-radius: 999px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid transparent;
+  }
+
+  .badge-NEW, .badge-主榜 {
+    background: var(--accent-soft);
+    color: #1d4ed8;
+    border-color: #bfdbfe;
+  }
+
+  .badge-Rising {
+    background: var(--green-soft);
+    color: #15803d;
+    border-color: #bbf7d0;
+  }
+
+  .badge-Trending, .badge-仍在爆 {
+    background: var(--amber-soft);
+    color: #b45309;
+    border-color: #fde68a;
+  }
+
+  .card-body {
+    padding: 18px 18px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+  }
+
+  .card-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.35;
+    letter-spacing: -0.01em;
+  }
+
+  .card-stats {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+  }
+
+  .card-analysis {
+    font-size: 0.9rem;
+    color: #374151;
+    flex: 1;
+  }
+
+  .card-links {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 4px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+  }
+
+  .card-links a {
+    font-size: 0.8125rem;
+    color: #2563eb;
+    text-decoration: none;
+    line-height: 1.4;
+    word-break: break-word;
+  }
+
+  .card-links a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+  }
+
+  .card-links a::before {
+    content: "↗ ";
+    opacity: 0.7;
+  }
+
+  .extra-thumbs {
+    display: flex;
+    gap: 8px;
+    margin-top: 2px;
+  }
+
+  .extra-thumbs img {
+    width: 72px;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: #e5e7eb;
+  }
+
+  .extra-thumbs img.is-portrait {
+    width: 56px;
+    aspect-ratio: 9 / 16;
+  }
+
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    text-align: center;
+  }
+
+
+  .badge-新出路 {
+    background: var(--accent-soft);
+    color: #1d4ed8;
+    border-color: #bfdbfe;
+  }
+
+  .badge-上升速 {
+    background: var(--green-soft);
+    color: #15803d;
+    border-color: #bbf7d0;
+  }
+
+  .badge-持续 {
+    background: var(--amber-soft);
+    color: #b45309;
+    border-color: #fde68a;
+  }
+
+  /* ——— YouTube 热点 ——— */
+  .yt-section {
+    margin-top: 32px;
+  }
+
+  .yt-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 8px 16px;
+    margin-bottom: 16px;
+  }
+
+  .yt-head h2 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  .yt-updated {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+  }
+
+  .yt-themes {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .yt-theme {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: calc(var(--radius) + 2px);
+    box-shadow: var(--shadow);
+    padding: 18px 18px 16px;
+    transition: border-color 0.18s;
+  }
+
+  .yt-theme:hover {
+    border-color: var(--border-strong);
+  }
+
+  .yt-theme-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 12px;
+    margin-bottom: 10px;
+  }
+
+  .yt-theme-head h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+  }
+
+  .yt-judgment {
+    font-size: 0.9rem;
+    color: #374151;
+    line-height: 1.55;
+    margin-bottom: 14px;
+  }
+
+  .yt-evidence {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  @media (min-width: 720px) {
+    .yt-evidence {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .yt-ev {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    transition: border-color 0.15s, transform 0.15s;
+    min-width: 0;
+  }
+
+  .yt-ev:hover {
+    border-color: #93c5fd;
+    transform: translateY(-1px);
+  }
+
+  .yt-ev-thumb {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    background: #e5e7eb;
+    overflow: hidden;
+  }
+
+  .yt-ev-thumb.is-portrait {
+    aspect-ratio: 9 / 16;
+    width: 96px;
+    max-height: 170px;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
+
+  .yt-ev-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .yt-ev-play {
+    position: absolute;
+    right: 6px;
+    bottom: 6px;
+    font-size: 0.65rem;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background: rgba(0,0,0,0.72);
+    color: #fff;
+    letter-spacing: 0.02em;
+  }
+
+  .yt-ev-meta {
+    padding: 8px 9px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .yt-ev-title {
+    font-size: 0.72rem;
+    font-weight: 600;
+    line-height: 1.35;
+    color: var(--text);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .yt-ev-views {
+    font-size: 0.68rem;
+    color: var(--text-dim);
+  }
+
+  .yt-hint {
+    margin-top: 28px;
+    padding: 14px 16px;
+    background: var(--bg-elev);
+    border: 1px dashed var(--border-strong);
+    border-radius: var(--radius);
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+
+  .yt-hint a {
+    color: #2563eb;
+    text-decoration: none;
+  }
+
+  .yt-hint a:hover { text-decoration: underline; }
+
+  .section-label {
+    margin-top: 36px;
+    margin-bottom: -12px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+  }
+
+
+  /* ——— 竞品投放日更 ——— */
+  .compads-section {
+    margin-top: 32px;
+  }
+  .compads-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 8px 16px;
+    margin-bottom: 14px;
+  }
+  .compads-head h2 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  .compads-updated {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+  }
+  .compads-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--gap);
+  }
+  @media (min-width: 720px) {
+    .compads-grid { grid-template-columns: 1fr 1fr; }
+  }
+  .badge-新开投 {
+    background: var(--accent-soft);
+    color: #1d4ed8;
+    border-color: #bfdbfe;
+  }
+  .badge-在投 {
+    background: var(--bg-elev);
+    color: #374151;
+    border-color: var(--border);
+  }
+  .badge-仿冒, .badge-⚠️仿冒 {
+    background: #fef2f2;
+    color: #b91c1c;
+    border-color: #fecaca;
+  }
+  .compads-empty {
+    margin-top: 8px;
+    padding: 14px 16px;
+    background: var(--bg-elev);
+    border: 1px dashed var(--border-strong);
+    border-radius: var(--radius);
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+
+  .hidden { display: none !important; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <div class="brand">
+          <h1>素材雷达</h1>
+          <div class="date" id="dateLine">2026-10-30 · 北京时间</div>
+        </div>
+        <nav class="segments" role="tablist" aria-label="报告切换">
+          <button type="button" data-view="overseas" class="active" role="tab" aria-selected="true">海外日报</button>
+          <button type="button" data-view="korea" role="tab" aria-selected="false">韩国日报</button>
+          <button type="button" data-view="weekly" role="tab" aria-selected="false">周报</button>
+        </nav>
+      </div>
+    </header>
+
+    <section class="lead" id="lead"></section>
+
+    <div class="section-label hidden" id="cards-label">素材卡</div>
+    <div class="grid" id="grid"></div>
+
+    <section class="yt-section hidden" id="yt-section" aria-label="YouTube 热点更新">
+      <div class="yt-head">
+        <h2>YouTube 热点更新</h2>
+        <span class="yt-updated" id="yt-updated"></span>
+      </div>
+      <div class="yt-themes" id="yt-themes"></div>
+    </section>
+    <div class="yt-hint hidden" id="yt-hint"></div>
+
+    <section class="compads-section hidden" id="compads-section" aria-label="竞品投放日更">
+      <div class="compads-head">
+        <h2>竞品投放日更</h2>
+        <span class="compads-updated" id="compads-updated"></span>
+      </div>
+      <div class="compads-grid" id="compads-grid"></div>
+      <div class="compads-empty hidden" id="compads-empty"></div>
+    </section>
+
+    <footer>
+      素材雷达 · 独立网页版 · 封面来自 YouTube CDN / 本地 media · 不含「建议做的广告」与经营数据
+    </footer>
+  </div>
+
+<script>
+/* —— Card data (routines can overwrite this object or the whole file) —— */
+const REPORT = {
+  dateLabel: "2026-11-03 · 北京时间",
+  views: {
+    weekly: {
+      label: "周报 10-19～10-25",
+      dateLine: "周报覆盖 2026-10-19 至 10-25 · 北京时间",
+      leadKicker: "本周结论",
+      lead: "欧美这周最火的是「真假难辨」（Roadster 跳桥等靠评论区争论继续涨）；韩国还是中老年身份反转爽剧，一周涨 2 倍多；Kling 美国 16:9 广告已在做「别家 vs Kling」分屏——比价榜方向对，它比画质、我们比价格。",
+      meta: [
+        { k: "报告", v: "AI 广告素材周报" },
+        { k: "覆盖", v: "2026-10-19 至 10-25" },
+        { k: "精选", v: "17 条（后劲 9 · 日报漏掉 3）" }
+      ],
+      cards: [
+        {
+          badge: "Rising",
+          title: "真假难辨还在涨",
+          stats: "约 2 条核心参考 · 合计播放约 626 万",
+          analysis: "Roadster 跳金门大桥从日报 90 万涨到 539.5 万，评论区一直在吵是不是 AI。适合做揭秘片：先放离谱写实镜头，再让真人说“这些都是我做的，最离谱的是价钱”，最后打 T1 的 3.8 折。",
+          links: [
+            { title: "HodlMiro · Roadster 飞跃金门大桥 · 539.5 万", href: "https://x.com/HodlMiro/status/2113046512523456549" },
+            { title: "vatniksoup · 现在什么都不是真的 · 87.2 万", href: "https://x.com/vatniksoup/status/2112845205657313609" }
+          ],
+          thumbs: [
+            { type: "x", id: "2113046512523456549" },
+            { type: "x", id: "2112845205657313609" }
+          ]
+        },
+        {
+          badge: "Rising",
+          title: "日常空间闯进离谱的东西",
+          stats: "约 2 条 · 合计播放约 486 万 · 8–15 秒竖屏为主",
+          analysis: "大坝狂奔 262 万、野猪闯厕所 224.5 万，一个镜头就心惊。回复区在找破绽（比如“第二头猪长着山羊角”）。可直接剪进揭秘片前 15 秒。",
+          links: [
+            { title: "Chris_Alex · 大坝狂奔 · 262.0 万", href: "https://x.com/Chris_Alex/status/2113576886731219421" },
+            { title: "EndtheWef03 · 野猪闯进厕所 · 224.5 万", href: "https://x.com/EndtheWef03/status/2112811947603226934" }
+          ],
+          thumbs: [
+            { type: "x", id: "2113576886731219421" },
+            { type: "x", id: "2112811947603226934" }
+          ]
+        },
+        {
+          badge: "Rising",
+          title: "图表活起来，直接借给比价榜",
+          stats: "1 条核心 · 28.9 万播放（日报 4.85 万，约 6 倍）",
+          analysis: "猫毛色性格矩阵里的猫突然跑起来，回复都在对号入座。S/A/B/C 比价榜可以做成同样的会动图表：各模型成片跳进格子，T1 落在 S 档；旁白用真人反应，不要逐项念平台和价格。",
+          links: [
+            { title: "tintinpapa1 · 猫毛色性格矩阵 · 28.9 万", href: "https://x.com/tintinpapa1/status/2113620441642467738" }
+          ],
+          thumbs: [{ type: "x", id: "2113620441642467738" }]
+        },
+        {
+          badge: "NEW",
+          title: "食材拟人带货短剧（日报漏掉）",
+          stats: "1 条 · 102.8 万播放 · 83 秒竖屏",
+          analysis: "苹果头老公把西兰花老婆的头发做成芹菜蛋白粉，赚到 100 万美元。荒诞加赚钱的爽点，适合给电商卖家看的 30 秒 Product Avatar 版（原片太长，只拍 30 秒）。",
+          links: [
+            { title: "clipcraft7 · 用老婆的头发做成百万生意 · 102.8 万", href: "https://x.com/clipcraft7/status/2112201633010471280" }
+          ],
+          thumbs: [{ type: "x", id: "2112201633010471280" }]
+        },
+        {
+          badge: "NEW",
+          title: "假广告形式：巴黎城市旅游团",
+          stats: "1 条 · YouTube 173.1 万 · 78 秒 16:9 · 日报漏掉",
+          analysis: "导游笑着带团穿过暴乱街头，“现在五折”。工具写了 Seedance 2.5。热度一半借法国治安话题，只学“假广告”形式；我们换成不碰政治的题目，比如周一上班体验团。",
+          links: [
+            { title: "Wytse Koetse · 巴黎城市旅游团 · 173.1 万", href: "https://www.youtube.com/watch?v=_Vy2kqp4alg" }
+          ],
+          thumbs: [{ type: "yt", id: "_Vy2kqp4alg" }]
+        },
+        {
+          badge: "Rising",
+          title: "韩国身份反转爽剧继续翻倍",
+          stats: "约 3 条核心 · 贵妇嫌破车已破百万 · 干粗活的其实是会长 31.6 万（日报漏掉）",
+          analysis: "看不起人然后被反转打脸，评论区骂反派。可用 Wan 3.0 批量出，先做 빼빼로데이（11-11）版。受众偏 40–60 岁，要不要继续当 Topview 韩国素材还等你定。",
+          links: [
+            { title: "It's super fun · 看不起破车的阔太太 · 108.4 万", href: "https://www.youtube.com/shorts/ZDFmPK1F1AQ" },
+            { title: "숏코드숏 · 干粗活的也敢踩玄关？ · 31.6 万", href: "https://www.youtube.com/shorts/Vt8N_rqvAzI" }
+          ],
+          thumbs: [
+            { type: "yt", id: "ZDFmPK1F1AQ" },
+            { type: "yt", id: "Vt8N_rqvAzI" }
+          ]
+        },
+        {
+          badge: "Trending",
+          title: "竞品比价已经是主流说法",
+          stats: "YouTube + Meta · Kling / Hailuo / ViralMe",
+          analysis: "Kling 美国 16:9 是“别家 vs Kling”分屏；Hailuo“Better than Seedance 2.0 & Kling!”投了约 64 天，10-21 又开新版；ViralMe 用“Why Pay, When It's Free?”和 Kling 比价，美韩都在投。我们要比的是同一 prompt 成片加 T1 $0.22/秒 vs 官方 $0.585/秒。",
+          links: [
+            { title: "Kling 美国 · 别家 vs Kling", href: "https://www.youtube.com/watch?v=la3ws4mUtl4" },
+            { title: "Kling 韩国 · 音效卖点", href: "https://www.youtube.com/watch?v=F20nvKrInqE" },
+            { title: "Hailuo Meta · Better than Seedance 2.0 & Kling", href: "https://www.facebook.com/ads/library/?id=1548911673939394" },
+            { title: "ViralMe · Why Pay, When It's Free?", href: "https://www.facebook.com/ads/library/?id=2282989519219050" }
+          ],
+          thumbs: [
+            { type: "yt", id: "la3ws4mUtl4" },
+            { type: "yt", id: "F20nvKrInqE" }
+          ]
+        },
+        {
+          badge: "NEW",
+          title: "Hedra 一次出多个广告版本",
+          stats: "Meta · 10-21 新开一批",
+          analysis: "卖点是同一个角色和品牌，一次出多个广告变体，再加上 Agent。和 Topview 产品广告卖点正面撞上。MakeUGC 打的是“$1 做 AI UGC”（竞品说法）。另：冒用 Topview 名义、落地 topview-ai.com 的第三方广告仍在投，约 553 天。",
+          links: [
+            { title: "Hedra · 10-21 新批次（角色一致 + 批量变体）", href: "https://www.facebook.com/ads/library/?id=2561138074368964" },
+            { title: "第三方冒用 Topview · topview-ai.com", href: "https://www.facebook.com/ads/library/?id=656732803811005" }
+          ],
+          thumbs: []
+        }
+      ]
+    },
+    overseas: {
+      label: "海外日报 10-26 · 重挖",
+      dateLine: "海外 AI 热点早报 · 2026-10-26 重挖 · 北京时间",
+      leadKicker: "海外 AI 热点早报 · 10-26 重挖",
+      lead: "重挖最大收获：切尔西假集锦坐实（StadianityApp 66.3 万）；另有网球看台反应 47.7 万、中土邮轮 10.8 万。YouTube 新发现 Topview T1「3x cheaper」比价片。主榜 5 + 仍在爆；不做万圣节。",
+      meta: [
+        { k: "报告", v: "海外 AI 热点早报 · 重挖" },
+        { k: "日期", v: "2026-10-26" },
+        { k: "主榜", v: "5 条 + 仍在爆" },
+        { k: "YT 主题", v: "5 卡" }
+      ],
+      cards: [
+        {
+          badge: "主榜",
+          title: "切尔西假集锦来了",
+          stats: "66.3 万播放 · 赞 9,615 · 收藏 1,321 · 23 秒 · 竖屏 · 10-25",
+          analysis: "酒吧荒诞「假集锦」蒙太奇，配文踩热刺赢球热点。可借鉴：本地球队刚输/刚赢当天做 20 秒假集锦竖屏，口播接 T1 3.8 折。⚠️别用真实球星深伪脸。",
+          links: [
+            { title: "StadianityApp · 切尔西假集锦", href: "https://x.com/StadianityApp/status/2114279627883696607" }
+          ],
+          thumbs: [{ type: "x", id: "2114279627883696607" }]
+        },
+        {
+          badge: "主榜",
+          title: "网球几乎没碰到球，看台先炸了",
+          stats: "47.7 万播放 · 赞 1,529 · 收藏 1,004 · 11 秒 · 竖屏 · 10-25",
+          analysis: "钩子写在标题：球几乎没碰到，切观众反应。画面偏性感网球裙，官方广告慎用。可借鉴：「正常运动 → 物理不对 → 切反应」11 秒竖屏。",
+          links: [
+            { title: "signexa0o · 网球看台反应", href: "https://x.com/signexa0o/status/2114104900569141317" }
+          ],
+          thumbs: [{ type: "x", id: "2114104900569141317" }]
+        },
+        {
+          badge: "主榜",
+          title: "中土邮轮多付了钱",
+          stats: "10.8 万播放 · 赞 1,307 · 收藏 250 · 30 秒 · 竖屏 · Magnific · 10-25",
+          analysis: "游客 POV「付费体验翻车」奇幻邮轮。⚠️中土 IP 须换原创设定。可借鉴：付费体验翻车 POV + 奇幻生物，旁白接 Wan「30 秒 720p $1.20」。",
+          links: [
+            { title: "techhalla · 中土邮轮", href: "https://x.com/techhalla/status/2114304193636794799" }
+          ],
+          thumbs: [{ type: "x", id: "2114304193636794799" }]
+        },
+        {
+          badge: "主榜",
+          title: "这只是生物课作业…",
+          stats: "3.2 万播放 · 赞 331 · 收藏 115 · 77 秒 · 竖屏 · 10-26",
+          analysis: "手指人拟物家庭剧续作。可借鉴：产品吉祥物拍 30 秒家长会/作业翻车，对位 Product Avatar。",
+          links: [
+            { title: "clipcraft7 · 生物课", href: "https://x.com/clipcraft7/status/2114514466775715907" }
+          ],
+          thumbs: [{ type: "x", id: "2114514466775715907" }]
+        },
+        {
+          badge: "主榜",
+          title: "Seedance + Claude 女枪手 · 手法参考",
+          stats: "0.94 万播放 · 赞 476 · 收藏 257 · 32 秒 · 16:9 · 热度一般",
+          analysis: "白发女枪手 + 后期慢动作，评论要 prompt。可借鉴：录屏「brief → T1/Seedance → Claude/MCP 剪辑」，口播 T1「30 天无限」。",
+          links: [
+            { title: "aimikoda · 女枪手", href: "https://x.com/aimikoda/status/2114007429146964169" }
+          ],
+          thumbs: [{ type: "x", id: "2114007429146964169" }]
+        },
+        {
+          badge: "仍在爆",
+          title: "仍在爆 · 父亲片半天 +89 万",
+          stats: "Sucre770 106.4 万（+89 万）· Natalia5d 1,095 万 · HauntedAI 224 万 · 理发店 192 万",
+          analysis: "父亲护家逃生横屏继续暴涨；假集锦/假广告同构跨平台有效。不做万圣节。YouTube 侧新立「Topview 被点名比价」。",
+          links: [
+            { title: "Sucre770 · 父亲护家", href: "https://x.com/Sucre770/status/2114448232403161569" },
+            { title: "Natalia5d · 熔岩排行榜", href: "https://x.com/Natalia5d/status/2111838152583512361" },
+            { title: "HauntedAI · 复方汤剂", href: "https://x.com/HauntedAI/status/2113751282875764773" }
+          ],
+          thumbs: [{ type: "x", id: "2114448232403161569" }]
+        }
+      ]
+    },
+    korea: {
+      label: "韩国日报 10-26",
+      dateLine: "韩国 AI 热点日报 · 2026-10-26 · 北京时间",
+      leadKicker: "韩国 AI 热点日报 · 10-26",
+      lead: "今天最值得抄的是 12 秒老人段子：饭馆里奶奶嫌桌子挤，让服务员「那个也收一下」（6.6 万，平时只有几千）。剧情类依旧稳；非本地韩国相关本期没有过 1 万的新作。",
+      meta: [
+        { k: "报告", v: "韩国 AI 热点日报" },
+        { k: "日期", v: "2026-10-26" },
+        { k: "主榜", v: "6 条（含 仍在爆 汇总）" }
+      ],
+      cards: [
+        {
+          badge: "主榜",
+          title: "饭桌太挤，奶奶让服务员「那个也收一下」",
+          stats: "6.6 万播放 · 12 秒 · 10-24 · Gemini 水印",
+          analysis: "一个画面一句话，最后一拍反转。这个号平时只有几千。可借鉴：超短段子批量出片，配 Wan 3.0「30 秒 720p 只要 $1.20，365 天无限」。",
+          links: [
+            { title: "福子的人生故事 · 饭桌太挤", href: "https://www.youtube.com/shorts/-MBIq-7DD-s" }
+          ],
+          thumbs: [{ type: "yt", id: "-MBIq-7DD-s" }]
+        },
+        {
+          badge: "主榜",
+          title: "两个老头猜谜第 11 集",
+          stats: "4.4 万播放 · 28 秒 · 10-25",
+          analysis: "固定两个角色只换背景，系列老粉带量。可借鉴：角色一致系列模板，可拍「猜猜 AI 视频多少钱」，答案是 T1 的 3.8 折。",
+          links: [
+            { title: "笑声美食店 · 稻田边猜谜", href: "https://www.youtube.com/shorts/AKRIM8EoCh0" }
+          ],
+          thumbs: [{ type: "yt", id: "AKRIM8EoCh0" }]
+        },
+        {
+          badge: "主榜",
+          title: "凶组长其实在帮你升总部",
+          stats: "15.1 万播放 · 71 秒 · 10-24",
+          analysis: "先让人生气再反转成暖心，热评「组长是傲娇」。可借鉴：职场反转版广告（老板让你一天出 10 条视频）。",
+          links: [
+            { title: "It's super fun 第 89 集", href: "https://www.youtube.com/shorts/-cQfP_QRGC8" }
+          ],
+          thumbs: [{ type: "yt", id: "-cQfP_QRGC8" }]
+        },
+        {
+          badge: "主榜",
+          title: "婆婆嫌没根基，亲妈是会长",
+          stats: "11.3 万播放 · 34 秒 · 10-24",
+          analysis: "一个包间、身份一揭开就结束。可借鉴：T1 做多角色同场景，每集只换身份。",
+          links: [
+            { title: "人生解气段子 · 没根基", href: "https://www.youtube.com/shorts/EjwFXcginbM" }
+          ],
+          thumbs: [{ type: "yt", id: "EjwFXcginbM" }]
+        },
+        {
+          badge: "主榜",
+          title: "妈妈戴老花镜念出养老院协议",
+          stats: "3.7 万播放 · 60 秒 · 10-25",
+          analysis: "「晚年学韩文」伏笔，评论区骂不孝子。可借鉴：「以为很难、其实早就会了」的结构，讲「一张图就能出 AI 视频」。",
+          links: [
+            { title: "5060 解气剧 · 养老院协议", href: "https://www.youtube.com/shorts/ARgkB2fW0eA" }
+          ],
+          thumbs: [{ type: "yt", id: "ARgkB2fW0eA" }]
+        },
+        {
+          badge: "仍在爆",
+          title: "仍在爆",
+          stats: "贵妇嫌破车 +17.9 万（107.8 万破百万）；婆婆被赶进厨房 +9.6 万；儿子想送妈妈去单间 +8.3 万",
+          analysis: "趋势：「老人 + 一句话反转」超短段子在涨；肩膀撞人路霸被当场教训的短片在 X 上扩散但还没过线。Pepero 节（11-11）后天开始追。缺口：Instagram 推荐号、TikTok 创意中心韩国区仍读不全。",
+          links: [
+            { title: "贵妇嫌破车 · 107.8 万", href: "https://www.youtube.com/shorts/ZDFmPK1F1AQ" },
+            { title: "婆婆被赶进厨房 · 49.6 万", href: "https://www.youtube.com/shorts/SGShpraE3Ns" },
+            { title: "儿子想送妈妈去单间 · 61.5 万", href: "https://www.youtube.com/shorts/8kl41H4tSJM" }
+          ],
+          thumbs: [
+            { type: "yt", id: "ZDFmPK1F1AQ" },
+            { type: "yt", id: "SGShpraE3Ns" },
+            { type: "yt", id: "8kl41H4tSJM" }
+          ]
+        }
+      ]
+    }
+  }
+};
+
+function thumbSrc(t) {
+  if (!t) return null;
+  if (t.type === "yt") {
+    return {
+      primary: `https://i.ytimg.com/vi/${t.id}/maxresdefault.jpg`,
+      fallback: `https://i.ytimg.com/vi/${t.id}/hqdefault.jpg`
+    };
+  }
+  if (t.type === "x") {
+    return { primary: `media/x_${t.id}.jpg`, fallback: null };
+  }
+  if (t.type === "local" && t.src) {
+    return { primary: t.src, fallback: null };
+  }
+  if (t.type === "local") {
+    return { primary: t.src, fallback: t.fallback || null };
+  }
+  return null;
+}
+
+function isPortraitUrl(url) {
+  if (!url) return false;
+  const u = String(url);
+  return /youtube\.com\/shorts\//i.test(u) || /\/shorts\//i.test(u);
+}
+
+function isPortraitThumb(t, links) {
+  if (!t) return false;
+  if (t.portrait === true || t.orient === "portrait" || t.ar === "9:16") return true;
+  if (t.portrait === false || t.orient === "landscape" || t.ar === "16:9") return false;
+  if (Array.isArray(links) && links.some(l => isPortraitUrl(l && l.href))) return true;
+  return false;
+}
+
+function markPortraitFromImg(img) {
+  if (!img || !img.naturalWidth) return;
+  const box = img.closest(".cover, .yt-ev-thumb") || img;
+  // YouTube Shorts 的 maxres 常是 16:9 带黑边，不能据此取消竖屏；只在图本身更高时补标竖屏
+  if (img.naturalHeight > img.naturalWidth * 1.08) {
+    box.classList.add("is-portrait");
+    img.classList.add("is-portrait");
+  }
+  else if (box.classList.contains("cover") && !box.classList.contains("is-portrait") && img.naturalHeight >= img.naturalWidth * 0.92) {
+    // 方形素材（如 1:1）按真实比例显示，不裁成横版
+    box.classList.add("is-square");
+  }
+}
+
+function esc(s) {
+  return String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function badgeClass(badge) {
+  const known = ["NEW", "主榜", "Rising", "Trending", "仍在爆", "新出路", "上升速", "持续"];
+  return known.includes(badge) ? `badge badge-${badge}` : "badge badge-NEW";
+}
+
+function renderCover(card) {
+  const thumbs = card.thumbs || [];
+  const main = thumbs[0];
+  const src = thumbSrc(main);
+  const letter = (card.title || "?").trim().charAt(0);
+  const portrait = isPortraitThumb(main, card.links);
+
+  let coverInner;
+  if (src) {
+    const onerr = src.fallback
+      ? `onerror="if(this.dataset.fb!=='1'){this.dataset.fb='1';this.src='${esc(src.fallback)}';}else{this.replaceWith(Object.assign(document.createElement('div'),{className:'cover-placeholder',innerHTML:'<span>${esc(letter)}</span>'}));}"`
+      : `onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'cover-placeholder',innerHTML:'<span>${esc(letter)}</span>'}));"`;
+    coverInner = `<img src="${esc(src.primary)}" alt="${esc(card.title)}" loading="lazy" decoding="async" onload="markPortraitFromImg(this)" ${onerr} />`;
+  } else {
+    coverInner = `<div class="cover-placeholder"><span>${esc(letter)}</span></div>`;
+  }
+
+  return `
+    <div class="cover${portrait ? " is-portrait" : ""}">
+      <div class="cover-badges"><span class="${badgeClass(card.badge)}">${esc(card.badge)}</span></div>
+      ${coverInner}
+    </div>`;
+}
+
+function renderCard(card) {
+  const extra = (card.thumbs || []).slice(1);
+  const extraHtml = extra.length
+    ? `<div class="extra-thumbs">${extra.map(t => {
+        const s = thumbSrc(t);
+        if (!s) return "";
+        const onerr = s.fallback
+          ? `onerror="if(this.dataset.fb!=='1'){this.dataset.fb='1';this.src='${esc(s.fallback)}';}else{this.remove();}"`
+          : `onerror="this.remove();"`;
+        const port = isPortraitThumb(t, card.links) ? " is-portrait" : "";
+        return `<img class="${port.trim()}" src="${esc(s.primary)}" alt="" loading="lazy" onload="markPortraitFromImg(this)" ${onerr} />`;
+      }).join("")}</div>`
+    : "";
+
+  const links = (card.links || [])
+    .map(l => `<a href="${esc(l.href)}" target="_blank" rel="noopener noreferrer">${esc(l.title)}</a>`)
+    .join("");
+
+  return `
+    <article class="card">
+      ${renderCover(card)}
+      <div class="card-body">
+        <h2 class="card-title">${esc(card.title)}</h2>
+        <div class="card-stats">${esc(card.stats)}</div>
+        <p class="card-analysis">${esc(card.analysis)}</p>
+        ${extraHtml}
+        <div class="card-links">${links}</div>
+      </div>
+    </article>`;
+}
+
+function renderEvidence(ev) {
+  const thumb = ev.thumb || ev.thumbnail || (ev.id ? `https://i.ytimg.com/vi/${ev.id}/maxresdefault.jpg` : "");
+  const fallback = ev.id ? `https://i.ytimg.com/vi/${ev.id}/hqdefault.jpg` : "";
+  const views = ev.views_label ? `${esc(ev.views_label)}播放` : (ev.stats ? esc(String(ev.stats).split("·")[0].trim()) : "");
+  const dur = ev.duration_label ? esc(ev.duration_label) : "";
+  const portrait = ev.portrait === true || isPortraitUrl(ev.url) || (ev.format === "shorts");
+  const onerr = fallback
+    ? `onerror="if(this.dataset.fb!=='1'){this.dataset.fb='1';this.src='${esc(fallback)}';}else{this.style.opacity='0.3';}"`
+    : "";
+  return `
+    <a class="yt-ev" href="${esc(ev.url || '#')}" target="_blank" rel="noopener noreferrer" title="${esc(ev.title || '')}">
+      <div class="yt-ev-thumb${portrait ? " is-portrait" : ""}">
+        <img src="${esc(thumb)}" alt="${esc(ev.title || '')}" loading="lazy" decoding="async" onload="markPortraitFromImg(this)" ${onerr} />
+        ${dur ? `<span class="yt-ev-play">${dur}</span>` : ""}
+      </div>
+      <div class="yt-ev-meta">
+        <div class="yt-ev-title">${esc(ev.title || "")}</div>
+        <div class="yt-ev-views">${views}${ev.channel ? " · " + esc(ev.channel) : ""}</div>
+      </div>
+    </a>`;
+}
+
+function renderYtTheme(theme) {
+  const evidence = (theme.evidence || []).slice(0, 4);
+  return `
+    <article class="yt-theme">
+      <div class="yt-theme-head">
+        <span class="${badgeClass(theme.badge)}">${esc(theme.badge || "")}</span>
+        <h3>${esc(theme.title || "")}</h3>
+      </div>
+      <p class="yt-judgment">${esc(theme.judgment || "")}</p>
+      <div class="yt-evidence">${evidence.map(renderEvidence).join("")}</div>
+    </article>`;
+}
+
+function renderYtSection(viewKey) {
+  const section = document.getElementById("yt-section");
+  const hint = document.getElementById("yt-hint");
+  const label = document.getElementById("cards-label");
+  const themesEl = document.getElementById("yt-themes");
+  const updatedEl = document.getElementById("yt-updated");
+
+  const showFull = viewKey === "weekly" || viewKey === "overseas";
+  const yd = (typeof ytByView !== "undefined" && ytByView[viewKey]) || ytData;
+  const showHint = viewKey === "korea";
+
+  if (showFull && yd && (yd.themes || []).length) {
+    section.classList.remove("hidden");
+    hint.classList.add("hidden");
+    label.classList.remove("hidden");
+    const upd = yd.updated || "";
+    const win = yd.window ? ` · ${yd.window}` : "";
+    updatedEl.textContent = upd ? `更新 ${upd}${win}` : "";
+    themesEl.innerHTML = yd.themes.map(renderYtTheme).join("");
+  } else if (showHint) {
+    section.classList.add("hidden");
+    themesEl.innerHTML = "";
+    hint.classList.remove("hidden");
+    hint.innerHTML = `YouTube 热点（海外市场）详见 <a href="#overseas">海外日报</a> 或 <a href="#weekly">周报</a>。`;
+    label.classList.remove("hidden");
+  } else {
+    section.classList.add("hidden");
+    hint.classList.add("hidden");
+    label.classList.add("hidden");
+    themesEl.innerHTML = "";
+  }
+}
+
+
+function filterCompads(viewKey) {
+  const items = (typeof COMPADS !== "undefined" && COMPADS && COMPADS.items) ? COMPADS.items : [];
+  if (viewKey === "korea") {
+    return items.filter(it => (it.regions || []).includes("KR"));
+  }
+  if (viewKey === "overseas") {
+    // KR-only items belong to the Korea view (added 2026-11-02 by KR daily)
+    return items.filter(it => { const r = it.regions || []; return !(r.length === 1 && r[0] === "KR"); });
+  }
+  if (viewKey === "weekly") {
+    return (typeof WEEKLY_COMPADS !== "undefined" && WEEKLY_COMPADS && WEEKLY_COMPADS.items) ? WEEKLY_COMPADS.items : [];
+  }
+  return [];
+}
+
+function hasUsableCover(cover) {
+  if (!cover) return false;
+  const c = String(cover);
+  // Meta fbcdn / remote CDN covers expire or 403 — only local media counts for the page
+  if (c.startsWith("media/")) return true;
+  if (c.startsWith("./media/")) return true;
+  if (c.startsWith("/media/")) return true;
+  return false;
+}
+
+function renderCompadsCard(it) {
+  const badge = it.badge || (it.is_new ? "新开投" : "在投");
+  const cover = it.cover || "";
+  if (!hasUsableCover(cover)) return "";
+  const coverHtml = `<div class="cover"><img src="${esc(cover)}" alt="" loading="lazy" decoding="async" onload="markPortraitFromImg(this)" onerror="this.closest('article')?.remove();" /></div>`;
+  const link = it.link
+    ? `<div class="card-links"><a href="${esc(it.link)}" target="_blank" rel="noopener noreferrer">查看广告</a></div>`
+    : "";
+  const plat = ({meta:"Meta", google:"Google", tiktok:"TikTok"}[it.platform] || it.platform || "");
+  const regs = (it.regions || []).join("/");
+  return `
+    <article class="card">
+      ${coverHtml}
+      <div class="card-body">
+        <span class="${badgeClass(badge)}">${esc(badge)}</span>
+        <h2 class="card-title">${esc(it.title || (it.competitor + " · " + plat))}</h2>
+        <div class="card-stats">${esc(it.stats || [plat, regs, it.first_shown ? ("首投 " + it.first_shown) : ""].filter(Boolean).join(" · "))}</div>
+        <p class="card-analysis">${esc(it.analysis || it.copy || "")}</p>
+        ${link}
+      </div>
+    </article>`;
+}
+
+function renderCompads(viewKey) {
+  const section = document.getElementById("compads-section");
+  const grid = document.getElementById("compads-grid");
+  const empty = document.getElementById("compads-empty");
+  const updated = document.getElementById("compads-updated");
+  if (!section || !grid) return;
+  const items = filterCompads(viewKey);
+  const h2 = section.querySelector("h2");
+  if (h2) h2.textContent = viewKey === "weekly" ? "竞品本周新开投" : "竞品投放日更";
+  if (viewKey === "weekly" && !items.length) {
+    section.classList.add("hidden");
+    return;
+  }
+  section.classList.remove("hidden");
+  const upd = viewKey === "weekly"
+    ? ((typeof WEEKLY_COMPADS !== "undefined" && WEEKLY_COMPADS) ? WEEKLY_COMPADS.updated + " · 本周新开投（只放有本地封面的）" : "")
+    : ((typeof COMPADS !== "undefined" && COMPADS && COMPADS.updated) ? COMPADS.updated : "");
+  updated.textContent = upd ? `更新 ${upd}` : "";
+  if (!items.length) {
+    grid.innerHTML = "";
+    empty.classList.remove("hidden");
+    empty.textContent = viewKey === "korea"
+      ? "韩国地区今日暂无竞品新开投条目（或未取到）。"
+      : "今日暂无竞品新开投条目（或未取到）。";
+    return;
+  }
+  empty.classList.add("hidden");
+  const cards = items.map(renderCompadsCard).filter(Boolean);
+  if (!cards.length) {
+    grid.innerHTML = "";
+    empty.classList.remove("hidden");
+    empty.textContent = viewKey === "korea"
+      ? "韩国地区今日暂无带封面的竞品条目。"
+      : "今日暂无带封面的竞品条目（远程封面失效的已隐藏）。";
+    return;
+  }
+  grid.innerHTML = cards.join("");
+}
+
+
+function renderView(key) {
+  const view = REPORT.views[key];
+  if (!view) return;
+
+  document.getElementById("dateLine").textContent = view.dateLine || REPORT.dateLabel;
+
+  const meta = (view.meta || [])
+    .map(m => `<span><strong>${esc(m.k)}</strong> ${esc(m.v)}</span>`)
+    .join("");
+
+  document.getElementById("lead").innerHTML = `
+    <div class="kicker">${esc(view.leadKicker)}</div>
+    <p>${esc(view.lead)}</p>
+    <div class="meta-row">${meta}</div>`;
+
+  renderYtSection(key);
+  renderCompads(key);
+
+  document.getElementById("grid").innerHTML = (view.cards || []).map(renderCard).join("");
+
+  document.querySelectorAll(".segments button").forEach(btn => {
+    const on = btn.dataset.view === key;
+    btn.classList.toggle("active", on);
+    btn.setAttribute("aria-selected", on ? "true" : "false");
+  });
+
+  history.replaceState(null, "", `#${key}`);
+}
+
+/* Embedded fallback (file:// or fetch fail). Prefer live JSON when served over http. */
+const YT_HOTSPOTS = {
+  "updated": "2026-10-26",
+  "market": "overseas",
+  "timezone": "Asia/Shanghai",
+  "collected_at": "2026-10-26 约 14:05–14:15（Asia/Shanghai）· 短剧卡补挖",
+  "window": "近7日为主，可补仍在爆",
+  "source": "redig+drama",
+  "themes": [
+    {
+      "id": "t1",
+      "badge": "上升速",
+      "title": "韩国抓马短剧做成模板",
+      "judgment": "韩国「一句势利话 + 身份揭晓」的抓马短剧本周继续扎堆：겁나재밌다（It's super fun）《상견례（见家长）傲娇反转》第 90 集约 17.7 万、잔잔한 사연집学历势利变脸约 17.0 万；同套路仍在爆的还有贵妇嫌破车约 110.7 万、숏코드숏「부엌이 편하시다며（你说厨房更自在）」婆婆进厨房约 50.8 万、인생 사이다시댁（婆家）锁门约 5.4 万。固定角色表 + 30–90 秒竖屏批量，比单片精修更吃香。Topview 可抄：角色一致性锁脸后按集换场景；口播接 T1「Seedance 2.5 一样的效果，3.8 折的价格 / 30 天无限」，或 Wan 3.0「30 秒 720p $1.20，365 天无限」。⚠️多为 AI 生成真人脸；家庭冲突/亲密张力镜头多；教程向常夹推广/affiliate，成片号本身一般不挂货。",
+      "evidence": [
+        {
+          "title": "똥차에 내 딸을 태운다고 무시하던 사모님의 충격 반전 [86화]",
+          "url": "https://www.youtube.com/watch?v=ZDFmPK1F1AQ",
+          "stats": "110.7万播放 · 1:06 · 2026-10-21 · 겁나재밌다",
+          "thumb": "https://i.ytimg.com/vi/ZDFmPK1F1AQ/maxresdefault.jpg",
+          "channel": "겁나재밌다",
+          "id": "ZDFmPK1F1AQ",
+          "views": 1106575,
+          "views_label": "110.7万",
+          "duration_sec": 66,
+          "duration_label": "1:06",
+          "upload_date": "2026-10-21",
+          "why": "贵妇嫌破车：势利话开场 → 身份揭晓，本周仍在爆的百万级样本。",
+          "sponsored": false
+        },
+        {
+          "title": "부엌이 편하시다며",
+          "url": "https://www.youtube.com/watch?v=SGShpraE3Ns",
+          "stats": "50.8万播放 · 0:41 · 2026-10-19 · 숏코드숏",
+          "thumb": "https://i.ytimg.com/vi/SGShpraE3Ns/maxresdefault.jpg",
+          "channel": "숏코드숏",
+          "id": "SGShpraE3Ns",
+          "views": 508349,
+          "views_label": "50.8万",
+          "duration_sec": 41,
+          "duration_label": "0:41",
+          "upload_date": "2026-10-19",
+          "why": "「你说厨房更自在」→ 婆婆被赶进厨房；고부갈등（婆媳冲突）模板。",
+          "sponsored": false
+        },
+        {
+          "title": "상견례 자리에서 분노해 며느리 울린 시어머니의 충격 반전 [90화]",
+          "url": "https://www.youtube.com/watch?v=p6cXh8_vwK8",
+          "stats": "17.7万播放 · 1:11 · 2026-10-25 · 겁나재밌다",
+          "thumb": "https://i.ytimg.com/vi/p6cXh8_vwK8/maxresdefault.jpg",
+          "channel": "겁나재밌다",
+          "id": "p6cXh8_vwK8",
+          "views": 176565,
+          "views_label": "17.7万",
+          "duration_sec": 71,
+          "duration_label": "1:11",
+          "upload_date": "2026-10-25",
+          "why": "상견례（见家长）傲娇反转，窗口内最新一集（第 90 화）。",
+          "sponsored": false
+        },
+        {
+          "title": "“고등학교만 나왔다면서요?” 상견례서 사부인 깔보던 시어머니가 얼어붙은 이유",
+          "url": "https://www.youtube.com/watch?v=k_9EXAbljC4",
+          "stats": "17万播放 · 1:30 · 2026-10-25 · 잔잔한 사연집",
+          "thumb": "https://i.ytimg.com/vi/k_9EXAbljC4/maxresdefault.jpg",
+          "channel": "잔잔한 사연집",
+          "id": "k_9EXAbljC4",
+          "views": 169968,
+          "views_label": "17万",
+          "duration_sec": 90,
+          "duration_label": "1:30",
+          "upload_date": "2026-10-25",
+          "why": "学历势利一句开场 + 变脸；与见家长抓马同结构、不同频道。",
+          "sponsored": false
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "badge": "新出路",
+      "title": "Topview 被点名比价",
+      "judgment": "近 7 日英文区出现多条标题直接写「Seedance 2.5 vs Topview T1 / 3x cheaper」的评测。创作者不再只比 Kling，而是把 T1 当价格锚点。广告素材最该借：同 prompt 左右分屏 +「T1 约 3.8 折 / 30 天无限」。",
+      "evidence": [
+        {
+          "title": "The End of Seedance? Topview T1 Is 3x Cheaper (I Tested Everything)",
+          "url": "https://www.youtube.com/watch?v=VpTi5uOTd2c",
+          "stats": "3.4万播放 · 25:42 · 2026-10-23 · AI Samson",
+          "thumb": "https://i.ytimg.com/vi/VpTi5uOTd2c/maxresdefault.jpg",
+          "channel": "AI Samson",
+          "id": "VpTi5uOTd2c",
+          "views": 33892,
+          "views_label": "3.4万",
+          "duration_sec": 1542,
+          "duration_label": "25:42",
+          "upload_date": "2026-10-23",
+          "why": "标题即「3x Cheaper」，本周 Topview 被点名最清晰。",
+          "sponsored": false
+        },
+        {
+          "title": "Seedance 2.5 vs Topview T1",
+          "url": "https://www.youtube.com/watch?v=LsJpErxEOE4",
+          "stats": "1.2万播放 · 4:45 · 2026-10-21 · JSFILMZ",
+          "thumb": "https://i.ytimg.com/vi/LsJpErxEOE4/maxresdefault.jpg",
+          "channel": "JSFILMZ",
+          "id": "LsJpErxEOE4",
+          "views": 11774,
+          "views_label": "1.2万",
+          "duration_sec": 285,
+          "duration_label": "4:45",
+          "upload_date": "2026-10-21",
+          "why": "短对比，适合剪成广告前贴。",
+          "sponsored": false
+        },
+        {
+          "title": "Seedance 2.5 vs Topview T1 — The Results Are INSANE",
+          "url": "https://www.youtube.com/watch?v=5iRS8mMo5qI",
+          "stats": "5644播放 · 7:07 · 2026-10-25 · Aivoxy",
+          "thumb": "https://i.ytimg.com/vi/5iRS8mMo5qI/maxresdefault.jpg",
+          "channel": "Aivoxy",
+          "id": "5iRS8mMo5qI",
+          "views": 5644,
+          "views_label": "5644",
+          "duration_sec": 427,
+          "duration_label": "7:07",
+          "upload_date": "2026-10-25",
+          "why": "窗口内最新上传。",
+          "sponsored": false
+        },
+        {
+          "title": "Topview AI Review (2026) - Testing Topview Film Studio + Seedance 2.5",
+          "url": "https://www.youtube.com/watch?v=CyBMP2HA004",
+          "stats": "5.1万播放 · 8:23 · 2026-09-28 · Daniel | Tech & Data",
+          "thumb": "https://i.ytimg.com/vi/CyBMP2HA004/maxresdefault.jpg",
+          "channel": "Daniel | Tech & Data",
+          "id": "CyBMP2HA004",
+          "views": 51156,
+          "views_label": "5.1万",
+          "duration_sec": 503,
+          "duration_label": "8:23",
+          "upload_date": "2026-09-28",
+          "why": "仍在被检索召回，说明「Topview + Seedance」词有存量流量。",
+          "sponsored": false
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "badge": "上升速",
+      "title": "三方比价（Kling / Seedance / Wan）",
+      "judgment": "Kling 4.0 上线后，「谁更便宜 / 值不值 5 倍价」片继续堆；Wan 3.0 被拉进三角比较。对位 Topview：T1 打 Seedance 同级价差，Wan「30 秒 720p $1.20、365 天无限」作第二档。",
+      "evidence": [
+        {
+          "title": "Kling 4.0 Is Finally Here! (3x Cheaper Than Seedance)",
+          "url": "https://www.youtube.com/watch?v=h9ryZx49_J0",
+          "stats": "7.6万播放 · 23:10 · 2026-10-19 · AI Samson",
+          "thumb": "https://i.ytimg.com/vi/h9ryZx49_J0/maxresdefault.jpg",
+          "channel": "AI Samson",
+          "id": "h9ryZx49_J0",
+          "views": 76446,
+          "views_label": "7.6万",
+          "duration_sec": 1390,
+          "duration_label": "23:10",
+          "upload_date": "2026-10-19",
+          "why": "标题直接打「3x Cheaper Than Seedance」，比价叙事最清晰。",
+          "sponsored": false
+        },
+        {
+          "title": "Kling 4.0 vs Seedance 2.5 vs WAN 3.0 | Full Comparison",
+          "url": "https://www.youtube.com/watch?v=9Y784B8T4to",
+          "stats": "1.7万播放 · 25:58 · 2026-10-25 · Tao Prompts",
+          "thumb": "https://i.ytimg.com/vi/9Y784B8T4to/maxresdefault.jpg",
+          "channel": "Tao Prompts",
+          "id": "9Y784B8T4to",
+          "views": 17424,
+          "views_label": "1.7万",
+          "duration_sec": 1558,
+          "duration_label": "25:58",
+          "upload_date": "2026-10-25",
+          "why": "把 Wan 3.0 拉进三角比较，上传最新（10-25）。",
+          "sponsored": false
+        },
+        {
+          "title": "Kling 4.0 vs Seedance 2.5: Is Seedance Worth 5x the Price? (9 Tests)",
+          "url": "https://www.youtube.com/watch?v=sMADC2DYY_E",
+          "stats": "3.1万播放 · 12:05 · 2026-10-22 · Dani Builds",
+          "thumb": "https://i.ytimg.com/vi/sMADC2DYY_E/maxresdefault.jpg",
+          "channel": "Dani Builds",
+          "id": "sMADC2DYY_E",
+          "views": 31481,
+          "views_label": "3.1万",
+          "duration_sec": 725,
+          "duration_label": "12:05",
+          "upload_date": "2026-10-22",
+          "why": "9 组测试追问 Seedance 是否值 5 倍价。",
+          "sponsored": false
+        },
+        {
+          "title": "Wan 3.0 ACTUALLY BEAT Seedance 2.5... Full Test",
+          "url": "https://www.youtube.com/watch?v=pchMefSPoSg",
+          "stats": "2.8万播放 · 16:15 · 2026-09-11 · Joseph Martin",
+          "thumb": "https://i.ytimg.com/vi/pchMefSPoSg/maxresdefault.jpg",
+          "channel": "Joseph Martin",
+          "id": "pchMefSPoSg",
+          "views": 28352,
+          "views_label": "2.8万",
+          "duration_sec": 975,
+          "duration_label": "16:15",
+          "upload_date": "2026-09-11",
+          "why": "Wan 叙事存量仍高。",
+          "sponsored": false
+        }
+      ]
+    },
+    {
+      "id": "t4",
+      "badge": "持续",
+      "title": "Claude × CapCut 工作流",
+      "judgment": "热点仍是「可复制流水线」而不是裸模型 showreel：Claude 剪 CapCut、自动化 Skill、Futurepedia 新形态视频教程。Topview 应用「一句 brief → 分镜 → T1/Wan 成片」录屏对打。X 侧 aimikoda Seedance+Claude 女枪手见主榜。",
+      "evidence": [
+        {
+          "title": "Claude Makes a New Kind of Video - Full Tutorial",
+          "url": "https://www.youtube.com/watch?v=Ge1B-Ok1Pfk",
+          "stats": "27.5万播放 · 11:19 · 2026-10-19 · Futurepedia",
+          "thumb": "https://i.ytimg.com/vi/Ge1B-Ok1Pfk/maxresdefault.jpg",
+          "channel": "Futurepedia",
+          "id": "Ge1B-Ok1Pfk",
+          "views": 274760,
+          "views_label": "27.5万",
+          "duration_sec": 679,
+          "duration_label": "11:19",
+          "upload_date": "2026-10-19",
+          "why": "「新形态视频」教程，本周工作流向高播。",
+          "sponsored": false
+        },
+        {
+          "title": "Automate Your CapCut Editing With Claude (Step by Step + Free Skill)",
+          "url": "https://www.youtube.com/watch?v=U-AdnIz1jIk",
+          "stats": "7.2万播放 · 9:40 · 2026-10-23 · Matt Loui",
+          "thumb": "https://i.ytimg.com/vi/U-AdnIz1jIk/maxresdefault.jpg",
+          "channel": "Matt Loui",
+          "id": "U-AdnIz1jIk",
+          "views": 72005,
+          "views_label": "7.2万",
+          "duration_sec": 580,
+          "duration_label": "9:40",
+          "upload_date": "2026-10-23",
+          "why": "自动化 CapCut 剪辑，步骤可抄。",
+          "sponsored": false
+        },
+        {
+          "title": "Claude Edited My Entire CapCut Video (I Didn’t Touch the Timeline)",
+          "url": "https://www.youtube.com/watch?v=5N1moUCsVhI",
+          "stats": "78.1万播放 · 10:01 · 2026-10-09 · Matt Loui",
+          "thumb": "https://i.ytimg.com/vi/5N1moUCsVhI/maxresdefault.jpg",
+          "channel": "Matt Loui",
+          "id": "5N1moUCsVhI",
+          "views": 780752,
+          "views_label": "78.1万",
+          "duration_sec": 601,
+          "duration_label": "10:01",
+          "upload_date": "2026-10-09",
+          "why": "同作者前作仍在爆，证明流水线题材长尾。",
+          "sponsored": false
+        },
+        {
+          "title": "Claude + CapCut is a Gamechanger for Video Editors (Full Tutorial)",
+          "url": "https://www.youtube.com/watch?v=LS4CFPLRlRU",
+          "stats": "9.4万播放 · 15:27 · 2026-10-18 · Matt Penny | Applied AI",
+          "thumb": "https://i.ytimg.com/vi/LS4CFPLRlRU/maxresdefault.jpg",
+          "channel": "Matt Penny | Applied AI",
+          "id": "LS4CFPLRlRU",
+          "views": 94133,
+          "views_label": "9.4万",
+          "duration_sec": 927,
+          "duration_label": "15:27",
+          "upload_date": "2026-10-18",
+          "why": "Claude + CapCut 完整教程，工作流词下持续召回。",
+          "sponsored": false
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "badge": "上升速",
+      "title": "一图成产品广告",
+      "judgment": "产品图 → 成片广告 / Seedance 产品战役教程继续涨；与 Topview AI Product Video / URL to Video 同战场。钩子应是「左商品图、右 15–30 秒成片」。",
+      "evidence": [
+        {
+          "title": "OpenArt Nano Banana 2.1 with Seedance 2.5 – Full AI Product Campaign Workflow",
+          "url": "https://www.youtube.com/watch?v=yqUD3645J44",
+          "stats": "4.6万播放 · 6:17 · 2026-10-25 · Eigi and AI",
+          "thumb": "https://i.ytimg.com/vi/yqUD3645J44/maxresdefault.jpg",
+          "channel": "Eigi and AI",
+          "id": "yqUD3645J44",
+          "views": 46021,
+          "views_label": "4.6万",
+          "duration_sec": 377,
+          "duration_label": "6:17",
+          "upload_date": "2026-10-25",
+          "why": "窗口内最新产品战役片（10-25）。",
+          "sponsored": false
+        },
+        {
+          "title": "How to Make AI Product Ads With Seedance 2.5",
+          "url": "https://www.youtube.com/watch?v=F2xz1MAKWEs",
+          "stats": "1.6万播放 · 8:54 · 2026-10-21 · Thomas Creates",
+          "thumb": "https://i.ytimg.com/vi/F2xz1MAKWEs/maxresdefault.jpg",
+          "channel": "Thomas Creates",
+          "id": "F2xz1MAKWEs",
+          "views": 15680,
+          "views_label": "1.6万",
+          "duration_sec": 534,
+          "duration_label": "8:54",
+          "upload_date": "2026-10-21",
+          "why": "Seedance 产品广告教程，步骤清楚。",
+          "sponsored": false
+        },
+        {
+          "title": "AI Ad Generator + AI Video Editor: Turn One Product Image into a Full Ad | CapCut PC",
+          "url": "https://www.youtube.com/watch?v=yzppSFGthHU",
+          "stats": "8.4万播放 · 6:19 · 2026-10-23 · Mevesa",
+          "thumb": "https://i.ytimg.com/vi/yzppSFGthHU/maxresdefault.jpg",
+          "channel": "Mevesa",
+          "id": "yzppSFGthHU",
+          "views": 84390,
+          "views_label": "8.4万",
+          "duration_sec": 379,
+          "duration_label": "6:19",
+          "upload_date": "2026-10-23",
+          "why": "一图成完整广告；疑似推广。",
+          "sponsored": true
+        },
+        {
+          "title": "I Tested Seedance 2.5 for Product Ads (INSANE RESULTS)",
+          "url": "https://www.youtube.com/watch?v=y6Zw5WFs62k",
+          "stats": "9.5万播放 · 8:42 · 2026-08-07 · Thomas Lundström",
+          "thumb": "https://i.ytimg.com/vi/y6Zw5WFs62k/maxresdefault.jpg",
+          "channel": "Thomas Lundström",
+          "id": "y6Zw5WFs62k",
+          "views": 95047,
+          "views_label": "9.5万",
+          "duration_sec": 522,
+          "duration_label": "8:42",
+          "upload_date": "2026-08-07",
+          "why": "产品广告词下持续召回。",
+          "sponsored": false
+        }
+      ]
+    },
+    {
+      "id": "t6",
+      "badge": "持续",
+      "title": "假广告 / 假集锦讽刺",
+      "judgment": "自然向百万级仍是「看起来像真广告/真集锦」的讽刺短片。巴黎假旅行团约 174 万；本轮 X 切尔西假集锦 66 万证明同一形式跨平台有效。Topview 保留「假广告壳 + 原创场景」常青线；巴黎片勿借政治议题。",
+      "evidence": [
+        {
+          "title": "Paris City Tours | AI Satire",
+          "url": "https://www.youtube.com/watch?v=_Vy2kqp4alg",
+          "stats": "174.5万播放 · 1:19 · 2026-10-19 · Wytse Koetse",
+          "thumb": "https://i.ytimg.com/vi/_Vy2kqp4alg/maxresdefault.jpg",
+          "channel": "Wytse Koetse",
+          "id": "_Vy2kqp4alg",
+          "views": 1744645,
+          "views_label": "174.5万",
+          "duration_sec": 79,
+          "duration_label": "1:19",
+          "upload_date": "2026-10-19",
+          "why": "假旅行团讽刺，自然向最高播之一。",
+          "sponsored": false
+        },
+        {
+          "title": "Made a Full TV Commercial in My Bedroom With AI",
+          "url": "https://www.youtube.com/watch?v=U5JFoiRPyFI",
+          "stats": "2万播放 · 16:29 · 2026-10-20 · Rachit Singh",
+          "thumb": "https://i.ytimg.com/vi/U5JFoiRPyFI/maxresdefault.jpg",
+          "channel": "Rachit Singh",
+          "id": "U5JFoiRPyFI",
+          "views": 19759,
+          "views_label": "2万",
+          "duration_sec": 989,
+          "duration_label": "16:29",
+          "upload_date": "2026-10-20",
+          "why": "卧室拍完整电视广告，假广告壳可抄。",
+          "sponsored": false
+        },
+        {
+          "title": "Runable AI: Create a 60-Second Commercial with One Prompt",
+          "url": "https://www.youtube.com/watch?v=H9HCqMcdnbQ",
+          "stats": "1.5万播放 · 4:48 · 2026-10-22 · AI Outlet",
+          "thumb": "https://i.ytimg.com/vi/H9HCqMcdnbQ/maxresdefault.jpg",
+          "channel": "AI Outlet",
+          "id": "H9HCqMcdnbQ",
+          "views": 15355,
+          "views_label": "1.5万",
+          "duration_sec": 288,
+          "duration_label": "4:48",
+          "upload_date": "2026-10-22",
+          "why": "一 prompt 60 秒广告；疑似推广。",
+          "sponsored": true
+        },
+        {
+          "title": "This Liquid Death Commercial Was Made by AI—And It Slaps",
+          "url": "https://www.youtube.com/watch?v=FYFNJZMpaes",
+          "stats": "9.9万播放 · 1:02 · 2026-10-20 · MeatingAI",
+          "thumb": "https://i.ytimg.com/vi/FYFNJZMpaes/maxresdefault.jpg",
+          "channel": "MeatingAI",
+          "id": "FYFNJZMpaes",
+          "views": 98802,
+          "views_label": "9.9万",
+          "duration_sec": 62,
+          "duration_label": "1:02",
+          "upload_date": "2026-10-20",
+          "why": "假饮料广告壳，讽刺/段子向。",
+          "sponsored": false
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "theme_cards": 6,
+    "evidence_videos": 24
+  }
+};
+
+let ytData = typeof YT_HOTSPOTS !== "undefined" ? YT_HOTSPOTS : null;
+
+document.querySelectorAll(".segments button").forEach(btn => {
+  btn.addEventListener("click", () => renderView(btn.dataset.view));
+});
+
+document.getElementById("yt-hint").addEventListener("click", (e) => {
+  const a = e.target.closest("a[href^='#']");
+  if (!a) return;
+  e.preventDefault();
+  const key = a.getAttribute("href").slice(1);
+  if (REPORT.views[key]) renderView(key);
+});
+
+REPORT.views.korea = {"label": "韩国日报 11-03", "dateLine": "韩国 AI 热点日报 · 2026-11-03（周二）· 北京时间", "leadKicker": "韩国 AI 热点日报 · 11-03", "lead": "今天最值得看的是非剧情：「AI 宝宝 × 腌泡菜季」——백나은아빠（娜恩爸爸）12 秒「快把白菜腌好，娜恩啊」81.4 万播放，频道只有 1,810 订阅；同号「鲫鱼饼」已 102.9 万。韩国正进入腌越冬泡菜（김장）季，是 Pepero 节、高考之前第一个起量的季节节点。剧情侧新冒出「奶奶被欺负 → 孙女 / 清洁工一脚踢飞」，3 个频道同时起量（17.7 万、15.4 万）。主榜 5 条（非剧情 2、剧情 3），X 本地 AI 仍无过 3 万。", "meta": [{"k": "报告", "v": "韩国 AI 热点日报"}, {"k": "日期", "v": "2026-11-03"}, {"k": "主榜", "v": "5 条 + 主题卡 4 + 仍在爆 3"}, {"k": "采集", "v": "采集 bot 06:49–07:02 · 补抓 09:07 北京时间"}, {"k": "竞品", "v": "11-03 07:43 扫描 · KR 6 条"}], "cards": [{"badge": "主榜", "title": "AI 宝宝 × 腌泡菜季：「快把白菜腌好，娜恩啊」", "stats": "81.4 万播放 · 赞 3,229 · 12 秒 · 11-01 · 백나은아빠백웅분（1,810 订阅）· 本地·韩国", "analysis": "抽帧已核对（标签 #ai #아기）：戴粉头巾的幼儿在腌泡菜的市场里抱起整颗白菜。「배추 재워」既是“腌白菜”也像“哄白菜睡觉”，评论「居然是哄白菜睡觉哈哈」「太可爱了一直刷」。昨天采集文件里已有、日报漏掉，今天补上。可借鉴：同一个 AI 宝宝每周一个韩国季节场景（腌泡菜→鲫鱼饼→Pepero），演示角色一致性；T1 12 秒约 $2.6（官方 Seedance 2.5 约 $7.0），「Seedance 2.5 一样的效果，3.8折的价格」，30 天无限批量出。非剧情。", "links": [{"title": "백나은아빠 · 快把白菜腌好", "href": "https://www.youtube.com/shorts/7aE-WyN50F8"}], "thumbs": [{"type": "local", "id": "7aE-WyN50F8", "src": "media/kr_yt_7aE-WyN50F8.jpg", "fallback": "https://i.ytimg.com/vi/7aE-WyN50F8/hqdefault.jpg", "portrait": true}]}, {"badge": "主榜", "title": "推倒市场老奶奶的混混，被孙女一脚踢飞", "stats": "17.7 万播放 · 赞 3,404 · 55 秒 · 11-01 · 오늘의씬 AI 반전 숏드라마 · 本地·韩国", "analysis": "抽帧已核对：混混推倒卖菜奶奶 → 黑制服孙女「경고했어요」（我警告过你）→ 一脚踢进菜堆。新号，窗口内另有「银行劫匪惹错清洁工」15.4 万。高赞「武术就该这时候用」。可借鉴：“最弱的人才是高手”，前 3 秒上愤怒钩子；动作镜头适合展示 Topview 画面稳定性。T1 55 秒约 $12.1（官方约 $32.2）。剧情 1/3。", "links": [{"title": "오늘의씬 · 孙女踢飞混混", "href": "https://www.youtube.com/shorts/JtLW_4YQ4d4"}], "thumbs": [{"type": "local", "id": "JtLW_4YQ4d4", "src": "media/kr_yt_JtLW_4YQ4d4.jpg", "fallback": "https://i.ytimg.com/vi/JtLW_4YQ4d4/hqdefault.jpg", "portrait": true}]}, {"badge": "主榜", "title": "婆婆一出院，房间被儿媳改成衣帽间", "stats": "13.9 万播放 · 赞 5,497 · 57 秒 · 11-01 · 너무 궁금한 이야기（2,690 订阅）· 本地·韩国", "analysis": "抽帧已核对（#AI드라마）：婆婆房间挂满儿媳衣服，亲家母帮腔「一个房间都舍不得？」→ 儿子「你的衣服全搬到客厅」→ 婆婆「别再动我的房间」。赞播比约 4%，高赞「儿子最棒」。可借鉴：一个空间道具讲完“谁站队”；T1 57 秒约 $12.5。剧情 2/3。", "links": [{"title": "너무 궁금한 이야기 · 房间变衣帽间", "href": "https://www.youtube.com/shorts/ctQT-3y9awA"}], "thumbs": [{"type": "local", "id": "ctQT-3y9awA", "src": "media/kr_yt_ctQT-3y9awA.jpg", "fallback": "https://i.ytimg.com/vi/ctQT-3y9awA/hqdefault.jpg", "portrait": true}]}, {"badge": "主榜", "title": "见家长反转：被刁难的服务员，原来是新娘的哥哥", "stats": "8.0 万播放 · 赞 1,104 · 66 秒 · 11-02 · 헐이다헐 · 本地·韩国", "analysis": "抽帧已核对（简介：用 AI 做的原创小品）：阔太太在餐厅刁难服务员还要找老板 → 见家长（상견례）时新娘说「我哥哥是……」→ 进门的就是那个服务员，还是「대표님」（老板）→ 阔太太反过来给他倒茶。同号 6 条「[反转注意]…的下场」都在 2.3–8.0 万，模板日更。可借鉴：同一羞辱场景 × 换身份揭晓批量出版本；T1 66 秒约 $14.5。剧情 3/3。", "links": [{"title": "헐이다헐 · 见家长反转", "href": "https://www.youtube.com/shorts/Axtu5i2CNhM"}], "thumbs": [{"type": "local", "id": "Axtu5i2CNhM", "src": "media/kr_yt_Axtu5i2CNhM.jpg", "fallback": "https://i.ytimg.com/vi/Axtu5i2CNhM/hqdefault.jpg", "portrait": true}]}, {"badge": "主榜", "title": "「爸爸不在时总有个叔叔来」——儿子一句话吓坏爸爸", "stats": "3.7 万播放 · 赞 1,242 · 29 秒 · 11-01 · That's So K（3,110 订阅）· 本地·韩国", "analysis": "抽帧已核对（片尾标 AI 生成）：饭桌上儿子说「爸爸不在时总有个叔叔来」→ 爸爸愣住、妈妈慌了 → 评论说是快递大叔（结尾笑点按评论推断）。可借鉴：29 秒、一张饭桌、一句误会台词，最省的情景喜剧；T1 约 $6.4。非剧情（段子）。", "links": [{"title": "That's So K · 爸爸不在时的叔叔", "href": "https://www.youtube.com/shorts/AMMYzNU2jeE"}], "thumbs": [{"type": "local", "id": "AMMYzNU2jeE", "src": "media/kr_yt_AMMYzNU2jeE.jpg", "fallback": "https://i.ytimg.com/vi/AMMYzNU2jeE/hqdefault.jpg", "portrait": true}]}, {"badge": "新出路", "title": "YouTube 主题：AI 宝宝 × 韩国过冬生活（腌泡菜、鲫鱼饼）", "stats": "证据 3 条 · 2.0 万～102.9 万", "analysis": "同一个 AI 宝宝在韩国季节场景里，单条 12–15 秒，小号就能破百万。不靠剧情和吵架，靠“可爱＋季节＋双关标题”。接下来 Pepero 节（11-11）、高考（11-19）可以直接延续。Topview：一张角色图做“韩国季节系列”，演示角色一致性 + 30 天无限批量出。", "links": [{"title": "백나은아빠 · 腌白菜 · 81.4 万", "href": "https://www.youtube.com/shorts/7aE-WyN50F8"}, {"title": "백나은아빠 · 鲫鱼饼（10-23）· 102.9 万", "href": "https://www.youtube.com/shorts/zE9HgXF3_R4"}, {"title": "That's So K · 回娘家腌泡菜 · 2.0 万", "href": "https://www.youtube.com/shorts/EvMLcGDoHts"}], "thumbs": [{"type": "local", "id": "7aE-WyN50F8", "src": "media/kr_yt_7aE-WyN50F8.jpg", "fallback": "https://i.ytimg.com/vi/7aE-WyN50F8/hqdefault.jpg", "portrait": true}, {"type": "local", "id": "zE9HgXF3_R4", "src": "media/kr_yt_zE9HgXF3_R4.jpg", "fallback": "https://i.ytimg.com/vi/zE9HgXF3_R4/hqdefault.jpg", "portrait": true}, {"type": "local", "id": "EvMLcGDoHts", "src": "media/kr_yt_EvMLcGDoHts.jpg", "fallback": "https://i.ytimg.com/vi/EvMLcGDoHts/hqdefault.jpg", "portrait": true}]}, {"badge": "上升速", "title": "YouTube 主题：奶奶被欺负 → 孙女 / 清洁工反杀", "stats": "证据 4 条 · 2.4 万～17.7 万", "analysis": "本周第一次有 3 个频道同时做“欺负奶奶的流氓被孙女收拾”：오늘의씬 短版 17.7 万，드라마 말본 做成 8 分钟横屏连续剧，개똥극장 也做了鲫鱼饼奶奶版。这是“亲家抓马”之后新的动作向爽剧。Topview：动作镜头最能看出模型差距，可做「同一段踢腿：Seedance 2.5 效果、3.8折价格」对比。", "links": [{"title": "오늘의씬 · 孙女踢飞混混 · 17.7 万", "href": "https://www.youtube.com/shorts/JtLW_4YQ4d4"}, {"title": "오늘의씬 · 劫匪惹错清洁工 · 15.4 万", "href": "https://www.youtube.com/shorts/rnRL9S2VI7U"}, {"title": "드라마 말본 · 市场奶奶孙女 1（横屏）· 2.4 万", "href": "https://www.youtube.com/watch?v=9eLimuthjs0"}, {"title": "드라마 말본 · 路边摊孙女 3（横屏）· 6.3 万", "href": "https://www.youtube.com/watch?v=18hdHvkn1SI"}], "thumbs": [{"type": "local", "id": "JtLW_4YQ4d4", "src": "media/kr_yt_JtLW_4YQ4d4.jpg", "fallback": "https://i.ytimg.com/vi/JtLW_4YQ4d4/hqdefault.jpg", "portrait": true}, {"type": "local", "id": "rnRL9S2VI7U", "src": "media/kr_yt_rnRL9S2VI7U.jpg", "fallback": "https://i.ytimg.com/vi/rnRL9S2VI7U/hqdefault.jpg", "portrait": true}, {"type": "local", "id": "9eLimuthjs0", "src": "media/kr_yt_9eLimuthjs0.jpg", "fallback": "https://i.ytimg.com/vi/9eLimuthjs0/hqdefault.jpg", "portrait": false}, {"type": "local", "id": "18hdHvkn1SI", "src": "media/kr_yt_18hdHvkn1SI.jpg", "fallback": "https://i.ytimg.com/vi/18hdHvkn1SI/hqdefault.jpg", "portrait": false}]}, {"badge": "持续", "title": "YouTube 主题：见家长（상견례）反转——一天 5 个频道在做", "stats": "证据 4 条 · 1.9 万～9.8 万", "analysis": "见家长第 2 周，11-02 一天 5 个频道发片：穿工作服的亲家被准岳父认出是救命老大哥（딸깍 9.8 万，Higgsfield 制作）、被瞧不起的亲家竟是会长、婆婆要儿媳辞职、彩礼要双倍。结构都是「当众看不起 → 身份揭晓」。Topview：同一张饭桌，换 3 种身份揭晓，T1 一次出完做 A/B。", "links": [{"title": "헐이다헐 · 服务员是新娘哥哥 · 8.0 万", "href": "https://www.youtube.com/shorts/Axtu5i2CNhM"}, {"title": "딸깍 · 穿工作服的亲家 · 9.8 万", "href": "https://www.youtube.com/shorts/T50x7gGfDAg"}, {"title": "세상살이 · 亲家竟是会长 · 2.0 万", "href": "https://www.youtube.com/shorts/H9mPpPJWULg"}, {"title": "이맛이야 · 见家长让我辞职 · 1.9 万", "href": "https://www.youtube.com/shorts/pbqVZhhcJsQ"}], "thumbs": [{"type": "local", "id": "Axtu5i2CNhM", "src": "media/kr_yt_Axtu5i2CNhM.jpg", "fallback": "https://i.ytimg.com/vi/Axtu5i2CNhM/hqdefault.jpg", "portrait": true}, {"type": "local", "id": "T50x7gGfDAg", "src": "media/kr_yt_T50x7gGfDAg.jpg", "fallback": "https://i.ytimg.com/vi/T50x7gGfDAg/hqdefault.jpg", "portrait": true}, {"type": "local", "id": "H9mPpPJWULg", "src": "media/kr_yt_H9mPpPJWULg.jpg", "fallback": "https://i.ytimg.com/vi/H9mPpPJWULg/hqdefault.jpg", "portrait": true}, {"type": "local", "id": "pbqVZhhcJsQ", "src": "media/kr_yt_pbqVZhhcJsQ.jpg", "fallback": "https://i.ytimg.com/vi/pbqVZhhcJsQ/hqdefault.jpg", "portrait": true}]}, {"badge": "上升速", "title": "YouTube 主题：照护 / 养老谁负责——护工费、出院、“各自父母各自管”", "stats": "证据 4 条 · 13.9 万～40.4 万", "analysis": "“钱/家产”往下走了一步，变成“谁来照顾老人”：「各自的父母各自负责」21.9 万、「把婆婆叫来给亲妈当护工」21.3 万、「婆婆出院房间变衣帽间」13.9 万、「别想见孙子」40.4 万，都是 1–2 天内的新片。观众 50–70 岁，适合在 YouTube 做“给爸妈拍一条”的情感向广告。", "links": [{"title": "잔잔한 · 别想见孙子 · 40.4 万", "href": "https://www.youtube.com/shorts/i04L7tLT4xs"}, {"title": "인생만냥 · 各自父母各自负责 · 21.9 万", "href": "https://www.youtube.com/shorts/SFOREoQziqc"}, {"title": "스토리 한바다 · 婆婆给亲妈当护工 · 21.3 万", "href": "https://www.youtube.com/shorts/9fVnBvnnKQw"}, {"title": "너무 궁금한 이야기 · 房间变衣帽间 · 13.9 万", "href": "https://www.youtube.com/shorts/ctQT-3y9awA"}], "thumbs": [{"type": "local", "id": "i04L7tLT4xs", "src": "media/kr_yt_i04L7tLT4xs.jpg", "fallback": "https://i.ytimg.com/vi/i04L7tLT4xs/hqdefault.jpg", "portrait": true}, {"type": "local", "id": "SFOREoQziqc", "src": "media/kr_yt_SFOREoQziqc.jpg", "fallback": "https://i.ytimg.com/vi/SFOREoQziqc/hqdefault.jpg", "portrait": true}, {"type": "local", "id": "9fVnBvnnKQw", "src": "media/kr_yt_9fVnBvnnKQw.jpg", "fallback": "https://i.ytimg.com/vi/9fVnBvnnKQw/hqdefault.jpg", "portrait": true}, {"type": "local", "id": "ctQT-3y9awA", "src": "media/kr_yt_ctQT-3y9awA.jpg", "fallback": "https://i.ytimg.com/vi/ctQT-3y9awA/hqdefault.jpg", "portrait": true}]}, {"badge": "仍在爆", "title": "仍在爆（约 24 小时）", "stats": "咖啡大衣 89.5 万（+20.3 万）；豪车车主 115.3 万（+9.3 万）；食堂打人 83.2 万（+7.7 万）", "analysis": "另：昨天主榜「你从我们家出去」+3.0 万到 29.3 万；「安房抽屉」+7.3 万到 40.9 万；「现金 300 万」到 110.6 万。X 本地 AI 仍无过 3 万；IG 推荐号有新帖但无播放数，需登录补看。", "links": [{"title": "It's super fun · 咖啡大衣 · 89.5 万", "href": "https://www.youtube.com/shorts/eHRTARECDJE"}, {"title": "It's super fun · 豪车车主 · 115.3 万", "href": "https://www.youtube.com/shorts/u_9rE_mKojI"}, {"title": "Studio Yeoreum · 食堂打人 · 83.2 万", "href": "https://www.youtube.com/shorts/72QeWar3PdI"}], "thumbs": [{"type": "local", "id": "eHRTARECDJE", "src": "media/kr_yt_eHRTARECDJE.jpg", "fallback": "https://i.ytimg.com/vi/eHRTARECDJE/hqdefault.jpg", "portrait": true}, {"type": "local", "id": "u_9rE_mKojI", "src": "media/kr_yt_u_9rE_mKojI.jpg", "fallback": "https://i.ytimg.com/vi/u_9rE_mKojI/hqdefault.jpg", "portrait": true}, {"type": "local", "id": "72QeWar3PdI", "src": "media/kr_yt_72QeWar3PdI.jpg", "fallback": "https://i.ytimg.com/vi/72QeWar3PdI/hqdefault.jpg", "portrait": true}]}]};
+/* 2026-10-27 海外日报覆盖（routine 写入） */
+REPORT.dateLabel = "2026-10-27 · 北京时间";
+REPORT.views.overseas = {"label": "海外日报 11-03", "dateLine": "海外 AI 热点早报 · 2026-11-03（周二）· 北京时间", "leadKicker": "海外 AI 热点早报 · 11-03", "lead": "今天没有新的百万级原创。clipcraft7 一晚两条新系列：火人×水人恋爱 29.4 万、100 公斤自行车逆袭 15.0 万。YouTube 上“Kling 4.0 便宜 5 倍”的多模型擂台基本是 Higgsfield 同一个付费活动，黑五 CapCut/Pippit 创作者矩阵也上线了。仍在爆：Englishman in New York 破 1,940 万。主榜 5 + 仍在爆 3；竞品 7 条。不做万圣节。", "meta": [{"k": "报告", "v": "海外 AI 热点早报"}, {"k": "日期", "v": "2026-11-03"}, {"k": "主榜", "v": "5 条（含 1 条热度一般）+ 仍在爆 3"}, {"k": "YT 主题", "v": "5 卡 / 20 证据"}, {"k": "竞品", "v": "7 条（Google）"}, {"k": "采集", "v": "07:00 采集 + 08:05 补核 Asia/Shanghai"}], "cards": [{"badge": "主榜", "title": "火人×水人：街头恋爱小剧场", "stats": "29.4 万播放 · 赞 1,282 · 收藏 336 · 70 秒 · 方形 · 11-02 21:11", "analysis": "clipcraft7 新系列：火焰头发的男生在喷泉边捧起水做的女孩的脸，咖啡馆里一群水人围观。收藏/赞约 26%。⚠️画风接近皮克斯《疯狂元素城》，只借“两种材质角色相遇”的反差（如冰咖啡×热牛奶），不用火人/水人造型。", "links": [{"title": "clipcraft7 · 火人×水人", "href": "https://x.com/clipcraft7/status/2117243224972542217"}], "thumbs": [{"type": "x", "id": "2117243224972542217"}]}, {"badge": "主榜", "title": "十年推着 100 公斤自行车（第 1 集）", "stats": "15.0 万播放 · 赞 1,363 · 收藏 397 · 77 秒 · 竖屏 · 11-02 20:58", "analysis": "clipcraft7。车库里大胡子男人和小男孩看着一辆重自行车，后半段菠萝头教练、草莓头车手登场，大字幕“100 KILOS”“TRUST THE TEAM”。真人＋食材人同框是新变化；第 2 集 1 小时后发。可借鉴：“装备太重→换轻装备逆袭”两集结构。", "links": [{"title": "clipcraft7 · 100 公斤自行车 P1", "href": "https://x.com/clipcraft7/status/2117239879880835180"}, {"title": "第 2 集", "href": "https://x.com/clipcraft7/status/2117260787114733682"}], "thumbs": [{"type": "x", "id": "2117239879880835180"}]}, {"badge": "主榜", "title": "黑色小狗凑近镜头（10 秒）", "stats": "66.0 万播放 · 赞 3.0 万 · 转发 2,203 · 10 秒 · 竖屏 · 10-31 20:55", "analysis": "mahrucugum。低机位广角，小黑狗吐舌头凑到镜头前再走开，赞/播放 4.6%。评论几乎都是“好可爱”，个别人说“但这是 AI”。AI 依据：评论指认＋画面过度光滑，作者未自述，原创性未核实。可借鉴：萌宠凑镜头当前 3 秒钩子。", "links": [{"title": "mahrucugum · 黑色小狗", "href": "https://x.com/mahrucugum/status/2116514495224746194"}], "thumbs": [{"type": "x", "id": "2116514495224746194"}]}, {"badge": "主榜", "title": "监狱艺术展：泥塑被一巴掌打碎（30 秒 AI 写实剧）", "stats": "5.7 万播放 · 赞 447 · 30 秒 · 竖屏 Shorts · 11-01 23:42 · 51 订阅", "analysis": "RiftHaven Cinema，描述自标“Fictional AI-generated short”。橙色囚服女犯展示泥塑，另一人一巴掌拍碎，下一秒拍碎的人就被放倒在地。51 订阅小号跑出约 1,100 倍订阅的播放。可借鉴：“作品被毁→一键重做”的 30 秒结构。", "links": [{"title": "RiftHaven · 监狱艺术展", "href": "https://www.youtube.com/shorts/CGZNzWY6Tqk"}], "thumbs": [{"type": "yt", "id": "CGZNzWY6Tqk", "portrait": true}]}, {"badge": "主榜", "title": "“AI UGC 只要 0.3 美元一条”（热度一般，手法值得学）", "stats": "1.5 万播放 · 赞 513 · 收藏 843 · 32 秒 · 竖屏 · 11-02 01:26", "analysis": "simonecanciello 方法帖：女生自拍“快更新你的 WhatsApp”接手机 App 录屏，作者说秘诀是只生成一个 3 秒片段。收藏比赞多 64%。可借鉴：3 秒 AI 开头＋真实录屏，接 Wan 3.0「30 秒 720p 只要 $1.20，365 天无限」。工具未独立验证。", "links": [{"title": "simonecanciello · AI UGC", "href": "https://x.com/simonecanciello/status/2116945008842654050"}], "thumbs": [{"type": "x", "id": "2116945008842654050"}]}, {"badge": "仍在爆", "title": "仍在爆 · Englishman +160.8 万，No Ordinary Love +47.3 万，Smooth Operator +34.0 万", "stats": "Englishman 1,942.6 万 · No Ordinary Love 1,394.7 万 · Smooth Operator 35.6 万（对比 11-02 早报）", "analysis": "antrofrog_ 水彩翻唱三连。⚠️Smooth Operator 评论区开始出现“抄 Cartoon Saloon 画风”的指控，借形式时别模仿特定工作室画风。过线未进本栏：全息火星 +24.8 万、樱桃工坊 +15.9 万、苹果奶奶 +14.4 万、青柠头 +12.0 万。", "links": [{"title": "Englishman · 1,943 万", "href": "https://x.com/antrofrog_/status/2116118341610004764"}, {"title": "No Ordinary Love · 1,395 万", "href": "https://x.com/antrofrog_/status/2115376771004862719"}, {"title": "Smooth Operator · 35.6 万", "href": "https://x.com/antrofrog_/status/2117014339945394630"}], "thumbs": [{"type": "x", "id": "2116118341610004764"}, {"type": "x", "id": "2115376771004862719"}, {"type": "x", "id": "2117014339945394630"}]}]};
+const YT_HOTSPOTS_OVERSEAS = {"updated": "2026-11-03", "market": "overseas", "timezone": "Asia/Shanghai", "collected_at": "2026-11-03 08:05–08:15（Asia/Shanghai）", "window": "本周上传＋按播放，40 个检索词", "source": "overseas-daily-1103", "themes": [{"id": "t1", "badge": "上升速", "title": "Higgsfield 花钱买下“Kling 4.0 便宜 5 倍”的叙事", "judgment": "“同一 prompt 多模型擂台”的视频，大多挂同一个 Higgsfield 活动链接（video-model-showdown-kling-4），韩语频道直接写了“收到 Higgsfield 报酬”。标题从“谁最强”变成“贵 5 倍值不值”“别再用贵的 AI”。Topview 的接法：T1「Seedance 2.5 一样的效果，3.8折的价格」（$0.22/秒 vs 官方 $0.585/秒）——同样讲省钱，但不降效果。", "evidence": [{"title": "不用再买贵的 AI 了（我放弃了 Seedance 2.5）（土耳其语）", "url": "https://www.youtube.com/watch?v=ZuS6Nx22TH0", "id": "ZuS6Nx22TH0", "channel": "Onur Naci Öztürkler", "views": 61838, "views_label": "6.2万", "duration_label": "11:04", "upload_date": "10-28", "stats": "6.2万播放 · 11:04 · 10-28 · Onur Naci Öztürkler", "thumb": "https://i.ytimg.com/vi/ZuS6Nx22TH0/hqdefault.jpg", "why": "Higgsfield 返佣链接", "sponsored": true}, {"title": "I Tested 8 of the BEST AI Video Models! Kling 4.0 vs Seedance 2.5", "url": "https://www.youtube.com/watch?v=eadEYJY9ydg", "id": "eadEYJY9ydg", "channel": "WorldofAI", "views": 37054, "views_label": "3.7万", "duration_label": "9:06", "upload_date": "10-31", "stats": "3.7万播放 · 9:06 · 10-31 · WorldofAI", "thumb": "https://i.ytimg.com/vi/eadEYJY9ydg/hqdefault.jpg", "why": "同一活动链接", "sponsored": true}, {"title": "帮你省积分：同一 prompt 8 个模型谁赢？（韩语）", "url": "https://www.youtube.com/watch?v=LP8UqeQRHY0", "id": "LP8UqeQRHY0", "channel": "신동댕동 Shindongdengdong", "views": 31634, "views_label": "3.2万", "duration_label": "7:11", "upload_date": "10-30", "stats": "3.2万播放 · 7:11 · 10-30 · 신동댕동 Shindongdengdong", "thumb": "https://i.ytimg.com/vi/LP8UqeQRHY0/hqdefault.jpg", "why": "简介写明收到 Higgsfield 报酬", "sponsored": true}, {"title": "Kling 4.0 Is 5X Cheaper Than Seedance 2.5… What's the Catch?", "url": "https://www.youtube.com/watch?v=Cid_1B4YqQM", "id": "Cid_1B4YqQM", "channel": "Zubair Trabzada", "views": 21123, "views_label": "2.1万", "duration_label": "15:22", "upload_date": "10-31", "stats": "2.1万播放 · 15:22 · 10-31 · Zubair Trabzada", "thumb": "https://i.ytimg.com/vi/Cid_1B4YqQM/hqdefault.jpg", "why": "“便宜 5 倍”标题", "sponsored": true}]}, {"id": "t2", "badge": "上升速", "title": "黑五：CapCut PC / Pippit 创作者矩阵卖“一个产品→整套广告”", "judgment": "CapCut 黑五专用 KOL 链接（capcutpc_kol）和 Pippit（字节）达人链接集中在 10-27～10-30 上线，内容都是“一个产品→黑五整套广告”，和 Google 上 Dreamina $0.29 的投放在同一时间段。黑五（11-27）按 3 周档 11-06 开始借势，Topview 的“一张产品图→黑五广告”现在就该备好，卖点写“30 天无限”。", "evidence": [{"title": "I Turned ONE Fashion Product Into a Full Black Friday Campaign", "url": "https://www.youtube.com/watch?v=RE6O4VrORm4", "id": "RE6O4VrORm4", "channel": "Kingy AI", "views": 78511, "views_label": "7.9万", "duration_label": "", "upload_date": "10-30", "stats": "7.9万播放 · 10-30 · Kingy AI", "thumb": "https://i.ytimg.com/vi/RE6O4VrORm4/hqdefault.jpg", "why": "CapCut PC 合作；只有 29 赞，疑似买量", "sponsored": true}, {"title": "CapCut PC＋黑五营销：一条视频做两支广告（西语）", "url": "https://www.youtube.com/watch?v=nb40lCdfcJU", "id": "nb40lCdfcJU", "channel": "Universo Ari", "views": 45855, "views_label": "4.6万", "duration_label": "10:09", "upload_date": "10-27", "stats": "4.6万播放 · 10:09 · 10-27 · Universo Ari", "thumb": "https://i.ytimg.com/vi/nb40lCdfcJU/hqdefault.jpg", "why": "capcutpc_kol 链接", "sponsored": true}, {"title": "Black Friday Advertising: Make an Emotional Product Ad | CapCut PC", "url": "https://www.youtube.com/watch?v=LZW1n0EM1WE", "id": "LZW1n0EM1WE", "channel": "AI WORLDWIDE", "views": 42141, "views_label": "4.2万", "duration_label": "8:28", "upload_date": "10-28", "stats": "4.2万播放 · 8:28 · 10-28 · AI WORLDWIDE", "thumb": "https://i.ytimg.com/vi/LZW1n0EM1WE/hqdefault.jpg", "why": "capcutpc_kol 链接", "sponsored": true}, {"title": "I Turned ONE Product Into 3 Viral AI Ads! Pippit + Seedance", "url": "https://www.youtube.com/watch?v=nzU_F5IZrqI", "id": "nzU_F5IZrqI", "channel": "Crypto Mike X", "views": 39656, "views_label": "4.0万", "duration_label": "9:49", "upload_date": "10-30", "stats": "4.0万播放 · 9:49 · 10-30 · Crypto Mike X", "thumb": "https://i.ytimg.com/vi/nzU_F5IZrqI/hqdefault.jpg", "why": "Pippit 达人链接", "sponsored": true}]}, {"id": "t3", "badge": "上升速", "title": "食材拟人剧在 YouTube 长版跑出百万", "judgment": "X 上 clipcraft7 的 60–90 秒短版之外，YouTube 上“土豆/番茄/水果一家”的长版跑到 50–119 万，4 个证据里 3 个是 499–1 万订阅的小频道，其中 Milo 是“慢速英语 A2”学英语版。算法在推这个题材，不太靠粉丝。Topview：食材拟人是现成的产品广告模板（饮品、零食、护肤原料）。", "evidence": [{"title": "Daddy’s LOUD Guitar Woke Up the Whole House…（慢速英语 A2）", "url": "https://www.youtube.com/watch?v=GV746AJ9rPw", "id": "GV746AJ9rPw", "channel": "Milo Fruit Stories", "views": 1187900, "views_label": "118.8万", "duration_label": "33:08", "upload_date": "10-31", "stats": "118.8万播放 · 33:08 · 10-31 · Milo Fruit Stories", "thumb": "https://i.ytimg.com/vi/GV746AJ9rPw/hqdefault.jpg", "why": "1.04 万订阅", "sponsored": false}, {"title": "Thaluku Muluku Thakali｜AI 连续剧第 5 集（泰卢固语）", "url": "https://www.youtube.com/watch?v=jbNiBbJh6nU", "id": "jbNiBbJh6nU", "channel": "Vinay Vines", "views": 880901, "views_label": "88.1万", "duration_label": "23:51", "upload_date": "10-28", "stats": "88.1万播放 · 23:51 · 10-28 · Vinay Vines", "thumb": "https://i.ytimg.com/vi/jbNiBbJh6nU/hqdefault.jpg", "why": "番茄角色连续剧", "sponsored": false}, {"title": "土豆和妈妈被赶出派对，接下来…（印地语）", "url": "https://www.youtube.com/watch?v=PE3UdwZhqXs", "id": "PE3UdwZhqXs", "channel": "ZabiVeggies", "views": 623223, "views_label": "62.3万", "duration_label": "9:32", "upload_date": "10-28", "stats": "62.3万播放 · 9:32 · 10-28 · ZabiVeggies", "thumb": "https://i.ytimg.com/vi/PE3UdwZhqXs/hqdefault.jpg", "why": "1,670 订阅", "sponsored": false}, {"title": "穷土豆当上公交公司老板（印地语）", "url": "https://www.youtube.com/watch?v=KiVtaQXenlw", "id": "KiVtaQXenlw", "channel": "Toon AI Land", "views": 496769, "views_label": "49.7万", "duration_label": "7:01", "upload_date": "10-27", "stats": "49.7万播放 · 7:01 · 10-27 · Toon AI Land", "thumb": "https://i.ytimg.com/vi/KiVtaQXenlw/hqdefault.jpg", "why": "499 订阅", "sponsored": false}]}, {"id": "t4", "badge": "持续", "title": "AI 网红 / AI 粗制被做成娱乐，真人演员也被怀疑是 AI", "judgment": "吐槽 AI 网红、吃“AI 粗制食谱”的视频继续在 17–38 万档；新西兰旅游局广告里的真人演员被网友指成 AI，上了新闻（33.9 万）。观众对“像 AI”很敏感：Topview 广告要大方承认是 AI 做的，主打可控和省钱，别假装真人。", "evidence": [{"title": "AI Influencers Gotta Go Bro", "url": "https://www.youtube.com/watch?v=BInn5uzK9O0", "id": "BInn5uzK9O0", "channel": "TommyNFG", "views": 383520, "views_label": "38.4万", "duration_label": "11:07", "upload_date": "10-28", "stats": "38.4万播放 · 11:07 · 10-28 · TommyNFG", "thumb": "https://i.ytimg.com/vi/BInn5uzK9O0/hqdefault.jpg", "why": "吐槽 AI 网红", "sponsored": false}, {"title": "Kiwi actor faces claims he’s AI in Tourism NZ ad", "url": "https://www.youtube.com/watch?v=VtfyznR4TMA", "id": "VtfyznR4TMA", "channel": "Stuff", "views": 338832, "views_label": "33.9万", "duration_label": "", "upload_date": "10-28", "stats": "33.9万播放 · 10-28 · Stuff", "thumb": "https://i.ytimg.com/vi/VtfyznR4TMA/hqdefault.jpg", "why": "真人广告被指 AI", "sponsored": false}, {"title": "I Tested UNREALISTIC AI SLOP Recipes!", "url": "https://www.youtube.com/watch?v=3W6uG7mh9aU", "id": "3W6uG7mh9aU", "channel": "Honeysuckle", "views": 252463, "views_label": "25.2万", "duration_label": "19:14", "upload_date": "10-31", "stats": "25.2万播放 · 19:14 · 10-31 · Honeysuckle", "thumb": "https://i.ytimg.com/vi/3W6uG7mh9aU/hqdefault.jpg", "why": "实测 AI 粗制食谱", "sponsored": false}, {"title": "Eating AI Slop in Real Life", "url": "https://www.youtube.com/watch?v=Hzfrbzzmpao", "id": "Hzfrbzzmpao", "channel": "Bobia", "views": 172710, "views_label": "17.3万", "duration_label": "18:12", "upload_date": "10-31", "stats": "17.3万播放 · 18:12 · 10-31 · Bobia", "thumb": "https://i.ytimg.com/vi/Hzfrbzzmpao/hqdefault.jpg", "why": "AI 粗制食物实做", "sponsored": false}]}, {"id": "t5", "badge": "持续", "title": "Topview T1 被点名：几乎都是自家合作稿，问题都是“值不值”", "judgment": "本周 T1 相关视频多数挂 topview.ai 的 via= 链接，法语、英语两条直接写了“和 Topview 商业合作”，播放 0.1–0.6 万，比 Higgsfield 活动的 2–6 万低一个量级。标题都在问“最划算吗”“值这个钱吗”，说明价格是观众最关心的点。第三方结论未独立验证。", "evidence": [{"title": "哪个 AI 视频最好？Seedance 2.5 vs Topview T1（越南语）", "url": "https://www.youtube.com/watch?v=0gxEYgcw_iA", "id": "0gxEYgcw_iA", "channel": "TTNTAI", "views": 5807, "views_label": "0.58万", "duration_label": "8:40", "upload_date": "10-30", "stats": "0.58万播放 · 8:40 · 10-30 · TTNTAI", "thumb": "https://i.ytimg.com/vi/0gxEYgcw_iA/hqdefault.jpg", "why": "via= 链接", "sponsored": true}, {"title": "Topview T1 能让我放弃 Seedance 2.5 吗？（越南语）", "url": "https://www.youtube.com/watch?v=o40BUPvLqBg", "id": "o40BUPvLqBg", "channel": "NiemTech", "views": 1532, "views_label": "0.15万", "duration_label": "20:07", "upload_date": "10-29", "stats": "0.15万播放 · 20:07 · 10-29 · NiemTech", "thumb": "https://i.ytimg.com/vi/o40BUPvLqBg/hqdefault.jpg", "why": "via= 链接", "sponsored": true}, {"title": "Seedance 2.5 vs Topview T1：最划算的视频 AI？（法语）", "url": "https://www.youtube.com/watch?v=Sm0QAJhUUaQ", "id": "Sm0QAJhUUaQ", "channel": "Jeanviet", "views": 1198, "views_label": "0.12万", "duration_label": "11:59", "upload_date": "10-30", "stats": "0.12万播放 · 11:59 · 10-30 · Jeanviet", "thumb": "https://i.ytimg.com/vi/Sm0QAJhUUaQ/hqdefault.jpg", "why": "标明商业合作", "sponsored": true}, {"title": "Is Topview T1 or Seedance 2.5 Worth the Money?", "url": "https://www.youtube.com/watch?v=XIW1YZyVcdA", "id": "XIW1YZyVcdA", "channel": "Hoang Labz", "views": 1167, "views_label": "0.12万", "duration_label": "", "upload_date": "10-29", "stats": "0.12万播放 · 10-29 · Hoang Labz", "thumb": "https://i.ytimg.com/vi/XIW1YZyVcdA/hqdefault.jpg", "why": "标明 sponsored", "sponsored": true}]}], "stats": {"theme_cards": 5, "evidence_videos": 20}};
+/* 2026-11-02 周报覆盖（10-26～11-01） */
+REPORT.views.weekly = {"label": "周报 10-26～11-01", "dateLine": "周报覆盖 2026-10-26 至 11-01 · 北京时间（数据复查于 11-02 上午）", "leadKicker": "本周结论", "lead": "欧美本周最大的爆款是 antrofrog_ 的 AI 水彩翻唱 MV（两条合计 3139 万播放，其中一条在日报之后又涨了约 5 倍），食材人剧也从单个账号变成了好几个语区都在做的格式。韩国还是“看不起人→身份反转”的抓马短剧，49 秒和 116 秒的版本都破了百万。竞品方面，Dreamina 在 Google 美国投“Seedance 2.5 $0.007/秒”，但按它官网算，首月 $0.29 只够约 42 秒 720p，正好可以拿我们的“30 天无限”去比。", "meta": [{"k": "报告", "v": "AI 广告素材周报"}, {"k": "覆盖", "v": "2026-10-26 至 11-01"}, {"k": "精选", "v": "16 条（后劲 10 · 日报漏掉 4）"}, {"k": "YouTube 主题卡", "v": "6 张 · 24 条证据"}], "cards": [{"badge": "Rising", "title": "AI 水彩翻唱 MV：一周两条破千万", "stats": "antrofrog_ · X · 16:9 · 合计约 3139 万播放", "analysis": "《Englishman in New York》1790.6 万（47 秒，10-30），《No Ordinary Love》1348.0 万（59 秒，10-28，日报时 268.9 万，涨约 5 倍）。热度主要来自内容本身：很多人以为是手绘，评论区一半在夸“这是 AI？”，一半在骂 AI 艺术（“镀金的屎还是屎”）。争议本身也在推流。16:9 横屏、1 分钟内，适合直接改成 YouTube 广告。", "links": [{"title": "antrofrog_ · Englishman in New York · 1790.6 万", "href": "https://x.com/antrofrog_/status/2116118341610004764"}, {"title": "antrofrog_ · No Ordinary Love · 1348.0 万", "href": "https://x.com/antrofrog_/status/2115376771004862719"}], "thumbs": [{"type": "x", "id": "2116118341610004764", "portrait": false}, {"type": "x", "id": "2115376771004862719", "portrait": false}]}, {"badge": "Rising", "title": "食材人剧：clipcraft7 一周 6 条 35–115 万", "stats": "X 竖屏 · 苹果奶奶 114.5 万 · 草莓男人 90.8 万（日报 27.5 万）", "analysis": "同一账号一周 6 条都在 35 万以上，日报后基本都翻了 1.5–3 倍。剧情是家庭伦理加反转（换价签、肥皂掉了、世上唯一的男人），只是演员换成了水果蔬菜。YouTube 印地语区同类长剧过百万。热度来自内容本身加系列追更。", "links": [{"title": "clipcraft7 · 苹果奶奶 · 114.5 万 · 126 秒", "href": "https://x.com/clipcraft7/status/2116096696522260847"}, {"title": "clipcraft7 · The only man in the World · 90.8 万", "href": "https://x.com/clipcraft7/status/2116184785403978079"}, {"title": "India AI Video · 土豆渔夫爱上胡萝卜 · 119.7 万", "href": "https://www.youtube.com/watch?v=3CubhrZWI6Y"}], "thumbs": [{"type": "x", "id": "2116096696522260847", "portrait": true}, {"type": "x", "id": "2116184785403978079", "portrait": true}, {"type": "local", "src": "media/yt_3CubhrZWI6Y.jpg", "portrait": false}]}, {"badge": "Rising", "title": "以假乱真的动物救援：搬运号吃到最大量", "stats": "Sucre770 464.9 万（日报 106.4 万）· Gabriele_Corno 155.4 万（日报 46.0 万）", "analysis": "父亲护家 29 秒横屏 464.9 万，母亲护婴儿对峙黑熊 155.4 万。热度主要是“借来的”：靠真假争议和情绪（评论“AI 垃圾，现在什么都不是真的了”“车库里的孩子去哪了”）。Sucre770 是搬运号，原作者未知。⚠️ 以假乱真，官方广告必须标明 AI 生成。", "links": [{"title": "Sucre770 · 父亲保护家人 · 464.9 万（搬运）", "href": "https://x.com/Sucre770/status/2114448232403161569"}, {"title": "Gabriele_Corno · 母亲护婴儿对峙黑熊 · 155.4 万", "href": "https://x.com/Gabriele_Corno/status/2116223901499879843"}], "thumbs": [{"type": "x", "id": "2114448232403161569", "portrait": false}, {"type": "x", "id": "2116223901499879843", "portrait": true}]}, {"badge": "主榜", "title": "Seedance 2.5 舞蹈 + 回复里给 prompt", "stats": "aimikoda · X · 30 秒 4K 16:9 · 38.6 万（日报 9.2 万）", "analysis": "收藏 8164，收藏/赞比例高，说明大家是存下来抄 prompt。“prompt 在回复里”的结构把创作者流量导到评论区。Topview 可以用同样的结构：放成片，置顶 prompt，再给出“30 天无限”。", "links": [{"title": "aimikoda · Some Silly Moves · 38.6 万", "href": "https://x.com/aimikoda/status/2115446648704827633"}], "thumbs": [{"type": "x", "id": "2115446648704827633", "portrait": false}]}, {"badge": "NEW", "title": "日报漏掉：AI 虚拟歌手 + 皮克斯风狗狗", "stats": "Aeysamusic 16.3 万 · Raclure03 22.2 万", "analysis": "Aeysamusic《SOLI》维京风 AI 虚拟歌手 20 秒竖屏（赞 8949），粉丝向内容。Raclure03 皮克斯风狗狗“抱住我爸爸” 16 秒横屏（赞 9758），疑似 AI、搬运。两条都是小体量、高互动，日报的检索词都没覆盖到。", "links": [{"title": "Aeysamusic · SOLI · 16.3 万", "href": "https://x.com/Aeysamusic/status/2115690174273192370"}, {"title": "Raclure03 · retiens-moi papa · 22.2 万", "href": "https://x.com/Raclure03/status/2115316804797001824"}], "thumbs": [{"type": "x", "id": "2115690174273192370", "portrait": true}, {"type": "x", "id": "2115316804797001824", "portrait": false}]}, {"badge": "Rising", "title": "韩国：豪车车主、名牌大衣的“反转善意”", "stats": "It's super fun · 92 话 106.0 万（日报 20.4 万）· 93 话 69.2 万（日报 21.1 万）", "analysis": "追尾后豪车车主反而帮对方付修理费（49 秒，赞 4.98 万），最高赞评论“车主的人品配得上车价”（281 赞）。93 话咖啡泼了名牌大衣的太太反而…（61 秒）。日报后涨 3–5 倍。爽点是“以为要被欺负→对方是好人”，热度来自内容本身，适合老少皆宜的韩国投放。", "links": [{"title": "It's super fun · 92 话 豪车车主 · 106.0 万", "href": "https://www.youtube.com/shorts/u_9rE_mKojI"}, {"title": "It's super fun · 93 话 名牌大衣 · 69.2 万", "href": "https://www.youtube.com/shorts/eHRTARECDJE"}], "thumbs": [{"type": "local", "src": "media/yt_u_9rE_mKojI.jpg", "portrait": true}, {"type": "local", "src": "media/yt_eHRTARECDJE.jpg", "portrait": true}]}, {"badge": "Rising", "title": "韩国：食堂打人报应 + 婆家“滚出我家”", "stats": "Studio Yeoreum 75.5 万（日报 17.1 万）· 숏코드숏 26.2 万（日报漏掉）", "analysis": "食堂里打人的反派被反杀（47 秒，评论“因果报应、事必归正”49 赞）。숏코드숏「从我家出去」34 秒，评论“把妈妈赶出去，活该”（17 赞），同频道「马上回娘家去」54.0 万。婆媳/亲家冲突继续是韩国最稳的题材。", "links": [{"title": "Studio Yeoreum · 食堂里不能打人的原因 · 75.5 万", "href": "https://www.youtube.com/shorts/72QeWar3PdI"}, {"title": "숏코드숏 · 从我家出去 · 26.2 万", "href": "https://www.youtube.com/shorts/lndUzZh127o"}], "thumbs": [{"type": "local", "src": "media/yt_72QeWar3PdI.jpg", "portrait": true}, {"type": "local", "src": "media/yt_lndUzZh127o.jpg", "portrait": true}]}, {"badge": "主榜", "title": "韩国 X：让 AI “惩恶”结果被 AI 反教育", "stats": "bun_pingku · X · 26 秒 16:9 · 50.3 万（韩国日报 23.6 万）", "analysis": "“惩恶教育失败系列”：让 Codex 拍惩恶片，结果 AI 去点了奶茶。拿 AI 不听话当笑点，是韩国本土的 meta 梗。赞只有 516，互动偏低，播放可能有推荐流加成。", "links": [{"title": "bun_pingku · 참교육 실패 시리즈 · 50.3 万", "href": "https://x.com/bun_pingku/status/2115074832413167976"}], "thumbs": [{"type": "x", "id": "2115074832413167976", "portrait": false}]}]};
+const YT_HOTSPOTS_WEEKLY = {"updated": "2026-11-02", "market": "weekly", "timezone": "Asia/Shanghai", "collected_at": "2026-11-02 08:40–09:20（北京时间）", "window": "10-26～11-01 上传，复查于 11-02", "source": "weekly-1102", "themes": [{"id": "w1", "badge": "上升速", "title": "同一 prompt 多模型擂台 + 价格排行", "judgment": "韩、西、英三个语区一周内都在做“N 个模型同题 PK / 全模型排行榜”，最高 50.1 万（韩语）。其中 3 条描述带 Higgsfield 返佣链接，说明这类片子大量是联盟内容。Dan Kieft 直接做 tier list（排行榜），和我们 S/A/B/C 比价榜同一个格式。Topview 切口：T1「Seedance 2.5 一样的效果，3.8折的价格」，Wan 3.0「30 秒 720p 只要 $1.20，365 天无限」。", "evidence": [{"title": "Astra+Blender+Higgsfield 组合把 AI 成本砍一半（韩语）", "url": "https://www.youtube.com/watch?v=lyNzEk8H9AM", "id": "lyNzEk8H9AM", "channel": "브랜드 도적단 / 반토막AI", "views": 500531, "views_label": "50.1万", "duration_label": "12:45", "upload_date": "10-30", "stats": "50.1万播放 · 12:45 · 10-30 · 브랜드 도적단 / 반토막AI", "thumb": "media/yt_lyNzEk8H9AM.jpg", "portrait": false, "why": "韩语区成本叙事，评论最高赞：最后还是懂工作流的人受益（170 赞）", "sponsored": true}, {"title": "同一个 prompt 试 8 个视频 AI（西语）", "url": "https://www.youtube.com/watch?v=BuALTyZx_ww", "id": "BuALTyZx_ww", "channel": "Academia IA | Santi", "views": 121985, "views_label": "12.2万", "duration_label": "11:26", "upload_date": "10-26", "stats": "12.2万播放 · 11:26 · 10-26 · Academia IA | Santi", "thumb": "media/yt_BuALTyZx_ww.jpg", "portrait": false, "why": "小频道跑出 12 万，描述带 Higgsfield 链接", "sponsored": true}, {"title": "I Tried Every AI Video Generator - Full Tierlist", "url": "https://www.youtube.com/watch?v=tnG3TIULBro", "id": "tnG3TIULBro", "channel": "Dan Kieft", "views": 56374, "views_label": "5.6万", "duration_label": "31:15", "upload_date": "10-28", "stats": "5.6万播放 · 31:15 · 10-28 · Dan Kieft", "thumb": "media/yt_tnG3TIULBro.jpg", "portrait": false, "why": "全模型排行榜，31 分钟长测", "sponsored": false}, {"title": "3 AI Video Generators That Are ACTUALLY FREE & UNLIMITED", "url": "https://www.youtube.com/watch?v=AJHsGX2Era0", "id": "AJHsGX2Era0", "channel": "Malva AI", "views": 56829, "views_label": "5.7万", "duration_label": "10:34", "upload_date": "10-28", "stats": "5.7万播放 · 10:34 · 10-28 · Malva AI", "thumb": "media/yt_AJHsGX2Era0.jpg", "portrait": false, "why": "“免费+无限”双钩子，带 Higgsfield 链接", "sponsored": true}]}, {"id": "w2", "badge": "新出路", "title": "黑五“一张产品图→成片广告”：CapCut 在 YouTube 包场", "judgment": "一周内 4 个以上 5–14 万播放的“AI 广告制作”教程，描述里都是 CapCut 黑五 KOL 下载链接（download_channel=capcutpc_kol），同时 CapCut 在 Google 投了同类广告。这是竞品花钱买的热度，不是自然爆款；但说明北美黑五季“产品图→广告”是被验证的需求。Topview 有产品图生视频和 AI Avatar，黑五可以做同题但换成“30 天无限”的价格角度。", "evidence": [{"title": "Black Friday：一张产品图做成完整广告（CapCut）", "url": "https://www.youtube.com/watch?v=Ckjj2rjmAJI", "id": "Ckjj2rjmAJI", "channel": "Mevesa", "views": 135680, "views_label": "13.6万", "duration_label": "13:35", "upload_date": "10-26", "stats": "13.6万播放 · 13:35 · 10-26 · Mevesa", "thumb": "media/yt_Ckjj2rjmAJI.jpg", "portrait": false, "why": "13.6 万，描述带 CapCut 黑五 KOL 链接", "sponsored": true}, {"title": "Black Friday Marketing Made Easy with CapCut PC", "url": "https://www.youtube.com/watch?v=4a1O7X3HDnM", "id": "4a1O7X3HDnM", "channel": "Eigi and AI", "views": 115938, "views_label": "11.6万", "duration_label": "7:38", "upload_date": "10-27", "stats": "11.6万播放 · 7:38 · 10-27 · Eigi and AI", "thumb": "media/yt_4a1O7X3HDnM.jpg", "portrait": false, "why": "11.6 万，同一 KOL 链接", "sponsored": true}, {"title": "AI Ad Maker：一张沙发图做成电影感产品广告（CapCut PC）", "url": "https://www.youtube.com/watch?v=Pvo02frR3us", "id": "Pvo02frR3us", "channel": "Ai Briefing ", "views": 59081, "views_label": "5.9万", "duration_label": "7:47", "upload_date": "10-27", "stats": "5.9万播放 · 7:47 · 10-27 · Ai Briefing ", "thumb": "media/yt_Pvo02frR3us.jpg", "portrait": false, "why": "5.9 万，utm_campaign=DigitalAlphaUSA", "sponsored": true}, {"title": "Black Friday：用 CapCut PC 做一条产品广告", "url": "https://www.youtube.com/watch?v=Yj3LrpygKZ0", "id": "Yj3LrpygKZ0", "channel": "BMF MEDIA", "views": 50840, "views_label": "5.1万", "duration_label": "8:16", "upload_date": "10-29", "stats": "5.1万播放 · 8:16 · 10-29 · BMF MEDIA", "thumb": "media/yt_Yj3LrpygKZ0.jpg", "portrait": false, "why": "5.1 万，utm_campaign=BeerMoneyForum", "sponsored": true}]}, {"id": "w3", "badge": "上升速", "title": "食材/蔬菜人“穷到富”连续剧，从印地语扩到更多语区", "judgment": "印地语区的土豆、萝卜、花菜拟人家庭剧单条 113–127 万，泰卢固语区 Shorts 46.4 万，还出现了 6.8 万播放的“怎么做 AI 蔬菜视频”教程；X 上 clipcraft7 食材人系列同周 50–115 万。说明这已经是可复制的格式（英语区目前主要在 X），不只是单个账号在火。Topview 可以拿产品当主角做“食材人”剧情带货，适合黑五/感恩节。", "evidence": [{"title": "土豆和萝卜家的羊被偷了（印地语 3D 动画）", "url": "https://www.youtube.com/watch?v=QCEvfjXopfs", "id": "QCEvfjXopfs", "channel": "Sabzi Ka Raj", "views": 1273363, "views_label": "127.3万", "duration_label": "9:03", "upload_date": "10-26", "stats": "127.3万播放 · 9:03 · 10-26 · Sabzi Ka Raj", "thumb": "media/yt_QCEvfjXopfs.jpg", "portrait": false, "why": "127.3 万，9 分钟长剧", "sponsored": false}, {"title": "土豆当渔夫，卖鱼时爱上胡萝卜（印地语）", "url": "https://www.youtube.com/watch?v=3CubhrZWI6Y", "id": "3CubhrZWI6Y", "channel": "India AI Video ", "views": 1197481, "views_label": "119.7万", "duration_label": "2:02", "upload_date": "10-27", "stats": "119.7万播放 · 2:02 · 10-27 · India AI Video ", "thumb": "media/yt_3CubhrZWI6Y.jpg", "portrait": false, "why": "119.7 万，2 分钟横屏", "sponsored": false}, {"title": "蔬菜厨房逃脱喜剧（泰卢固语 3D 皮克斯风 Shorts）", "url": "https://www.youtube.com/shorts/-QlBjHOH30w", "id": "-QlBjHOH30w", "channel": "The Our Life", "views": 463617, "views_label": "46.4万", "duration_label": "1:00", "upload_date": "10-30", "stats": "46.4万播放 · 1:00 · 10-30 · The Our Life", "thumb": "media/yt_-QlBjHOH30w.jpg", "portrait": true, "why": "46.4 万，南印度泰卢固语区竖屏", "sponsored": false}, {"title": "How To Create Viral AI Vegetable Videos", "url": "https://www.youtube.com/watch?v=8uLBhq-A7DQ", "id": "8uLBhq-A7DQ", "channel": "Tube Sensei", "views": 67538, "views_label": "6.8万", "duration_label": "7:29", "upload_date": "10-26", "stats": "6.8万播放 · 7:29 · 10-26 · Tube Sensei", "thumb": "media/yt_8uLBhq-A7DQ.jpg", "portrait": false, "why": "6.8 万的教程，说明格式已被拆解", "sponsored": false}]}, {"id": "w4", "badge": "持续", "title": "观众反感 AI 粗制内容，“这是不是 AI”成了评论区常态", "judgment": "三条吐槽 AI 的视频都过百万：Clara 讲 AI 女演员 166.4 万（最高赞评论“AI 不该出现在媒体里”1.6 万赞），Sambucha 买 AI 粗制商品 127.5 万，Marichi 揭穿假装残障的 AI 网红 102.8 万。X 上 antrofrog_ 的 AI 水彩短片 1790 万播放，评论区也在吵“镀金的屎还是屎”。广告要露出真人真产品和可控编辑，别做“全 AI 无脑剧”。", "evidence": [{"title": "The AI Actress that \"AUDITIONED\" for Obsession", "url": "https://www.youtube.com/watch?v=dy1zuAQ2aGU", "id": "dy1zuAQ2aGU", "channel": "Clara 🫀", "views": 1664191, "views_label": "166.4万", "duration_label": "20:54", "upload_date": "10-29", "stats": "166.4万播放 · 20:54 · 10-29 · Clara 🫀", "thumb": "media/yt_dy1zuAQ2aGU.jpg", "portrait": false, "why": "166.4 万，最高赞 1.6 万：AI 不该出现在媒体里", "sponsored": false}, {"title": "I Bought AI Slop In Real Life", "url": "https://www.youtube.com/watch?v=VMnUeTLGjis", "id": "VMnUeTLGjis", "channel": "Sambucha", "views": 1275436, "views_label": "127.5万", "duration_label": "26:32", "upload_date": "10-29", "stats": "127.5万播放 · 26:32 · 10-29 · Sambucha", "thumb": "media/yt_VMnUeTLGjis.jpg", "portrait": false, "why": "127.5 万，评论：店家用 AI 海报＝危险信号", "sponsored": false}, {"title": "AI Influencers Faking Conditions", "url": "https://www.youtube.com/watch?v=rpgpFqUkx3c", "id": "rpgpFqUkx3c", "channel": "Marichi", "views": 1028323, "views_label": "102.8万", "duration_label": "24:33", "upload_date": "10-26", "stats": "102.8万播放 · 24:33 · 10-26 · Marichi", "thumb": "media/yt_rpgpFqUkx3c.jpg", "portrait": false, "why": "102.8 万，评论：希望有平台禁止 AI（包括广告）", "sponsored": false}, {"title": "Is This REAL Or AI? (IMPOSSIBLE)", "url": "https://www.youtube.com/watch?v=IJpnArT_uNU", "id": "IJpnArT_uNU", "channel": "Foltyn Reacts", "views": 354703, "views_label": "35.5万", "duration_label": "16:00", "upload_date": "10-28", "stats": "35.5万播放 · 16:00 · 10-28 · Foltyn Reacts", "thumb": "media/yt_IJpnArT_uNU.jpg", "portrait": false, "why": "35.5 万，真假挑战", "sponsored": false}]}, {"id": "w5", "badge": "持续", "title": "韩国见家长/亲家抓马：1–2 分钟长 Shorts 吃量更大", "judgment": "韩国这周破百万的两条都是 90–116 秒的长 Shorts：顾客讹 300 万韩元现金被老板翻出衣服内衬（105.5 万）、准婆婆嫌亲家旧包被丈夫反击（81.1 万）。30 秒短版也稳：“马上回娘家去”54.0 万、“滚出我家”26.2 万（日报漏掉）。爽点都是“看不起人→身份反转”。Topview 可以用 Wan 3.0 做 60–90 秒韩语抓马长版。", "evidence": [{"title": "“赔我 300 万现金！”逼老夫妻的客人，老板翻开内衬…", "url": "https://www.youtube.com/shorts/iyttaWMPvSE", "id": "iyttaWMPvSE", "channel": "잔잔한 사연집", "views": 1055062, "views_label": "105.5万", "duration_label": "1:56", "upload_date": "10-30", "stats": "105.5万播放 · 1:56 · 10-30 · 잔잔한 사연집", "thumb": "media/yt_iyttaWMPvSE.jpg", "portrait": true, "why": "105.5 万，评论区喊报警（120 赞）", "sponsored": false}, {"title": "“把这个旧包拿开”看不起亲家的准婆婆，丈夫站了起来", "url": "https://www.youtube.com/shorts/fBHlmeeeA8g", "id": "fBHlmeeeA8g", "channel": "잔잔한 사연집", "views": 810987, "views_label": "81.1万", "duration_label": "1:30", "upload_date": "10-29", "stats": "81.1万播放 · 1:30 · 10-29 · 잔잔한 사연집", "thumb": "media/yt_fBHlmeeeA8g.jpg", "portrait": true, "why": "81.1 万，见家长+势利反转", "sponsored": false}, {"title": "马上回娘家去（당장 친정 가라）", "url": "https://www.youtube.com/shorts/gab6oNREuJ8", "id": "gab6oNREuJ8", "channel": "숏코드숏", "views": 540291, "views_label": "54.0万", "duration_label": "0:31", "upload_date": "10-29", "stats": "54.0万播放 · 0:31 · 10-29 · 숏코드숏", "thumb": "media/yt_gab6oNREuJ8.jpg", "portrait": true, "why": "54.0 万，评论：儿媳做得好（90 赞）", "sponsored": false}, {"title": "从我家出去（우리 집에서 나가요）", "url": "https://www.youtube.com/shorts/lndUzZh127o", "id": "lndUzZh127o", "channel": "숏코드숏", "views": 262351, "views_label": "26.2万", "duration_label": "0:34", "upload_date": "10-30", "stats": "26.2万播放 · 0:34 · 10-30 · 숏코드숏", "thumb": "media/yt_lndUzZh127o.jpg", "portrait": true, "why": "26.2 万，日报漏掉", "sponsored": false}]}, {"id": "w6", "badge": "持续", "title": "Topview 被点名：T1 vs Seedance 2.5，返佣片多、质疑片出现", "judgment": "阿语、英语小频道继续拿 T1 和 Seedance 2.5 对比，播放都在 1 万以内。5 条里 3 条带 topview ?via= 返佣链接；有一条无返佣的在猜“T1 是不是 Seedance 2.5 套壳”。还有返佣片标题写“FREE & UNLIMITED”，和我们只说“30 天无限”不一致。建议官方出盲测把叙事拿回来。第三方结论未独立验证。", "evidence": [{"title": "2026 最强视频模型？Topview T1 vs Seedance 2.5（阿语）", "url": "https://www.youtube.com/watch?v=TjXuqTb91l4", "id": "TjXuqTb91l4", "channel": "Ai with tahatiho", "views": 10094, "views_label": "1.0万", "duration_label": "16:33", "upload_date": "10-28", "stats": "1.0万播放 · 16:33 · 10-28 · Ai with tahatiho", "thumb": "media/yt_TjXuqTb91l4.jpg", "portrait": false, "why": "1.0 万，带 ?via= 返佣", "sponsored": true}, {"title": "Is TopView T1 Secretly Seedance 2.5? I Found a Clue in the Files", "url": "https://www.youtube.com/watch?v=i5K6n1h7o5c", "id": "i5K6n1h7o5c", "channel": "Grandpa Does AI", "views": 6623, "views_label": "0.66万", "duration_label": "12:16", "upload_date": "10-28", "stats": "0.66万播放 · 12:16 · 10-28 · Grandpa Does AI", "thumb": "media/yt_i5K6n1h7o5c.jpg", "portrait": false, "why": "0.66 万，无返佣，套壳猜测", "sponsored": false}, {"title": "Topview T1 vs Seedance 2.5 (Blind Test)", "url": "https://www.youtube.com/watch?v=fQ71GWRMbTo", "id": "fQ71GWRMbTo", "channel": "Techvid Ai", "views": 3773, "views_label": "0.38万", "duration_label": "7:19", "upload_date": "10-30", "stats": "0.38万播放 · 7:19 · 10-30 · Techvid Ai", "thumb": "media/yt_fQ71GWRMbTo.jpg", "portrait": false, "why": "0.38 万，盲测，带返佣", "sponsored": true}, {"title": "FREE & UNLIMITED Seedance 2.5 with Topview", "url": "https://www.youtube.com/watch?v=Cx8GROGBFuc", "id": "Cx8GROGBFuc", "channel": "Emma does AI", "views": 4410, "views_label": "0.44万", "duration_label": "7:59", "upload_date": "10-28", "stats": "0.44万播放 · 7:59 · 10-28 · Emma does AI", "thumb": "media/yt_Cx8GROGBFuc.jpg", "portrait": false, "why": "0.44 万，返佣片写“FREE”", "sponsored": true}]}], "stats": {"theme_cards": 6, "evidence_videos": 24}};
+const WEEKLY_COMPADS = {"updated": "2026-11-02", "label": "本周竞品（只放有本地封面的）", "items": [{"competitor": "Dreamina（CapCut）", "platform": "google", "regions": ["US"], "badge": "新开投", "first_shown": "2026-10-27", "title": "Dreamina · “Seedance 2.5 $0.007/秒”限时低价", "cover": "media/ads_google_CR12064054103530012673.jpg", "stats": "Google · 美国 · 10-27 首投 · 11-01 仍在投 · 广告主 Tiktok Pte. Ltd.", "analysis": "竞品说法：Seedance 2.5 $0.007/秒、2.0 $0.001/秒。我们按它官网算：首月 $0.29 给 1575 积分，720p 每秒 37 积分，约 42 秒；官网也写了“不承诺无限生成”。封面和创意的对应关系未独立核实。", "link": "https://adstransparency.google.com/advertiser/AR09122903337233022977/creative/CR12064054103530012673?region=US"}, {"competitor": "CapCut", "platform": "google", "regions": ["US"], "badge": "新开投", "first_shown": "2026-10-28", "title": "CapCut PC · 黑五“AI 视频剪辑像专业人士”", "cover": "media/ads_google_CR09405395405149044737.jpg", "stats": "Google · 美国 · 10-28 首投 · 11-01 仍在投 · 同批 10-26～10-29 约 36 条视频创意（美约 20、韩约 16）", "analysis": "和 YouTube 上的 KOL 教程（13.6 万、11.6 万等，都带 capcutpc_kol 黑五链接）是同一波：投流加 KOL 一起推“一张产品图→广告”。", "link": "https://adstransparency.google.com/advertiser/AR09122903337233022977/creative/CR09405395405149044737?region=US"}, {"competitor": "CapCut", "platform": "google", "regions": ["US"], "badge": "新开投", "first_shown": "2026-10-28", "title": "CapCut · “GPT Image 2 + Seedance 2.5 一站式生成”", "cover": "media/ads_google_CR14066541854640308225.jpg", "stats": "Google · 美国 · 10-28 首投 · 最后可见 10-31 · 卖点是分镜参考（Storyboard Reference）", "analysis": "CapCut 把 Seedance 2.5 和图像模型打包成“一站式”。Topview 同样有 Seedance 2.5，可以比的是价格：“30 天无限”。", "link": "https://adstransparency.google.com/advertiser/AR09122903337233022977/creative/CR14066541854640308225?region=US"}]};
+const ytByView = { weekly: YT_HOTSPOTS_WEEKLY, overseas: YT_HOTSPOTS_OVERSEAS };
+const initial = (location.hash || "#overseas").slice(1);
+const COMPADS = {"updated": "2026-11-03", "timezone": "Asia/Shanghai", "baseline": false, "platform_status": {"Google": "部分可行（Playwright 调公开 SearchCreatives RPC，format=VIDEO）；今日取到 492 条视频创意", "Meta": "部分可行（无 API token；Playwright 公开页）；今日取到 176 条。官方 API 待 token。", "TikTok": "部分可行（Playwright 拦截 Top Ads 列表；未登录无品牌关键词搜）；列表素材 {'US': 20, 'KR': 6}，命中竞品 0 条"}, "items": [{"badge": "新开投", "competitor": "CapCut/Dreamina", "platform": "google", "regions": ["US"], "first_shown": "2026-11-02", "title": "CapCut · Dreamina 纯字卡「Access Seedance 2.5」", "stats": "首投 2026-11-02 · Google US · 12 秒 1:1 · 素材 YT yroTi73-NkE", "analysis": "白底黑字只写“DREAMINA · Access Seedance 2.5”，不放任何成片，直接把 Seedance 2.5 当卖点——“谁家能用 Seedance 2.5”已经打到官方投放层面。对 Topview：同效果 3.8 折（$0.22/秒 vs 官方 $0.585/秒）＋30 天无限，正面接。", "link": "https://adstransparency.google.com/advertiser/AR04014080128513474561/creative/CR02536181117455695873?region=US", "cover": "media/ads_google_CR02536181117455695873.jpg", "is_topview_impersonation": null, "is_new": true, "copy": null}, {"badge": "新开投", "competitor": "Vidu", "platform": "google", "regions": ["US"], "first_shown": "2026-10-30", "title": "Vidu · Vidu Q4 万圣节短片", "stats": "首投 2026-10-30 · Google US · 16:9 · 素材 YT 54qPWNa7q3M", "analysis": "南瓜灯成片，下方露出 prompt 输入框和模型选择“Vidu Q4 Preview”，字幕“Vidu Q4 Preview can produce this kind of cinematic shots”——结构是“界面→成片”。节日题材 Topview 不跟，只记这个结构。", "link": "https://adstransparency.google.com/advertiser/AR13500956930192965633/creative/CR04203181482652467201?region=US", "cover": "media/ads_google_CR04203181482652467201.jpg", "is_topview_impersonation": null, "is_new": true, "copy": null}, {"badge": "新开投", "competitor": "CapCut/Dreamina", "platform": "google", "regions": ["US"], "first_shown": "2026-10-29", "title": "CapCut · Dreamina 代理口播「Yes, a full month」", "stats": "首投 2026-10-29 · Google US · 竖屏口播 · 角标 $0.29/month ONLY", "analysis": "代理商 WHATECH 投放：男生对着笔记本电脑口播“对，整整一个月”，角标“$0.29/month ONLY”。按周报换算首月积分只够约 42 秒 720p。对 Topview：用“30 天无限”对比最直接，别跟着打低价首月。", "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR06622951488689799169?region=US", "cover": "media/ads_google_CR06622951488689799169.jpg", "is_topview_impersonation": null, "is_new": true, "copy": null}, {"badge": "新开投", "competitor": "Vidu", "platform": "google", "regions": ["US"], "first_shown": "2026-10-29", "title": "Vidu · Vidu Q4 动漫打斗", "stats": "首投 2026-10-29 · Google US · 29 秒 1:1 · 素材 YT MkKRDWf_5Go", "analysis": "戴牛仔帽的机器人在沙漠里追逐打斗，字幕“Make every shot tell a story!”，卖点是叙事画质，没有价格信息。", "link": "https://adstransparency.google.com/advertiser/AR13500956930192965633/creative/CR01392477918336122881?region=US", "cover": "media/ads_google_CR01392477918336122881.jpg", "is_topview_impersonation": null, "is_new": true, "copy": null}, {"badge": "新开投", "competitor": "CapCut/Dreamina", "platform": "google", "regions": ["US"], "first_shown": "2026-10-23", "title": "CapCut · Dreamina「AI 分身 vs 本人」分屏", "stats": "首投 2026-10-23 · Google US · 竖屏上下分屏 · 角标 $0.29/month ONLY", "analysis": "上半是 AI 生成的金发女生站在未来城市夜景里，下半是本人自拍说“I made it on Dreamina”，大字“MADE ON DREAMINA”。和 Topview AI Avatar 完全同题，钩子是“上面那个也是我”。", "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR03612682165885599745?region=US", "cover": "media/ads_google_CR03612682165885599745.jpg", "is_topview_impersonation": null, "is_new": true, "copy": null}, {"badge": "新开投", "competitor": "CapCut/Dreamina", "platform": "google", "regions": ["US"], "first_shown": "2026-10-23", "title": "CapCut · Dreamina「29 美分」口播", "stats": "首投 2026-10-23 · Google US · 竖屏口播 · 角标 $0.29 membership offer", "analysis": "墨镜男在走廊里口播，大字“To unlock the special 29-CENT”，全片只卖价格、不展示产品。WHATECH 目前在投的 3 条都是同一个 $0.29 口径，属于价格冲量素材。", "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR01201444370079809537?region=US", "cover": "media/ads_google_CR01201444370079809537.jpg", "is_topview_impersonation": null, "is_new": true, "copy": null}, {"badge": "新开投", "competitor": "Vidu", "platform": "google", "regions": ["US"], "first_shown": "2026-10-29", "title": "Vidu · Vidu Q4 动漫模型对比", "stats": "首投 2026-10-29 · Google US · 23 秒 16:9 · 素材 YT IsM9FUTnkTM", "analysis": "星空下一群发光鲸鱼游过云海，字幕“make every shot more cinematic”。Vidu 一周 3 条 Google 视频都在拼动漫画质；Topview 不拼画质，拼价格和工作流。", "link": "https://adstransparency.google.com/advertiser/AR13500956930192965633/creative/CR08583037673386541057?region=US", "cover": "media/ads_google_CR08583037673386541057.jpg", "is_topview_impersonation": null, "is_new": true, "copy": null}, {"badge": "在投", "competitor": "CapCut / Dreamina", "platform": "google", "regions": ["KR"], "first_shown": "2026-10-29", "title": "Dreamina 韩国区：「월 ₩408부터」（每月 408 韩元起）打 Seedance 低价", "stats": "首投 2026-10-29 · 末次展示 11-01（11-03 扫描） · WHATECH MOBILE · 16 秒竖屏", "analysis": "素材只有品牌动画 + 一句「月 ₩408 起，用强大的 Seedance 模型开始新的创作」，不展示任何成片，纯价格钩子；和美国区同期的 $0.29 首月价是同一波。对 Topview 韩国：别跟首月价比，打常态价——T1「Seedance 2.5 一样的效果，3.8折的价格」（$0.22/秒 vs 官方 $0.585/秒）＋30 天无限，并且要给出成片画面，补上对方“只有价格没有作品”的空档。", "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR16091015440259612673?region=KR", "cover": "media/ads_google_CR16091015440259612673.jpg", "is_new": false, "is_topview_impersonation": false}, {"badge": "在投", "competitor": "CapCut", "platform": "google", "regions": ["KR"], "first_shown": "2026-10-29", "title": "CapCut 韩国区：「Make your video cinematic」+ 一键 Remove", "stats": "首投 2026-10-29 · 末次展示 11-01（11-03 扫描） · WHATECH MOBILE · 同主题另有 Tiktok Pte. 10-23 起一条", "analysis": "英文界面录屏：选中海边人物 → 点 Remove 一键抠除 → 画面“变电影感”。打的是剪辑端的 AI 修图功能，不是生成模型，在韩国直接用英文 UI 投。对 Topview：对方卖“改已有视频”，我们卖“从 0 生成整条”；韩国版素材建议用韩语界面＋婆家抓马这类本地剧情成片做对比，差异一眼可见。", "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR05948909079421255681?region=KR", "cover": "media/ads_google_CR05948909079421255681.jpg", "is_new": false, "is_topview_impersonation": false}, {"badge": "在投", "competitor": "Kling", "platform": "google", "regions": ["KR"], "first_shown": "2026-09-28", "title": "Kling 4.0 韩国区：「理解你的想法」提示词输入框", "stats": "首投 2026-09-28 · 末次展示 11-02（11-03 扫描） · 广告主 毕佳璇（kling.ai）", "analysis": "写实美妆模特拿口红 + 底部提示词输入框，韩文字幕「KlingAI 4.0이 당신의 아이디어를 이해하고」（Kling 4.0 理解你的想法），主打“提示词理解力”，一个多月一直在投。对 Topview：Kling 在韩国押美妆带货＋“懂你”；我们可用同类美妆产品图直接出口播数字人广告，强调不用写提示词。", "link": "https://adstransparency.google.com/advertiser/AR06703520050051022849/creative/CR02444378218728259585?region=KR", "cover": "media/ads_google_CR02444378218728259585.jpg", "is_new": false, "is_topview_impersonation": false}, {"badge": "在投", "competitor": "Flova", "platform": "google", "regions": ["KR"], "first_shown": "2026-09-07", "title": "Flova 韩国区：「连项目文件都能导出」", "stats": "首投 2026-09-07 · 末次展示 11-02（11-03 扫描） · FLOVA PTE. LTD. · 22 秒横屏 · 素材文件名标“低成本快速批量交付”", "analysis": "深色编辑器录屏 + 英文字幕「In Flova, not only can videos be exported, but project files can also be exported」，卖点是“可二次编辑的工程文件”，面向代理商/团队；韩国区沿用英文素材近两个月未换。对 Topview：Flova 打“可交付工程”，我们打“单价 + 无限产能”；面向韩国代理商的素材可加一句韩语“30 天无限”。", "link": "https://adstransparency.google.com/advertiser/AR12554248788425834497/creative/CR05505281701258985473?region=KR", "cover": "media/ads_google_CR05505281701258985473.jpg", "is_new": false, "is_topview_impersonation": false}, {"badge": "在投", "competitor": "Flova", "platform": "google", "regions": ["KR"], "first_shown": "2026-09-08", "title": "Flova 韩国区：「Buy one credit get one free」积分买一送一（香水产品片）", "stats": "首投 2026-09-08 · 末次展示 11-02 · FLOVA PTE. LTD. · 21 秒横屏 · 素材文件名标“skill”", "analysis": "画面是手持香水瓶喷洒的电影感特写，底部大字幕「Buy one credit get one free」，右上 Flova.ai 水印：用产品广告成片当演示，再用“积分翻倍”收口，韩国区沿用英文素材近两个月。对 Topview：对方打“积分翻倍”，我们打“30 天无限”——无限比翻倍更好懂；韩国版可用同类美妆/香水产品图直接出一条成片，结尾放 T1 $0.22/秒 价签。", "link": "https://adstransparency.google.com/advertiser/AR12554248788425834497/creative/CR07015634369968603137?region=KR", "cover": "media/ads_google_CR07015634369968603137.jpg", "is_new": false, "is_topview_impersonation": false}, {"badge": "在投", "competitor": "Flova", "platform": "google", "regions": ["KR"], "first_shown": "2026-09-28", "title": "Flova 韩国区：白色耳机产品片（时间线剪辑演示）", "stats": "首投 2026-09-28 · 末次展示 11-02 · FLOVA PTE. LTD. · 36 秒 · 素材文件名「0908海投-timeline-3-EN」", "analysis": "黑底上旋转的白金色头戴耳机，纯产品质感镜头；文件名写着“海投·timeline”，说明卖点是在时间线里拼出完整产品片，属于大面积铺量的通用素材。对 Topview：同样是“一张产品图→广告片”，我们的差异要落在“直接出带口播/数字人的成片”，而不是只出空镜。", "link": "https://adstransparency.google.com/advertiser/AR12554248788425834497/creative/CR18279766783307022337?region=KR", "cover": "media/ads_google_CR18279766783307022337.jpg", "is_new": false, "is_topview_impersonation": false}], "note": "11-03 07:43 扫描；网页只展示有本地清晰封面的条目（Meta 条目暂不展示）"};
+
+async function loadCompads() {
+  try {
+    if (location.protocol === "file:") return;
+    const r = await fetch("competitor-ads-latest.json", {cache: "no-store"});
+    if (!r.ok) return;
+    const data = await r.json();
+    if (data && Array.isArray(data.items)) {
+      window.COMPADS = data;
+      // re-render current view
+      const key = (location.hash || "#overseas").replace("#", "") || "overseas";
+      if (typeof renderCompads === "function") renderCompads(key);
+    }
+  } catch (e) {}
+}
+loadCompads();
+
+const startKey = REPORT.views[initial] ? initial : "overseas";
+
+async function boot() {
+  try {
+    const res = await fetch("./youtube-hotspots-1103.json", { cache: "no-store" });
+    if (res.ok) {
+      const live = await res.json();
+      if (live && (live.themes || live.cards)) {
+        ytData = {
+          updated: live.updated,
+          market: live.market,
+          timezone: live.timezone,
+          collected_at: live.collected_at,
+          window: live.window,
+          themes: live.themes || live.cards,
+          stats: live.stats
+        };
+      }
+    }
+  } catch (e) {
+    /* keep embedded YT_HOTSPOTS */
+  }
+  try {
+    const r2 = await fetch("./youtube-hotspots-1103.json", { cache: "no-store" });
+    if (r2.ok) { const j = await r2.json(); if (j && j.themes) ytByView.overseas = j; }
+  } catch (e) { /* keep embedded YT_HOTSPOTS_OVERSEAS */ }
+  try {
+    const r3 = await fetch("./youtube-hotspots-weekly-1102.json", { cache: "no-store" });
+    if (r3.ok) { const j = await r3.json(); if (j && j.themes) ytByView.weekly = j; }
+  } catch (e) { /* keep embedded YT_HOTSPOTS_WEEKLY */ }
+  renderView(startKey);
+}
+
+boot();
+</script>
+</body>
+</html>

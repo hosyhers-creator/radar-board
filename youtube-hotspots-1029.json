@@ -1,0 +1,334 @@
+{
+ "updated": "2026-10-29",
+ "market": "overseas",
+ "timezone": "Asia/Shanghai",
+ "collected_at": "2026-10-29 08:07–08:17（Asia/Shanghai）",
+ "window": "近 7 日上传为主",
+ "source": "overseas-daily-1029",
+ "themes": [
+  {
+   "id": "t1",
+   "badge": "持续",
+   "title": "AI 骗局 / 烂 AI 广告测评继续扩量",
+   "judgment": "英语区从“买 AI 骗局商品”扩到“买遍 TikTok AI 骗局”和“搞破产 AI 诈骗机器人”；俄语区 AI 骗局餐厅测评仍在高位。对 Topview：广告里要露真实产品和前后对照，强调可控；“一键生成万能广告”继续是负面词。",
+   "evidence": [
+    {
+     "title": "I Bought Every AI Scam on TikTok",
+     "url": "https://www.youtube.com/watch?v=fLMXvFtPXog",
+     "id": "fLMXvFtPXog",
+     "channel": "Layze",
+     "views": 1686470,
+     "views_label": "168.6万",
+     "duration_label": "42:12",
+     "upload_date": "2026-10-24",
+     "stats": "168.6万播放 · 42:12 · 2026-10-24 · Layze",
+     "thumb": "https://i.ytimg.com/vi/fLMXvFtPXog/hqdefault.jpg",
+     "why": "英语区 TikTok 骗局合集",
+     "sponsored": false
+    },
+    {
+     "title": "I Bought EVERY AI Scam Product (Again)",
+     "url": "https://www.youtube.com/watch?v=uBMypR2wE5g",
+     "id": "uBMypR2wE5g",
+     "channel": "Law By Mike",
+     "views": 1313784,
+     "views_label": "131.4万",
+     "duration_label": "23:42",
+     "upload_date": "2026-10-24",
+     "stats": "131.4万播放 · 23:42 · 2026-10-24 · Law By Mike",
+     "thumb": "https://i.ytimg.com/vi/uBMypR2wE5g/hqdefault.jpg",
+     "why": "续集仍百万级",
+     "sponsored": false
+    },
+    {
+     "title": "我测了 AI 骗局餐厅，太烂了（俄语）",
+     "url": "https://www.youtube.com/watch?v=djtXEOCjdvE",
+     "id": "djtXEOCjdvE",
+     "channel": "Самый сахар",
+     "views": 965363,
+     "views_label": "96.5万",
+     "duration_label": "—",
+     "upload_date": "2026-10-26",
+     "stats": "96.5万播放 · — · 2026-10-26 · Самый сахар",
+     "thumb": "https://i.ytimg.com/vi/djtXEOCjdvE/hqdefault.jpg",
+     "why": "俄语区持续高位",
+     "sponsored": false
+    },
+    {
+     "title": "I Bankrupted an AI Scam Bot",
+     "url": "https://www.youtube.com/watch?v=pFDdTFZqYZI",
+     "id": "pFDdTFZqYZI",
+     "channel": "Kitboga",
+     "views": 603993,
+     "views_label": "60.4万",
+     "duration_label": "14:01",
+     "upload_date": "2026-10-27",
+     "stats": "60.4万播放 · 14:01 · 2026-10-27 · Kitboga",
+     "thumb": "https://i.ytimg.com/vi/pFDdTFZqYZI/hqdefault.jpg",
+     "why": "新角度：搞破产诈骗机器人",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "badge": "上升速",
+   "title": "Kling / Seedance / Wan 三联比价成形",
+   "judgment": "本周出现完整「Kling 4.0 vs Seedance 2.5 vs WAN 3.0」长评，也有人直接问 Seedance 值不值 5 倍价。价格焦虑是真需求，Topview 直接讲：T1 $0.22/秒 vs 官方 Seedance 2.5 $0.585/秒（约 3.8 折）；Wan 3.0「30 秒 720p 只要 $1.20，365 天无限」放第二档。",
+   "evidence": [
+    {
+     "title": "Kling 4.0 vs Seedance 2.5 vs WAN 3.0 | Full Comparison",
+     "url": "https://www.youtube.com/watch?v=9Y784B8T4to",
+     "id": "9Y784B8T4to",
+     "channel": "Tao Prompts",
+     "views": 53901,
+     "views_label": "5.4万",
+     "duration_label": "25:58",
+     "upload_date": "2026-10-25",
+     "stats": "5.4万播放 · 25:58 · 2026-10-25 · Tao Prompts",
+     "thumb": "https://i.ytimg.com/vi/9Y784B8T4to/hqdefault.jpg",
+     "why": "三联完整对比",
+     "sponsored": false
+    },
+    {
+     "title": "Kling 4.0 vs Seedance 2.5: Is Seedance Worth 5x the Price?",
+     "url": "https://www.youtube.com/watch?v=sMADC2DYY_E",
+     "id": "sMADC2DYY_E",
+     "channel": "Dani Builds",
+     "views": 50485,
+     "views_label": "5.0万",
+     "duration_label": "—",
+     "upload_date": "2026-10-22",
+     "stats": "5.0万播放 · — · 2026-10-22 · Dani Builds",
+     "thumb": "https://i.ytimg.com/vi/sMADC2DYY_E/hqdefault.jpg",
+     "why": "直接问值不值 5 倍价",
+     "sponsored": false
+    },
+    {
+     "title": "Kling 4.0 is now on Artlist!",
+     "url": "https://www.youtube.com/watch?v=_JpgGV5gEDA",
+     "id": "_JpgGV5gEDA",
+     "channel": "Artlist",
+     "views": 1358448,
+     "views_label": "135.8万",
+     "duration_label": "0:52",
+     "upload_date": "2026-10-22",
+     "stats": "135.8万播放 · 0:52 · 2026-10-22 · Artlist",
+     "thumb": "https://i.ytimg.com/vi/_JpgGV5gEDA/hqdefault.jpg",
+     "why": "⚠️品牌广告，非自然播放",
+     "sponsored": true
+    },
+    {
+     "title": "Better than Higgsfield? I Built an AI Platform much Cheaper!",
+     "url": "https://www.youtube.com/watch?v=BZQKkPE_pWw",
+     "id": "BZQKkPE_pWw",
+     "channel": "James Xi",
+     "views": 84918,
+     "views_label": "8.5万",
+     "duration_label": "8:51",
+     "upload_date": "2026-10-26",
+     "stats": "8.5万播放 · 8:51 · 2026-10-26 · James Xi",
+     "thumb": "https://i.ytimg.com/vi/BZQKkPE_pWw/hqdefault.jpg",
+     "why": "第三方更便宜叙事",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "badge": "上升速",
+   "title": "食材人剧：印度土豆 + 欧美西兰花双线",
+   "judgment": "印地语区“穷土豆开厂/开店”继续 20–40 万级量产；X 上 clipcraft7 西兰花骷髅渣男剧说明同一模板已打进欧美短视频。Topview 可做 30 秒原料拟人带货，Product Avatar 让包装当主角。",
+   "evidence": [
+    {
+     "title": "孩子被调包！土豆萝卜大哭…（印地语）",
+     "url": "https://www.youtube.com/watch?v=ggJ6Vhge2Y0",
+     "id": "ggJ6Vhge2Y0",
+     "channel": "Veggie Toon World .5m",
+     "views": 2818295,
+     "views_label": "281.8万",
+     "duration_label": "—",
+     "upload_date": "2026-10-25",
+     "stats": "281.8万播放 · — · 2026-10-25 · Veggie Toon World .5m",
+     "thumb": "https://i.ytimg.com/vi/ggJ6Vhge2Y0/hqdefault.jpg",
+     "why": "本组最高播放",
+     "sponsored": false
+    },
+    {
+     "title": "穷土豆当上披萨厂老板",
+     "url": "https://www.youtube.com/watch?v=D3Bqlyik2QI",
+     "id": "D3Bqlyik2QI",
+     "channel": "VeggieVerse AI",
+     "views": 317206,
+     "views_label": "31.7万",
+     "duration_label": "—",
+     "upload_date": "2026-10-24",
+     "stats": "31.7万播放 · — · 2026-10-24 · VeggieVerse AI",
+     "thumb": "https://i.ytimg.com/vi/D3Bqlyik2QI/hqdefault.jpg",
+     "why": "逆袭开厂模板",
+     "sponsored": false
+    },
+    {
+     "title": "穷土豆和菜花妈妈一起做 Chole Bhature",
+     "url": "https://www.youtube.com/watch?v=-yowIyQhEc4",
+     "id": "-yowIyQhEc4",
+     "channel": "VeggieVerse AI",
+     "views": 401943,
+     "views_label": "40.2万",
+     "duration_label": "—",
+     "upload_date": "2026-10-27",
+     "stats": "40.2万播放 · — · 2026-10-27 · VeggieVerse AI",
+     "thumb": "https://i.ytimg.com/vi/-yowIyQhEc4/hqdefault.jpg",
+     "why": "10-27 新作",
+     "sponsored": false
+    },
+    {
+     "title": "土豆的成衣厂逆袭",
+     "url": "https://www.youtube.com/watch?v=rBujWhtNoJM",
+     "id": "rBujWhtNoJM",
+     "channel": "Munna Toon World",
+     "views": 259900,
+     "views_label": "26.0万",
+     "duration_label": "15:52",
+     "upload_date": "2026-10-27",
+     "stats": "26.0万播放 · 15:52 · 2026-10-27 · Munna Toon World",
+     "thumb": "https://i.ytimg.com/vi/rBujWhtNoJM/hqdefault.jpg",
+     "why": "同模板扩到成衣",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "badge": "新出路",
+   "title": "「一张图 → 一支广告」工作流教程升温",
+   "judgment": "OpenArt + Seedance 2.5 做完整产品 campaign、Vidu 一图转电影感广告、AI UGC 新方法教程同周出现；X 上 aimikoda / EHuanglu 也在秀 Seedance 2.5。这正是 Topview AI Ad Generator / Product Avatar 的主战场，可对打 T1 3.8 折。",
+   "evidence": [
+    {
+     "title": "OpenArt + Seedance 2.5 – Full AI Product Campaign",
+     "url": "https://www.youtube.com/watch?v=yqUD3645J44",
+     "id": "yqUD3645J44",
+     "channel": "Eigi and AI",
+     "views": 138120,
+     "views_label": "13.8万",
+     "duration_label": "—",
+     "upload_date": "2026-10-25",
+     "stats": "13.8万播放 · — · 2026-10-25 · Eigi and AI",
+     "thumb": "https://i.ytimg.com/vi/yqUD3645J44/hqdefault.jpg",
+     "why": "产品 campaign 全流程",
+     "sponsored": false
+    },
+    {
+     "title": "Turn ONE Photo into a Cinematic AI Commercial with Vidu Q4",
+     "url": "https://www.youtube.com/watch?v=FYuI-10JgJ0",
+     "id": "FYuI-10JgJ0",
+     "channel": "LunaAi",
+     "views": 123387,
+     "views_label": "12.3万",
+     "duration_label": "5:01",
+     "upload_date": "2026-10-23",
+     "stats": "12.3万播放 · 5:01 · 2026-10-23 · LunaAi",
+     "thumb": "https://i.ytimg.com/vi/FYuI-10JgJ0/hqdefault.jpg",
+     "why": "一图转广告",
+     "sponsored": false
+    },
+    {
+     "title": "This Is The Only Way To Make Realistic AI UGC",
+     "url": "https://www.youtube.com/watch?v=6zeremfeank",
+     "id": "6zeremfeank",
+     "channel": "Ads with Cami",
+     "views": 46512,
+     "views_label": "4.7万",
+     "duration_label": "—",
+     "upload_date": "2026-10-26",
+     "stats": "4.7万播放 · — · 2026-10-26 · Ads with Cami",
+     "thumb": "https://i.ytimg.com/vi/6zeremfeank/hqdefault.jpg",
+     "why": "UGC 向教程",
+     "sponsored": false
+    },
+    {
+     "title": "How To Create Cinematic AI Short Films Using Seedance 2.5",
+     "url": "https://www.youtube.com/watch?v=wFbgrPmVXb0",
+     "id": "wFbgrPmVXb0",
+     "channel": "Higgsfield AI",
+     "views": 144204,
+     "views_label": "14.4万",
+     "duration_label": "—",
+     "upload_date": "2026-10-24",
+     "stats": "14.4万播放 · — · 2026-10-24 · Higgsfield AI",
+     "thumb": "https://i.ytimg.com/vi/wFbgrPmVXb0/hqdefault.jpg",
+     "why": "⚠️平台教程，带投放倾向",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "badge": "持续",
+   "title": "Grok《奥德赛》余波：媒体在评“有没有情绪”",
+   "judgment": "法语区赫芬顿邮报仍是“没怎么打动人”的代表标题；反应向“这真是 AI 做的吗”还在出。大众认可大场面，焦点在表演。Topview 广告可主打同一句台词三种情绪口型。",
+   "evidence": [
+    {
+     "title": "Grok 的 100% AI《奥德赛》首曝，没怎么打动人（法语）",
+     "url": "https://www.youtube.com/watch?v=AZTbrlfwCWY",
+     "id": "AZTbrlfwCWY",
+     "channel": "Le Huffington Post",
+     "views": 109891,
+     "views_label": "11.0万",
+     "duration_label": "2:35",
+     "upload_date": "2026-10-26",
+     "stats": "11.0万播放 · 2:35 · 2026-10-26 · Le Huffington Post",
+     "thumb": "https://i.ytimg.com/vi/AZTbrlfwCWY/hqdefault.jpg",
+     "why": "主流媒体负面评价",
+     "sponsored": false
+    },
+    {
+     "title": "Elon Delivers: Grok AI's Odyssey Is Here",
+     "url": "https://www.youtube.com/watch?v=nRWa71sbZFQ",
+     "id": "nRWa71sbZFQ",
+     "channel": "The Next News Network",
+     "views": 48021,
+     "views_label": "4.8万",
+     "duration_label": "9:49",
+     "upload_date": "2026-10-26",
+     "stats": "4.8万播放 · 9:49 · 2026-10-26 · The Next News Network",
+     "thumb": "https://i.ytimg.com/vi/nRWa71sbZFQ/hqdefault.jpg",
+     "why": "支持方解读",
+     "sponsored": false
+    },
+    {
+     "title": "IS THIS REALLY MADE BY AI - Odyssey movie series",
+     "url": "https://www.youtube.com/watch?v=VPoNozGDEyk",
+     "id": "VPoNozGDEyk",
+     "channel": "Seph Evasco",
+     "views": 44279,
+     "views_label": "4.4万",
+     "duration_label": "—",
+     "upload_date": "2026-10-25",
+     "stats": "4.4万播放 · — · 2026-10-25 · Seph Evasco",
+     "thumb": "https://i.ytimg.com/vi/VPoNozGDEyk/hqdefault.jpg",
+     "why": "反应片在问是不是 AI",
+     "sponsored": false
+    },
+    {
+     "title": "머스크 AI 영화 '오디세이'의 실체（韩语快评）",
+     "url": "https://www.youtube.com/watch?v=LzLmX15j0YQ",
+     "id": "LzLmX15j0YQ",
+     "channel": "AI 슬래시",
+     "views": 280886,
+     "views_label": "28.1万",
+     "duration_label": "6:07",
+     "upload_date": "2026-10-26",
+     "stats": "28.1万播放 · 6:07 · 2026-10-26 · AI 슬래시",
+     "thumb": "https://i.ytimg.com/vi/LzLmX15j0YQ/hqdefault.jpg",
+     "why": "多语种余波",
+     "sponsored": false
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "theme_cards": 5,
+  "evidence_videos": 20
+ }
+}

@@ -1,0 +1,320 @@
+{
+ "updated": "2026-11-02",
+ "market": "overseas",
+ "timezone": "Asia/Shanghai",
+ "collected_at": "2026-11-02 08:00–08:30（Asia/Shanghai）",
+ "window": "本周上传＋按播放，35 个检索词",
+ "source": "overseas-daily-1102",
+ "themes": [
+  {
+   "id": "t1",
+   "badge": "上升速",
+   "title": "同一 prompt 多模型擂台 + “省钱”",
+   "judgment": "韩语、西语、英语、俄语四个语区同时在做“8 个模型同题 PK”，标题从“谁最好”转向“为什么要多付钱”。Topview 切口是价格：T1「Seedance 2.5 一样的效果，3.8折的价格」（$0.22/秒 vs 官方 $0.585/秒）；Wan 3.0「30 秒 720p 只要 $1.20，365 天无限」。",
+   "evidence": [
+    {
+     "title": "반토막AI：Astra+Blender+Higgsfield 把 AI 成本砍半（韩语）",
+     "url": "https://www.youtube.com/watch?v=lyNzEk8H9AM",
+     "id": "lyNzEk8H9AM",
+     "channel": "브랜드 도적단 / 반토막AI",
+     "views": 497943,
+     "views_label": "49.8万",
+     "duration_label": "12:45",
+     "upload_date": "10-30",
+     "stats": "49.8万播放 · 12:45 · 10-30 · 브랜드 도적단 / 반토막AI",
+     "thumb": "https://i.ytimg.com/vi/lyNzEk8H9AM/hqdefault.jpg",
+     "why": "标题直接是“成本砍半”",
+     "sponsored": false
+    },
+    {
+     "title": "同一个 prompt 试 8 个视频 AI（西语）",
+     "url": "https://www.youtube.com/watch?v=BuALTyZx_ww",
+     "id": "BuALTyZx_ww",
+     "channel": "Academia IA | Santi",
+     "views": 120581,
+     "views_label": "12.1万",
+     "duration_label": "11:26",
+     "upload_date": "10-26",
+     "stats": "12.1万播放 · 11:26 · 10-26 · Academia IA | Santi",
+     "thumb": "https://i.ytimg.com/vi/BuALTyZx_ww/hqdefault.jpg",
+     "why": "小频道跑出 12 万",
+     "sponsored": false
+    },
+    {
+     "title": "I Tested 8 AI Video Models With the EXACT Same Prompt",
+     "url": "https://www.youtube.com/watch?v=BdU8b73RWWs",
+     "id": "BdU8b73RWWs",
+     "channel": "Zubair Trabzada",
+     "views": 37484,
+     "views_label": "3.7万",
+     "duration_label": "13:22",
+     "upload_date": "10-29",
+     "stats": "3.7万播放 · 13:22 · 10-29 · Zubair Trabzada",
+     "thumb": "https://i.ytimg.com/vi/BdU8b73RWWs/hqdefault.jpg",
+     "why": "英语区同题",
+     "sponsored": false
+    },
+    {
+     "title": "凭什么为 Seedance 2.5 付钱？Kling 4.0 / Wan 3.0 会说俄语（俄语）",
+     "url": "https://www.youtube.com/watch?v=R8qJa92j_Lw",
+     "id": "R8qJa92j_Lw",
+     "channel": "SYNTX",
+     "views": 29745,
+     "views_label": "3.0万",
+     "duration_label": "15:09",
+     "upload_date": "10-27",
+     "stats": "3.0万播放 · 15:09 · 10-27 · SYNTX",
+     "thumb": "https://i.ytimg.com/vi/R8qJa92j_Lw/hqdefault.jpg",
+     "why": "价格叙事",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "badge": "上升速",
+   "title": "“免费 / 无限”成了标题第一钩子",
+   "judgment": "Free/Unlimited 类标题 3–8 万档密集出现；还有小频道在讲“Topview Film Studio 2.0 免费无限 Seedance 2.5”（0.44 万，可能是返佣内容）。Topview 广告直接写“30 天无限”（Seedance 2.5 和 T1），别写“免费”。",
+   "evidence": [
+    {
+     "title": "Best FREE AI Video Generators (Backed by Data)",
+     "url": "https://www.youtube.com/watch?v=nmpHMBnZHWQ",
+     "id": "nmpHMBnZHWQ",
+     "channel": "Youri van Hofwegen",
+     "views": 77076,
+     "views_label": "7.7万",
+     "duration_label": "16:01",
+     "upload_date": "10-28",
+     "stats": "7.7万播放 · 16:01 · 10-28 · Youri van Hofwegen",
+     "thumb": "https://i.ytimg.com/vi/nmpHMBnZHWQ/hqdefault.jpg",
+     "why": "数据向免费盘点",
+     "sponsored": false
+    },
+    {
+     "title": "3 AI Video Generators That Are ACTUALLY FREE & UNLIMITED",
+     "url": "https://www.youtube.com/watch?v=AJHsGX2Era0",
+     "id": "AJHsGX2Era0",
+     "channel": "Malva AI",
+     "views": 56650,
+     "views_label": "5.7万",
+     "duration_label": "10:34",
+     "upload_date": "10-28",
+     "stats": "5.7万播放 · 10:34 · 10-28 · Malva AI",
+     "thumb": "https://i.ytimg.com/vi/AJHsGX2Era0/hqdefault.jpg",
+     "why": "Free+Unlimited 双钩",
+     "sponsored": false
+    },
+    {
+     "title": "Seedance 2.5 Free Unlimited AI Video Generator Tutorial",
+     "url": "https://www.youtube.com/watch?v=2bAhftNiyG8",
+     "id": "2bAhftNiyG8",
+     "channel": "Mogli Ai",
+     "views": 33716,
+     "views_label": "3.4万",
+     "duration_label": "7:10",
+     "upload_date": "10-29",
+     "stats": "3.4万播放 · 7:10 · 10-29 · Mogli Ai",
+     "thumb": "https://i.ytimg.com/vi/2bAhftNiyG8/hqdefault.jpg",
+     "why": "654 订阅跑出 3.4 万",
+     "sponsored": false
+    },
+    {
+     "title": "STOP Paying for AI Videos! FREE Veo 3.1 + Grok Video 1.5",
+     "url": "https://www.youtube.com/watch?v=t0t7mlVgTKQ",
+     "id": "t0t7mlVgTKQ",
+     "channel": "BlockVerse AI",
+     "views": 32990,
+     "views_label": "3.3万",
+     "duration_label": "5:53",
+     "upload_date": "10-29",
+     "stats": "3.3万播放 · 5:53 · 10-29 · BlockVerse AI",
+     "thumb": "https://i.ytimg.com/vi/t0t7mlVgTKQ/hqdefault.jpg",
+     "why": "“别再付钱”",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "badge": "持续",
+   "title": "AI 粗制内容反噬测评（含 AI 水果剧）",
+   "judgment": "“买 AI 粗制商品 / 盘点 AI 粗制大王 / AI 水果演员”三条线都在百万档，X 上“AI fruit”梗视频也上了百万。观众对无脑 AI 剧有审美疲劳：Topview 广告要露出真实产品和可控的编辑过程。",
+   "evidence": [
+    {
+     "title": "The AI Actress that \"AUDITIONED\" for Obsession",
+     "url": "https://www.youtube.com/watch?v=dy1zuAQ2aGU",
+     "id": "dy1zuAQ2aGU",
+     "channel": "Clara",
+     "views": 1646807,
+     "views_label": "164.7万",
+     "duration_label": "20:54",
+     "upload_date": "10-29",
+     "stats": "164.7万播放 · 20:54 · 10-29 · Clara",
+     "thumb": "https://i.ytimg.com/vi/dy1zuAQ2aGU/hqdefault.jpg",
+     "why": "吐槽 AI 水果/动物拟人“演员”",
+     "sponsored": false
+    },
+    {
+     "title": "I Bought AI Slop In Real Life",
+     "url": "https://www.youtube.com/watch?v=VMnUeTLGjis",
+     "id": "VMnUeTLGjis",
+     "channel": "Sambucha",
+     "views": 1269210,
+     "views_label": "126.9万",
+     "duration_label": "26:32",
+     "upload_date": "10-29",
+     "stats": "126.9万播放 · 26:32 · 10-29 · Sambucha",
+     "thumb": "https://i.ytimg.com/vi/VMnUeTLGjis/hqdefault.jpg",
+     "why": "买 AI 粗制商品",
+     "sponsored": false
+    },
+    {
+     "title": "Ray William Johnson: The King of AI Slop.",
+     "url": "https://www.youtube.com/watch?v=s8MkpYY9pZ4",
+     "id": "s8MkpYY9pZ4",
+     "channel": "JJJacksfilms",
+     "views": 1262476,
+     "views_label": "126.2万",
+     "duration_label": "45:41",
+     "upload_date": "10-30",
+     "stats": "126.2万播放 · 45:41 · 10-30 · JJJacksfilms",
+     "thumb": "https://i.ytimg.com/vi/s8MkpYY9pZ4/hqdefault.jpg",
+     "why": "盘点 AI 粗制大王",
+     "sponsored": false
+    },
+    {
+     "title": "骗局还是真货？我买了 30 个 TikTok 广告（法语）",
+     "url": "https://www.youtube.com/watch?v=xqOVEGJHQOU",
+     "id": "xqOVEGJHQOU",
+     "channel": "Hugoposé",
+     "views": 886066,
+     "views_label": "88.6万",
+     "duration_label": "26:32",
+     "upload_date": "10-30",
+     "stats": "88.6万播放 · 26:32 · 10-30 · Hugoposé",
+     "thumb": "https://i.ytimg.com/vi/xqOVEGJHQOU/hqdefault.jpg",
+     "why": "法语区广告测评",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "badge": "新出路",
+   "title": "以假乱真的 AI 人 / UGC 演员",
+   "judgment": "“这是真人还是 AI”挑战和“写实 AI UGC 新方法”教程同时走热，对应 Topview 的 AI Avatar / 产品数字人。⚠️广告里要标明是 AI 生成。",
+   "evidence": [
+    {
+     "title": "Is This REAL Or AI? (IMPOSSIBLE)",
+     "url": "https://www.youtube.com/watch?v=IJpnArT_uNU",
+     "id": "IJpnArT_uNU",
+     "channel": "Foltyn Reacts",
+     "views": 353429,
+     "views_label": "35.3万",
+     "duration_label": "16:00",
+     "upload_date": "10-28",
+     "stats": "35.3万播放 · 16:00 · 10-28 · Foltyn Reacts",
+     "thumb": "https://i.ytimg.com/vi/IJpnArT_uNU/hqdefault.jpg",
+     "why": "真假挑战",
+     "sponsored": false
+    },
+    {
+     "title": "This Is The Only Way To Make Realistic AI UGC (New Method)",
+     "url": "https://www.youtube.com/watch?v=6zeremfeank",
+     "id": "6zeremfeank",
+     "channel": "Ads with Cami",
+     "views": 68522,
+     "views_label": "6.9万",
+     "duration_label": "9:17",
+     "upload_date": "10-26",
+     "stats": "6.9万播放 · 9:17 · 10-26 · Ads with Cami",
+     "thumb": "https://i.ytimg.com/vi/6zeremfeank/hqdefault.jpg",
+     "why": "AI UGC 教程",
+     "sponsored": false
+    },
+    {
+     "title": "EXACTLY How to Make a Realistic AI Influencer",
+     "url": "https://www.youtube.com/watch?v=7MBj65glXCA",
+     "id": "7MBj65glXCA",
+     "channel": "Roboverse",
+     "views": 17243,
+     "views_label": "1.7万",
+     "duration_label": "10:33",
+     "upload_date": "10-30",
+     "stats": "1.7万播放 · 10:33 · 10-30 · Roboverse",
+     "thumb": "https://i.ytimg.com/vi/7MBj65glXCA/hqdefault.jpg",
+     "why": "AI 网红教程",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "badge": "持续",
+   "title": "Topview 被点名：T1 vs Seedance 2.5",
+   "judgment": "阿语、英语、越南语小频道继续拿 T1 和 Seedance 对比，还有人猜“T1 是不是 Seedance 套壳”。建议把“同效果 3.8 折”的盲测做成自家素材，抢回叙事。第三方结论未独立验证。",
+   "evidence": [
+    {
+     "title": "2026 最强视频模型？Topview T1 vs Seedance 2.5（阿语）",
+     "url": "https://www.youtube.com/watch?v=TjXuqTb91l4",
+     "id": "TjXuqTb91l4",
+     "channel": "Ai with tahatiho",
+     "views": 10094,
+     "views_label": "1.0万",
+     "duration_label": "16:33",
+     "upload_date": "10-28",
+     "stats": "1.0万播放 · 16:33 · 10-28 · Ai with tahatiho",
+     "thumb": "https://i.ytimg.com/vi/TjXuqTb91l4/hqdefault.jpg",
+     "why": "阿语区直比",
+     "sponsored": false
+    },
+    {
+     "title": "Is TopView T1 Secretly Seedance 2.5? I Found a Clue in the Files",
+     "url": "https://www.youtube.com/watch?v=i5K6n1h7o5c",
+     "id": "i5K6n1h7o5c",
+     "channel": "Grandpa Does AI",
+     "views": 6582,
+     "views_label": "0.66万",
+     "duration_label": "12:16",
+     "upload_date": "10-28",
+     "stats": "0.66万播放 · 12:16 · 10-28 · Grandpa Does AI",
+     "thumb": "https://i.ytimg.com/vi/i5K6n1h7o5c/hqdefault.jpg",
+     "why": "套壳猜测",
+     "sponsored": false
+    },
+    {
+     "title": "Sci-Fi Short Film | SIREN | with Seedance 2.5, T1",
+     "url": "https://www.youtube.com/watch?v=D082-dpzT_o",
+     "id": "D082-dpzT_o",
+     "channel": "modoom studio",
+     "views": 5606,
+     "views_label": "0.56万",
+     "duration_label": "28:24",
+     "upload_date": "10-31",
+     "stats": "0.56万播放 · 28:24 · 10-31 · modoom studio",
+     "thumb": "https://i.ytimg.com/vi/D082-dpzT_o/hqdefault.jpg",
+     "why": "用 T1 做的短片",
+     "sponsored": false
+    },
+    {
+     "title": "Topview T1 vs Seedance 2.5 (Blind Test)",
+     "url": "https://www.youtube.com/watch?v=fQ71GWRMbTo",
+     "id": "fQ71GWRMbTo",
+     "channel": "Techvid Ai",
+     "views": 3773,
+     "views_label": "0.38万",
+     "duration_label": "7:19",
+     "upload_date": "10-30",
+     "stats": "0.38万播放 · 7:19 · 10-30 · Techvid Ai",
+     "thumb": "https://i.ytimg.com/vi/fQ71GWRMbTo/hqdefault.jpg",
+     "why": "盲测",
+     "sponsored": false
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "theme_cards": 5,
+  "evidence_videos": 19
+ }
+}

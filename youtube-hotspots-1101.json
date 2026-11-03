@@ -1,0 +1,336 @@
+{
+ "updated": "2026-11-01",
+ "market": "overseas",
+ "timezone": "Asia/Shanghai",
+ "collected_at": "2026-11-01 08:04–08:12（Asia/Shanghai）",
+ "window": "本周+按播放扩展词 + X 主题证据",
+ "source": "overseas-daily-1101",
+ "themes": [
+  {
+   "id": "t1",
+   "badge": "持续",
+   "title": "AI 骗局 / 烂 AI 广告测评仍占百万档",
+   "judgment": "英语区「买遍 TikTok AI 骗局」「搞破产诈骗机器人」继续高位；俄语区 AI 骗局餐厅测评仍破百万。对 Topview：广告必须露真实产品与前后对照，强调可控；「一键万能广告」继续是负面词。",
+   "evidence": [
+    {
+     "title": "I Bought Every AI Scam on TikTok",
+     "url": "https://www.youtube.com/watch?v=fLMXvFtPXog",
+     "id": "fLMXvFtPXog",
+     "channel": "Layze",
+     "views": 2318000,
+     "views_label": "231.8万",
+     "duration_label": "—",
+     "upload_date": "本周",
+     "stats": "231.8万播放 · — · 本周 · Layze",
+     "thumb": "https://i.ytimg.com/vi/fLMXvFtPXog/hqdefault.jpg",
+     "why": "英语区 TikTok 骗局合集",
+     "sponsored": false
+    },
+    {
+     "title": "I Bought EVERY AI Scam Product (Again)",
+     "url": "https://www.youtube.com/watch?v=uBMypR2wE5g",
+     "id": "uBMypR2wE5g",
+     "channel": "Law By Mike",
+     "views": 1776000,
+     "views_label": "177.6万",
+     "duration_label": "—",
+     "upload_date": "本周",
+     "stats": "177.6万播放 · — · 本周 · Law By Mike",
+     "thumb": "https://i.ytimg.com/vi/uBMypR2wE5g/hqdefault.jpg",
+     "why": "续集仍百万级",
+     "sponsored": false
+    },
+    {
+     "title": "I Bankrupted an AI Scam Bot",
+     "url": "https://www.youtube.com/watch?v=pFDdTFZqYZI",
+     "id": "pFDdTFZqYZI",
+     "channel": "Kitboga",
+     "views": 1371000,
+     "views_label": "137.1万",
+     "duration_label": "—",
+     "upload_date": "本周",
+     "stats": "137.1万播放 · — · 本周 · Kitboga",
+     "thumb": "https://i.ytimg.com/vi/pFDdTFZqYZI/hqdefault.jpg",
+     "why": "搞破产诈骗机器人",
+     "sponsored": false
+    },
+    {
+     "title": "我测了 AI 骗局餐厅（俄语）",
+     "url": "https://www.youtube.com/watch?v=djtXEOCjdvE",
+     "id": "djtXEOCjdvE",
+     "channel": "Самый сахар",
+     "views": 1126000,
+     "views_label": "112.6万",
+     "duration_label": "—",
+     "upload_date": "本周",
+     "stats": "112.6万播放 · — · 本周 · Самый сахар",
+     "thumb": "https://i.ytimg.com/vi/djtXEOCjdvE/hqdefault.jpg",
+     "why": "俄语区持续高位",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "badge": "上升速",
+   "title": "比价战：T1 vs Seedance 扩到多语种小频道",
+   "judgment": "三联 Kling/Seedance/Wan 仍在；越南语等小频道也在发 T1 vs Seedance。价格与同模焦虑并存。Topview 直接讲：T1 $0.22/秒 vs 官方 Seedance 2.5 $0.585/秒（约 3.8 折）；Wan 3.0「30 秒 720p 只要 $1.20，365 天无限」。第三方评测公平性未独立验证。",
+   "evidence": [
+    {
+     "title": "Kling 4.0 vs Seedance 2.5 vs WAN 3.0 | Full Comparison",
+     "url": "https://www.youtube.com/watch?v=9Y784B8T4to",
+     "id": "9Y784B8T4to",
+     "channel": "Tao Prompts",
+     "views": 64000,
+     "views_label": "6.4万",
+     "duration_label": "25:59",
+     "upload_date": "本周",
+     "stats": "6.4万播放 · 25:59 · 本周 · Tao Prompts",
+     "thumb": "https://i.ytimg.com/vi/9Y784B8T4to/hqdefault.jpg",
+     "why": "三联完整对比",
+     "sponsored": false
+    },
+    {
+     "title": "Seedance 2.5 vs Topview T1 — The Results Are INSANE",
+     "url": "https://www.youtube.com/watch?v=5iRS8mMo5qI",
+     "id": "5iRS8mMo5qI",
+     "channel": "Aivoxy",
+     "views": 11000,
+     "views_label": "1.1万",
+     "duration_label": "7:07",
+     "upload_date": "本周",
+     "stats": "1.1万播放 · 7:07 · 本周 · Aivoxy",
+     "thumb": "https://i.ytimg.com/vi/5iRS8mMo5qI/hqdefault.jpg",
+     "why": "⚠️第三方直比",
+     "sponsored": true
+    },
+    {
+     "title": "Topview T1 vs Seedance 2.5",
+     "url": "https://www.youtube.com/watch?v=TjXuqTb91l4",
+     "id": "TjXuqTb91l4",
+     "channel": "Ai with tahatiho",
+     "views": 10000,
+     "views_label": "1.0万",
+     "duration_label": "—",
+     "upload_date": "本周",
+     "stats": "1.0万播放 · — · 本周 · Ai with tahatiho",
+     "thumb": "https://i.ytimg.com/vi/TjXuqTb91l4/hqdefault.jpg",
+     "why": "新小频道直比",
+     "sponsored": true
+    },
+    {
+     "title": "클링 4.0 vs 시댄스 2.5 vs 완 3.0（韩语三联）",
+     "url": "https://www.youtube.com/watch?v=X0mwuX1BaUk",
+     "id": "X0mwuX1BaUk",
+     "channel": "돈디 AI",
+     "views": 15000,
+     "views_label": "1.5万",
+     "duration_label": "—",
+     "upload_date": "本周",
+     "stats": "1.5万播放 · — · 本周 · 돈디 AI",
+     "thumb": "https://i.ytimg.com/vi/X0mwuX1BaUk/hqdefault.jpg",
+     "why": "韩语区三联",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "badge": "持续",
+   "title": "食材人剧：印度土豆 + 欧美瓶/果拟人双线",
+   "judgment": "印地语区土豆/萝卜故事仍百万级；X 上换价签果汁摊、荔枝头、Level 对立证明欧美竖屏同模板日更。Topview 可做 30 秒原料拟人带货，Product Avatar 让包装当主角。",
+   "evidence": [
+    {
+     "title": "孩子被调包！土豆萝卜大哭…（印地语）",
+     "url": "https://www.youtube.com/watch?v=ggJ6Vhge2Y0",
+     "id": "ggJ6Vhge2Y0",
+     "channel": "Veggie Toon World",
+     "views": 2926000,
+     "views_label": "292.6万",
+     "duration_label": "9:34",
+     "upload_date": "本周",
+     "stats": "292.6万播放 · 9:34 · 本周 · Veggie Toon World",
+     "thumb": "https://i.ytimg.com/vi/ggJ6Vhge2Y0/hqdefault.jpg",
+     "why": "本组最高播放",
+     "sponsored": false
+    },
+    {
+     "title": "土豆萝卜的山羊被偷了",
+     "url": "https://www.youtube.com/watch?v=QCEvfjXopfs",
+     "id": "QCEvfjXopfs",
+     "channel": "Sabzi Ka Raj",
+     "views": 1251000,
+     "views_label": "125.1万",
+     "duration_label": "9:03",
+     "upload_date": "本周",
+     "stats": "125.1万播放 · 9:03 · 本周 · Sabzi Ka Raj",
+     "thumb": "https://i.ytimg.com/vi/QCEvfjXopfs/hqdefault.jpg",
+     "why": "同模板扩题材",
+     "sponsored": false
+    },
+    {
+     "title": "穷土豆和菜花妈妈做 Chole Bhature",
+     "url": "https://www.youtube.com/watch?v=-yowIyQhEc4",
+     "id": "-yowIyQhEc4",
+     "channel": "VeggieVerse AI",
+     "views": 1098000,
+     "views_label": "109.8万",
+     "duration_label": "—",
+     "upload_date": "本周",
+     "stats": "109.8万播放 · — · 本周 · VeggieVerse AI",
+     "thumb": "https://i.ytimg.com/vi/-yowIyQhEc4/hqdefault.jpg",
+     "why": "开店逆袭",
+     "sponsored": false
+    },
+    {
+     "title": "穷土豆造飞行自行车",
+     "url": "https://www.youtube.com/watch?v=nlmLBczpFRk",
+     "id": "nlmLBczpFRk",
+     "channel": "Sabzi Story Tv",
+     "views": 1069000,
+     "views_label": "106.9万",
+     "duration_label": "—",
+     "upload_date": "本周",
+     "stats": "106.9万播放 · — · 本周 · Sabzi Story Tv",
+     "thumb": "https://i.ytimg.com/vi/nlmLBczpFRk/hqdefault.jpg",
+     "why": "同宇宙新梗",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "badge": "上升速",
+   "title": "黑五前「一图 → 一支广告」教程继续放量",
+   "judgment": "CapCut 系黑五营销教程仍在；OpenArt + Seedance 产品 campaign 仍在。正是 Topview AI Ad Generator / Product Avatar 主战场，可对打 T1 3.8 折与「30 天无限」。部分带平台倾向。",
+   "evidence": [
+    {
+     "title": "OpenArt + Seedance 2.5 – Full AI Product Campaign",
+     "url": "https://www.youtube.com/watch?v=yqUD3645J44",
+     "id": "yqUD3645J44",
+     "channel": "Eigi and AI",
+     "views": 138000,
+     "views_label": "13.8万",
+     "duration_label": "—",
+     "upload_date": "本周",
+     "stats": "13.8万播放 · — · 本周 · Eigi and AI",
+     "thumb": "https://i.ytimg.com/vi/yqUD3645J44/hqdefault.jpg",
+     "why": "产品 campaign 全流程",
+     "sponsored": false
+    },
+    {
+     "title": "Black Friday Marketing with AI Video Editor",
+     "url": "https://www.youtube.com/watch?v=Ckjj2rjmAJI",
+     "id": "Ckjj2rjmAJI",
+     "channel": "Mevesa",
+     "views": 136000,
+     "views_label": "13.6万",
+     "duration_label": "13:36",
+     "upload_date": "本周",
+     "stats": "13.6万播放 · 13:36 · 本周 · Mevesa",
+     "thumb": "https://i.ytimg.com/vi/Ckjj2rjmAJI/hqdefault.jpg",
+     "why": "一图转广告",
+     "sponsored": true
+    },
+    {
+     "title": "Black Friday Marketing Made Easy with CapCut PC",
+     "url": "https://www.youtube.com/watch?v=4a1O7X3HDnM",
+     "id": "4a1O7X3HDnM",
+     "channel": "Eigi and AI",
+     "views": 116000,
+     "views_label": "11.6万",
+     "duration_label": "—",
+     "upload_date": "本周",
+     "stats": "11.6万播放 · — · 本周 · Eigi and AI",
+     "thumb": "https://i.ytimg.com/vi/4a1O7X3HDnM/hqdefault.jpg",
+     "why": "黑五教程",
+     "sponsored": true
+    },
+    {
+     "title": "How I Make Realistic AI Videos with Seedance 2.5",
+     "url": "https://www.youtube.com/watch?v=2hJsvDSPWYM",
+     "id": "2hJsvDSPWYM",
+     "channel": "Dan Kieft",
+     "views": 615000,
+     "views_label": "61.5万",
+     "duration_label": "—",
+     "upload_date": "本周",
+     "stats": "61.5万播放 · — · 本周 · Dan Kieft",
+     "thumb": "https://i.ytimg.com/vi/2hJsvDSPWYM/hqdefault.jpg",
+     "why": "Seedance 工作流长片",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "badge": "新出路",
+   "title": "情感水彩短片宇宙：一首歌一个小意外",
+   "judgment": "antrofrog_《Englishman in New York》《No Ordinary Love》证明插画/水彩风 + 强 BGM + 生活小意外比硬科幻预告更好传播。Topview 可做系列化「同一画风不同城市意外」广告季，主打角色一致与 30 天无限产能。",
+   "evidence": [
+    {
+     "title": "Englishman in New York",
+     "url": "https://x.com/i/status/2116118341610004764",
+     "id": "2116118341610004764",
+     "channel": "antrofrog_",
+     "views": 13676000,
+     "views_label": "1367.6万",
+     "duration_label": "0:47",
+     "upload_date": "10-30",
+     "stats": "1367.6万播放 · 0:47 · 10-30 · antrofrog_",
+     "thumb": "media/x_2116118341610004764.jpg",
+     "why": "今日主榜第 1",
+     "sponsored": false,
+     "kind": "x"
+    },
+    {
+     "title": "No Ordinary Love",
+     "url": "https://x.com/i/status/2115376771004862719",
+     "id": "2115376771004862719",
+     "channel": "antrofrog_",
+     "views": 13014000,
+     "views_label": "1301.4万",
+     "duration_label": "—",
+     "upload_date": "仍在爆",
+     "stats": "1301.4万播放 · — · 仍在爆 · antrofrog_",
+     "thumb": "media/x_2115376771004862719.jpg",
+     "why": "日增 +132 万",
+     "sponsored": false,
+     "kind": "x"
+    },
+    {
+     "title": "The Most Epic AI Short Film… (Seedance 2.5 & Astra)",
+     "url": "https://www.youtube.com/watch?v=f8FHas1dmt8",
+     "id": "f8FHas1dmt8",
+     "channel": "Theoretically Media",
+     "views": 306000,
+     "views_label": "30.6万",
+     "duration_label": "—",
+     "upload_date": "本周",
+     "stats": "30.6万播放 · — · 本周 · Theoretically Media",
+     "thumb": "https://i.ytimg.com/vi/f8FHas1dmt8/hqdefault.jpg",
+     "why": "工具向短片样本",
+     "sponsored": false
+    },
+    {
+     "title": "They Killed The Last King On His Coronation Night",
+     "url": "https://www.youtube.com/watch?v=hHe3r3rz1c0",
+     "id": "hHe3r3rz1c0",
+     "channel": "Epic AI Films",
+     "views": 110000,
+     "views_label": "11.0万",
+     "duration_label": "—",
+     "upload_date": "本周",
+     "stats": "11.0万播放 · — · 本周 · Epic AI Films",
+     "thumb": "https://i.ytimg.com/vi/hHe3r3rz1c0/hqdefault.jpg",
+     "why": "频道追踪旁证",
+     "sponsored": false
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "theme_cards": 5,
+  "evidence_videos": 20
+ }
+}

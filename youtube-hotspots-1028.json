@@ -1,0 +1,334 @@
+{
+ "updated": "2026-10-28",
+ "market": "overseas",
+ "timezone": "Asia/Shanghai",
+ "collected_at": "2026-10-28 08:06–08:40（Asia/Shanghai）",
+ "window": "近 7 日上传为主",
+ "source": "overseas-daily-1028",
+ "themes": [
+  {
+   "id": "t1",
+   "badge": "持续",
+   "title": "AI 骗局 / 烂 AI 广告测评扩散到多语种",
+   "judgment": "上周英语区百万级的“把 AI 骗局全买一遍”，本周俄语、日语、印地语区都出了本地版本，而且从“买货”扩到了“AI 骗局餐厅”。X 上冰球队 Chicago Wolves 的 AI 宣传片也被骂成“见过最烂的 AI slop”（4.0 万）。对 Topview：广告里要露真实产品和前后对照，强调“可控、还原产品”；“随便一键生成”正在变成负面词。",
+   "evidence": [
+    {
+     "title": "我测了 AI 骗局餐厅，太烂了（俄语）",
+     "url": "https://www.youtube.com/watch?v=djtXEOCjdvE",
+     "id": "djtXEOCjdvE",
+     "channel": "Самый сахар",
+     "views": 816496,
+     "views_label": "81.6万",
+     "duration_label": "23:02",
+     "upload_date": "2026-10-26",
+     "stats": "81.6万播放 · 23:02 · 2026-10-26 · Самый сахар",
+     "thumb": "https://i.ytimg.com/vi/djtXEOCjdvE/hqdefault.jpg",
+     "why": "俄语区，从买货扩到餐厅",
+     "sponsored": false
+    },
+    {
+     "title": "YouTube 常见 AI 广告商品，买了全是骗局（日语）",
+     "url": "https://www.youtube.com/watch?v=_kjDt5UMgoM",
+     "id": "_kjDt5UMgoM",
+     "channel": "えぼら",
+     "views": 298758,
+     "views_label": "29.9万",
+     "duration_label": "16:53",
+     "upload_date": "2026-10-24",
+     "stats": "29.9万播放 · 16:53 · 2026-10-24 · えぼら",
+     "thumb": "https://i.ytimg.com/vi/_kjDt5UMgoM/hqdefault.jpg",
+     "why": "直接点名“YouTube 上的 AI 广告”",
+     "sponsored": false
+    },
+    {
+     "title": "Dumbest Comments On AI Slop Videos",
+     "url": "https://www.youtube.com/watch?v=CI5RzlZgJt8",
+     "id": "CI5RzlZgJt8",
+     "channel": "7-ElevenZ",
+     "views": 242679,
+     "views_label": "24.3万",
+     "duration_label": "19:56",
+     "upload_date": "2026-10-24",
+     "stats": "24.3万播放 · 19:56 · 2026-10-24 · 7-ElevenZ",
+     "thumb": "https://i.ytimg.com/vi/CI5RzlZgJt8/hqdefault.jpg",
+     "why": "反应区嘲笑把 AI 当真的人",
+     "sponsored": false
+    },
+    {
+     "title": "AI Scam Ad vs Reality - I Bought Them All!",
+     "url": "https://www.youtube.com/watch?v=2i0IW_J7ml8",
+     "id": "2i0IW_J7ml8",
+     "channel": "Techy Pathshala",
+     "views": 82419,
+     "views_label": "8.2万",
+     "duration_label": "11:29",
+     "upload_date": "2026-10-22",
+     "stats": "8.2万播放 · 11:29 · 2026-10-22 · Techy Pathshala",
+     "thumb": "https://i.ytimg.com/vi/2i0IW_J7ml8/hqdefault.jpg",
+     "why": "印地语区版本",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "badge": "上升速",
+   "title": "「是真是 AI」辨别挑战",
+   "judgment": "大号把“猜哪个是 AI”做成固定节目，评论参与度很高；画师被冤枉“用了 AI”、AI 网红“装病”也在引战。X 上的站台救狗（主榜 3）同样是靠“真假难辨”起量。Topview 可以反过来用：做“真人实拍 vs T1 生成”的竞猜广告，结尾揭晓答案再给出价格，比参数对比更有参与感。",
+   "evidence": [
+    {
+     "title": "Can you spot what's AI and what's real?!",
+     "url": "https://www.youtube.com/watch?v=lgo20JWdiV8",
+     "id": "lgo20JWdiV8",
+     "channel": "JJJacksfilms",
+     "views": 335434,
+     "views_label": "33.5万",
+     "duration_label": "25:11",
+     "upload_date": "2026-10-21",
+     "stats": "33.5万播放 · 25:11 · 2026-10-21 · JJJacksfilms",
+     "thumb": "https://i.ytimg.com/vi/lgo20JWdiV8/hqdefault.jpg",
+     "why": "大号固定节目",
+     "sponsored": false
+    },
+    {
+     "title": "Is This REAL or AI? (IMPOSSIBLE)",
+     "url": "https://www.youtube.com/watch?v=M308_hwCqCc",
+     "id": "M308_hwCqCc",
+     "channel": "SSSniperWolf",
+     "views": 262274,
+     "views_label": "26.2万",
+     "duration_label": "19:09",
+     "upload_date": "2026-10-21",
+     "stats": "26.2万播放 · 19:09 · 2026-10-21 · SSSniperWolf",
+     "thumb": "https://i.ytimg.com/vi/M308_hwCqCc/hqdefault.jpg",
+     "why": "同题扎堆",
+     "sponsored": false
+    },
+    {
+     "title": "Real Artists are Being Accused of AI Art now..",
+     "url": "https://www.youtube.com/watch?v=NDrVpnA9znQ",
+     "id": "NDrVpnA9znQ",
+     "channel": "SamDoesArts",
+     "views": 472821,
+     "views_label": "47.3万",
+     "duration_label": "14:13",
+     "upload_date": "2026-10-24",
+     "stats": "47.3万播放 · 14:13 · 2026-10-24 · SamDoesArts",
+     "thumb": "https://i.ytimg.com/vi/NDrVpnA9znQ/hqdefault.jpg",
+     "why": "反向信号：真人作品被误判成 AI",
+     "sponsored": false
+    },
+    {
+     "title": "AI Influencers Faking Conditions Is SO Disturbing",
+     "url": "https://www.youtube.com/watch?v=rpgpFqUkx3c",
+     "id": "rpgpFqUkx3c",
+     "channel": "Marichi",
+     "views": 357160,
+     "views_label": "35.7万",
+     "duration_label": "24:40",
+     "upload_date": "2026-10-26",
+     "stats": "35.7万播放 · 24:40 · 2026-10-26 · Marichi",
+     "thumb": "https://i.ytimg.com/vi/rpgpFqUkx3c/hqdefault.jpg",
+     "why": "AI 网红编造病情，引发反感",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "badge": "上升速",
+   "title": "比价战扩到多语种，Kling 4.0 铺渠道",
+   "judgment": "比价片从英语扩到俄语（“既然 Kling 4.0 和 Wan 3.0 会说俄语，为什么还要为 Seedance 2.5 付钱”），也有人逐家给同一个镜头算价钱。Kling 4.0 同时在 Artlist、Adobe Firefly 投官方广告，但也有人做“Kling 4.0 是场灾难”的差评。价格焦虑越来越普遍，Topview 就直接讲：T1 $0.22/秒，官方 Seedance 2.5 $0.585/秒，约 3.8 折；Wan 3.0「30 秒 720p 只要 $1.20」放第二档。",
+   "evidence": [
+    {
+     "title": "为什么要为 Seedance 2.5 付钱？Kling 4.0 和 Wan 3.0 都会说俄语",
+     "url": "https://www.youtube.com/watch?v=R8qJa92j_Lw",
+     "id": "R8qJa92j_Lw",
+     "channel": "SYNTX — Everything About AI",
+     "views": 16968,
+     "views_label": "1.7万",
+     "duration_label": "15:09",
+     "upload_date": "2026-10-27",
+     "stats": "1.7万播放 · 15:09 · 2026-10-27 · SYNTX — Everything About AI",
+     "thumb": "https://i.ytimg.com/vi/R8qJa92j_Lw/hqdefault.jpg",
+     "why": "俄语区比价",
+     "sponsored": false
+    },
+    {
+     "title": "I Priced One AI Video Shot on Monid, fal.ai and Higgsfield",
+     "url": "https://www.youtube.com/watch?v=nz5LhuSKIFA",
+     "id": "nz5LhuSKIFA",
+     "channel": "Flash Verse",
+     "views": 18084,
+     "views_label": "1.8万",
+     "duration_label": "6:54",
+     "upload_date": "2026-10-25",
+     "stats": "1.8万播放 · 6:54 · 2026-10-25 · Flash Verse",
+     "thumb": "https://i.ytimg.com/vi/nz5LhuSKIFA/hqdefault.jpg",
+     "why": "逐家给单个镜头算价",
+     "sponsored": false
+    },
+    {
+     "title": "Kling 4.0 is an Absolute Disaster",
+     "url": "https://www.youtube.com/watch?v=Y9S9EsQoVJc",
+     "id": "Y9S9EsQoVJc",
+     "channel": "Joseph Martin",
+     "views": 32217,
+     "views_label": "3.2万",
+     "duration_label": "12:09",
+     "upload_date": "2026-10-21",
+     "stats": "3.2万播放 · 12:09 · 2026-10-21 · Joseph Martin",
+     "thumb": "https://i.ytimg.com/vi/Y9S9EsQoVJc/hqdefault.jpg",
+     "why": "差评也是对比素材",
+     "sponsored": false
+    },
+    {
+     "title": "Kling 4.0 is now on Artlist!",
+     "url": "https://www.youtube.com/watch?v=_JpgGV5gEDA",
+     "id": "_JpgGV5gEDA",
+     "channel": "Artlist",
+     "views": 1087399,
+     "views_label": "108.7万",
+     "duration_label": "0:52",
+     "upload_date": "2026-10-22",
+     "stats": "108.7万播放 · 0:52 · 2026-10-22 · Artlist",
+     "thumb": "https://i.ytimg.com/vi/_JpgGV5gEDA/hqdefault.jpg",
+     "why": "⚠️品牌广告，非自然播放",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "badge": "上升速",
+   "title": "食材人 / 水果人剧在印度区批量化",
+   "judgment": "印地语区的“穷土豆开披萨厂”“土豆开 biryani 饭店”这类蔬菜人逆袭剧，单条有 20–30 万播放，儿童向的水果宝宝动画也上了 20 万。X 上 clipcraft7 的水果人剧今天又出了 28.2 万（192 秒，超长不进主榜）。“食材拟人 + 逆袭发家”已经是跨语种通用模板。Topview 可以做 30 秒带货版：产品原料拟人，演一段“从路边摊到工厂”，用 Product Avatar 让产品当主角。",
+   "evidence": [
+    {
+     "title": "穷土豆当上披萨厂老板（印地语）",
+     "url": "https://www.youtube.com/watch?v=D3Bqlyik2QI",
+     "id": "D3Bqlyik2QI",
+     "channel": "VeggieVerse AI",
+     "views": 302074,
+     "views_label": "30.2万",
+     "duration_label": "16:58",
+     "upload_date": "2026-10-24",
+     "stats": "30.2万播放 · 16:58 · 2026-10-24 · VeggieVerse AI",
+     "thumb": "https://i.ytimg.com/vi/D3Bqlyik2QI/hqdefault.jpg",
+     "why": "本组最高",
+     "sponsored": false
+    },
+    {
+     "title": "穷土豆开了 biryani 饭店（印地语）",
+     "url": "https://www.youtube.com/watch?v=RKrTPFct3yc",
+     "id": "RKrTPFct3yc",
+     "channel": "Sabzi Story Tv",
+     "views": 185858,
+     "views_label": "18.6万",
+     "duration_label": "14:54",
+     "upload_date": "2026-10-21",
+     "stats": "18.6万播放 · 14:54 · 2026-10-21 · Sabzi Story Tv",
+     "thumb": "https://i.ytimg.com/vi/RKrTPFct3yc/hqdefault.jpg",
+     "why": "同模板",
+     "sponsored": false
+    },
+    {
+     "title": "Baby Fruit Cartoon | Fruit Baby Olympics!",
+     "url": "https://www.youtube.com/watch?v=8X0Gmn52Mec",
+     "id": "8X0Gmn52Mec",
+     "channel": "Manthan Giggles",
+     "views": 199804,
+     "views_label": "20.0万",
+     "duration_label": "3:46",
+     "upload_date": "2026-10-21",
+     "stats": "20.0万播放 · 3:46 · 2026-10-21 · Manthan Giggles",
+     "thumb": "https://i.ytimg.com/vi/8X0Gmn52Mec/hqdefault.jpg",
+     "why": "儿童向水果宝宝",
+     "sponsored": false
+    },
+    {
+     "title": "4 Sisters Made a 50-Foot Giant Strawberry Cake!",
+     "url": "https://www.youtube.com/watch?v=baiN4TUWDsk",
+     "id": "baiN4TUWDsk",
+     "channel": "Spike Cinematic Ai",
+     "views": 253885,
+     "views_label": "25.4万",
+     "duration_label": "5:03",
+     "upload_date": "2026-10-22",
+     "stats": "25.4万播放 · 5:03 · 2026-10-22 · Spike Cinematic Ai",
+     "thumb": "https://i.ytimg.com/vi/baiN4TUWDsk/hqdefault.jpg",
+     "why": "“巨型食物 + 村庄”AI 量产",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "badge": "新出路",
+   "title": "大厂 AI 长剧《奥德赛》引发“是不是 AI”讨论",
+   "judgment": "Grok Imagine 发布 AI 长剧《奥德赛》首集（X 新闻摘要说是 7 分钟，未独立验证），法国赫芬顿邮报的标题直接写“没怎么打动人”，也有反应片专门问“这真是 AI 做的？”。大众已经认可 AI 能做大场面，讨论重点转到了“有没有情绪和表演”。Topview 广告可以主打表演和口型：同一句台词，用 T1 演出哭、笑、愤怒三种情绪。",
+   "evidence": [
+    {
+     "title": "Grok 的 100% AI《奥德赛》首曝，没怎么打动人（法语）",
+     "url": "https://www.youtube.com/watch?v=AZTbrlfwCWY",
+     "id": "AZTbrlfwCWY",
+     "channel": "Le Huffington Post",
+     "views": 102373,
+     "views_label": "10.2万",
+     "duration_label": "2:35",
+     "upload_date": "2026-10-26",
+     "stats": "10.2万播放 · 2:35 · 2026-10-26 · Le Huffington Post",
+     "thumb": "https://i.ytimg.com/vi/AZTbrlfwCWY/hqdefault.jpg",
+     "why": "主流媒体给出负面评价",
+     "sponsored": false
+    },
+    {
+     "title": "Elon Delivers: Grok AI's Odyssey Is Here",
+     "url": "https://www.youtube.com/watch?v=nRWa71sbZFQ",
+     "id": "nRWa71sbZFQ",
+     "channel": "The Next News Network",
+     "views": 39165,
+     "views_label": "3.9万",
+     "duration_label": "9:49",
+     "upload_date": "2026-10-26",
+     "stats": "3.9万播放 · 9:49 · 2026-10-26 · The Next News Network",
+     "thumb": "https://i.ytimg.com/vi/nRWa71sbZFQ/hqdefault.jpg",
+     "why": "支持方解读",
+     "sponsored": false
+    },
+    {
+     "title": "IS THIS REALLY MADE BY AI - Odyssey movie series",
+     "url": "https://www.youtube.com/watch?v=VPoNozGDEyk",
+     "id": "VPoNozGDEyk",
+     "channel": "Seph Evasco",
+     "views": 31793,
+     "views_label": "3.2万",
+     "duration_label": "6:52",
+     "upload_date": "2026-10-25",
+     "stats": "3.2万播放 · 6:52 · 2026-10-25 · Seph Evasco",
+     "thumb": "https://i.ytimg.com/vi/VPoNozGDEyk/hqdefault.jpg",
+     "why": "反应片在问“是不是 AI”",
+     "sponsored": false
+    },
+    {
+     "title": "Odyssey Grok Imagine",
+     "url": "https://www.youtube.com/watch?v=Q8bxCI-6vqY",
+     "id": "Q8bxCI-6vqY",
+     "channel": "FLIM GAME AI",
+     "views": 19835,
+     "views_label": "2.0万",
+     "duration_label": "7:12",
+     "upload_date": "2026-10-24",
+     "stats": "2.0万播放 · 7:12 · 2026-10-24 · FLIM GAME AI",
+     "thumb": "https://i.ytimg.com/vi/Q8bxCI-6vqY/hqdefault.jpg",
+     "why": "搬运/剪辑传播",
+     "sponsored": false
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "theme_cards": 5,
+  "evidence_videos": 20
+ }
+}

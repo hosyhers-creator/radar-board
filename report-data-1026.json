@@ -1,0 +1,635 @@
+{
+  "updated": "2026-10-26",
+  "timezone": "Asia/Shanghai",
+  "source": "redig",
+  "collected_at": "2026-10-26 约 13:13–13:25（Asia/Shanghai）",
+  "views": {
+    "overseas": {
+      "label": "海外日报 10-26 · 重挖",
+      "dateLine": "海外 AI 热点早报 · 2026-10-26 重挖 · 北京时间",
+      "leadKicker": "海外 AI 热点早报 · 10-26 重挖",
+      "lead": "重挖最大收获：切尔西假集锦坐实（StadianityApp 66.3 万）；另有网球看台反应 47.7 万、中土邮轮 10.8 万。YouTube 新发现 Topview T1「3x cheaper」比价片。主榜 5 + 仍在爆；不做万圣节。",
+      "meta": [
+        {
+          "k": "报告",
+          "v": "海外 AI 热点早报 · 重挖"
+        },
+        {
+          "k": "日期",
+          "v": "2026-10-26"
+        },
+        {
+          "k": "主榜",
+          "v": "5 条 + 仍在爆"
+        },
+        {
+          "k": "YT 主题",
+          "v": "5 卡"
+        }
+      ],
+      "cards": [
+        {
+          "badge": "主榜",
+          "title": "切尔西假集锦来了",
+          "stats": "66.3 万播放 · 赞 9,615 · 收藏 1,321 · 23 秒 · 竖屏 · 10-25",
+          "analysis": "酒吧荒诞「假集锦」蒙太奇，配文踩热刺赢球热点。可借鉴：本地球队刚输/刚赢当天做 20 秒假集锦竖屏，口播接 T1 3.8 折。⚠️别用真实球星深伪脸。",
+          "links": [
+            {
+              "title": "StadianityApp · 切尔西假集锦",
+              "href": "https://x.com/StadianityApp/status/2114279627883696607"
+            }
+          ],
+          "thumbs": [
+            {
+              "type": "x",
+              "id": "2114279627883696607"
+            }
+          ]
+        },
+        {
+          "badge": "主榜",
+          "title": "网球几乎没碰到球，看台先炸了",
+          "stats": "47.7 万播放 · 赞 1,529 · 收藏 1,004 · 11 秒 · 竖屏 · 10-25",
+          "analysis": "钩子写在标题：球几乎没碰到，切观众反应。画面偏性感网球裙，官方广告慎用。可借鉴：「正常运动 → 物理不对 → 切反应」11 秒竖屏。",
+          "links": [
+            {
+              "title": "signexa0o · 网球看台反应",
+              "href": "https://x.com/signexa0o/status/2114104900569141317"
+            }
+          ],
+          "thumbs": [
+            {
+              "type": "x",
+              "id": "2114104900569141317"
+            }
+          ]
+        },
+        {
+          "badge": "主榜",
+          "title": "中土邮轮多付了钱",
+          "stats": "10.8 万播放 · 赞 1,307 · 收藏 250 · 30 秒 · 竖屏 · Magnific · 10-25",
+          "analysis": "游客 POV「付费体验翻车」奇幻邮轮。⚠️中土 IP 须换原创设定。可借鉴：付费体验翻车 POV + 奇幻生物，旁白接 Wan「30 秒 720p $1.20」。",
+          "links": [
+            {
+              "title": "techhalla · 中土邮轮",
+              "href": "https://x.com/techhalla/status/2114304193636794799"
+            }
+          ],
+          "thumbs": [
+            {
+              "type": "x",
+              "id": "2114304193636794799"
+            }
+          ]
+        },
+        {
+          "badge": "主榜",
+          "title": "这只是生物课作业…",
+          "stats": "3.2 万播放 · 赞 331 · 收藏 115 · 77 秒 · 竖屏 · 10-26",
+          "analysis": "手指人拟物家庭剧续作。可借鉴：产品吉祥物拍 30 秒家长会/作业翻车，对位 Product Avatar。",
+          "links": [
+            {
+              "title": "clipcraft7 · 生物课",
+              "href": "https://x.com/clipcraft7/status/2114514466775715907"
+            }
+          ],
+          "thumbs": [
+            {
+              "type": "x",
+              "id": "2114514466775715907"
+            }
+          ]
+        },
+        {
+          "badge": "主榜",
+          "title": "Seedance + Claude 女枪手 · 手法参考",
+          "stats": "0.94 万播放 · 赞 476 · 收藏 257 · 32 秒 · 16:9 · 热度一般",
+          "analysis": "白发女枪手 + 后期慢动作，评论要 prompt。可借鉴：录屏「brief → T1/Seedance → Claude/MCP 剪辑」，口播 T1「30 天无限」。",
+          "links": [
+            {
+              "title": "aimikoda · 女枪手",
+              "href": "https://x.com/aimikoda/status/2114007429146964169"
+            }
+          ],
+          "thumbs": [
+            {
+              "type": "x",
+              "id": "2114007429146964169"
+            }
+          ]
+        },
+        {
+          "badge": "仍在爆",
+          "title": "仍在爆 · 父亲片半天 +89 万",
+          "stats": "Sucre770 106.4 万（+89 万）· Natalia5d 1,095 万 · HauntedAI 224 万 · 理发店 192 万",
+          "analysis": "父亲护家逃生横屏继续暴涨；假集锦/假广告同构跨平台有效。不做万圣节。",
+          "links": [
+            {
+              "title": "Sucre770 · 父亲护家",
+              "href": "https://x.com/Sucre770/status/2114448232403161569"
+            },
+            {
+              "title": "Natalia5d · 熔岩排行榜",
+              "href": "https://x.com/Natalia5d/status/2111838152583512361"
+            },
+            {
+              "title": "HauntedAI · 复方汤剂",
+              "href": "https://x.com/HauntedAI/status/2113751282875764773"
+            }
+          ],
+          "thumbs": [
+            {
+              "type": "x",
+              "id": "2114448232403161569"
+            }
+          ]
+        }
+      ],
+      "yt_themes": [
+        {
+          "id": "t1",
+          "badge": "新出路",
+          "title": "Topview 被点名比价",
+          "judgment": "近 7 日英文区出现多条标题直接写「Seedance 2.5 vs Topview T1 / 3x cheaper」的评测。创作者不再只比 Kling，而是把 T1 当价格锚点。广告素材最该借：同 prompt 左右分屏 +「T1 约 3.8 折 / 30 天无限」。",
+          "evidence": [
+            {
+              "title": "The End of Seedance? Topview T1 Is 3x Cheaper (I Tested Everything)",
+              "url": "https://www.youtube.com/watch?v=VpTi5uOTd2c",
+              "stats": "3.4万播放 · 25:42 · 2026-10-23 · AI Samson",
+              "thumb": "https://i.ytimg.com/vi/VpTi5uOTd2c/maxresdefault.jpg",
+              "channel": "AI Samson",
+              "id": "VpTi5uOTd2c",
+              "views": 33892,
+              "views_label": "3.4万",
+              "duration_sec": 1542,
+              "duration_label": "25:42",
+              "upload_date": "2026-10-23",
+              "why": "标题即「3x Cheaper」，本周 Topview 被点名最清晰。",
+              "sponsored": false
+            },
+            {
+              "title": "Seedance 2.5 vs Topview T1",
+              "url": "https://www.youtube.com/watch?v=LsJpErxEOE4",
+              "stats": "1.2万播放 · 4:45 · 2026-10-21 · JSFILMZ",
+              "thumb": "https://i.ytimg.com/vi/LsJpErxEOE4/maxresdefault.jpg",
+              "channel": "JSFILMZ",
+              "id": "LsJpErxEOE4",
+              "views": 11774,
+              "views_label": "1.2万",
+              "duration_sec": 285,
+              "duration_label": "4:45",
+              "upload_date": "2026-10-21",
+              "why": "短对比，适合剪成广告前贴。",
+              "sponsored": false
+            },
+            {
+              "title": "Seedance 2.5 vs Topview T1 — The Results Are INSANE",
+              "url": "https://www.youtube.com/watch?v=5iRS8mMo5qI",
+              "stats": "5644播放 · 7:07 · 2026-10-25 · Aivoxy",
+              "thumb": "https://i.ytimg.com/vi/5iRS8mMo5qI/maxresdefault.jpg",
+              "channel": "Aivoxy",
+              "id": "5iRS8mMo5qI",
+              "views": 5644,
+              "views_label": "5644",
+              "duration_sec": 427,
+              "duration_label": "7:07",
+              "upload_date": "2026-10-25",
+              "why": "窗口内最新上传。",
+              "sponsored": false
+            },
+            {
+              "title": "Topview AI Review (2026) - Testing Topview Film Studio + Seedance 2.5",
+              "url": "https://www.youtube.com/watch?v=CyBMP2HA004",
+              "stats": "5.1万播放 · 8:23 · 2026-09-28 · Daniel | Tech & Data",
+              "thumb": "https://i.ytimg.com/vi/CyBMP2HA004/maxresdefault.jpg",
+              "channel": "Daniel | Tech & Data",
+              "id": "CyBMP2HA004",
+              "views": 51156,
+              "views_label": "5.1万",
+              "duration_sec": 503,
+              "duration_label": "8:23",
+              "upload_date": "2026-09-28",
+              "why": "仍在被检索召回，说明「Topview + Seedance」词有存量流量。",
+              "sponsored": false
+            }
+          ]
+        },
+        {
+          "id": "t2",
+          "badge": "上升速",
+          "title": "三方比价（Kling / Seedance / Wan）",
+          "judgment": "Kling 4.0 上线后，「谁更便宜 / 值不值 5 倍价」片继续堆；Wan 3.0 被拉进三角比较。对位 Topview：T1 打 Seedance 同级价差，Wan「30 秒 720p $1.20、365 天无限」作第二档。",
+          "evidence": [
+            {
+              "title": "Kling 4.0 Is Finally Here! (3x Cheaper Than Seedance)",
+              "url": "https://www.youtube.com/watch?v=h9ryZx49_J0",
+              "stats": "7.6万播放 · 23:10 · 2026-10-19 · AI Samson",
+              "thumb": "https://i.ytimg.com/vi/h9ryZx49_J0/maxresdefault.jpg",
+              "channel": "AI Samson",
+              "id": "h9ryZx49_J0",
+              "views": 76446,
+              "views_label": "7.6万",
+              "duration_sec": 1390,
+              "duration_label": "23:10",
+              "upload_date": "2026-10-19",
+              "why": "标题直接打「3x Cheaper Than Seedance」，比价叙事最清晰。",
+              "sponsored": false
+            },
+            {
+              "title": "Kling 4.0 vs Seedance 2.5 vs WAN 3.0 | Full Comparison",
+              "url": "https://www.youtube.com/watch?v=9Y784B8T4to",
+              "stats": "1.7万播放 · 25:58 · 2026-10-25 · Tao Prompts",
+              "thumb": "https://i.ytimg.com/vi/9Y784B8T4to/maxresdefault.jpg",
+              "channel": "Tao Prompts",
+              "id": "9Y784B8T4to",
+              "views": 17424,
+              "views_label": "1.7万",
+              "duration_sec": 1558,
+              "duration_label": "25:58",
+              "upload_date": "2026-10-25",
+              "why": "把 Wan 3.0 拉进三角比较，上传最新（10-25）。",
+              "sponsored": false
+            },
+            {
+              "title": "Kling 4.0 vs Seedance 2.5: Is Seedance Worth 5x the Price? (9 Tests)",
+              "url": "https://www.youtube.com/watch?v=sMADC2DYY_E",
+              "stats": "3.1万播放 · 12:05 · 2026-10-22 · Dani Builds",
+              "thumb": "https://i.ytimg.com/vi/sMADC2DYY_E/maxresdefault.jpg",
+              "channel": "Dani Builds",
+              "id": "sMADC2DYY_E",
+              "views": 31481,
+              "views_label": "3.1万",
+              "duration_sec": 725,
+              "duration_label": "12:05",
+              "upload_date": "2026-10-22",
+              "why": "9 组测试追问 Seedance 是否值 5 倍价。",
+              "sponsored": false
+            },
+            {
+              "title": "Wan 3.0 ACTUALLY BEAT Seedance 2.5... Full Test",
+              "url": "https://www.youtube.com/watch?v=pchMefSPoSg",
+              "stats": "2.8万播放 · 16:15 · 2026-09-11 · Joseph Martin",
+              "thumb": "https://i.ytimg.com/vi/pchMefSPoSg/maxresdefault.jpg",
+              "channel": "Joseph Martin",
+              "id": "pchMefSPoSg",
+              "views": 28352,
+              "views_label": "2.8万",
+              "duration_sec": 975,
+              "duration_label": "16:15",
+              "upload_date": "2026-09-11",
+              "why": "Wan 叙事存量仍高。",
+              "sponsored": false
+            }
+          ]
+        },
+        {
+          "id": "t3",
+          "badge": "持续",
+          "title": "Claude × CapCut 工作流",
+          "judgment": "热点仍是「可复制流水线」而不是裸模型 showreel：Claude 剪 CapCut、自动化 Skill、Futurepedia 新形态视频教程。Topview 应用「一句 brief → 分镜 → T1/Wan 成片」录屏对打。X 侧 aimikoda Seedance+Claude 女枪手见主榜。",
+          "evidence": [
+            {
+              "title": "Claude Makes a New Kind of Video - Full Tutorial",
+              "url": "https://www.youtube.com/watch?v=Ge1B-Ok1Pfk",
+              "stats": "27.5万播放 · 11:19 · 2026-10-19 · Futurepedia",
+              "thumb": "https://i.ytimg.com/vi/Ge1B-Ok1Pfk/maxresdefault.jpg",
+              "channel": "Futurepedia",
+              "id": "Ge1B-Ok1Pfk",
+              "views": 274760,
+              "views_label": "27.5万",
+              "duration_sec": 679,
+              "duration_label": "11:19",
+              "upload_date": "2026-10-19",
+              "why": "「新形态视频」教程，本周工作流向高播。",
+              "sponsored": false
+            },
+            {
+              "title": "Automate Your CapCut Editing With Claude (Step by Step + Free Skill)",
+              "url": "https://www.youtube.com/watch?v=U-AdnIz1jIk",
+              "stats": "7.2万播放 · 9:40 · 2026-10-23 · Matt Loui",
+              "thumb": "https://i.ytimg.com/vi/U-AdnIz1jIk/maxresdefault.jpg",
+              "channel": "Matt Loui",
+              "id": "U-AdnIz1jIk",
+              "views": 72005,
+              "views_label": "7.2万",
+              "duration_sec": 580,
+              "duration_label": "9:40",
+              "upload_date": "2026-10-23",
+              "why": "自动化 CapCut 剪辑，步骤可抄。",
+              "sponsored": false
+            },
+            {
+              "title": "Claude Edited My Entire CapCut Video (I Didn’t Touch the Timeline)",
+              "url": "https://www.youtube.com/watch?v=5N1moUCsVhI",
+              "stats": "78.1万播放 · 10:01 · 2026-10-09 · Matt Loui",
+              "thumb": "https://i.ytimg.com/vi/5N1moUCsVhI/maxresdefault.jpg",
+              "channel": "Matt Loui",
+              "id": "5N1moUCsVhI",
+              "views": 780752,
+              "views_label": "78.1万",
+              "duration_sec": 601,
+              "duration_label": "10:01",
+              "upload_date": "2026-10-09",
+              "why": "同作者前作仍在爆，证明流水线题材长尾。",
+              "sponsored": false
+            },
+            {
+              "title": "Claude + CapCut is a Gamechanger for Video Editors (Full Tutorial)",
+              "url": "https://www.youtube.com/watch?v=LS4CFPLRlRU",
+              "stats": "9.4万播放 · 15:27 · 2026-10-18 · Matt Penny | Applied AI",
+              "thumb": "https://i.ytimg.com/vi/LS4CFPLRlRU/maxresdefault.jpg",
+              "channel": "Matt Penny | Applied AI",
+              "id": "LS4CFPLRlRU",
+              "views": 94133,
+              "views_label": "9.4万",
+              "duration_sec": 927,
+              "duration_label": "15:27",
+              "upload_date": "2026-10-18",
+              "why": "Claude + CapCut 完整教程，工作流词下持续召回。",
+              "sponsored": false
+            }
+          ]
+        },
+        {
+          "id": "t4",
+          "badge": "上升速",
+          "title": "一图成产品广告",
+          "judgment": "产品图 → 成片广告 / Seedance 产品战役教程继续涨；与 Topview AI Product Video / URL to Video 同战场。钩子应是「左商品图、右 15–30 秒成片」。",
+          "evidence": [
+            {
+              "title": "OpenArt Nano Banana 2.1 with Seedance 2.5 – Full AI Product Campaign Workflow",
+              "url": "https://www.youtube.com/watch?v=yqUD3645J44",
+              "stats": "4.6万播放 · 6:17 · 2026-10-25 · Eigi and AI",
+              "thumb": "https://i.ytimg.com/vi/yqUD3645J44/maxresdefault.jpg",
+              "channel": "Eigi and AI",
+              "id": "yqUD3645J44",
+              "views": 46021,
+              "views_label": "4.6万",
+              "duration_sec": 377,
+              "duration_label": "6:17",
+              "upload_date": "2026-10-25",
+              "why": "窗口内最新产品战役片（10-25）。",
+              "sponsored": false
+            },
+            {
+              "title": "How to Make AI Product Ads With Seedance 2.5",
+              "url": "https://www.youtube.com/watch?v=F2xz1MAKWEs",
+              "stats": "1.6万播放 · 8:54 · 2026-10-21 · Thomas Creates",
+              "thumb": "https://i.ytimg.com/vi/F2xz1MAKWEs/maxresdefault.jpg",
+              "channel": "Thomas Creates",
+              "id": "F2xz1MAKWEs",
+              "views": 15680,
+              "views_label": "1.6万",
+              "duration_sec": 534,
+              "duration_label": "8:54",
+              "upload_date": "2026-10-21",
+              "why": "Seedance 产品广告教程，步骤清楚。",
+              "sponsored": false
+            },
+            {
+              "title": "AI Ad Generator + AI Video Editor: Turn One Product Image into a Full Ad | CapCut PC",
+              "url": "https://www.youtube.com/watch?v=yzppSFGthHU",
+              "stats": "8.4万播放 · 6:19 · 2026-10-23 · Mevesa",
+              "thumb": "https://i.ytimg.com/vi/yzppSFGthHU/maxresdefault.jpg",
+              "channel": "Mevesa",
+              "id": "yzppSFGthHU",
+              "views": 84390,
+              "views_label": "8.4万",
+              "duration_sec": 379,
+              "duration_label": "6:19",
+              "upload_date": "2026-10-23",
+              "why": "一图成完整广告；疑似推广。",
+              "sponsored": true
+            },
+            {
+              "title": "I Tested Seedance 2.5 for Product Ads (INSANE RESULTS)",
+              "url": "https://www.youtube.com/watch?v=y6Zw5WFs62k",
+              "stats": "9.5万播放 · 8:42 · 2026-08-07 · Thomas Lundström",
+              "thumb": "https://i.ytimg.com/vi/y6Zw5WFs62k/maxresdefault.jpg",
+              "channel": "Thomas Lundström",
+              "id": "y6Zw5WFs62k",
+              "views": 95047,
+              "views_label": "9.5万",
+              "duration_sec": 522,
+              "duration_label": "8:42",
+              "upload_date": "2026-08-07",
+              "why": "产品广告词下持续召回。",
+              "sponsored": false
+            }
+          ]
+        },
+        {
+          "id": "t5",
+          "badge": "持续",
+          "title": "假广告 / 假集锦讽刺",
+          "judgment": "自然向百万级仍是「看起来像真广告/真集锦」的讽刺短片。巴黎假旅行团约 174 万；本轮 X 切尔西假集锦 66 万证明同一形式跨平台有效。Topview 保留「假广告壳 + 原创场景」常青线；巴黎片勿借政治议题。",
+          "evidence": [
+            {
+              "title": "Paris City Tours | AI Satire",
+              "url": "https://www.youtube.com/watch?v=_Vy2kqp4alg",
+              "stats": "174.5万播放 · 1:19 · 2026-10-19 · Wytse Koetse",
+              "thumb": "https://i.ytimg.com/vi/_Vy2kqp4alg/maxresdefault.jpg",
+              "channel": "Wytse Koetse",
+              "id": "_Vy2kqp4alg",
+              "views": 1744645,
+              "views_label": "174.5万",
+              "duration_sec": 79,
+              "duration_label": "1:19",
+              "upload_date": "2026-10-19",
+              "why": "假旅行团讽刺，自然向最高播之一。",
+              "sponsored": false
+            },
+            {
+              "title": "Made a Full TV Commercial in My Bedroom With AI",
+              "url": "https://www.youtube.com/watch?v=U5JFoiRPyFI",
+              "stats": "2万播放 · 16:29 · 2026-10-20 · Rachit Singh",
+              "thumb": "https://i.ytimg.com/vi/U5JFoiRPyFI/maxresdefault.jpg",
+              "channel": "Rachit Singh",
+              "id": "U5JFoiRPyFI",
+              "views": 19759,
+              "views_label": "2万",
+              "duration_sec": 989,
+              "duration_label": "16:29",
+              "upload_date": "2026-10-20",
+              "why": "卧室拍完整电视广告，假广告壳可抄。",
+              "sponsored": false
+            },
+            {
+              "title": "Runable AI: Create a 60-Second Commercial with One Prompt",
+              "url": "https://www.youtube.com/watch?v=H9HCqMcdnbQ",
+              "stats": "1.5万播放 · 4:48 · 2026-10-22 · AI Outlet",
+              "thumb": "https://i.ytimg.com/vi/H9HCqMcdnbQ/maxresdefault.jpg",
+              "channel": "AI Outlet",
+              "id": "H9HCqMcdnbQ",
+              "views": 15355,
+              "views_label": "1.5万",
+              "duration_sec": 288,
+              "duration_label": "4:48",
+              "upload_date": "2026-10-22",
+              "why": "一 prompt 60 秒广告；疑似推广。",
+              "sponsored": true
+            },
+            {
+              "title": "This Liquid Death Commercial Was Made by AI—And It Slaps",
+              "url": "https://www.youtube.com/watch?v=FYFNJZMpaes",
+              "stats": "9.9万播放 · 1:02 · 2026-10-20 · MeatingAI",
+              "thumb": "https://i.ytimg.com/vi/FYFNJZMpaes/maxresdefault.jpg",
+              "channel": "MeatingAI",
+              "id": "FYFNJZMpaes",
+              "views": 98802,
+              "views_label": "9.9万",
+              "duration_sec": 62,
+              "duration_label": "1:02",
+              "upload_date": "2026-10-20",
+              "why": "假饮料广告壳，讽刺/段子向。",
+              "sponsored": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "korea": {
+    "label": "韩国日报 10-26（重挖）",
+    "dateLine": "韩国 AI 热点日报 · 2026-10-26 · 重挖 · 北京时间",
+    "leadKicker": "韩国 AI 热点日报 · 10-26 重挖",
+    "lead": "12 秒老人段子仍最值得抄（복자씨 7.2 万）；剧情头名换成 It's super fun 第 90 集상견례傲娇反转（17.0 万）。另两条剧情也是新片：잔잔한学历势利（16.8 万）、시댁锁门（5.4 万）。",
+    "meta": [
+      {
+        "k": "报告",
+        "v": "韩国 AI 热点日报（重挖）"
+      },
+      {
+        "k": "日期",
+        "v": "2026-10-26"
+      },
+      {
+        "k": "主榜",
+        "v": "5 条"
+      },
+      {
+        "k": "采集",
+        "v": "13:17–13:21 Asia/Shanghai"
+      }
+    ],
+    "cards": [
+      {
+        "badge": "主榜",
+        "title": "饭桌太挤，奶奶让服务员「那个也收一下」",
+        "stats": "7.2 万播放 · 12 秒 · 10-24 · Gemini 水印",
+        "analysis": "一个画面一句话最后一拍反转；号平时只有几千。可借鉴：超短段子批量，配 Wan 3.0「30 秒 720p $1.20，365 天无限」。",
+        "links": [
+          {
+            "title": "福子的人生故事 · 饭桌太挤",
+            "href": "https://www.youtube.com/shorts/-MBIq-7DD-s"
+          }
+        ],
+        "thumbs": [
+          {
+            "type": "yt",
+            "id": "-MBIq-7DD-s"
+          }
+        ]
+      },
+      {
+        "badge": "主榜",
+        "title": "两个老头猜谜第 11 集",
+        "stats": "6.4 万播放 · 28 秒 · 10-25（早版 4.4 万）",
+        "analysis": "固定双角色只换背景。可借鉴：角色一致系列；可拍「猜 AI 视频多少钱」→ T1 3.8 折。",
+        "links": [
+          {
+            "title": "笑声美食店 · 稻田边猜谜",
+            "href": "https://www.youtube.com/shorts/AKRIM8EoCh0"
+          }
+        ],
+        "thumbs": [
+          {
+            "type": "yt",
+            "id": "AKRIM8EoCh0"
+          }
+        ]
+      },
+      {
+        "badge": "主榜",
+        "title": "见家长席上婆婆怒吼，其实嘴硬心软（第 90 集）",
+        "stats": "17.0 万播放 · 71 秒 · 10-25",
+        "analysis": "先吼后暖的傲娇长辈；热评「温暖的傲娇」。重挖换片：早版是同号 89 화职场组长。",
+        "links": [
+          {
+            "title": "It's super fun 第 90 集",
+            "href": "https://www.youtube.com/shorts/p6cXh8_vwK8"
+          }
+        ],
+        "thumbs": [
+          {
+            "type": "yt",
+            "id": "p6cXh8_vwK8"
+          }
+        ]
+      },
+      {
+        "badge": "主榜",
+        "title": "「不就读过个高中吗？」见家长学历势利眼变脸",
+        "stats": "16.8 万播放 · 90 秒 · 10-25",
+        "analysis": "一句势利话 + 身份揭晓；热评「变脸比光还快」。早版放观察，重挖按正好 90 秒抬进主榜。",
+        "links": [
+          {
+            "title": "安静的故事集 · 学历势利",
+            "href": "https://www.youtube.com/shorts/k_9EXAbljC4"
+          }
+        ],
+        "thumbs": [
+          {
+            "type": "yt",
+            "id": "k_9EXAbljC4"
+          }
+        ]
+      },
+      {
+        "badge": "主榜",
+        "title": "「시댁才是家人？」妻子把丈夫锁门外",
+        "stats": "5.4 万播放 · 33 秒 · 10-23",
+        "analysis": "효도는 셀프。可借鉴：门口反将；广告只借反讽勿直译锁门。早版同号是会长亲妈集。",
+        "links": [
+          {
+            "title": "人生解气段子 · 시댁锁门",
+            "href": "https://www.youtube.com/shorts/6dkXd33aGuM"
+          }
+        ],
+        "thumbs": [
+          {
+            "type": "yt",
+            "id": "6dkXd33aGuM"
+          }
+        ]
+      },
+      {
+        "badge": "仍在爆",
+        "title": "仍在爆",
+        "stats": "贵妇嫌破车 +2.4 万（110.2 万）；婆婆被赶进厨房 +1.0 万（50.6 万）",
+        "analysis": "趋势：老人超短段子继续涨；상견례反转扎堆。缺口：IG 推荐号、TikTok CC 韩国区仍读不全。",
+        "links": [
+          {
+            "title": "贵妇嫌破车 · 110.2 万",
+            "href": "https://www.youtube.com/shorts/ZDFmPK1F1AQ"
+          },
+          {
+            "title": "婆婆被赶进厨房 · 50.6 万",
+            "href": "https://www.youtube.com/shorts/SGShpraE3Ns"
+          }
+        ],
+        "thumbs": [
+          {
+            "type": "yt",
+            "id": "ZDFmPK1F1AQ"
+          },
+          {
+            "type": "yt",
+            "id": "SGShpraE3Ns"
+          }
+        ]
+      }
+    ]
+  },
+  "overseas": null
+}

@@ -1,0 +1,334 @@
+{
+ "updated": "2026-11-03",
+ "market": "overseas",
+ "timezone": "Asia/Shanghai",
+ "collected_at": "2026-11-03 08:05–08:15（Asia/Shanghai）",
+ "window": "本周上传＋按播放，40 个检索词",
+ "source": "overseas-daily-1103",
+ "themes": [
+  {
+   "id": "t1",
+   "badge": "上升速",
+   "title": "Higgsfield 花钱买下“Kling 4.0 便宜 5 倍”的叙事",
+   "judgment": "“同一 prompt 多模型擂台”的视频，大多挂同一个 Higgsfield 活动链接（video-model-showdown-kling-4），韩语频道直接写了“收到 Higgsfield 报酬”。标题从“谁最强”变成“贵 5 倍值不值”“别再用贵的 AI”。Topview 的接法：T1「Seedance 2.5 一样的效果，3.8折的价格」（$0.22/秒 vs 官方 $0.585/秒）——同样讲省钱，但不降效果。",
+   "evidence": [
+    {
+     "title": "不用再买贵的 AI 了（我放弃了 Seedance 2.5）（土耳其语）",
+     "url": "https://www.youtube.com/watch?v=ZuS6Nx22TH0",
+     "id": "ZuS6Nx22TH0",
+     "channel": "Onur Naci Öztürkler",
+     "views": 61838,
+     "views_label": "6.2万",
+     "duration_label": "11:04",
+     "upload_date": "10-28",
+     "stats": "6.2万播放 · 11:04 · 10-28 · Onur Naci Öztürkler",
+     "thumb": "https://i.ytimg.com/vi/ZuS6Nx22TH0/hqdefault.jpg",
+     "why": "Higgsfield 返佣链接",
+     "sponsored": true
+    },
+    {
+     "title": "I Tested 8 of the BEST AI Video Models! Kling 4.0 vs Seedance 2.5",
+     "url": "https://www.youtube.com/watch?v=eadEYJY9ydg",
+     "id": "eadEYJY9ydg",
+     "channel": "WorldofAI",
+     "views": 37054,
+     "views_label": "3.7万",
+     "duration_label": "9:06",
+     "upload_date": "10-31",
+     "stats": "3.7万播放 · 9:06 · 10-31 · WorldofAI",
+     "thumb": "https://i.ytimg.com/vi/eadEYJY9ydg/hqdefault.jpg",
+     "why": "同一活动链接",
+     "sponsored": true
+    },
+    {
+     "title": "帮你省积分：同一 prompt 8 个模型谁赢？（韩语）",
+     "url": "https://www.youtube.com/watch?v=LP8UqeQRHY0",
+     "id": "LP8UqeQRHY0",
+     "channel": "신동댕동 Shindongdengdong",
+     "views": 31634,
+     "views_label": "3.2万",
+     "duration_label": "7:11",
+     "upload_date": "10-30",
+     "stats": "3.2万播放 · 7:11 · 10-30 · 신동댕동 Shindongdengdong",
+     "thumb": "https://i.ytimg.com/vi/LP8UqeQRHY0/hqdefault.jpg",
+     "why": "简介写明收到 Higgsfield 报酬",
+     "sponsored": true
+    },
+    {
+     "title": "Kling 4.0 Is 5X Cheaper Than Seedance 2.5… What's the Catch?",
+     "url": "https://www.youtube.com/watch?v=Cid_1B4YqQM",
+     "id": "Cid_1B4YqQM",
+     "channel": "Zubair Trabzada",
+     "views": 21123,
+     "views_label": "2.1万",
+     "duration_label": "15:22",
+     "upload_date": "10-31",
+     "stats": "2.1万播放 · 15:22 · 10-31 · Zubair Trabzada",
+     "thumb": "https://i.ytimg.com/vi/Cid_1B4YqQM/hqdefault.jpg",
+     "why": "“便宜 5 倍”标题",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "badge": "上升速",
+   "title": "黑五：CapCut PC / Pippit 创作者矩阵卖“一个产品→整套广告”",
+   "judgment": "CapCut 黑五专用 KOL 链接（capcutpc_kol）和 Pippit（字节）达人链接集中在 10-27～10-30 上线，内容都是“一个产品→黑五整套广告”，和 Google 上 Dreamina $0.29 的投放在同一时间段。黑五（11-27）按 3 周档 11-06 开始借势，Topview 的“一张产品图→黑五广告”现在就该备好，卖点写“30 天无限”。",
+   "evidence": [
+    {
+     "title": "I Turned ONE Fashion Product Into a Full Black Friday Campaign",
+     "url": "https://www.youtube.com/watch?v=RE6O4VrORm4",
+     "id": "RE6O4VrORm4",
+     "channel": "Kingy AI",
+     "views": 78511,
+     "views_label": "7.9万",
+     "duration_label": "",
+     "upload_date": "10-30",
+     "stats": "7.9万播放 · 10-30 · Kingy AI",
+     "thumb": "https://i.ytimg.com/vi/RE6O4VrORm4/hqdefault.jpg",
+     "why": "CapCut PC 合作；只有 29 赞，疑似买量",
+     "sponsored": true
+    },
+    {
+     "title": "CapCut PC＋黑五营销：一条视频做两支广告（西语）",
+     "url": "https://www.youtube.com/watch?v=nb40lCdfcJU",
+     "id": "nb40lCdfcJU",
+     "channel": "Universo Ari",
+     "views": 45855,
+     "views_label": "4.6万",
+     "duration_label": "10:09",
+     "upload_date": "10-27",
+     "stats": "4.6万播放 · 10:09 · 10-27 · Universo Ari",
+     "thumb": "https://i.ytimg.com/vi/nb40lCdfcJU/hqdefault.jpg",
+     "why": "capcutpc_kol 链接",
+     "sponsored": true
+    },
+    {
+     "title": "Black Friday Advertising: Make an Emotional Product Ad | CapCut PC",
+     "url": "https://www.youtube.com/watch?v=LZW1n0EM1WE",
+     "id": "LZW1n0EM1WE",
+     "channel": "AI WORLDWIDE",
+     "views": 42141,
+     "views_label": "4.2万",
+     "duration_label": "8:28",
+     "upload_date": "10-28",
+     "stats": "4.2万播放 · 8:28 · 10-28 · AI WORLDWIDE",
+     "thumb": "https://i.ytimg.com/vi/LZW1n0EM1WE/hqdefault.jpg",
+     "why": "capcutpc_kol 链接",
+     "sponsored": true
+    },
+    {
+     "title": "I Turned ONE Product Into 3 Viral AI Ads! Pippit + Seedance",
+     "url": "https://www.youtube.com/watch?v=nzU_F5IZrqI",
+     "id": "nzU_F5IZrqI",
+     "channel": "Crypto Mike X",
+     "views": 39656,
+     "views_label": "4.0万",
+     "duration_label": "9:49",
+     "upload_date": "10-30",
+     "stats": "4.0万播放 · 9:49 · 10-30 · Crypto Mike X",
+     "thumb": "https://i.ytimg.com/vi/nzU_F5IZrqI/hqdefault.jpg",
+     "why": "Pippit 达人链接",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "badge": "上升速",
+   "title": "食材拟人剧在 YouTube 长版跑出百万",
+   "judgment": "X 上 clipcraft7 的 60–90 秒短版之外，YouTube 上“土豆/番茄/水果一家”的长版跑到 50–119 万，4 个证据里 3 个是 499–1 万订阅的小频道，其中 Milo 是“慢速英语 A2”学英语版。算法在推这个题材，不太靠粉丝。Topview：食材拟人是现成的产品广告模板（饮品、零食、护肤原料）。",
+   "evidence": [
+    {
+     "title": "Daddy’s LOUD Guitar Woke Up the Whole House…（慢速英语 A2）",
+     "url": "https://www.youtube.com/watch?v=GV746AJ9rPw",
+     "id": "GV746AJ9rPw",
+     "channel": "Milo Fruit Stories",
+     "views": 1187900,
+     "views_label": "118.8万",
+     "duration_label": "33:08",
+     "upload_date": "10-31",
+     "stats": "118.8万播放 · 33:08 · 10-31 · Milo Fruit Stories",
+     "thumb": "https://i.ytimg.com/vi/GV746AJ9rPw/hqdefault.jpg",
+     "why": "1.04 万订阅",
+     "sponsored": false
+    },
+    {
+     "title": "Thaluku Muluku Thakali｜AI 连续剧第 5 集（泰卢固语）",
+     "url": "https://www.youtube.com/watch?v=jbNiBbJh6nU",
+     "id": "jbNiBbJh6nU",
+     "channel": "Vinay Vines",
+     "views": 880901,
+     "views_label": "88.1万",
+     "duration_label": "23:51",
+     "upload_date": "10-28",
+     "stats": "88.1万播放 · 23:51 · 10-28 · Vinay Vines",
+     "thumb": "https://i.ytimg.com/vi/jbNiBbJh6nU/hqdefault.jpg",
+     "why": "番茄角色连续剧",
+     "sponsored": false
+    },
+    {
+     "title": "土豆和妈妈被赶出派对，接下来…（印地语）",
+     "url": "https://www.youtube.com/watch?v=PE3UdwZhqXs",
+     "id": "PE3UdwZhqXs",
+     "channel": "ZabiVeggies",
+     "views": 623223,
+     "views_label": "62.3万",
+     "duration_label": "9:32",
+     "upload_date": "10-28",
+     "stats": "62.3万播放 · 9:32 · 10-28 · ZabiVeggies",
+     "thumb": "https://i.ytimg.com/vi/PE3UdwZhqXs/hqdefault.jpg",
+     "why": "1,670 订阅",
+     "sponsored": false
+    },
+    {
+     "title": "穷土豆当上公交公司老板（印地语）",
+     "url": "https://www.youtube.com/watch?v=KiVtaQXenlw",
+     "id": "KiVtaQXenlw",
+     "channel": "Toon AI Land",
+     "views": 496769,
+     "views_label": "49.7万",
+     "duration_label": "7:01",
+     "upload_date": "10-27",
+     "stats": "49.7万播放 · 7:01 · 10-27 · Toon AI Land",
+     "thumb": "https://i.ytimg.com/vi/KiVtaQXenlw/hqdefault.jpg",
+     "why": "499 订阅",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "badge": "持续",
+   "title": "AI 网红 / AI 粗制被做成娱乐，真人演员也被怀疑是 AI",
+   "judgment": "吐槽 AI 网红、吃“AI 粗制食谱”的视频继续在 17–38 万档；新西兰旅游局广告里的真人演员被网友指成 AI，上了新闻（33.9 万）。观众对“像 AI”很敏感：Topview 广告要大方承认是 AI 做的，主打可控和省钱，别假装真人。",
+   "evidence": [
+    {
+     "title": "AI Influencers Gotta Go Bro",
+     "url": "https://www.youtube.com/watch?v=BInn5uzK9O0",
+     "id": "BInn5uzK9O0",
+     "channel": "TommyNFG",
+     "views": 383520,
+     "views_label": "38.4万",
+     "duration_label": "11:07",
+     "upload_date": "10-28",
+     "stats": "38.4万播放 · 11:07 · 10-28 · TommyNFG",
+     "thumb": "https://i.ytimg.com/vi/BInn5uzK9O0/hqdefault.jpg",
+     "why": "吐槽 AI 网红",
+     "sponsored": false
+    },
+    {
+     "title": "Kiwi actor faces claims he’s AI in Tourism NZ ad",
+     "url": "https://www.youtube.com/watch?v=VtfyznR4TMA",
+     "id": "VtfyznR4TMA",
+     "channel": "Stuff",
+     "views": 338832,
+     "views_label": "33.9万",
+     "duration_label": "",
+     "upload_date": "10-28",
+     "stats": "33.9万播放 · 10-28 · Stuff",
+     "thumb": "https://i.ytimg.com/vi/VtfyznR4TMA/hqdefault.jpg",
+     "why": "真人广告被指 AI",
+     "sponsored": false
+    },
+    {
+     "title": "I Tested UNREALISTIC AI SLOP Recipes!",
+     "url": "https://www.youtube.com/watch?v=3W6uG7mh9aU",
+     "id": "3W6uG7mh9aU",
+     "channel": "Honeysuckle",
+     "views": 252463,
+     "views_label": "25.2万",
+     "duration_label": "19:14",
+     "upload_date": "10-31",
+     "stats": "25.2万播放 · 19:14 · 10-31 · Honeysuckle",
+     "thumb": "https://i.ytimg.com/vi/3W6uG7mh9aU/hqdefault.jpg",
+     "why": "实测 AI 粗制食谱",
+     "sponsored": false
+    },
+    {
+     "title": "Eating AI Slop in Real Life",
+     "url": "https://www.youtube.com/watch?v=Hzfrbzzmpao",
+     "id": "Hzfrbzzmpao",
+     "channel": "Bobia",
+     "views": 172710,
+     "views_label": "17.3万",
+     "duration_label": "18:12",
+     "upload_date": "10-31",
+     "stats": "17.3万播放 · 18:12 · 10-31 · Bobia",
+     "thumb": "https://i.ytimg.com/vi/Hzfrbzzmpao/hqdefault.jpg",
+     "why": "AI 粗制食物实做",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "badge": "持续",
+   "title": "Topview T1 被点名：几乎都是自家合作稿，问题都是“值不值”",
+   "judgment": "本周 T1 相关视频多数挂 topview.ai 的 via= 链接，法语、英语两条直接写了“和 Topview 商业合作”，播放 0.1–0.6 万，比 Higgsfield 活动的 2–6 万低一个量级。标题都在问“最划算吗”“值这个钱吗”，说明价格是观众最关心的点。第三方结论未独立验证。",
+   "evidence": [
+    {
+     "title": "哪个 AI 视频最好？Seedance 2.5 vs Topview T1（越南语）",
+     "url": "https://www.youtube.com/watch?v=0gxEYgcw_iA",
+     "id": "0gxEYgcw_iA",
+     "channel": "TTNTAI",
+     "views": 5807,
+     "views_label": "0.58万",
+     "duration_label": "8:40",
+     "upload_date": "10-30",
+     "stats": "0.58万播放 · 8:40 · 10-30 · TTNTAI",
+     "thumb": "https://i.ytimg.com/vi/0gxEYgcw_iA/hqdefault.jpg",
+     "why": "via= 链接",
+     "sponsored": true
+    },
+    {
+     "title": "Topview T1 能让我放弃 Seedance 2.5 吗？（越南语）",
+     "url": "https://www.youtube.com/watch?v=o40BUPvLqBg",
+     "id": "o40BUPvLqBg",
+     "channel": "NiemTech",
+     "views": 1532,
+     "views_label": "0.15万",
+     "duration_label": "20:07",
+     "upload_date": "10-29",
+     "stats": "0.15万播放 · 20:07 · 10-29 · NiemTech",
+     "thumb": "https://i.ytimg.com/vi/o40BUPvLqBg/hqdefault.jpg",
+     "why": "via= 链接",
+     "sponsored": true
+    },
+    {
+     "title": "Seedance 2.5 vs Topview T1：最划算的视频 AI？（法语）",
+     "url": "https://www.youtube.com/watch?v=Sm0QAJhUUaQ",
+     "id": "Sm0QAJhUUaQ",
+     "channel": "Jeanviet",
+     "views": 1198,
+     "views_label": "0.12万",
+     "duration_label": "11:59",
+     "upload_date": "10-30",
+     "stats": "0.12万播放 · 11:59 · 10-30 · Jeanviet",
+     "thumb": "https://i.ytimg.com/vi/Sm0QAJhUUaQ/hqdefault.jpg",
+     "why": "标明商业合作",
+     "sponsored": true
+    },
+    {
+     "title": "Is Topview T1 or Seedance 2.5 Worth the Money?",
+     "url": "https://www.youtube.com/watch?v=XIW1YZyVcdA",
+     "id": "XIW1YZyVcdA",
+     "channel": "Hoang Labz",
+     "views": 1167,
+     "views_label": "0.12万",
+     "duration_label": "",
+     "upload_date": "10-29",
+     "stats": "0.12万播放 · 10-29 · Hoang Labz",
+     "thumb": "https://i.ytimg.com/vi/XIW1YZyVcdA/hqdefault.jpg",
+     "why": "标明 sponsored",
+     "sponsored": true
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "theme_cards": 5,
+  "evidence_videos": 20
+ }
+}
