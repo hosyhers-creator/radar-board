@@ -1,0 +1,334 @@
+{
+ "updated": "2026-11-04",
+ "market": "overseas",
+ "timezone": "Asia/Shanghai",
+ "collected_at": "2026-11-04 08:12–08:20（Asia/Shanghai）",
+ "window": "本周上传＋按播放，52 个检索词",
+ "source": "overseas-daily-1104",
+ "themes": [
+  {
+   "id": "t1",
+   "badge": "新出路",
+   "title": "“AI 比特效/真人便宜吗”对决成了大号选题",
+   "judgment": "VFX 博主、鼓手、韩国科技频道都在拍“同一件事，AI 做 vs 专业做”，播放 30–58 万，比上周纯模型擂台高一个量级；观众关心的是“便宜多少、差多少”。其中 ErikDoesVFX、SmartDaddy 挂的是 Higgsfield 链接。Topview 的接法：同一个镜头“官方 Seedance 2.5 vs Topview T1”，效果一样，价格 3.8 折（$0.22/秒 vs $0.585/秒）。",
+   "evidence": [
+    {
+     "title": "Is AI Actually Cheaper than VFX?",
+     "url": "https://www.youtube.com/watch?v=40uRWuhfZI0",
+     "id": "40uRWuhfZI0",
+     "channel": "ErikDoesVFX",
+     "views": 580520,
+     "views_label": "58.1万",
+     "duration_label": "17:11",
+     "upload_date": "10-31",
+     "stats": "58.1万播放 · 17:11 · 10-31 · ErikDoesVFX",
+     "thumb": "https://i.ytimg.com/vi/40uRWuhfZI0/hqdefault.jpg",
+     "why": "Seedance 2.5 on Higgsfield，合作链接",
+     "sponsored": true
+    },
+    {
+     "title": "Metal Drummer vs AI Drummer",
+     "url": "https://www.youtube.com/watch?v=d1aJOpwwSb4",
+     "id": "d1aJOpwwSb4",
+     "channel": "66Samus",
+     "views": 480745,
+     "views_label": "48.1万",
+     "duration_label": "8:39",
+     "upload_date": "10-28",
+     "stats": "48.1万播放 · 8:39 · 10-28 · 66Samus",
+     "thumb": "https://i.ytimg.com/vi/d1aJOpwwSb4/hqdefault.jpg",
+     "why": "人 vs AI 对决；BetterHelp 赞助（非 AI 合作）",
+     "sponsored": false
+    },
+    {
+     "title": "1 万韩元 vs 6 万韩元，让 AI 模型来演（韩语）",
+     "url": "https://www.youtube.com/watch?v=HXaPZiEfXfQ",
+     "id": "HXaPZiEfXfQ",
+     "channel": "스마트대디 SmartDaddy",
+     "views": 297628,
+     "views_label": "29.8万",
+     "duration_label": "7:28",
+     "upload_date": "10-28",
+     "stats": "29.8万播放 · 7:28 · 10-28 · 스마트대디 SmartDaddy",
+     "thumb": "https://i.ytimg.com/vi/HXaPZiEfXfQ/hqdefault.jpg",
+     "why": "Higgsfield 活动链接",
+     "sponsored": true
+    },
+    {
+     "title": "New AI Movie Got DESTROYED at the Box Office",
+     "url": "https://www.youtube.com/watch?v=TVFfSh3zQE4",
+     "id": "TVFfSh3zQE4",
+     "channel": "Vailskibum",
+     "views": 750812,
+     "views_label": "75.1万",
+     "duration_label": "2:13",
+     "upload_date": "10-28",
+     "stats": "75.1万播放 · 2:13 · 10-28 · Vailskibum",
+     "thumb": "https://i.ytimg.com/vi/TVFfSh3zQE4/hqdefault.jpg",
+     "why": "中国 AI 电影《三星堆：未来往事》票房扑街",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "badge": "上升速",
+   "title": "“用 AI 视频月入 1 万美元”副业教程霸榜",
+   "judgment": "Iman Gadzhi 的 Higgsfield 赚钱教程一周 95.6 万，简介里自称“Higgsfield 的投资人和顾问”；印度大号“1 条视频赚 4 lakh”“5 分钟学会 AI 视频”在 25–67 万。观众买的是“我也能靠它赚钱”的叙事，不是画质。Topview 可讲“一个人一天做 30 条带货视频”，配“30 天无限”。",
+   "evidence": [
+    {
+     "title": "How To Make $10,000/Month With Higgsfield (No Experience)",
+     "url": "https://www.youtube.com/watch?v=vOBKA8n15vg",
+     "id": "vOBKA8n15vg",
+     "channel": "Iman Gadzhi",
+     "views": 956007,
+     "views_label": "95.6万",
+     "duration_label": "21:55",
+     "upload_date": "10-28",
+     "stats": "95.6万播放 · 21:55 · 10-28 · Iman Gadzhi",
+     "thumb": "https://i.ytimg.com/vi/vOBKA8n15vg/hqdefault.jpg",
+     "why": "简介自称 Higgsfield 投资人/顾问",
+     "sponsored": true
+    },
+    {
+     "title": "5 分钟学会做 AI 视频（印地语）",
+     "url": "https://www.youtube.com/watch?v=e-O2k-0F51w",
+     "id": "e-O2k-0F51w",
+     "channel": "Manoj Dey",
+     "views": 671614,
+     "views_label": "67.2万",
+     "duration_label": "10:31",
+     "upload_date": "10-29",
+     "stats": "67.2万播放 · 10:31 · 10-29 · Manoj Dey",
+     "thumb": "https://i.ytimg.com/vi/e-O2k-0F51w/hqdefault.jpg",
+     "why": "挂工具推广链接",
+     "sponsored": true
+    },
+    {
+     "title": "How to Make Viral Animated Shorts Using Claude",
+     "url": "https://www.youtube.com/watch?v=OtbLL6OBNE4",
+     "id": "OtbLL6OBNE4",
+     "channel": "Mr omi",
+     "views": 414599,
+     "views_label": "41.5万",
+     "duration_label": "11:52",
+     "upload_date": "11-01",
+     "stats": "41.5万播放 · 11:52 · 11-01 · Mr omi",
+     "thumb": "https://i.ytimg.com/vi/OtbLL6OBNE4/hqdefault.jpg",
+     "why": "用 Claude 做爆款动画短片",
+     "sponsored": false
+    },
+    {
+     "title": "1 条视频赚 4 lakh：AI 视频怎么做（印地语）",
+     "url": "https://www.youtube.com/watch?v=YEuf8n68Zp4",
+     "id": "YEuf8n68Zp4",
+     "channel": "Spreading Gyan",
+     "views": 246504,
+     "views_label": "24.7万",
+     "duration_label": "32:10",
+     "upload_date": "10-30",
+     "stats": "24.7万播放 · 32:10 · 10-30 · Spreading Gyan",
+     "thumb": "https://i.ytimg.com/vi/YEuf8n68Zp4/hqdefault.jpg",
+     "why": "AI 赚钱叙事",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "badge": "持续",
+   "title": "食材拟人剧扩到孟加拉语，千订阅小号也能破 40 万",
+   "judgment": "昨天是印地语、泰卢固语，今天孟加拉语频道（910 订阅）一条 47.3 万；四个证据都是 4,250 订阅以下的小号，题材都是“穷土豆逆袭”。X 上 clipcraft7 也在开甜品头新系列。这个格式靠算法推题材、不靠粉丝。Topview：饮品、零食、护肤原料做拟人逆袭，T1 30 天无限批量出。",
+   "evidence": [
+    {
+     "title": "坐火车去外婆家：蔬菜一家的旅行（孟加拉语）",
+     "url": "https://www.youtube.com/watch?v=bTR-VVWPjU8",
+     "id": "bTR-VVWPjU8",
+     "channel": "Ai facts unlimited BD",
+     "views": 472620,
+     "views_label": "47.3万",
+     "duration_label": "9:15",
+     "upload_date": "10-28",
+     "stats": "47.3万播放 · 9:15 · 10-28 · Ai facts unlimited BD",
+     "thumb": "https://i.ytimg.com/vi/bTR-VVWPjU8/hqdefault.jpg",
+     "why": "910 订阅",
+     "sponsored": false
+    },
+    {
+     "title": "推车卖冰的土豆当上制冰厂老板",
+     "url": "https://www.youtube.com/watch?v=Sipr_QQJuAE",
+     "id": "Sipr_QQJuAE",
+     "channel": "Vegi Migo World",
+     "views": 458626,
+     "views_label": "45.9万",
+     "duration_label": "11:37",
+     "upload_date": "10-29",
+     "stats": "45.9万播放 · 11:37 · 10-29 · Vegi Migo World",
+     "thumb": "https://i.ytimg.com/vi/Sipr_QQJuAE/hqdefault.jpg",
+     "why": "3,310 订阅",
+     "sponsored": false
+    },
+    {
+     "title": "穷土豆和奶奶做芒果泡菜开始创业",
+     "url": "https://www.youtube.com/watch?v=qedZyzFVqf4",
+     "id": "qedZyzFVqf4",
+     "channel": "VeggieVerse AI",
+     "views": 431016,
+     "views_label": "43.1万",
+     "duration_label": "16:49",
+     "upload_date": "10-30",
+     "stats": "43.1万播放 · 16:49 · 10-30 · VeggieVerse AI",
+     "thumb": "https://i.ytimg.com/vi/qedZyzFVqf4/hqdefault.jpg",
+     "why": "4,250 订阅",
+     "sponsored": false
+    },
+    {
+     "title": "土豆放下自己的贫穷，圆了妹妹们的梦",
+     "url": "https://www.youtube.com/watch?v=l-eO-qQK-3A",
+     "id": "l-eO-qQK-3A",
+     "channel": "sabzi tales Ai",
+     "views": 393370,
+     "views_label": "39.3万",
+     "duration_label": "11:52",
+     "upload_date": "10-28",
+     "stats": "39.3万播放 · 11:52 · 10-28 · sabzi tales Ai",
+     "thumb": "https://i.ytimg.com/vi/l-eO-qQK-3A/hqdefault.jpg",
+     "why": "815 订阅",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "badge": "上升速",
+   "title": "反转短剧出海：印尼语 Shorts 日更＋英语 AI 长合集",
+   "judgment": "印尼频道 Eko Nuryanto AI 近 48 小时发了 7 条“被嘲笑穷→身份揭晓”，80–100 秒，最高 43.4 万；英语配音的 AI 长短剧合集一周 64 万；台湾媒体专题讲“AI 短剧攻陷中国热播榜”。“身份反转”在多个语区都成立。Topview 可做“被看不起→一键出片打脸”的 30 秒版本。",
+   "evidence": [
+    {
+     "title": "被嘲笑穷的拾荒大妈竟是最大捐助人（印尼语）",
+     "url": "https://www.youtube.com/watch?v=uNFSANWsHvk",
+     "id": "uNFSANWsHvk",
+     "channel": "Eko Nuryanto AI",
+     "views": 433763,
+     "views_label": "43.4万",
+     "duration_label": "1:40",
+     "upload_date": "11-02",
+     "stats": "43.4万播放 · 1:40 · 11-02 · Eko Nuryanto AI",
+     "thumb": "https://i.ytimg.com/vi/uNFSANWsHvk/hqdefault.jpg",
+     "why": "Shorts，标签含 Gemini",
+     "sponsored": false
+    },
+    {
+     "title": "一身机油味被羞辱的补胎师傅，原来是……（印尼语）",
+     "url": "https://www.youtube.com/watch?v=e5PtlAgKtrc",
+     "id": "e5PtlAgKtrc",
+     "channel": "Eko Nuryanto AI",
+     "views": 123530,
+     "views_label": "12.4万",
+     "duration_label": "1:39",
+     "upload_date": "11-02",
+     "stats": "12.4万播放 · 1:39 · 11-02 · Eko Nuryanto AI",
+     "thumb": "https://i.ytimg.com/vi/e5PtlAgKtrc/hqdefault.jpg",
+     "why": "同号日更",
+     "sponsored": false
+    },
+    {
+     "title": "He Dumped His Pregnant Wife for a Rich Woman…",
+     "url": "https://www.youtube.com/watch?v=gkRXl9lDReY",
+     "id": "gkRXl9lDReY",
+     "channel": "Nov Drama",
+     "views": 644407,
+     "views_label": "64.4万",
+     "duration_label": "67:31",
+     "upload_date": "10-31",
+     "stats": "64.4万播放 · 67:31 · 10-31 · Nov Drama",
+     "thumb": "https://i.ytimg.com/vi/gkRXl9lDReY/hqdefault.jpg",
+     "why": "#AIStory 英语长合集",
+     "sponsored": false
+    },
+    {
+     "title": "AI 短剧攻陷中国热播榜？（新闻专题）",
+     "url": "https://www.youtube.com/watch?v=NVKuBpfimvU",
+     "id": "NVKuBpfimvU",
+     "channel": "The World TODAY",
+     "views": 174442,
+     "views_label": "17.4万",
+     "duration_label": "9:51",
+     "upload_date": "10-31",
+     "stats": "17.4万播放 · 9:51 · 10-31 · The World TODAY",
+     "thumb": "https://i.ytimg.com/vi/NVKuBpfimvU/hqdefault.jpg",
+     "why": "媒体报道",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "badge": "上升速",
+   "title": "平台都在拿 Seedance 2.5 / Kling 4.0 当卖点（多为投放带量）",
+   "judgment": "AKOOL 官方 26 秒广告片 27.8 万播放只有 16 个赞，明显是投放；Artlist 合作稿卖“Kling 4.0 上线＋年付送 2 个月＋部分模型无限”；Dreamina 在 Google 投“Access Seedance 2.5”。“能用 Seedance 2.5”已不稀奇，Topview 要讲“同样的 Seedance 2.5，3.8 折＋30 天无限”；Artlist 的“年付送 2 个月”和 Topview 黑五 Ultra“买 2 年送 4 个月（共 28 个月）”撞了，黑五文案要把“送 4 个月”放大。",
+   "evidence": [
+    {
+     "title": "Seedance 2.5 on AKOOL",
+     "url": "https://www.youtube.com/watch?v=1OH_YYRXqTY",
+     "id": "1OH_YYRXqTY",
+     "channel": "Akool Inc",
+     "views": 277518,
+     "views_label": "27.8万",
+     "duration_label": "0:26",
+     "upload_date": "10-28",
+     "stats": "27.8万播放 · 0:26 · 10-28 · Akool Inc",
+     "thumb": "https://i.ytimg.com/vi/1OH_YYRXqTY/hqdefault.jpg",
+     "why": "官方投放，16 赞",
+     "sponsored": true
+    },
+    {
+     "title": "I Connected THIS to Claude… Luxury Fashion Commercial (Artlist MCP)",
+     "url": "https://www.youtube.com/watch?v=5j36aE3RdsQ",
+     "id": "5j36aE3RdsQ",
+     "channel": "어비월드 UhBee World",
+     "views": 177080,
+     "views_label": "17.7万",
+     "duration_label": "10:08",
+     "upload_date": "10-29",
+     "stats": "17.7万播放 · 10:08 · 10-29 · 어비월드 UhBee World",
+     "thumb": "https://i.ytimg.com/vi/5j36aE3RdsQ/hqdefault.jpg",
+     "why": "Artlist 返佣链接",
+     "sponsored": true
+    },
+    {
+     "title": "Black Friday Advertising - The Final Take",
+     "url": "https://www.youtube.com/watch?v=jGsOUBTsJww",
+     "id": "jGsOUBTsJww",
+     "channel": "Kingy AI",
+     "views": 168248,
+     "views_label": "16.8万",
+     "duration_label": "2:02",
+     "upload_date": "10-31",
+     "stats": "16.8万播放 · 2:02 · 10-31 · Kingy AI",
+     "thumb": "https://i.ytimg.com/vi/jGsOUBTsJww/hqdefault.jpg",
+     "why": "CapCut 黑五 KOL，20 赞",
+     "sponsored": true
+    },
+    {
+     "title": "Dragon Ball – RAI – Part 5 | Seedance 2.5",
+     "url": "https://www.youtube.com/watch?v=qVjkDxVuJ6g",
+     "id": "qVjkDxVuJ6g",
+     "channel": "Warvox Studio",
+     "views": 150370,
+     "views_label": "15.0万",
+     "duration_label": "21:40",
+     "upload_date": "10-31",
+     "stats": "15.0万播放 · 21:40 · 10-31 · Warvox Studio",
+     "thumb": "https://i.ytimg.com/vi/qVjkDxVuJ6g/hqdefault.jpg",
+     "why": "IP 同人，只看手法",
+     "sponsored": false
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "theme_cards": 5,
+  "evidence_videos": 20
+ }
+}

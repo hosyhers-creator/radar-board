@@ -16,9 +16,9 @@
         "US"
       ],
       "first_shown": "2026-11-02",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-02 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-02。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+      "title": "CapCut 黑五「Marketing Designs」(代投)",
+      "stats": "首投 2026-11-02 · Google US · WHATECH MOBILE 代投",
+      "analysis": "深蓝底大字“BLACK FRIDAY MARKETING DESIGNS”，羽绒服模特加“AI-powered”“40% OFF”角标，卖的是黑五海报/视频模板。代理商和 Bytedance 直投同一天上线同一套素材，说明 CapCut 黑五已经开打。",
       "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR12252851245135429633?region=US",
       "cover": "media/ads_google_CR12252851245135429633.jpg",
       "is_topview_impersonation": null,
@@ -33,9 +33,9 @@
         "US"
       ],
       "first_shown": "2026-11-02",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-02 · Bytedance Pte. Ltd.",
-      "analysis": "对 Topview：「Bytedance Pte. Ltd.」首投 2026-11-02。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+      "title": "CapCut 黑五「Marketing Designs」横版直投",
+      "stats": "首投 2026-11-02 · Google US · Bytedance 直投",
+      "analysis": "和代投版同一套黑五设计，换成横版投放。比节点日历的黑五借势起点（11-06）早 4 天，Topview 的 Ultra 黑五素材要提前排期。",
       "link": "https://adstransparency.google.com/advertiser/AR04014080128513474561/creative/CR03592728228864720897?region=US",
       "cover": "media/ads_google_CR03592728228864720897.jpg",
       "is_topview_impersonation": null,
@@ -50,9 +50,9 @@
         "KR"
       ],
       "first_shown": "2026-11-01",
-      "title": "Higgsfield · google · KR",
-      "stats": "首投 2026-11-01 · 주식회사 에프에스랩",
-      "analysis": "对 Topview：「주식회사 에프에스랩」首投 2026-11-01。注意地区投放（尤其 KR）和是否打「一键成片」。",
+      "title": "Higgsfield 韩国「同一张图跑 8 个模型」",
+      "stats": "首投 2026-11-01 · Google KR · 에프에스랩 代投",
+      "analysis": "8 宫格对比 Kling 4.0、Seedance 2.5、Veo 等，同一张建筑图跑 8 个模型，字幕“建筑视频，用这个 AI 模型来做吧”。YouTube 上的付费“模型擂台”已经变成正式投放，而且切的是建筑可视化这个垂类。",
       "link": "https://adstransparency.google.com/advertiser/AR08998283984966254593/creative/CR12570196689190649857?region=KR",
       "cover": "media/ads_google_CR12570196689190649857.jpg",
       "is_topview_impersonation": null,
@@ -67,9 +67,9 @@
         "KR"
       ],
       "first_shown": "2026-09-28",
-      "title": "Flova · google · KR",
-      "stats": "首投 2026-09-28 · FLOVA PTE. LTD.",
-      "analysis": "对 Topview：「FLOVA PTE. LTD.」首投 2026-09-28。多集角色一致叙事，可用 Film Studio 对照抢说法。",
+      "title": "Flova 韩国「日常社媒＋产品图」",
+      "stats": "首投 2026-09-28 · Google KR · 今天首次扫到",
+      "analysis": "奶油色底，几瓶饮料的产品图，配“适合日常社媒和产品图”。卖点是电商产品图，和 Topview 的“产品图→视频”重叠，但没打视频和价格。",
       "link": "https://adstransparency.google.com/advertiser/AR12554248788425834497/creative/CR18310119351547592705?region=KR",
       "cover": "media/ads_google_CR18310119351547592705.jpg",
       "is_topview_impersonation": null,
@@ -77,21 +77,22 @@
       "copy": null
     },
     {
-      "badge": "新开投",
-      "competitor": "CapCut",
+      "badge": "仍在投",
+      "competitor": "CapCut/Dreamina",
       "platform": "google",
       "regions": [
         "US"
       ],
       "first_shown": "2026-11-02",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-02 · Bytedance Pte. Ltd.",
-      "analysis": "对 Topview：「Bytedance Pte. Ltd.」首投 2026-11-02。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+      "title": "Dreamina「Access Seedance 2.5」纯字卡（仍在投）",
+      "stats": "首投 2026-11-02 · Google US · Bytedance · 昨天已列",
+      "analysis": "白底黑字只写“DREAMINA · Access Seedance 2.5”，今天仍在投。官方把“能用 Seedance 2.5”本身当卖点。",
       "link": "https://adstransparency.google.com/advertiser/AR04014080128513474561/creative/CR02536181117455695873?region=US",
       "cover": "media/ads_google_CR02536181117455695873.jpg",
       "is_topview_impersonation": null,
       "is_new": true,
       "copy": null
     }
-  ]
+  ],
+  "note": "分析为海外早报逐条手写（看封面画面），2026-11-04 08:3x"
 }
