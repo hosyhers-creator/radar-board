@@ -1,46 +1,47 @@
 {
-  "updated": "2026-11-05",
-  "timezone": "Asia/Shanghai",
-  "baseline": false,
-  "platform_status": {
-    "Google": "部分可行（Playwright 调公开 SearchCreatives RPC，format=VIDEO）；今日取到 500 条视频创意",
-    "Meta": "部分可行（无 API token；Playwright 公开页）；今日取到 178 条。官方 API 待 token。",
-    "TikTok": "部分可行（Playwright 拦截 Top Ads 列表；未登录无品牌关键词搜）；列表素材 {'US': 20, 'KR': 9}，命中竞品 0 条"
+ "updated": "2026-11-05",
+ "timezone": "Asia/Shanghai",
+ "baseline": false,
+ "platform_status": {
+  "Google": "部分可行（Playwright 调公开 SearchCreatives RPC，format=VIDEO）；今日取到 500 条视频创意",
+  "Meta": "部分可行（无 API token；Playwright 公开页）；今日取到 178 条。官方 API 待 token。",
+  "TikTok": "部分可行（Playwright 拦截 Top Ads 列表；未登录无品牌关键词搜）；列表素材 {'US': 20, 'KR': 9}，命中竞品 0 条"
+ },
+ "items": [
+  {
+   "badge": "新开投",
+   "competitor": "CapCut",
+   "platform": "google",
+   "regions": [
+    "US"
+   ],
+   "first_shown": "2026-11-02",
+   "title": "CapCut · “AI Voice Generator 文字转语音”",
+   "stats": "首投 2026-11-02 · 最近展示 11-04 · Bytedance Pte. Ltd.",
+   "analysis": "戴耳机女主播比 OK，右侧三个角色头像配音气泡，大字“Transform Text into Audio”。卖的是 AI 配音单点功能，不是视频模型；与 Topview 的口播/Avatar 自带配音属于同一用户需求的不同切口。",
+   "link": "https://adstransparency.google.com/advertiser/AR04014080128513474561/creative/CR08890087290559266817?region=US",
+   "cover": "media/ads_google_CR08890087290559266817.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
   },
-  "items": [
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "US"
-      ],
-      "first_shown": "2026-11-02",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-02 · Bytedance Pte. Ltd.",
-      "analysis": "对 Topview：「Bytedance Pte. Ltd.」首投 2026-11-02。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR04014080128513474561/creative/CR08890087290559266817?region=US",
-      "cover": "media/ads_google_CR08890087290559266817.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "US"
-      ],
-      "first_shown": "2026-11-02",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-02 · Bytedance Pte. Ltd.",
-      "analysis": "对 Topview：「Bytedance Pte. Ltd.」首投 2026-11-02。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR04014080128513474561/creative/CR14644843189408628737?region=US",
-      "cover": "media/ads_google_CR14644843189408628737.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    }
-  ]
+  {
+   "badge": "新开投",
+   "competitor": "CapCut",
+   "platform": "google",
+   "regions": [
+    "US"
+   ],
+   "first_shown": "2026-11-02",
+   "title": "CapCut · “GPT Image 2 + Seedance 2.5 一站式生成”",
+   "stats": "首投 2026-11-02 · 最近展示 11-04 · Bytedance Pte. Ltd.",
+   "analysis": "16:9，金发女战士出拳的动作镜头＋旁边一格分镜参考图，大字“GPT Image 2 + Seedance 2.5 One-stop generation, now available with CapCut!”。素材文件名为 08-21 的 Seedance 2.5 系列。信号：CapCut 在美国 Google 直接拿 Seedance 2.5 当卖点，和 T1 抢同一个关键词。",
+   "link": "https://adstransparency.google.com/advertiser/AR04014080128513474561/creative/CR14644843189408628737?region=US",
+   "cover": "media/ads_google_CR14644843189408628737.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  }
+ ],
+ "note": "今天 07:39–07:50 扫描；677 条，新开投 13；无本地封面的 Meta 4 条不上页；仿冒 topview-ai.com 2 条仍在投"
 }

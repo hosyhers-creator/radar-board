@@ -1,0 +1,324 @@
+{
+ "updated": "2026-11-05",
+ "market": "overseas",
+ "timezone": "Asia/Shanghai",
+ "collected_at": "2026-11-05 08:12–08:20（北京时间）",
+ "window": "本周上传＋按播放，自跑 20 词 + YouTube 采集 bot 40 词",
+ "source": "overseas-daily-1105",
+ "themes": [
+  {
+   "id": "t1",
+   "badge": "上升速",
+   "title": "“免费 / 无限 / $0”成了 AI 视频教程标题主词",
+   "judgment": "近一周涨得快的工具教程，标题都在喊“免费、无限、不用订阅”，印地语大号也在拍“别用 Google Flow 了”。观众最在意出片要不要钱、有没有上限；部分挂 Higgsfield 推广链接。Topview 的“30 天无限”（Seedance 2.5 / T1）与 Wan 3.0“365 天无限”正好对上这个需求。",
+   "evidence": [
+    {
+     "title": "别用 Google Flow 了！免费无限长视频工具（印地语）",
+     "url": "https://www.youtube.com/watch?v=Xsb3eYflajg",
+     "id": "Xsb3eYflajg",
+     "channel": "Creator Search 2.0",
+     "views": 166510,
+     "views_label": "16.7万",
+     "duration_label": "5:46",
+     "upload_date": "10-31",
+     "stats": "16.7万播放 · 5:46 · 10-31 · Creator Search 2.0",
+     "thumb": "https://i.ytimg.com/vi/Xsb3eYflajg/hqdefault.jpg",
+     "why": "标题主打 FREE + Unlimited",
+     "sponsored": false
+    },
+    {
+     "title": "I Found A Way To Make These AI Animations For $0",
+     "url": "https://www.youtube.com/watch?v=N1eYQDVrVHs",
+     "id": "N1eYQDVrVHs",
+     "channel": "Jad M.H",
+     "views": 77661,
+     "views_label": "7.8万",
+     "duration_label": "9:42",
+     "upload_date": "11-02",
+     "stats": "7.8万播放 · 9:42 · 11-02 · Jad M.H",
+     "thumb": "https://i.ytimg.com/vi/N1eYQDVrVHs/hqdefault.jpg",
+     "why": "$0、不用订阅",
+     "sponsored": false
+    },
+    {
+     "title": "Higgsfield vs. ComfyUI: They've Finally Met Their Match",
+     "url": "https://www.youtube.com/watch?v=znrYe8yVQ_Q",
+     "id": "znrYe8yVQ_Q",
+     "channel": "kintu",
+     "views": 74254,
+     "views_label": "7.4万",
+     "duration_label": "11:36",
+     "upload_date": "11-03",
+     "stats": "7.4万播放 · 11:36 · 11-03 · kintu",
+     "thumb": "https://i.ytimg.com/vi/znrYe8yVQ_Q/hqdefault.jpg",
+     "why": "4,120 订阅小号；闭源平台 vs 开源的价格之争",
+     "sponsored": false
+    },
+    {
+     "title": "The 9 BEST FREE & UNLIMITED AI Video Generators (Ranked)",
+     "url": "https://www.youtube.com/watch?v=aG5OgGFYYuw",
+     "id": "aG5OgGFYYuw",
+     "channel": "Malva AI",
+     "views": 48131,
+     "views_label": "4.8万",
+     "duration_label": "20:19",
+     "upload_date": "10-31",
+     "stats": "4.8万播放 · 20:19 · 10-31 · Malva AI",
+     "thumb": "https://i.ytimg.com/vi/aG5OgGFYYuw/hqdefault.jpg",
+     "why": "付费合作：Higgsfield 链接",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "badge": "新出路",
+   "title": "中期选举后 AI 时政恶搞集中爆量（真人深伪，只借形式）",
+   "judgment": "11-03 选举后 24 小时内，特朗普、普京等真人 AI 恶搞 Shorts 集中出现，最高 194.9 万；还出现了专门盘点 AI 恶搞视频的评论节目，以及 doo-wop 音乐剧式 AI 时政歌（赞率 10% 以上）。全部是真人政治深伪，Topview 不碰；可借的只是“时事 24 小时内出片”和“老式音乐剧唱段”的形式，换原创角色。",
+   "evidence": [
+    {
+     "title": "Trump Can't Resist Nicki Minaj!",
+     "url": "https://www.youtube.com/shorts/hTa-S4-L3fQ",
+     "id": "hTa-S4-L3fQ",
+     "channel": "Emma Vasylenko",
+     "views": 1949083,
+     "views_label": "194.9万",
+     "duration_label": "0:12",
+     "upload_date": "11-03",
+     "stats": "194.9万播放 · 0:12 · 11-03 · Emma Vasylenko",
+     "thumb": "https://i.ytimg.com/vi/hTa-S4-L3fQ/hqdefault.jpg",
+     "why": "⚠️真人深伪；2,870 订阅",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "These videos are breaking the internet humiliating Trump",
+     "url": "https://www.youtube.com/watch?v=ZPIBnO4mKno",
+     "id": "ZPIBnO4mKno",
+     "channel": "Really American",
+     "views": 573843,
+     "views_label": "57.4万",
+     "duration_label": "12:59",
+     "upload_date": "11-01",
+     "stats": "57.4万播放 · 12:59 · 11-01 · Really American",
+     "thumb": "https://i.ytimg.com/vi/ZPIBnO4mKno/hqdefault.jpg",
+     "why": "评论节目盘点 AI 恶搞合集",
+     "sponsored": false
+    },
+    {
+     "title": "LAME DUCK! Trump's Election Day Doo-Wop Disaster",
+     "url": "https://www.youtube.com/watch?v=aoMf7QJe-Qs",
+     "id": "aoMf7QJe-Qs",
+     "channel": "Mr. Newberger's AI Funnies",
+     "views": 37908,
+     "views_label": "3.8万",
+     "duration_label": "3:17",
+     "upload_date": "11-03",
+     "stats": "3.8万播放 · 3:17 · 11-03 · Mr. Newberger's AI Funnies",
+     "thumb": "https://i.ytimg.com/vi/aoMf7QJe-Qs/hqdefault.jpg",
+     "why": "赞 4,053（10.7%）；⚠️真人深伪",
+     "sponsored": false
+    },
+    {
+     "title": "The Blue Wave",
+     "url": "https://www.youtube.com/watch?v=hl77QM2Mcnw",
+     "id": "hl77QM2Mcnw",
+     "channel": "Mr. Newberger's AI Funnies",
+     "views": 25956,
+     "views_label": "2.6万",
+     "duration_label": "1:26",
+     "upload_date": "11-04",
+     "stats": "2.6万播放 · 1:26 · 11-04 · Mr. Newberger's AI Funnies",
+     "thumb": "https://i.ytimg.com/vi/hl77QM2Mcnw/hqdefault.jpg",
+     "why": "赞 3,154（12.2%）；⚠️真人深伪",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "badge": "新出路",
+   "title": "AI 宝宝：10 秒 Shorts 与解压长片两路起量",
+   "judgment": "印度小号用 10 秒 AI 幼儿反应片拿到 120 万；英文儿童频道用 7–20 分钟“AI 食物滑梯＋宝宝笑声”解压长片拿到 60–80 万，两个频道同一时间发同一标题，像矩阵号。宝宝题材不靠台词、跨语种通吃；对 Topview 适合当 10 秒反应式开头，不必做长片。",
+   "evidence": [
+    {
+     "title": "Cute Baby Funny Videos（泰卢固语）",
+     "url": "https://www.youtube.com/shorts/cetgMON6H9s",
+     "id": "cetgMON6H9s",
+     "channel": "Pritisya Reddy",
+     "views": 1203847,
+     "views_label": "120.4万",
+     "duration_label": "0:10",
+     "upload_date": "11-03",
+     "stats": "120.4万播放 · 0:10 · 11-03 · Pritisya Reddy",
+     "thumb": "https://i.ytimg.com/vi/cetgMON6H9s/hqdefault.jpg",
+     "why": "4,940 订阅，播放 244 倍；AI 依据弱（#ai 标签）",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "Ultimate Oddly Satisfying AI Food Slide",
+     "url": "https://www.youtube.com/watch?v=Ja8_91oPl-s",
+     "id": "Ja8_91oPl-s",
+     "channel": "Moo Meow Kids",
+     "views": 822353,
+     "views_label": "82.2万",
+     "duration_label": "7:12",
+     "upload_date": "11-01",
+     "stats": "82.2万播放 · 7:12 · 11-01 · Moo Meow Kids",
+     "thumb": "https://i.ytimg.com/vi/Ja8_91oPl-s/hqdefault.jpg",
+     "why": "标题自标 AI；解压长片",
+     "sponsored": false
+    },
+    {
+     "title": "Ultimate Oddly Satisfying AI Food Slide（同标题）",
+     "url": "https://www.youtube.com/watch?v=fPP5_dn9ANk",
+     "id": "fPP5_dn9ANk",
+     "channel": "Toto Moo",
+     "views": 613588,
+     "views_label": "61.4万",
+     "duration_label": "19:55",
+     "upload_date": "11-01",
+     "stats": "61.4万播放 · 19:55 · 11-01 · Toto Moo",
+     "thumb": "https://i.ytimg.com/vi/fPP5_dn9ANk/hqdefault.jpg",
+     "why": "与上一条同时发布，疑似矩阵",
+     "sponsored": false
+    },
+    {
+     "title": "Cute Ai Baby Comedy（印地语）",
+     "url": "https://www.youtube.com/watch?v=i4ssQP4z44U",
+     "id": "i4ssQP4z44U",
+     "channel": "Saini Ki Masti",
+     "views": 304966,
+     "views_label": "30.5万",
+     "duration_label": "13:43",
+     "upload_date": "11-03",
+     "stats": "30.5万播放 · 13:43 · 11-03 · Saini Ki Masti",
+     "thumb": "https://i.ytimg.com/vi/i4ssQP4z44U/hqdefault.jpg",
+     "why": "AI 宝宝喜剧合集",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "badge": "持续",
+   "title": "食材拟人“穷土豆逆袭”扩成乌尔都 / 印地语频道群",
+   "judgment": "继 11-04 孟加拉语之后，又有 4 个南亚频道做同一模板：穷土豆靠一门手艺（熬糖、卖汤、造飞车）打败茄子财主，单条 10–18 万，最小频道只有 1,010 订阅；都是 9–15 分钟横屏长片。模板已被验证，30 秒“穷→富”拼贴版即可复刻，不必做长剧。",
+   "evidence": [
+    {
+     "title": "土豆熬糖，买下茄子财主的糖厂",
+     "url": "https://www.youtube.com/watch?v=blNoYrIqoAI",
+     "id": "blNoYrIqoAI",
+     "channel": "Sabzi Story Tv",
+     "views": 176246,
+     "views_label": "17.6万",
+     "duration_label": "14:00",
+     "upload_date": "11-01",
+     "stats": "17.6万播放 · 14:00 · 11-01 · Sabzi Story Tv",
+     "thumb": "https://i.ytimg.com/vi/blNoYrIqoAI/hqdefault.jpg",
+     "why": "6.56 万订阅；同号 10-29 另一条 13.8 万",
+     "sponsored": false
+    },
+    {
+     "title": "一碗萝卜汤改变穷土豆的命运",
+     "url": "https://www.youtube.com/watch?v=jB_soO8aJW8",
+     "id": "jB_soO8aJW8",
+     "channel": "Munna Toon World",
+     "views": 139823,
+     "views_label": "14.0万",
+     "duration_label": "14:24",
+     "upload_date": "10-29",
+     "stats": "14.0万播放 · 14:24 · 10-29 · Munna Toon World",
+     "thumb": "https://i.ytimg.com/vi/jB_soO8aJW8/hqdefault.jpg",
+     "why": "冬季摆摊逆袭",
+     "sponsored": false
+    },
+    {
+     "title": "穷土豆和茄子变成富豪",
+     "url": "https://www.youtube.com/watch?v=OwXk5IWpj8s",
+     "id": "OwXk5IWpj8s",
+     "channel": "Adventure With Zeeshan",
+     "views": 133302,
+     "views_label": "13.3万",
+     "duration_label": "8:40",
+     "upload_date": "10-29",
+     "stats": "13.3万播放 · 8:40 · 10-29 · Adventure With Zeeshan",
+     "thumb": "https://i.ytimg.com/vi/OwXk5IWpj8s/hqdefault.jpg",
+     "why": "9,310 订阅",
+     "sponsored": false
+    },
+    {
+     "title": "土豆的飞车（AI 动画科幻故事）",
+     "url": "https://www.youtube.com/watch?v=m-RDimP3hlc",
+     "id": "m-RDimP3hlc",
+     "channel": "Aalu Waaloo",
+     "views": 104246,
+     "views_label": "10.4万",
+     "duration_label": "10:21",
+     "upload_date": "10-31",
+     "stats": "10.4万播放 · 10:21 · 10-31 · Aalu Waaloo",
+     "thumb": "https://i.ytimg.com/vi/m-RDimP3hlc/hqdefault.jpg",
+     "why": "1,010 订阅小号破十万",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "badge": "持续",
+   "title": "黑五前三周：“一张产品图→整套广告”教程几乎全是工具带量",
+   "judgment": "黑五 AI 广告教程继续上量，简介全是工具链接（CapCut capcutpc_kol、OiiOii via= 返佣），Higgsfield 官方也在推 72 小时做运动服广告的“秘密工作流”。这是买量，不是自然爆款，但说明“电商卖家怎么用 AI 做黑五广告”是被验证的需求；黑五（11-27）11-06 起进入借势期。",
+   "evidence": [
+    {
+     "title": "Secret Workflow to Make Cinematic AI Commercials (Seedance 2.5)",
+     "url": "https://www.youtube.com/watch?v=ktGkJfxNN9M",
+     "id": "ktGkJfxNN9M",
+     "channel": "Higgsfield AI",
+     "views": 128087,
+     "views_label": "12.8万",
+     "duration_label": "27:55",
+     "upload_date": "10-30",
+     "stats": "12.8万播放 · 27:55 · 10-30 · Higgsfield AI",
+     "thumb": "https://i.ytimg.com/vi/ktGkJfxNN9M/hqdefault.jpg",
+     "why": "官方号；Seedance 2.5 运动服广告",
+     "sponsored": false
+    },
+    {
+     "title": "Black Friday Marketing With an AI Video Editor",
+     "url": "https://www.youtube.com/watch?v=Yj3LrpygKZ0",
+     "id": "Yj3LrpygKZ0",
+     "channel": "BMF MEDIA",
+     "views": 51345,
+     "views_label": "5.1万",
+     "duration_label": "8:16",
+     "upload_date": "10-29",
+     "stats": "5.1万播放 · 8:16 · 10-29 · BMF MEDIA",
+     "thumb": "https://i.ytimg.com/vi/Yj3LrpygKZ0/hqdefault.jpg",
+     "why": "付费合作：CapCut KOL 链接",
+     "sponsored": true
+    },
+    {
+     "title": "I Made an Entire Black Friday Ad Campaign With Just ONE Photo",
+     "url": "https://www.youtube.com/watch?v=2rNGVROSu74",
+     "id": "2rNGVROSu74",
+     "channel": "AI Future",
+     "views": 35369,
+     "views_label": "3.5万",
+     "duration_label": "6:23",
+     "upload_date": "10-29",
+     "stats": "3.5万播放 · 6:23 · 10-29 · AI Future",
+     "thumb": "https://i.ytimg.com/vi/2rNGVROSu74/hqdefault.jpg",
+     "why": "付费合作：OiiOii via= 链接",
+     "sponsored": true
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "theme_cards": 5,
+  "evidence_videos": 19
+ }
+}
