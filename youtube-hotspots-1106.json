@@ -1,0 +1,340 @@
+{
+  "updated": "2026-11-06",
+  "market": "overseas",
+  "timezone": "Asia/Shanghai",
+  "collected_at": "2026-11-06 08:05–08:20（北京时间）",
+  "window": "本周上传＋按播放，自跑 14 词 + YouTube 采集 bot",
+  "source": "overseas-daily-1106",
+  "themes": [
+    {
+      "id": "t1",
+      "badge": "新出路",
+      "title": "黑五借势期开闸：CapCut PC 教程几乎全是付费 KOL",
+      "judgment": "11-06 起进入黑五借势期。检索 black friday ai ad/video，前排几乎全是 CapCut PC 教程，简介清一色 capcutpc_kol——买量矩阵，不是自然爆款，但验证了“一张产品图→黑五广告”的需求。Topview 不要跟剪辑功能比，要比“出片要不要钱、有没有上限”，直接接“30 天无限”和 Wan 3.0“365 天无限”。",
+      "evidence": [
+        {
+          "title": "Fix Your Ad with CapCut PC’s AI Video Editor",
+          "url": "https://www.youtube.com/watch?v=Yc5UOqaPne0",
+          "id": "Yc5UOqaPne0",
+          "channel": "Kingy AI",
+          "views": 77116,
+          "views_label": "7.7万",
+          "duration_label": "3:36",
+          "upload_date": "11-04",
+          "stats": "7.7万播放 · 3:36 · 11-04 · Kingy AI",
+          "thumb": "https://i.ytimg.com/vi/Yc5UOqaPne0/hqdefault.jpg",
+          "why": "付费合作：capcutpc_kol",
+          "sponsored": true
+        },
+        {
+          "title": "Black Friday Marketing Made Easy with CapCut PC",
+          "url": "https://www.youtube.com/watch?v=4a1O7X3HDnM",
+          "id": "4a1O7X3HDnM",
+          "channel": "Eigi and AI",
+          "views": 116087,
+          "views_label": "11.6万",
+          "duration_label": "7:38",
+          "upload_date": "10-27",
+          "stats": "11.6万播放 · 7:38 · 10-27 · Eigi and AI",
+          "thumb": "https://i.ytimg.com/vi/4a1O7X3HDnM/hqdefault.jpg",
+          "why": "付费合作：Ad + capcutpc_kol",
+          "sponsored": true
+        },
+        {
+          "title": "Turn a Rainstorm Into a Cinematic Product Ad",
+          "url": "https://www.youtube.com/watch?v=mY-ET7It6L4",
+          "id": "mY-ET7It6L4",
+          "channel": "AI WORLDWIDE",
+          "views": 13789,
+          "views_label": "1.4万",
+          "duration_label": "8:23",
+          "upload_date": "11-04",
+          "stats": "1.4万播放 · 8:23 · 11-04 · AI WORLDWIDE",
+          "thumb": "https://i.ytimg.com/vi/mY-ET7It6L4/hqdefault.jpg",
+          "why": "付费合作：capcutpc_kol",
+          "sponsored": true
+        },
+        {
+          "title": "I Made a Black Friday Marketing Ad With an AI Video Editor",
+          "url": "https://www.youtube.com/watch?v=nV8lAd7ryrc",
+          "id": "nV8lAd7ryrc",
+          "channel": "AI Outlet",
+          "views": 13271,
+          "views_label": "1.3万",
+          "duration_label": "6:51",
+          "upload_date": "11-01",
+          "stats": "1.3万播放 · 6:51 · 11-01 · AI Outlet",
+          "thumb": "https://i.ytimg.com/vi/nV8lAd7ryrc/hqdefault.jpg",
+          "why": "付费合作：capcutpc_kol",
+          "sponsored": true
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "badge": "持续",
+      "title": "同提示词比价：Kling / Seedance / Wan / MiniMax 仍是主词",
+      "judgment": "Kling 4.0 vs Seedance 2.5、vs WAN 3.0、Seedance vs MiniMax-H3 继续出片；X 上也有 ToAPIs 风格对白情绪对照。观众要的是“同一句 prompt，谁更像演戏”。Topview T1 话术“Seedance 2.5 一样的效果，3.8折的价格”（$0.22/s vs $0.585/s）正好卡在这条路径上。",
+      "evidence": [
+        {
+          "title": "Kling 4.0 vs Seedance 2.5: Which Wins in 2026?",
+          "url": "https://www.youtube.com/watch?v=saUoEpQBVGk",
+          "id": "saUoEpQBVGk",
+          "channel": "Youri van Hofwegen",
+          "views": 27196,
+          "views_label": "2.7万",
+          "duration_label": "19:46",
+          "upload_date": "10-30",
+          "stats": "2.7万播放 · 19:46 · 10-30 · Youri van Hofwegen",
+          "thumb": "https://i.ytimg.com/vi/saUoEpQBVGk/hqdefault.jpg",
+          "why": "付费合作：OpenArt/Kling",
+          "sponsored": true
+        },
+        {
+          "title": "Kling 4.0 vs Seedance 2.5 vs WAN 3.0",
+          "url": "https://www.youtube.com/watch?v=9Y784B8T4to",
+          "id": "9Y784B8T4to",
+          "channel": "Tao Prompts",
+          "views": 72156,
+          "views_label": "7.2万",
+          "duration_label": "25:58",
+          "upload_date": "10-25",
+          "stats": "7.2万播放 · 25:58 · 10-25 · Tao Prompts",
+          "thumb": "https://i.ytimg.com/vi/9Y784B8T4to/hqdefault.jpg",
+          "why": "付费合作：Artlist",
+          "sponsored": true
+        },
+        {
+          "title": "Same Prompts on Kling 4.0 and Seedance 2.5",
+          "url": "https://www.youtube.com/watch?v=oiKd6XYUMeM",
+          "id": "oiKd6XYUMeM",
+          "channel": "Atomic Gains",
+          "views": 25286,
+          "views_label": "2.5万",
+          "duration_label": "20:02",
+          "upload_date": "10-24",
+          "stats": "2.5万播放 · 20:02 · 10-24 · Atomic Gains",
+          "thumb": "https://i.ytimg.com/vi/oiKd6XYUMeM/hqdefault.jpg",
+          "why": "付费合作：OpenArt Kling",
+          "sponsored": true
+        },
+        {
+          "title": "Kling 4.0 vs Seedance 2.5 — Best AI Video Generator in 2026?",
+          "url": "https://www.youtube.com/watch?v=YH1LLoBPx0Y",
+          "id": "YH1LLoBPx0Y",
+          "channel": "Dom the AI Tutor",
+          "views": 69743,
+          "views_label": "7.0万",
+          "duration_label": "9:46",
+          "upload_date": "09-29",
+          "stats": "7.0万播放 · 9:46 · 09-29 · Dom the AI Tutor",
+          "thumb": "https://i.ytimg.com/vi/YH1LLoBPx0Y/hqdefault.jpg",
+          "why": "付费合作：Higgsfield；同提示词对照",
+          "sponsored": true
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "badge": "上升速",
+      "title": "“免费 / 无限”标题：多语种教程接棒",
+      "judgment": "继昨天印地语“别用 Google Flow”之后，泰米尔语等频道继续用 FREE / UNLIMITED 做标题主词；英文区老片仍吃长尾。Topview 的“30 天无限”和 Wan 3.0“365 天无限”是现成对口话术。",
+      "evidence": [
+        {
+          "title": "Free AI Video Generator: Long Videos（泰米尔语）",
+          "url": "https://www.youtube.com/watch?v=vgK5x3KPiG8",
+          "id": "vgK5x3KPiG8",
+          "channel": "Skills Maker TV",
+          "views": 185076,
+          "views_label": "18.5万",
+          "duration_label": "5:00",
+          "upload_date": "10-23",
+          "stats": "18.5万播放 · 5:00 · 10-23 · Skills Maker TV",
+          "thumb": "https://i.ytimg.com/vi/vgK5x3KPiG8/hqdefault.jpg",
+          "why": "泰米尔语；FREE 标题",
+          "sponsored": false
+        },
+        {
+          "title": "I Found a FREE AI Video Generator with UNLIMITED Videos!",
+          "url": "https://www.youtube.com/watch?v=4DLsGjDsERc",
+          "id": "4DLsGjDsERc",
+          "channel": "Fayyaz Ahmed",
+          "views": 136422,
+          "views_label": "13.6万",
+          "duration_label": "2:06",
+          "upload_date": "10-10",
+          "stats": "13.6万播放 · 2:06 · 10-10 · Fayyaz Ahmed",
+          "thumb": "https://i.ytimg.com/vi/4DLsGjDsERc/hqdefault.jpg",
+          "why": "付费合作：Higgsfield fpr=",
+          "sponsored": true
+        },
+        {
+          "title": "5 AI Video Generators That Are ACTUALLY FREE & UNLIMITED",
+          "url": "https://www.youtube.com/watch?v=ApMdKQ5iXFo",
+          "id": "ApMdKQ5iXFo",
+          "channel": "Malva AI",
+          "views": 125927,
+          "views_label": "12.6万",
+          "duration_label": "9:52",
+          "upload_date": "10-09",
+          "stats": "12.6万播放 · 9:52 · 10-09 · Malva AI",
+          "thumb": "https://i.ytimg.com/vi/ApMdKQ5iXFo/hqdefault.jpg",
+          "why": "付费合作：Higgsfield",
+          "sponsored": true
+        },
+        {
+          "title": "How to Make AI Videos for FREE (Unlimited Technique)",
+          "url": "https://www.youtube.com/watch?v=I9EvujHJm3o",
+          "id": "I9EvujHJm3o",
+          "channel": "Youri van Hofwegen",
+          "views": 234364,
+          "views_label": "23.4万",
+          "duration_label": "10:58",
+          "upload_date": "09-27",
+          "stats": "23.4万播放 · 10:58 · 09-27 · Youri van Hofwegen",
+          "thumb": "https://i.ytimg.com/vi/I9EvujHJm3o/hqdefault.jpg",
+          "why": "长尾；Unlimited 标题",
+          "sponsored": false
+        }
+      ]
+    },
+    {
+      "id": "t4",
+      "badge": "持续",
+      "title": "选举恶搞余波回落：新片仍出，单条热度降（真人深伪，只借形式）",
+      "judgment": "11-03 选举后最高 194.9 万的 Shorts 热度在退，但 Emma Vasylenko、Mr. Newberger 今天仍有新作（最高约 24.6 万）。全部是真人政治深伪，Topview 不碰；只借“时事 24–48 小时内出片”和“老式音乐剧唱段”，换原创角色。",
+      "evidence": [
+        {
+          "title": "Trump Copies Putin… And Makes a HUGE Mistake!",
+          "url": "https://www.youtube.com/shorts/ZqQGemc9D1k",
+          "id": "ZqQGemc9D1k",
+          "channel": "Emma Vasylenko",
+          "views": 246385,
+          "views_label": "24.6万",
+          "duration_label": "0:12",
+          "upload_date": "11-05",
+          "stats": "24.6万播放 · 0:12 · 11-05 · Emma Vasylenko",
+          "thumb": "https://i.ytimg.com/vi/ZqQGemc9D1k/hqdefault.jpg",
+          "why": "⚠️真人深伪",
+          "sponsored": false,
+          "portrait": true,
+          "format": "shorts"
+        },
+        {
+          "title": "CHECKS AND BALANCES! 中期选举欢乐音乐剧",
+          "url": "https://www.youtube.com/watch?v=Wx0SqO6PFwM",
+          "id": "Wx0SqO6PFwM",
+          "channel": "Mr. Newberger's AI Funnies",
+          "views": 41054,
+          "views_label": "4.1万",
+          "duration_label": "3:16",
+          "upload_date": "11-04",
+          "stats": "4.1万播放 · 3:16 · 11-04 · Mr. Newberger",
+          "thumb": "https://i.ytimg.com/vi/Wx0SqO6PFwM/hqdefault.jpg",
+          "why": "赞率 10.8%；⚠️真人深伪",
+          "sponsored": false
+        },
+        {
+          "title": "Putin Pranks Trump with a Snake Wallet",
+          "url": "https://www.youtube.com/shorts/meXYI2ysrGE",
+          "id": "meXYI2ysrGE",
+          "channel": "Emma Vasylenko",
+          "views": 864742,
+          "views_label": "86.5万",
+          "duration_label": "0:21",
+          "upload_date": "11-04",
+          "stats": "86.5万播放 · 0:21 · 11-04 · Emma Vasylenko",
+          "thumb": "https://i.ytimg.com/vi/meXYI2ysrGE/hqdefault.jpg",
+          "why": "⚠️真人深伪；窗口内续涨",
+          "sponsored": false,
+          "portrait": true,
+          "format": "shorts"
+        },
+        {
+          "title": "Grimes Preview Clip | Gods Don’t Give Gifts",
+          "url": "https://www.youtube.com/watch?v=r1LE-chUWgs",
+          "id": "r1LE-chUWgs",
+          "channel": "Gossip Goblin",
+          "views": 75073,
+          "views_label": "7.5万",
+          "duration_label": "1:41",
+          "upload_date": "11-05",
+          "stats": "7.5万播放 · 1:41 · 11-05 · Gossip Goblin",
+          "thumb": "https://i.ytimg.com/vi/r1LE-chUWgs/hqdefault.jpg",
+          "why": "⚠️真人出镜；院线式预告可借",
+          "sponsored": false
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "badge": "持续",
+      "title": "食材拟人“穷土豆逆袭”：Sabzi 窗口内仍日更",
+      "judgment": "Sabzi Story Tv 11-04、11-05 连续更新；模板没变：穷土豆靠一门手艺打败财主。Topview 做 30 秒“穷→富”拼贴版即可；黑五可换成“穷创作者买到 Ultra”的拟人版。Pritisya 宝宝高播低评只作钩子证据，不进主榜。",
+      "evidence": [
+        {
+          "title": "土豆找到失散的妹妹青椒",
+          "url": "https://www.youtube.com/watch?v=8p4NIuWsdMI",
+          "id": "8p4NIuWsdMI",
+          "channel": "Sabzi Story Tv",
+          "views": 56743,
+          "views_label": "5.7万",
+          "duration_label": "15:13",
+          "upload_date": "11-04",
+          "stats": "5.7万播放 · 15:13 · 11-04 · Sabzi Story Tv",
+          "thumb": "https://i.ytimg.com/vi/8p4NIuWsdMI/hqdefault.jpg",
+          "why": "窗口内日更",
+          "sponsored": false
+        },
+        {
+          "title": "土豆的锅开成刺绣工厂",
+          "url": "https://www.youtube.com/watch?v=Pdd-t3aTbH4",
+          "id": "Pdd-t3aTbH4",
+          "channel": "Sabzi Story Tv",
+          "views": 38192,
+          "views_label": "3.8万",
+          "duration_label": "14:52",
+          "upload_date": "11-05",
+          "stats": "3.8万播放 · 14:52 · 11-05 · Sabzi Story Tv",
+          "thumb": "https://i.ytimg.com/vi/Pdd-t3aTbH4/hqdefault.jpg",
+          "why": "窗口内日更",
+          "sponsored": false
+        },
+        {
+          "title": "How Did Poor Potato Build His Own Fries Factory?",
+          "url": "https://www.youtube.com/watch?v=by5biN-J_eU",
+          "id": "by5biN-J_eU",
+          "channel": "Sabzi Story Tv",
+          "views": 424192,
+          "views_label": "42.4万",
+          "duration_label": "14:23",
+          "upload_date": "10-19",
+          "stats": "42.4万播放 · 14:23 · 10-19 · Sabzi Story Tv",
+          "thumb": "https://i.ytimg.com/vi/by5biN-J_eU/hqdefault.jpg",
+          "why": "长尾对照",
+          "sponsored": false
+        },
+        {
+          "title": "宝宝“更喜欢我还是巧克力”",
+          "url": "https://www.youtube.com/shorts/uWOkGkRDk4U",
+          "id": "uWOkGkRDk4U",
+          "channel": "Pritisya Reddy",
+          "views": 210198,
+          "views_label": "21.0万",
+          "duration_label": "0:18",
+          "upload_date": "11-04",
+          "stats": "21.0万播放 · 0:18 · 11-04 · Pritisya Reddy",
+          "thumb": "https://i.ytimg.com/vi/uWOkGkRDk4U/hqdefault.jpg",
+          "why": "评论仅 2；不进主榜，只作钩子证据",
+          "sponsored": false,
+          "portrait": true,
+          "format": "shorts"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "theme_cards": 5,
+    "evidence_videos": 20
+  }
+}
