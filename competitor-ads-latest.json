@@ -1,148 +1,98 @@
 {
-  "updated": "2026-11-07",
-  "timezone": "Asia/Shanghai",
-  "baseline": false,
-  "platform_status": {
-    "Google": "部分可行（Playwright 调公开 SearchCreatives RPC，format=VIDEO）；今日取到 362 条视频创意",
-    "Meta": "部分可行（无 API token；Playwright 公开页）；今日取到 177 条。官方 API 待 token。",
-    "TikTok": "部分可行（Playwright 拦截 Top Ads 列表；未登录无品牌关键词搜）；列表素材 {'US': 20, 'KR': 9}，命中竞品 0 条"
+ "updated": "2026-11-07",
+ "timezone": "Asia/Shanghai",
+ "baseline": false,
+ "platform_status": {
+  "Google": "部分可行（Playwright 调公开 SearchCreatives RPC，format=VIDEO）；今日取到 362 条视频创意",
+  "Meta": "部分可行（无 API token；Playwright 公开页）；今日取到 177 条。官方 API 待 token。",
+  "TikTok": "部分可行（Playwright 拦截 Top Ads 列表；未登录无品牌关键词搜）；列表素材 {'US': 20, 'KR': 9}，命中竞品 0 条"
+ },
+ "items": [
+  {
+   "badge": "新开投",
+   "competitor": "CapCut",
+   "platform": "google",
+   "regions": [
+    "US"
+   ],
+   "first_shown": "2026-11-05",
+   "title": "CapCut · AI Ads That Never Break · 咖啡三连变体",
+   "stats": "首投 2026-11-05 · CapCut · Google US",
+   "analysis": "男创作者托着四角星 AI 图标，大字「AI Ads That Never Break」，右侧同一袋咖啡三连（人物手持→产品特写→场景杯）。卖「多条广告不穿帮/产品一致性」。和 Topview AI Ads / Product Video 同一需求——比生成侧无限额度，不比剪辑时间轴。",
+   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR17284521568315113473?region=US",
+   "cover": "media/ads_google_CR17284521568315113473.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
   },
-  "items": [
-    {
-      "badge": "新开投",
-      "competitor": "Flova",
-      "platform": "google",
-      "regions": [
-        "KR"
-      ],
-      "first_shown": "2026-11-05",
-      "title": "Flova · google · KR",
-      "stats": "首投 2026-11-05 · FLOVA PTE. LTD.",
-      "analysis": "对 Topview：「FLOVA PTE. LTD.」首投 2026-11-05。多集角色一致叙事，可用 Film Studio 对照抢说法。",
-      "link": "https://adstransparency.google.com/advertiser/AR12554248788425834497/creative/CR11593924371969736705?region=KR",
-      "cover": "media/ads_google_CR11593924371969736705.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "US"
-      ],
-      "first_shown": "2026-11-05",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-05 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-05。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR17284521568315113473?region=US",
-      "cover": "media/ads_google_CR17284521568315113473.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "US"
-      ],
-      "first_shown": "2026-11-05",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-05 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-05。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR18137883328957644801?region=US",
-      "cover": "media/ads_google_CR18137883328957644801.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "Vidu",
-      "platform": "google",
-      "regions": [
-        "US"
-      ],
-      "first_shown": "2026-11-05",
-      "title": "Vidu · google · US",
-      "stats": "首投 2026-11-05 · ShengShu AI HK Limited",
-      "analysis": "对 Topview：「ShengShu AI HK Limited」首投 2026-11-05。Vidu 模型品牌广告，看钩子是画质秀还是工作流/价格，Topview 只跟后者。",
-      "link": "https://adstransparency.google.com/advertiser/AR13500956930192965633/creative/CR03793742593922170881?region=US",
-      "cover": "media/ads_google_CR03793742593922170881.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "Flova",
-      "platform": "google",
-      "regions": [
-        "US"
-      ],
-      "first_shown": "2026-10-31",
-      "title": "Flova · google · US",
-      "stats": "首投 2026-10-31 · Khalil Chapman",
-      "analysis": "对 Topview：「Khalil Chapman」首投 2026-10-31。多集角色一致叙事，可用 Film Studio 对照抢说法。",
-      "link": "https://adstransparency.google.com/advertiser/AR10365789296996122625/creative/CR17451540133353357313?region=US",
-      "cover": "media/ads_google_CR17451540133353357313.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "US"
-      ],
-      "first_shown": "2026-11-05",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-05 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-05。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR11619063605827207169?region=US",
-      "cover": "media/ads_google_CR11619063605827207169.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "US"
-      ],
-      "first_shown": "2026-11-05",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-05 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-05。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR18436387541759295489?region=US",
-      "cover": "media/ads_google_CR18436387541759295489.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "US"
-      ],
-      "first_shown": "2026-11-05",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-05 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-05。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR14522090962504646657?region=US",
-      "cover": "media/ads_google_CR14522090962504646657.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    }
-  ]
+  {
+   "badge": "新开投",
+   "competitor": "CapCut",
+   "platform": "google",
+   "regions": [
+    "US"
+   ],
+   "first_shown": "2026-11-05",
+   "title": "Dreamina AI Canvas · 画布工作流秀",
+   "stats": "首投 2026-11-05 · CapCut · Google US",
+   "analysis": "深色工作室大屏展示 Dreamina Canvas，悬浮 AI Image / Reference / AI Video 三窗 + 底部时间轴。广告主挂 WHATECH（CapCut 系），创意推 Dreamina 画布——和 YouTube $0.29 教程同一波。",
+   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR18137883328957644801?region=US",
+   "cover": "media/ads_google_CR18137883328957644801.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  },
+  {
+   "badge": "新开投",
+   "competitor": "CapCut",
+   "platform": "google",
+   "regions": [
+    "US"
+   ],
+   "first_shown": "2026-11-05",
+   "title": "Dreamina · SAME SHOT, NEW WORLD · $0.29/月",
+   "stats": "首投 2026-11-05 · CapCut · Google US",
+   "analysis": "震惊脸女创作者指着「同镜头换奇幻背景」前后对比，价签 $0.29/month ONLY。Topview 不跟首月低价对打，继续打「30 天无限」和 T1 3.8 折。",
+   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR11619063605827207169?region=US",
+   "cover": "media/ads_google_CR11619063605827207169.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  },
+  {
+   "badge": "新开投",
+   "competitor": "CapCut",
+   "platform": "google",
+   "regions": [
+    "US"
+   ],
+   "first_shown": "2026-11-05",
+   "title": "Dreamina · 1 Prompt only · $0.29/月",
+   "stats": "首投 2026-11-05 · CapCut · Google US",
+   "analysis": "皮衣男从跑车里出来，大字「1 Prompt only」，价签 $0.29/month。卖「一句话出电影感」。",
+   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR18436387541759295489?region=US",
+   "cover": "media/ads_google_CR18436387541759295489.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  },
+  {
+   "badge": "新开投",
+   "competitor": "Vidu",
+   "platform": "google",
+   "regions": [
+    "US"
+   ],
+   "first_shown": "2026-11-05",
+   "title": "Vidu · Cinematic results · 牛仔机器人",
+   "stats": "首投 2026-11-05 · Vidu · Google US",
+   "analysis": "西部荒漠两个机器人牛仔扭打，字幕 Cinematic results。画质秀向品牌片；Topview 只跟工作流/价格。",
+   "link": "https://adstransparency.google.com/advertiser/AR13500956930192965633/creative/CR03793742593922170881?region=US",
+   "cover": "media/ads_google_CR03793742593922170881.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  }
+ ],
+ "note": "今天 07:42 扫描；主管手写分析 5 条有本地封面的 Google US（CapCut/Dreamina×4 + Vidu）；海外页不含 KR-only；仿冒 topview-ai.com 2 条仍在投"
 }

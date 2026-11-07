@@ -1,0 +1,342 @@
+{
+ "updated": "2026-11-07",
+ "market": "overseas",
+ "timezone": "Asia/Shanghai",
+ "collected_at": "2026-11-07 08:10–08:25（北京时间）",
+ "window": "本周上传＋按播放，自跑 16 词 + YouTube 采集 bot",
+ "source": "overseas-daily-1107",
+ "themes": [
+  {
+   "id": "t1",
+   "badge": "上升速",
+   "title": "黑五第 2 天：CapCut KOL 仍包场，Dreamina $0.29 杀入",
+   "judgment": "借势期第 2 天检索 black friday ai ad/video，前排仍是 CapCut PC + capcutpc_kol；新信号是 Dreamina Canvas 黑五教程（简介清一色 $0.29/month）。自然黑五 AI 广告成片仍几乎没有。Topview 不要跟剪辑或首月低价对打，要比「出片有没有上限」——接「30 天无限」和 Wan 3.0「365 天无限」。",
+   "evidence": [
+    {
+     "title": "GTA-Inspired Black Friday Ad with CapCut PC",
+     "url": "https://www.youtube.com/watch?v=PnIwNusw5N8",
+     "id": "PnIwNusw5N8",
+     "channel": "Crypto SJ",
+     "views": 147038,
+     "views_label": "14.7万",
+     "duration_label": "8:25",
+     "upload_date": "11-04",
+     "stats": "14.7万播放 · 8:25 · 11-04 · Crypto SJ",
+     "thumb": "https://i.ytimg.com/vi/PnIwNusw5N8/hqdefault.jpg",
+     "why": "付费合作：capcutpc_kol",
+     "sponsored": true
+    },
+    {
+     "title": "Black Friday Advertising - The Final Take",
+     "url": "https://www.youtube.com/watch?v=jGsOUBTsJww",
+     "id": "jGsOUBTsJww",
+     "channel": "Kingy AI",
+     "views": 177773,
+     "views_label": "17.8万",
+     "duration_label": "2:02",
+     "upload_date": "10-31",
+     "stats": "17.8万播放 · 2:02 · 10-31 · Kingy AI",
+     "thumb": "https://i.ytimg.com/vi/jGsOUBTsJww/hqdefault.jpg",
+     "why": "付费合作：capcutpc_kol",
+     "sponsored": true
+    },
+    {
+     "title": "Dreamina Canvas Black Friday Tutorial",
+     "url": "https://www.youtube.com/watch?v=wUK-gcxdoV0",
+     "id": "wUK-gcxdoV0",
+     "channel": "Malik Atif",
+     "views": 27379,
+     "views_label": "2.7万",
+     "duration_label": "7:34",
+     "upload_date": "11-03",
+     "stats": "2.7万播放 · 7:34 · 11-03 · Malik Atif",
+     "thumb": "https://i.ytimg.com/vi/wUK-gcxdoV0/hqdefault.jpg",
+     "why": "付费合作：Dreamina $0.29",
+     "sponsored": true
+    },
+    {
+     "title": "Dreamina NEW Canvas：Full Black Friday Ad ($0.29)",
+     "url": "https://www.youtube.com/watch?v=R15FCwXYAjs",
+     "id": "R15FCwXYAjs",
+     "channel": "JACK AI & TECH",
+     "views": 29646,
+     "views_label": "3.0万",
+     "duration_label": "6:23",
+     "upload_date": "11-01",
+     "stats": "3.0万播放 · 6:23 · 11-01 · JACK AI & TECH",
+     "thumb": "https://i.ytimg.com/vi/R15FCwXYAjs/hqdefault.jpg",
+     "why": "付费合作：Dreamina",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "badge": "持续",
+   "title": "同提示词比价：Kling / Seedance 仍是主词，T1 盲测续出",
+   "judgment": "Kling 4.0 vs Seedance 2.5、8 模型同题、Kling 5X cheaper 继续出片；Higgsfield showdown 活动链仍在简介扎堆。T1 对比片多带 ?via= 返佣。Topview T1 话术「Seedance 2.5 一样的效果，3.8折的价格」（$0.22/s vs $0.585/s）正好卡在这条路径上。",
+   "evidence": [
+    {
+     "title": "I Tested 8 BEST AI Video Models! Kling 4.0 vs Seedance 2.5",
+     "url": "https://www.youtube.com/watch?v=eadEYJY9ydg",
+     "id": "eadEYJY9ydg",
+     "channel": "WorldofAI",
+     "views": 66000,
+     "views_label": "6.6万",
+     "duration_label": "9:06",
+     "upload_date": "10-31",
+     "stats": "6.6万播放 · 9:06 · 10-31 · WorldofAI",
+     "thumb": "https://i.ytimg.com/vi/eadEYJY9ydg/hqdefault.jpg",
+     "why": "付费合作：Higgsfield showdown",
+     "sponsored": true
+    },
+    {
+     "title": "Kling 4.0 Is 5X Cheaper Than Seedance 2.5",
+     "url": "https://www.youtube.com/watch?v=Cid_1B4YqQM",
+     "id": "Cid_1B4YqQM",
+     "channel": "Zubair Trabzada",
+     "views": 21462,
+     "views_label": "2.1万",
+     "duration_label": "15:22",
+     "upload_date": "10-31",
+     "stats": "2.1万播放 · 15:22 · 10-31 · Zubair Trabzada",
+     "thumb": "https://i.ytimg.com/vi/Cid_1B4YqQM/hqdefault.jpg",
+     "why": "付费合作：Higgsfield",
+     "sponsored": true
+    },
+    {
+     "title": "Topview T1 vs Seedance 2.5: Can You Tell the Difference?",
+     "url": "https://www.youtube.com/watch?v=bMfYkzKLg8o",
+     "id": "bMfYkzKLg8o",
+     "channel": "Mason AI Studio",
+     "views": 8625,
+     "views_label": "0.86万",
+     "duration_label": "9:32",
+     "upload_date": "11-04",
+     "stats": "0.86万播放 · 9:32 · 11-04 · Mason AI Studio",
+     "thumb": "https://i.ytimg.com/vi/bMfYkzKLg8o/hqdefault.jpg",
+     "why": "付费合作：topview ?via=",
+     "sponsored": true
+    },
+    {
+     "title": "Topview T1 vs Seedance 2.5: Is the Cheaper Model Better?",
+     "url": "https://www.youtube.com/watch?v=It0n5xlWWpU",
+     "id": "It0n5xlWWpU",
+     "channel": "Dom the AI Tutor",
+     "views": 3961,
+     "views_label": "0.40万",
+     "duration_label": "12:10",
+     "upload_date": "近期",
+     "stats": "0.40万播放 · 12:10 · 近期 · Dom the AI Tutor",
+     "thumb": "https://i.ytimg.com/vi/It0n5xlWWpU/hqdefault.jpg",
+     "why": "付费合作：常见 via 链",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "badge": "上升速",
+   "title": "“免费 / 无限”标题：印地语大号继续吃量",
+   "judgment": "Google Flow छोड़ो / FREE Unlimited Long Video 一类标题仍是印地语区主词，单条 12–25 万。Topview「30 天无限」和 Wan 3.0「365 天无限」是现成对口话术。",
+   "evidence": [
+    {
+     "title": "Google Flow छोड़ो! 2 FREE AI Tool Unlimited Long Video",
+     "url": "https://www.youtube.com/watch?v=Etu63sNZvLo",
+     "id": "Etu63sNZvLo",
+     "channel": "Spreading Gyan",
+     "views": 247847,
+     "views_label": "24.8万",
+     "duration_label": "18:44",
+     "upload_date": "11-02",
+     "stats": "24.8万播放 · 18:44 · 11-02 · Spreading Gyan",
+     "thumb": "https://i.ytimg.com/vi/Etu63sNZvLo/hqdefault.jpg",
+     "why": "印地语；FREE+Unlimited",
+     "sponsored": false
+    },
+    {
+     "title": "Forget Google Flow! FREE Unlimited Long Videos",
+     "url": "https://www.youtube.com/watch?v=Xsb3eYflajg",
+     "id": "Xsb3eYflajg",
+     "channel": "Creator Search 2.0",
+     "views": 203229,
+     "views_label": "20.3万",
+     "duration_label": "5:46",
+     "upload_date": "近期",
+     "stats": "20.3万播放 · 5:46 · 近期 · Creator Search 2.0",
+     "thumb": "https://i.ytimg.com/vi/Xsb3eYflajg/hqdefault.jpg",
+     "why": "印地语/英；FREE 标题",
+     "sponsored": false
+    },
+    {
+     "title": "ai se video kaise banaye",
+     "url": "https://www.youtube.com/watch?v=8kdGt8-ptQA",
+     "id": "8kdGt8-ptQA",
+     "channel": "Yt Ritik",
+     "views": 119039,
+     "views_label": "11.9万",
+     "duration_label": "6:35",
+     "upload_date": "11-03",
+     "stats": "11.9万播放 · 6:35 · 11-03 · Yt Ritik",
+     "thumb": "https://i.ytimg.com/vi/8kdGt8-ptQA/hqdefault.jpg",
+     "why": "印地语教程",
+     "sponsored": false
+    },
+    {
+     "title": "The New BEST 4 FREE AI Video Generators 2026",
+     "url": "https://www.youtube.com/watch?v=VIZlSgcknxA",
+     "id": "VIZlSgcknxA",
+     "channel": "Malva AI",
+     "views": 52846,
+     "views_label": "5.3万",
+     "duration_label": "10:09",
+     "upload_date": "近期",
+     "stats": "5.3万播放 · 10:09 · 近期 · Malva AI",
+     "thumb": "https://i.ytimg.com/vi/VIZlSgcknxA/hqdefault.jpg",
+     "why": "付费合作常见",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "badge": "持续",
+   "title": "政治深伪继续放量但不进主榜（只借形式）",
+   "judgment": "Emma Vasylenko 新作 134.9 万——全部是真实政治人物深伪，不进主榜；只借「时事 24–48 小时内出片」形式，换原创角色。",
+   "evidence": [
+    {
+     "title": "泽连斯基炫耀座驾，普京却有特朗普",
+     "url": "https://www.youtube.com/shorts/iUXm4FvgN4U",
+     "id": "iUXm4FvgN4U",
+     "channel": "Emma Vasylenko",
+     "views": 1348541,
+     "views_label": "134.9万",
+     "duration_label": "0:29",
+     "upload_date": "11-06",
+     "stats": "134.9万播放 · 0:29 · 11-06 · Emma Vasylenko",
+     "thumb": "https://i.ytimg.com/vi/iUXm4FvgN4U/hqdefault.jpg",
+     "why": "⚠️真人深伪",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "普京没料到泽连斯基的计划",
+     "url": "https://www.youtube.com/shorts/ki1z6K5tepM",
+     "id": "ki1z6K5tepM",
+     "channel": "Emma Vasylenko",
+     "views": 104686,
+     "views_label": "10.5万",
+     "duration_label": "0:17",
+     "upload_date": "11-06",
+     "stats": "10.5万播放 · 0:17 · 11-06 · Emma Vasylenko",
+     "thumb": "https://i.ytimg.com/vi/ki1z6K5tepM/hqdefault.jpg",
+     "why": "⚠️真人深伪",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "Trump Copies Putin…",
+     "url": "https://www.youtube.com/shorts/ZqQGemc9D1k",
+     "id": "ZqQGemc9D1k",
+     "channel": "Emma Vasylenko",
+     "views": 357000,
+     "views_label": "35.7万",
+     "duration_label": "0:12",
+     "upload_date": "11-05",
+     "stats": "35.7万播放 · 0:12 · 11-05 · Emma Vasylenko",
+     "thumb": "https://i.ytimg.com/vi/ZqQGemc9D1k/hqdefault.jpg",
+     "why": "⚠️真人深伪；昨片续涨",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "Grimes Preview · Gods Don’t Give Gifts",
+     "url": "https://www.youtube.com/watch?v=r1LE-chUWgs",
+     "id": "r1LE-chUWgs",
+     "channel": "Gossip Goblin",
+     "views": 143000,
+     "views_label": "14.3万",
+     "duration_label": "1:41",
+     "upload_date": "11-05",
+     "stats": "14.3万播放 · 1:41 · 11-05 · Gossip Goblin",
+     "thumb": "https://i.ytimg.com/vi/r1LE-chUWgs/hqdefault.jpg",
+     "why": "⚠️真人出镜；院线式预告可借",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "badge": "持续",
+   "title": "解压食物滑梯 + 食材拟人：长片与 Shorts 两路",
+   "judgment": "Giggly Zoo 食物滑梯 68.3 万（约 20 分钟）；南亚蔬菜人长尾仍在。Eko 印尼身份反转多条高播低评——按规则不进主榜，只作结构证据。",
+   "evidence": [
+    {
+     "title": "Ultimate Oddly Satisfying AI Food Slide",
+     "url": "https://www.youtube.com/watch?v=9xP5SBgEOp0",
+     "id": "9xP5SBgEOp0",
+     "channel": "Giggly Zoo",
+     "views": 683259,
+     "views_label": "68.3万",
+     "duration_label": "~20:00",
+     "upload_date": "11-06",
+     "stats": "68.3万播放 · ~20:00 · 11-06 · Giggly Zoo",
+     "thumb": "https://i.ytimg.com/vi/9xP5SBgEOp0/hqdefault.jpg",
+     "why": "标题自标 AI",
+     "sponsored": false
+    },
+    {
+     "title": "土豆熬糖买下茄子糖厂",
+     "url": "https://www.youtube.com/watch?v=blNoYrIqoAI",
+     "id": "blNoYrIqoAI",
+     "channel": "Sabzi Story Tv",
+     "views": 181074,
+     "views_label": "18.1万",
+     "duration_label": "14:01",
+     "upload_date": "11-01",
+     "stats": "18.1万播放 · 14:01 · 11-01 · Sabzi Story Tv",
+     "thumb": "https://i.ytimg.com/vi/blNoYrIqoAI/hqdefault.jpg",
+     "why": "食材拟人长尾",
+     "sponsored": false
+    },
+    {
+     "title": "雨中给乞丐饭的服务员（低评论证据）",
+     "url": "https://www.youtube.com/shorts/jwC915ifPe4",
+     "id": "jwC915ifPe4",
+     "channel": "Eko Nuryanto AI",
+     "views": 197975,
+     "views_label": "19.8万",
+     "duration_label": "1:40",
+     "upload_date": "11-05",
+     "stats": "19.8万播放 · 1:40 · 11-05 · Eko Nuryanto AI",
+     "thumb": "https://i.ytimg.com/vi/jwC915ifPe4/hqdefault.jpg",
+     "why": "评论极少，不进主榜",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "活塞小狗 · Cars 2 AI 毁掉",
+     "url": "https://www.youtube.com/watch?v=1aaAMp-8nss",
+     "id": "1aaAMp-8nss",
+     "channel": "Skilaw",
+     "views": 41000,
+     "views_label": "4.1万",
+     "duration_label": "1:55",
+     "upload_date": "近期",
+     "stats": "4.1万播放 · 1:55 · 近期 · Skilaw",
+     "thumb": "https://i.ytimg.com/vi/1aaAMp-8nss/hqdefault.jpg",
+     "why": "⚠️皮克斯 IP",
+     "sponsored": false
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "theme_cards": 5,
+  "evidence_videos": 20
+ }
+}
