@@ -1,0 +1,330 @@
+{
+ "updated": "2026-11-08",
+ "market": "overseas",
+ "timezone": "Asia/Shanghai",
+ "collected_at": "2026-11-08 08:10–08:20（北京时间）",
+ "window": "本周上传＋按播放，自跑 20 词 + YouTube 采集 bot",
+ "source": "overseas-daily-1108",
+ "themes": [
+  {
+   "id": "t1",
+   "badge": "上升速",
+   "title": "品牌 AI 动画翻车：Dior 被骂 AI 粗制，Higgsfield 口碑被测",
+   "judgment": "Dior 节日 AI 动画广告引发争议，梗评《Dior Animation Is AI Slop》两天 86.3 万、评论约 1,000；“买 Higgsfield 前先看”类测评增多（多挂返佣）。大众对看得出是 AI 的品牌片很敏感。Topview 广告要秀一致性和细节，可做「同一 prompt，别家翻车 vs Topview 稳定」对比钩子。",
+   "evidence": [
+    {
+     "title": "Dior Animation Is AI Slop",
+     "url": "https://www.youtube.com/watch?v=R8cBC4S1QSU",
+     "id": "R8cBC4S1QSU",
+     "channel": "Lessons in Internet Culture",
+     "views": 863352,
+     "views_label": "86.3万",
+     "duration_label": "2:18",
+     "upload_date": "11-06",
+     "stats": "86.3万播放 · 2:18 · 11-06 · Lessons in Internet Culture",
+     "thumb": "https://i.ytimg.com/vi/R8cBC4S1QSU/hqdefault.jpg",
+     "why": "梗评频道；评论约 1,000",
+     "sponsored": false
+    },
+    {
+     "title": "Did Dior just drop an AI Generated ad?",
+     "url": "https://www.youtube.com/watch?v=rG3tmYZ7Igg",
+     "id": "rG3tmYZ7Igg",
+     "channel": "Pomeroy Art Academy",
+     "views": 38091,
+     "views_label": "3.8万",
+     "duration_label": "8:00",
+     "upload_date": "11-06",
+     "stats": "3.8万播放 · 8:00 · 11-06 · Pomeroy Art Academy",
+     "thumb": "https://i.ytimg.com/vi/rG3tmYZ7Igg/hqdefault.jpg",
+     "why": "美术教育频道拆解",
+     "sponsored": false
+    },
+    {
+     "title": "Watch This Before Buying Higgsfield AI!",
+     "url": "https://www.youtube.com/watch?v=FI6PEZgaBME",
+     "id": "FI6PEZgaBME",
+     "channel": "Roboverse",
+     "views": 22827,
+     "views_label": "2.3万",
+     "duration_label": "3:16",
+     "upload_date": "11-06",
+     "stats": "2.3万播放 · 3:16 · 11-06 · Roboverse",
+     "thumb": "https://i.ytimg.com/vi/FI6PEZgaBME/hqdefault.jpg",
+     "why": "返佣：higgsbonuspackage",
+     "sponsored": true
+    },
+    {
+     "title": "The Prompter",
+     "url": "https://www.youtube.com/shorts/S0xMXQtom7c",
+     "id": "S0xMXQtom7c",
+     "channel": "Gossip Goblin",
+     "views": 561743,
+     "views_label": "56.2万",
+     "duration_label": "2:50",
+     "upload_date": "11-04",
+     "stats": "56.2万播放 · 2:50 · 11-04 · Gossip Goblin",
+     "thumb": "https://i.ytimg.com/vi/S0xMXQtom7c/hqdefault.jpg",
+     "why": "AI 讽刺短片",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "badge": "新出路",
+   "title": "写实 AI 情景短剧 Shorts：情侣小冲突 30–110 秒",
+   "judgment": "Colin@NYC《女友看到他在飞机上帮了谁》62.5 万（简介“每个镜头都是 AI”），同号第二条 10.0 万；late90s.filmss、Anna Movies AI 也在出 30 秒写实情侣片。欧美竖屏长期缺口里第一次出现一批写实生活小剧场。Topview：一个日常冲突 + 一句反转，适合用 T1 批量出「一个创意 → 10 个版本」。",
+   "evidence": [
+    {
+     "title": "女友看到他在飞机上帮了谁（AI 短片）",
+     "url": "https://www.youtube.com/shorts/qT4MQLhUt2k",
+     "id": "qT4MQLhUt2k",
+     "channel": "Colin@NYC",
+     "views": 625155,
+     "views_label": "62.5万",
+     "duration_label": "1:49",
+     "upload_date": "11-06",
+     "stats": "62.5万播放 · 1:49 · 11-06 · Colin@NYC",
+     "thumb": "https://i.ytimg.com/vi/qT4MQLhUt2k/hqdefault.jpg",
+     "why": "简介：every shot is AI video",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "他问她是不是做了鱼，结果她做了塔可",
+     "url": "https://www.youtube.com/shorts/hz-vQ6Q_4_k",
+     "id": "hz-vQ6Q_4_k",
+     "channel": "Colin@NYC",
+     "views": 99665,
+     "views_label": "10.0万",
+     "duration_label": "2:59",
+     "upload_date": "11-06",
+     "stats": "10.0万播放 · 2:59 · 11-06 · Colin@NYC",
+     "thumb": "https://i.ytimg.com/vi/hz-vQ6Q_4_k/hqdefault.jpg",
+     "why": "同号第二条",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "一年后她与情敌订婚",
+     "url": "https://www.youtube.com/shorts/IuDC2P84-74",
+     "id": "IuDC2P84-74",
+     "channel": "Anna Movies AI",
+     "views": 52155,
+     "views_label": "5.2万",
+     "duration_label": "0:30",
+     "upload_date": "11-05",
+     "stats": "5.2万播放 · 0:30 · 11-05 · Anna Movies AI",
+     "thumb": "https://i.ytimg.com/vi/IuDC2P84-74/hqdefault.jpg",
+     "why": "“1999 好莱坞爱情片丢失片段”",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "现在扯平了 Part 2（新外套 vs 水坑）",
+     "url": "https://www.youtube.com/shorts/iy4mYfh-0yg",
+     "id": "iy4mYfh-0yg",
+     "channel": "@late90s.filmss",
+     "views": 33218,
+     "views_label": "3.3万",
+     "duration_label": "0:28",
+     "upload_date": "11-07",
+     "stats": "3.3万播放 · 0:28 · 11-07 · @late90s.filmss",
+     "thumb": "https://i.ytimg.com/vi/iy4mYfh-0yg/hqdefault.jpg",
+     "why": "90 年代秋日情侣",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "badge": "持续",
+   "title": "黑五第 3 天：CapCut KOL 继续包场，SekoTV 开始买量",
+   "judgment": "black friday ai ad 前排仍是 CapCut PC + capcutpc_kol；新面孔是 SekoTV 赞助的好莱坞式黑五广告（utm_medium=influencer）。自然黑五 AI 广告成片连续第 3 天为 0。Topview 不跟剪辑对打，比出片额度：黑五 Ultra「买 2 年送 4 个月」+「30 天无限」。",
+   "evidence": [
+    {
+     "title": "Black Friday Advertising: Make a Product Ad with an AI Video Editor",
+     "url": "https://www.youtube.com/watch?v=EAzecTolhrc",
+     "id": "EAzecTolhrc",
+     "channel": "Crypto SJ",
+     "views": 111999,
+     "views_label": "11.2万",
+     "duration_label": "6:48",
+     "upload_date": "11-02",
+     "stats": "11.2万播放 · 6:48 · 11-02 · Crypto SJ",
+     "thumb": "https://i.ytimg.com/vi/EAzecTolhrc/hqdefault.jpg",
+     "why": "付费合作：capcutpc_kol",
+     "sponsored": true
+    },
+    {
+     "title": "Hollywood-Style Black Friday Marketing Ad Using AI",
+     "url": "https://www.youtube.com/watch?v=IolowWFYM34",
+     "id": "IolowWFYM34",
+     "channel": "Crypto Mike X",
+     "views": 49953,
+     "views_label": "5.0万",
+     "duration_label": "7:44",
+     "upload_date": "11-02",
+     "stats": "5.0万播放 · 7:44 · 11-02 · Crypto Mike X",
+     "thumb": "https://i.ytimg.com/vi/IolowWFYM34/hqdefault.jpg",
+     "why": "付费合作：SekoTV",
+     "sponsored": true
+    },
+    {
+     "title": "Black Friday Marketing with CapCut PC AI Video Editor",
+     "url": "https://www.youtube.com/watch?v=Ujp2m6wc1XU",
+     "id": "Ujp2m6wc1XU",
+     "channel": "Tyler Hayes",
+     "views": 28589,
+     "views_label": "2.9万",
+     "duration_label": "6:53",
+     "upload_date": "11-06",
+     "stats": "2.9万播放 · 6:53 · 11-06 · Tyler Hayes",
+     "thumb": "https://i.ytimg.com/vi/Ujp2m6wc1XU/hqdefault.jpg",
+     "why": "付费合作：capcutpc_kol",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "badge": "持续",
+   "title": "Topview T1 被点名比价 + Wan 3.0「365 天无限」进标题",
+   "judgment": "德语、英语频道继续出 T1 vs Seedance 2.5、T1 便宜 3 倍；新出现标题直写「365 天无限 + Seedance 2.5（30 天）」的 Wan 3.0 介绍片。简介都带 Topview via= 或短链，属返佣合作，不算自然热度。官方广告可直接用「Seedance 2.5 一样的效果，3.8折的价格」做开头字幕。",
+   "evidence": [
+    {
+     "title": "This Video AI Costs a Fraction of Seedance 2.5",
+     "url": "https://www.youtube.com/watch?v=Bf0RG5BB_r0",
+     "id": "Bf0RG5BB_r0",
+     "channel": "AI Mentors",
+     "views": 7593,
+     "views_label": "0.76万",
+     "duration_label": "13:02",
+     "upload_date": "11-05",
+     "stats": "0.76万播放 · 13:02 · 11-05 · AI Mentors",
+     "thumb": "https://i.ytimg.com/vi/Bf0RG5BB_r0/hqdefault.jpg",
+     "why": "返佣：via=t1-videoki",
+     "sponsored": true
+    },
+    {
+     "title": "365 Days UNLIMITED AI Tools + Seedance 2.5 (30 Days)! Wan 3.0",
+     "url": "https://www.youtube.com/watch?v=nEXq5a9Pyvw",
+     "id": "nEXq5a9Pyvw",
+     "channel": "Dua Ali",
+     "views": 7231,
+     "views_label": "0.72万",
+     "duration_label": "11:18",
+     "upload_date": "11-05",
+     "stats": "0.72万播放 · 11:18 · 11-05 · Dua Ali",
+     "thumb": "https://i.ytimg.com/vi/nEXq5a9Pyvw/hqdefault.jpg",
+     "why": "返佣：via=dlws",
+     "sponsored": true
+    },
+    {
+     "title": "Better Than Seedance 2.5? Topview T1 Is 3x Cheaper",
+     "url": "https://www.youtube.com/watch?v=eA66bFBhm20",
+     "id": "eA66bFBhm20",
+     "channel": "Ai Lockup",
+     "views": 6141,
+     "views_label": "0.61万",
+     "duration_label": "13:11",
+     "upload_date": "11-03",
+     "stats": "0.61万播放 · 13:11 · 11-03 · Ai Lockup",
+     "thumb": "https://i.ytimg.com/vi/eA66bFBhm20/hqdefault.jpg",
+     "why": "短链，疑似返佣（未独立验证）",
+     "sponsored": true
+    },
+    {
+     "title": "Topview T1 vs Seedance 2.5 [Which Is Better?]",
+     "url": "https://www.youtube.com/watch?v=tCaSd-UhrUU",
+     "id": "tCaSd-UhrUU",
+     "channel": "Destiny Hustle",
+     "views": 3215,
+     "views_label": "0.32万",
+     "duration_label": "9:19",
+     "upload_date": "11-05",
+     "stats": "0.32万播放 · 9:19 · 11-05 · Destiny Hustle",
+     "thumb": "https://i.ytimg.com/vi/tCaSd-UhrUU/hqdefault.jpg",
+     "why": "返佣：via=destiny",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "badge": "持续",
+   "title": "童话 / 科幻 AI 长片：Seedance 2.5 做电影感",
+   "judgment": "Stackpooled《三只小猪》26.7 万、《韩赛尔与格蕾特》5.2 万；Neural Pictures 12 分钟科幻 113.9 万（#DreaminaCPP 平台合作）；Theoretically Media《PLANET HELL》27.4 万。长片不进主榜，但公版童话重制没有 IP 风险。Topview：用公版童话做 30 秒电影感预告。",
+   "evidence": [
+    {
+     "title": "The Three Little Pigs - AI Short Film",
+     "url": "https://www.youtube.com/watch?v=6fCmJKGqv_w",
+     "id": "6fCmJKGqv_w",
+     "channel": "Stackpooled AI Films",
+     "views": 266621,
+     "views_label": "26.7万",
+     "duration_label": "2:54",
+     "upload_date": "11-01",
+     "stats": "26.7万播放 · 2:54 · 11-01 · Stackpooled AI Films",
+     "thumb": "https://i.ytimg.com/vi/6fCmJKGqv_w/hqdefault.jpg",
+     "why": "Seedance 2.5 + CapCut",
+     "sponsored": false
+    },
+    {
+     "title": "Hansel and Gretel - AI Short Film",
+     "url": "https://www.youtube.com/watch?v=WTJ3wgLPTDc",
+     "id": "WTJ3wgLPTDc",
+     "channel": "Stackpooled AI Films",
+     "views": 51682,
+     "views_label": "5.2万",
+     "duration_label": "4:54",
+     "upload_date": "11-06",
+     "stats": "5.2万播放 · 4:54 · 11-06 · Stackpooled AI Films",
+     "thumb": "https://i.ytimg.com/vi/WTJ3wgLPTDc/hqdefault.jpg",
+     "why": "Seedance 2.5",
+     "sponsored": false
+    },
+    {
+     "title": "Humans vs Vorraks | The Last Wall",
+     "url": "https://www.youtube.com/watch?v=RKPKLKidUqM",
+     "id": "RKPKLKidUqM",
+     "channel": "Neural Pictures",
+     "views": 1138843,
+     "views_label": "113.9万",
+     "duration_label": "11:37",
+     "upload_date": "11-01",
+     "stats": "113.9万播放 · 11:37 · 11-01 · Neural Pictures",
+     "thumb": "https://i.ytimg.com/vi/RKPKLKidUqM/hqdefault.jpg",
+     "why": "平台合作：Dreamina CPP",
+     "sponsored": true
+    },
+    {
+     "title": "The Most Insane AI Film You'll See Today (Seedance 2.5)",
+     "url": "https://www.youtube.com/watch?v=1yLAbK5F3E8",
+     "id": "1yLAbK5F3E8",
+     "channel": "Theoretically Media",
+     "views": 274439,
+     "views_label": "27.4万",
+     "duration_label": "5:15",
+     "upload_date": "11-02",
+     "stats": "27.4万播放 · 5:15 · 11-02 · Theoretically Media",
+     "thumb": "https://i.ytimg.com/vi/1yLAbK5F3E8/hqdefault.jpg",
+     "why": "科幻系列长片",
+     "sponsored": false
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "theme_cards": 5,
+  "evidence_videos": 19
+ }
+}

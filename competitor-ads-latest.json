@@ -1,148 +1,149 @@
 {
-  "updated": "2026-11-08",
-  "timezone": "Asia/Shanghai",
-  "baseline": false,
-  "platform_status": {
-    "Google": "部分可行（Playwright 调公开 SearchCreatives RPC，format=VIDEO）；今日取到 335 条视频创意",
-    "Meta": "部分可行（无 API token；Playwright 公开页）；今日取到 186 条。官方 API 待 token。",
-    "TikTok": "部分可行（Playwright 拦截 Top Ads 列表；未登录无品牌关键词搜）；列表素材 {'US': 20, 'KR': 9}，命中竞品 0 条"
+ "updated": "2026-11-08",
+ "timezone": "Asia/Shanghai",
+ "baseline": false,
+ "platform_status": {
+  "Google": "部分可行（Playwright 调公开 SearchCreatives RPC，format=VIDEO）；今日取到 335 条视频创意",
+  "Meta": "部分可行（无 API token；Playwright 公开页）；今日取到 186 条。官方 API 待 token。",
+  "TikTok": "部分可行（Playwright 拦截 Top Ads 列表；未登录无品牌关键词搜）；列表素材 {'US': 20, 'KR': 9}，命中竞品 0 条"
+ },
+ "items": [
+  {
+   "badge": "新开投",
+   "competitor": "CapCut",
+   "platform": "google",
+   "regions": [
+    "US"
+   ],
+   "first_shown": "2026-11-05",
+   "title": "CapCut · Prompt → Cinematic Ad · 香水三连",
+   "stats": "首投 2026-11-05 · CapCut · Google US",
+   "analysis": "惊讶脸男创作者指着平板，三格香水从产品图变电影感大片，大字 PROMPT → CINEMATIC AD。卖一句话出商业广告，和 Topview AI Ads 正面重叠；比生成额度，接「30 天无限」。",
+   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR01495050808335532033?region=US",
+   "cover": "media/ads_google_CR01495050808335532033.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
   },
-  "items": [
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "KR"
-      ],
-      "first_shown": "2026-11-06",
-      "title": "CapCut · google · KR",
-      "stats": "首投 2026-11-06 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-06。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR03507315416840011777?region=KR",
-      "cover": "media/ads_google_CR03507315416840011777.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "KR"
-      ],
-      "first_shown": "2026-11-06",
-      "title": "CapCut · google · KR",
-      "stats": "首投 2026-11-06 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-06。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR12445834777263603713?region=KR",
-      "cover": "media/ads_google_CR12445834777263603713.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "US"
-      ],
-      "first_shown": "2026-11-05",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-05 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-05。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR01495050808335532033?region=US",
-      "cover": "media/ads_google_CR01495050808335532033.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "US"
-      ],
-      "first_shown": "2026-11-05",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-05 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-05。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR03936846231300472833?region=US",
-      "cover": "media/ads_google_CR03936846231300472833.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "US"
-      ],
-      "first_shown": "2026-11-05",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-05 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-05。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR03528707515070021633?region=US",
-      "cover": "media/ads_google_CR03528707515070021633.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "US"
-      ],
-      "first_shown": "2026-11-05",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-05 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-05。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR05791766327823695873?region=US",
-      "cover": "media/ads_google_CR05791766327823695873.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "US"
-      ],
-      "first_shown": "2026-11-05",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-05 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-05。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR10805750456714788865?region=US",
-      "cover": "media/ads_google_CR10805750456714788865.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "US"
-      ],
-      "first_shown": "2026-11-05",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-05 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-05。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR11665937985542553601?region=US",
-      "cover": "media/ads_google_CR11665937985542553601.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    }
-  ]
+  {
+   "badge": "新开投",
+   "competitor": "CapCut",
+   "platform": "google",
+   "regions": [
+    "US"
+   ],
+   "first_shown": "2026-11-05",
+   "title": "CapCut · One Workflow · 剪辑+生成一站式",
+   "stats": "首投 2026-11-05 · CapCut · Google US",
+   "analysis": "红胡子男托着四角星 AI 图标，背后大屏多轨时间轴，大字 ONE WORKFLOW。卖剪辑+生成一站式；Topview 不跟时间轴对打。",
+   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR03936846231300472833?region=US",
+   "cover": "media/ads_google_CR03936846231300472833.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  },
+  {
+   "badge": "新开投",
+   "competitor": "CapCut",
+   "platform": "google",
+   "regions": [
+    "US"
+   ],
+   "first_shown": "2026-11-05",
+   "title": "CapCut · AI Polo Match · 写实体育",
+   "stats": "首投 2026-11-05 · CapCut · Google US",
+   "analysis": "亚裔男生举平板，屏里写实马球比赛，大字 AI POLO MATCH。画质秀向；Topview 可用 T1 做同题对比。",
+   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR03528707515070021633?region=US",
+   "cover": "media/ads_google_CR03528707515070021633.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  },
+  {
+   "badge": "新开投",
+   "competitor": "CapCut",
+   "platform": "google",
+   "regions": [
+    "US"
+   ],
+   "first_shown": "2026-11-05",
+   "title": "Dreamina · AI Ad for $0.29?! · 香水",
+   "stats": "首投 2026-11-05 · CapCut · Google US",
+   "analysis": "男创作者 + 金色 AURA 香水瓶，大字 AI AD FOR $0.29?!，下方三格视频。首月低价打广告场景；Topview 比「30 天无限」与 T1 3.8 折的长期成本。",
+   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR05791766327823695873?region=US",
+   "cover": "media/ads_google_CR05791766327823695873.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  },
+  {
+   "badge": "新开投",
+   "competitor": "CapCut",
+   "platform": "google",
+   "regions": [
+    "US"
+   ],
+   "first_shown": "2026-11-05",
+   "title": "Dreamina · Make Motion Believable · $0.29/月",
+   "stats": "首投 2026-11-05 · CapCut · Google US",
+   "analysis": "眼镜女创作者惊讶指向奔跑动作分解三格，大字 MAKE MOTION BELIEVABLE。卖动作真实感，正对今天「品牌 AI 动画翻车」话题。",
+   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR10805750456714788865?region=US",
+   "cover": "media/ads_google_CR10805750456714788865.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  },
+  {
+   "badge": "新开投",
+   "competitor": "CapCut",
+   "platform": "google",
+   "regions": [
+    "US"
+   ],
+   "first_shown": "2026-11-05",
+   "title": "Dreamina Canvas · Create anything · 画布工作流",
+   "stats": "首投 2026-11-05 · CapCut · Google US",
+   "analysis": "中年男创作者对着 Dreamina Canvas 界面摊手介绍，左侧 AI Agent / Image / Video 菜单。延续昨天画布工作流秀。",
+   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR11665937985542553601?region=US",
+   "cover": "media/ads_google_CR11665937985542553601.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  },
+  {
+   "badge": "新开投",
+   "competitor": "CapCut",
+   "platform": "google",
+   "regions": [
+    "KR"
+   ],
+   "first_shown": "2026-11-06",
+   "title": "CapCut · google · KR",
+   "stats": "首投 2026-11-06 · WHATECH MOBILE CO., LIMITED",
+   "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-06。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR03507315416840011777?region=KR",
+   "cover": "media/ads_google_CR03507315416840011777.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  },
+  {
+   "badge": "新开投",
+   "competitor": "CapCut",
+   "platform": "google",
+   "regions": [
+    "KR"
+   ],
+   "first_shown": "2026-11-06",
+   "title": "CapCut · google · KR",
+   "stats": "首投 2026-11-06 · WHATECH MOBILE CO., LIMITED",
+   "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-06。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR12445834777263603713?region=KR",
+   "cover": "media/ads_google_CR12445834777263603713.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  }
+ ],
+ "note": "今天 07:54 扫描；主管手写分析 6 条有本地封面的 Google US；KR 条目只进韩国页；仿冒 topview-ai.com 2 条仍在投"
 }
