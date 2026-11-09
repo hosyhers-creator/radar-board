@@ -1,98 +1,46 @@
 {
- "updated": "2026-11-09",
- "timezone": "Asia/Shanghai",
- "baseline": false,
- "platform_status": {
-  "Google": "部分可行（Playwright 调公开 SearchCreatives RPC，format=VIDEO）；今日取到 361 条视频创意",
-  "Meta": "部分可行（无 API token；Playwright 公开页）；今日取到 187 条。官方 API 待 token。",
-  "TikTok": "部分可行（Playwright 拦截 Top Ads 列表；未登录无品牌关键词搜）；列表素材 {'US': 20, 'KR': 9}，命中竞品 0 条"
- },
- "items": [
-  {
-   "badge": "新开投",
-   "competitor": "CapCut",
-   "platform": "google",
-   "regions": [
-    "US"
-   ],
-   "first_shown": "2026-11-05",
-   "title": "CapCut · 剪辑界面 + 女博主画面",
-   "stats": "首投 2026-11-05 · CapCut · Google US",
-   "analysis": "WHATECH 代投，暗色 CapCut 多窗口界面，中间是女博主竖屏素材（封面低清 480×360）。卖“剪辑里直接生成”；Topview 不跟时间轴对打，比生成额度。",
-   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR08219987180232114177?region=US",
-   "cover": "media/ads_google_CR08219987180232114177.jpg",
-   "is_topview_impersonation": null,
-   "is_new": true,
-   "copy": null
+  "updated": "2026-11-10",
+  "timezone": "Asia/Shanghai",
+  "baseline": false,
+  "platform_status": {
+    "Google": "部分可行（Playwright 调公开 SearchCreatives RPC，format=VIDEO）；今日取到 350 条视频创意",
+    "Meta": "部分可行（无 API token；Playwright 公开页）；今日取到 158 条。官方 API 待 token。",
+    "TikTok": "部分可行（Playwright 拦截 Top Ads 列表；未登录无品牌关键词搜）；列表素材 {'US': 20, 'KR': 9}，命中竞品 0 条"
   },
-  {
-   "badge": "新开投",
-   "competitor": "CapCut",
-   "platform": "google",
-   "regions": [
-    "US"
-   ],
-   "first_shown": "2026-11-05",
-   "title": "Dreamina 2.0 · Walkthrough：The Canvas Era of AI Video",
-   "stats": "首投 2026-11-05 · CapCut · Google US",
-   "analysis": "男创作者 + 大字「Dreamina 2.0 Walkthrough: The Canvas Era of AI Video」，背后多张生成画面。主推画布工作流，延续这周的 Canvas 攻势。",
-   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR00106822820268343297?region=US",
-   "cover": "media/ads_google_CR00106822820268343297.jpg",
-   "is_topview_impersonation": null,
-   "is_new": true,
-   "copy": null
-  },
-  {
-   "badge": "新开投",
-   "competitor": "CapCut",
-   "platform": "google",
-   "regions": [
-    "US"
-   ],
-   "first_shown": "2026-11-05",
-   "title": "Dreamina 2.0 · $0.29/月 · 100% 一致性",
-   "stats": "首投 2026-11-05 · CapCut · Google US",
-   "analysis": "男创作者指向剪辑轨道，标签「100% CONSISTENCY / LOCKED CONSISTENCY / 1-CLICK 4K EXPORT」和 $0.29 month ONLY。卖角色一致性 + 首月低价；Topview 回「30 天无限」和 T1 3.8 折的长期成本。",
-   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR06543874062664335361?region=US",
-   "cover": "media/ads_google_CR06543874062664335361.jpg",
-   "is_topview_impersonation": null,
-   "is_new": true,
-   "copy": null
-  },
-  {
-   "badge": "新开投",
-   "competitor": "CapCut",
-   "platform": "google",
-   "regions": [
-    "US"
-   ],
-   "first_shown": "2026-11-05",
-   "title": "Dreamina · AI Ads on Autopilot（DreaminaAI + Codex）",
-   "stats": "首投 2026-11-05 · CapCut · Google US",
-   "analysis": "黑金香水瓶 + 大字「AI ADS ON AUTOPILOT」，副标「DreaminaAI + Codex」。卖“代码代理自动出广告”，和 Topview AI Ads 正面重叠。",
-   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR04577349137875337217?region=US",
-   "cover": "media/ads_google_CR04577349137875337217.jpg",
-   "is_topview_impersonation": null,
-   "is_new": true,
-   "copy": null
-  },
-  {
-   "badge": "新开投",
-   "competitor": "CapCut",
-   "platform": "google",
-   "regions": [
-    "US"
-   ],
-   "first_shown": "2026-11-05",
-   "title": "Dreamina 2.0 · 创作者抱大章鱼",
-   "stats": "首投 2026-11-05 · CapCut · Google US",
-   "analysis": "眼镜男创作者在船上被巨型章鱼缠住，底部黄条「Dreamina 2.0」。写实离谱画面当钩子，秀画质；Topview 可用 T1 同题对比。",
-   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR07581243492261691393?region=US",
-   "cover": "media/ads_google_CR07581243492261691393.jpg",
-   "is_topview_impersonation": null,
-   "is_new": true,
-   "copy": null
-  }
- ],
- "note": "今天 07:44 扫描（547 条，新开投 9）；主管手写分析 5 条有本地封面的 Google US（WHATECH 代投 Dreamina/CapCut）；仿冒 topview-ai.com 2 条仍在投"
+  "items": [
+    {
+      "badge": "新开投",
+      "competitor": "Flova",
+      "platform": "google",
+      "regions": [
+        "KR"
+      ],
+      "first_shown": "2026-11-09",
+      "title": "Flova · google · KR",
+      "stats": "首投 2026-11-09 · XIA KE XING (HONGKONG) ADVERTISING LIMITED",
+      "analysis": "对 Topview：「XIA KE XING (HONGKONG) ADVERTISING LIMITED」首投 2026-11-09。多集角色一致叙事，可用 Film Studio 对照抢说法。",
+      "link": "https://adstransparency.google.com/advertiser/AR17459733968881451009/creative/CR05171059028595310593?region=KR",
+      "cover": "media/ads_google_CR05171059028595310593.jpg",
+      "is_topview_impersonation": null,
+      "is_new": true,
+      "copy": null
+    },
+    {
+      "badge": "新开投",
+      "competitor": "CapCut",
+      "platform": "google",
+      "regions": [
+        "US"
+      ],
+      "first_shown": "2026-10-23",
+      "title": "CapCut · google · US",
+      "stats": "首投 2026-10-23 · WHATECH MOBILE CO., LIMITED",
+      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-10-23。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+      "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR03901087914141941761?region=US",
+      "cover": "media/ads_google_CR03901087914141941761.jpg",
+      "is_topview_impersonation": null,
+      "is_new": true,
+      "copy": null
+    }
+  ]
 }
