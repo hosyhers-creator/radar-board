@@ -1,0 +1,326 @@
+{
+ "updated": "2026-11-09",
+ "market": "overseas",
+ "timezone": "Asia/Shanghai",
+ "collected_at": "2026-11-09 08:05–08:15（北京时间）",
+ "window": "本周上传＋按播放，自跑 22 词 + YouTube 采集 bot",
+ "source": "overseas-daily-1109",
+ "themes": [
+  {
+   "id": "t1",
+   "badge": "新出路",
+   "title": "免费开源模型来抢价：MiniMax H3 $0 vs Seedance 2.5",
+   "judgment": "本周 YouTube 冒出一批「MiniMax H3 V2 只要 $0」「同输入对比 Seedance 2.5」的测评，X 上 kentdhani 的三联对比（$0 vs $1.32）收藏多于赞。价格战从“谁便宜”变成“免费也能用”，但这些都要本地显卡或 ComfyUI。Topview 要讲：不用显卡、不用装，T1「Seedance 2.5 一样的效果，3.8折的价格」，再加 30 天无限。",
+   "evidence": [
+    {
+     "title": "New MiniMax H3 V2: Super Realistic AI Videos… for $0?",
+     "url": "https://www.youtube.com/watch?v=YsPVEOQ8kE0",
+     "id": "YsPVEOQ8kE0",
+     "channel": "aiseek",
+     "views": 48201,
+     "views_label": "4.8万",
+     "duration_label": "11:42",
+     "upload_date": "11-03",
+     "stats": "4.8万播放 · 11:42 · 11-03 · aiseek",
+     "thumb": "https://i.ytimg.com/vi/YsPVEOQ8kE0/hqdefault.jpg",
+     "why": "挂 Patreon 工作流，教程向",
+     "sponsored": false
+    },
+    {
+     "title": "Seedance 2.5（约 30 万韩元）vs 免费开源 MiniMax H3，同输入对比",
+     "url": "https://www.youtube.com/watch?v=vsvLm9OVgIs",
+     "id": "vsvLm9OVgIs",
+     "channel": "Future, Already",
+     "views": 7161,
+     "views_label": "0.72万",
+     "duration_label": "9:58",
+     "upload_date": "11-02",
+     "stats": "0.72万播放 · 9:58 · 11-02 · Future, Already",
+     "thumb": "https://i.ytimg.com/vi/vsvLm9OVgIs/hqdefault.jpg",
+     "why": "韩语频道，本地 H200 跑 H3",
+     "sponsored": false
+    },
+    {
+     "title": "Gemini Omni 1.2 Flash vs Seedance 2.5 vs Kling 4.0",
+     "url": "https://www.youtube.com/watch?v=7eF37cx3a9o",
+     "id": "7eF37cx3a9o",
+     "channel": "Marin Method",
+     "views": 4052,
+     "views_label": "0.41万",
+     "duration_label": "7:34",
+     "upload_date": "11-08",
+     "stats": "0.41万播放 · 7:34 · 11-08 · Marin Method",
+     "thumb": "https://i.ytimg.com/vi/7eF37cx3a9o/hqdefault.jpg",
+     "why": "同提示词无解说并排",
+     "sponsored": false
+    },
+    {
+     "title": "Gemini Omni 1.2 Flash vs Seedance 2.5 vs Kling 4.0: 11 AI Video Tests",
+     "url": "https://www.youtube.com/watch?v=UESzfLr3N4g",
+     "id": "UESzfLr3N4g",
+     "channel": "CellCog",
+     "views": 2362,
+     "views_label": "0.24万",
+     "duration_label": "5:56",
+     "upload_date": "11-06",
+     "stats": "0.24万播放 · 5:56 · 11-06 · CellCog",
+     "thumb": "https://i.ytimg.com/vi/UESzfLr3N4g/hqdefault.jpg",
+     "why": "同参考图、一次出片不挑",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "badge": "上升速",
+   "title": "Dior AI 动画翻车第 3 天：讨论变成“AI 广告到底能不能看”",
+   "judgment": "Dior 官方动画《Night in Color》57.9 万，梗评《Dior Animation Is AI Slop》从 86.3 万涨到 93.0 万；新出现 kat 'n chat 逐帧拆解（10.8 万、评论 330）和「买假 AI 广告看会收到什么」（21.0 万、评论 777）。观众对“看得出是 AI”的品牌片很敏感。Topview 广告要秀一致性和细节，可做「同一 prompt，翻车版 vs Topview 稳定版」。",
+   "evidence": [
+    {
+     "title": "Christian Dior's Night in Color",
+     "url": "https://www.youtube.com/watch?v=G3kIas8ooUQ",
+     "id": "G3kIas8ooUQ",
+     "channel": "Christian Dior",
+     "views": 579257,
+     "views_label": "57.9万",
+     "duration_label": "7:19",
+     "upload_date": "11-04",
+     "stats": "57.9万播放 · 7:19 · 11-04 · Christian Dior",
+     "thumb": "https://i.ytimg.com/vi/G3kIas8ooUQ/hqdefault.jpg",
+     "why": "争议本体（品牌官方）",
+     "sponsored": false
+    },
+    {
+     "title": "Dior's Animation Fooled Everyone...",
+     "url": "https://www.youtube.com/watch?v=eQU3749e3oI",
+     "id": "eQU3749e3oI",
+     "channel": "kat 'n chat",
+     "views": 108466,
+     "views_label": "10.8万",
+     "duration_label": "11:15",
+     "upload_date": "11-07",
+     "stats": "10.8万播放 · 11:15 · 11-07 · kat 'n chat",
+     "thumb": "https://i.ytimg.com/vi/eQU3749e3oI/hqdefault.jpg",
+     "why": "逐帧拆中间帧；评论 330",
+     "sponsored": false
+    },
+    {
+     "title": "I Bought Obviously Fake AI Ads To See What I Get (Again)",
+     "url": "https://www.youtube.com/watch?v=5Z4jFafRcr4",
+     "id": "5Z4jFafRcr4",
+     "channel": "John Casterline",
+     "views": 209708,
+     "views_label": "21.0万",
+     "duration_label": "19:32",
+     "upload_date": "11-07",
+     "stats": "21.0万播放 · 19:32 · 11-07 · John Casterline",
+     "thumb": "https://i.ytimg.com/vi/5Z4jFafRcr4/hqdefault.jpg",
+     "why": "AI 假广告测评；评论 777",
+     "sponsored": false
+    },
+    {
+     "title": "When the Slop is No Longer Sloppy",
+     "url": "https://www.youtube.com/watch?v=CnI3k5pD-cw",
+     "id": "CnI3k5pD-cw",
+     "channel": "Sol",
+     "views": 131871,
+     "views_label": "13.2万",
+     "duration_label": "12:30",
+     "upload_date": "11-02",
+     "stats": "13.2万播放 · 12:30 · 11-02 · Sol",
+     "thumb": "https://i.ytimg.com/vi/CnI3k5pD-cw/hqdefault.jpg",
+     "why": "AI 以假乱真评论片；评论 820",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "badge": "持续",
+   "title": "黑五第 4 天：Dreamina「$0.29 雇一整个黑五营销团队」三号同题",
+   "judgment": "继 CapCut KOL 包场后，Dreamina 用同一个标题模板让三个频道同时发「$0.29 雇一整个黑五营销团队」，简介全是 Dreamina 合作链接（$0.29 首月）。今天竞品投放里 Google US 新开投 5 条也全是 Dreamina 2.0。自然黑五 AI 广告成片连续第 4 天为 0。Topview 比长期额度：黑五 Ultra「买 2 年送 4 个月」+「30 天无限」，对比 $0.29 首月只够约 42 秒。",
+   "evidence": [
+    {
+     "title": "I Hired an Entire Black Friday Marketing Team for $0.29! (Dreamina AI Canvas)",
+     "url": "https://www.youtube.com/watch?v=JmQTCtXBWDY",
+     "id": "JmQTCtXBWDY",
+     "channel": "NORD Tech",
+     "views": 80825,
+     "views_label": "8.1万",
+     "duration_label": "9:48",
+     "upload_date": "11-08",
+     "stats": "8.1万播放 · 9:48 · 11-08 · NORD Tech",
+     "thumb": "https://i.ytimg.com/vi/JmQTCtXBWDY/hqdefault.jpg",
+     "why": "付费合作：Dreamina utm",
+     "sponsored": true
+    },
+    {
+     "title": "I Hired a Black Friday Marketing Team for $0.29 (Dreamina Canvas)",
+     "url": "https://www.youtube.com/watch?v=XNSBAc2XXMs",
+     "id": "XNSBAc2XXMs",
+     "channel": "AI BROS",
+     "views": 78360,
+     "views_label": "7.8万",
+     "duration_label": "5:35",
+     "upload_date": "11-03",
+     "stats": "7.8万播放 · 5:35 · 11-03 · AI BROS",
+     "thumb": "https://i.ytimg.com/vi/XNSBAc2XXMs/hqdefault.jpg",
+     "why": "付费合作：Dreamina 合作链接",
+     "sponsored": true
+    },
+    {
+     "title": "I Hired a Black Friday Marketing Team for $0.29 Using Dreamina AI!",
+     "url": "https://www.youtube.com/watch?v=Gi15rsr85dM",
+     "id": "Gi15rsr85dM",
+     "channel": "BMF MEDIA",
+     "views": 48792,
+     "views_label": "4.9万",
+     "duration_label": "6:45",
+     "upload_date": "11-04",
+     "stats": "4.9万播放 · 6:45 · 11-04 · BMF MEDIA",
+     "thumb": "https://i.ytimg.com/vi/Gi15rsr85dM/hqdefault.jpg",
+     "why": "付费合作：Dreamina utm",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "badge": "持续",
+   "title": "Topview T1 被点名比价：新一批测评（多为返佣）",
+   "judgment": "本周又有英语、西语频道发 T1 vs Seedance 2.5（“T1 NUKED Seedance 2.5”“30 天无限”），简介带 Topview via= 返佣，不算自然热度；另有测评专门比 T1 和 Seedance 2.5 对名人、动漫、打斗内容的拦截尺度。官方 T1 Challenge（$2 万奖金）只有 0.55 万播放。官方广告可直接用「Seedance 2.5 一样的效果，3.8折的价格」做开头字幕。",
+   "evidence": [
+    {
+     "title": "Topview T1 just NUKED Seedance 2.5...",
+     "url": "https://www.youtube.com/watch?v=hBYTsbASXr0",
+     "id": "hBYTsbASXr0",
+     "channel": "Joseph Martin",
+     "views": 9140,
+     "views_label": "0.91万",
+     "duration_label": "11:12",
+     "upload_date": "11-08",
+     "stats": "0.91万播放 · 11:12 · 11-08 · Joseph Martin",
+     "thumb": "https://i.ytimg.com/vi/hBYTsbASXr0/hqdefault.jpg",
+     "why": "返佣：via=joseph-martin",
+     "sponsored": true
+    },
+    {
+     "title": "Topview T1 vs Seedance 2.5 ¡30 Días Ilimitado!",
+     "url": "https://www.youtube.com/watch?v=gmpkDPdAYMk",
+     "id": "gmpkDPdAYMk",
+     "channel": "Jonathan Canales Digital",
+     "views": 3709,
+     "views_label": "0.37万",
+     "duration_label": "7:19",
+     "upload_date": "11-06",
+     "stats": "0.37万播放 · 7:19 · 11-06 · Jonathan Canales Digital",
+     "thumb": "https://i.ytimg.com/vi/gmpkDPdAYMk/hqdefault.jpg",
+     "why": "西语；返佣：via=jonathan",
+     "sponsored": true
+    },
+    {
+     "title": "I Tested TopView T1 vs Seedance 2.5 on Celebrities, Anime and Fights",
+     "url": "https://www.youtube.com/watch?v=h8A6BwkwSnU",
+     "id": "h8A6BwkwSnU",
+     "channel": "Grandpa Does AI",
+     "views": 2405,
+     "views_label": "0.24万",
+     "duration_label": "11:03",
+     "upload_date": "11-03",
+     "stats": "0.24万播放 · 11:03 · 11-03 · Grandpa Does AI",
+     "thumb": "https://i.ytimg.com/vi/h8A6BwkwSnU/hqdefault.jpg",
+     "why": "比内容拦截尺度；简介前段未见返佣",
+     "sponsored": false
+    },
+    {
+     "title": "Topview T1 Challenge",
+     "url": "https://www.youtube.com/watch?v=8Chqp1tHLqU",
+     "id": "8Chqp1tHLqU",
+     "channel": "TopviewAI",
+     "views": 5458,
+     "views_label": "0.55万",
+     "duration_label": "0:45",
+     "upload_date": "11-04",
+     "stats": "0.55万播放 · 0:45 · 11-04 · TopviewAI",
+     "thumb": "https://i.ytimg.com/vi/8Chqp1tHLqU/hqdefault.jpg",
+     "why": "官方号：$2 万奖金活动",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "badge": "持续",
+   "title": "公版童话反转 + 南亚蔬菜人：低成本连续剧继续出量",
+   "judgment": "YUK Romatic 20 秒《灰姑娘拒绝王子》19.6 万（画面带 PlayOryn 短剧 App 导流水印），同号 90 年代爱情片 30 秒 4.3 万；南亚“土豆/蔬菜人”长篇照旧 37.9–74.9 万。公版童话和原创食材角色都没有 IP 风险。Topview：公版童话 20 秒反转 + 一个固定角色日更，接 30 天无限。",
+   "evidence": [
+    {
+     "title": "Cinderella Rejects the Prince! The Ultimate Fairy Tale Plot Twist",
+     "url": "https://www.youtube.com/shorts/0PHkCY5vbyk",
+     "id": "0PHkCY5vbyk",
+     "channel": "YUK Romatic",
+     "views": 195917,
+     "views_label": "19.6万",
+     "duration_label": "0:20",
+     "upload_date": "11-06",
+     "stats": "19.6万播放 · 0:20 · 11-06 · YUK Romatic",
+     "thumb": "https://i.ytimg.com/vi/0PHkCY5vbyk/hqdefault.jpg",
+     "why": "PlayOryn 导流水印，疑似 App 推广",
+     "sponsored": true,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "The Ultimate Breakup Glow-Up! | 90s Rom-Com AI Mini Movie",
+     "url": "https://www.youtube.com/shorts/F9s0x_bk-7A",
+     "id": "F9s0x_bk-7A",
+     "channel": "YUK Romatic",
+     "views": 42952,
+     "views_label": "4.3万",
+     "duration_label": "0:30",
+     "upload_date": "11-08",
+     "stats": "4.3万播放 · 0:30 · 11-08 · YUK Romatic",
+     "thumb": "https://i.ytimg.com/vi/F9s0x_bk-7A/hqdefault.jpg",
+     "why": "同号 90 年代爱情片",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "Aloo Aur Gobhi Ka Oont Chori Ho Gaya!（土豆和花菜的骆驼被偷了）",
+     "url": "https://www.youtube.com/watch?v=wlh-MXZqE6Y",
+     "id": "wlh-MXZqE6Y",
+     "channel": "Desi Veggie Stories",
+     "views": 749239,
+     "views_label": "74.9万",
+     "duration_label": "6:51",
+     "upload_date": "11-04",
+     "stats": "74.9万播放 · 6:51 · 11-04 · Desi Veggie Stories",
+     "thumb": "https://i.ytimg.com/vi/wlh-MXZqE6Y/hqdefault.jpg",
+     "why": "3D 蔬菜人长篇",
+     "sponsored": false
+    },
+    {
+     "title": "PUNCTURE SE CROREPATI!（从补胎铺到千万富翁）",
+     "url": "https://www.youtube.com/shorts/-D6SNL8-T8k",
+     "id": "-D6SNL8-T8k",
+     "channel": "Sabzi Pur Gaon",
+     "views": 379327,
+     "views_label": "37.9万",
+     "duration_label": "2:25",
+     "upload_date": "11-03",
+     "stats": "37.9万播放 · 2:25 · 11-03 · Sabzi Pur Gaon",
+     "thumb": "https://i.ytimg.com/vi/-D6SNL8-T8k/hqdefault.jpg",
+     "why": "蔬菜人逆袭 Shorts",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "theme_cards": 5,
+  "evidence_videos": 19
+ }
+}
