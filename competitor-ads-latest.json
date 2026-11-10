@@ -10,6 +10,23 @@
   "items": [
     {
       "badge": "新开投",
+      "competitor": "Dreamina（CapCut 系）",
+      "platform": "google",
+      "regions": [
+        "US"
+      ],
+      "first_shown": "2026-10-23",
+      "title": "Dreamina AI · 暗黑奇幻片段 + $0.29/月",
+      "stats": "首投 2026-10-23 · WHATECH 代投 · Google US",
+      "analysis": "WHATECH 代投（Google US，10-23 首投、11-09 仍在展示）。画面是两人在幽蓝古堡里对峙的电影感片段，竖版素材放在横版模糊底上，右上角「DreaminaAI $0.29/ month ONLY」。用“电影级画面 + 首月几毛钱”拉新；Topview 不比首月价，比长期成本：Seedance 2.5 / T1 30 天无限、T1 3.8 折。",
+      "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR03901087914141941761?region=US",
+      "cover": "media/ads_google_CR03901087914141941761.jpg",
+      "is_topview_impersonation": null,
+      "is_new": true,
+      "copy": null
+    },
+    {
+      "badge": "新开投",
       "competitor": "Flova",
       "platform": "google",
       "regions": [
@@ -24,23 +41,7 @@
       "is_topview_impersonation": null,
       "is_new": true,
       "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "US"
-      ],
-      "first_shown": "2026-10-23",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-10-23 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-10-23。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR03901087914141941761?region=US",
-      "cover": "media/ads_google_CR03901087914141941761.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
     }
-  ]
+  ],
+  "note": "今天 07:44 扫描（507 条，新开投 35）；有本地封面的仅 2 条（US 1 条手写分析、KR 1 条留给韩国日报）；仿冒 topview-ai.com 2 条仍在投"
 }

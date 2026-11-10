@@ -1,0 +1,334 @@
+{
+ "updated": "2026-11-10",
+ "market": "overseas",
+ "timezone": "Asia/Shanghai",
+ "collected_at": "2026-11-10 08:10–08:20（北京时间）",
+ "window": "本周上传＋按播放，自跑 28 词 + YouTube 采集 bot",
+ "source": "overseas-daily-1110",
+ "themes": [
+  {
+   "id": "t1",
+   "badge": "新出路",
+   "title": "Claude / Opus 5.5 当动画师和剪辑师：不靠视频模型也能出整条动画",
+   "judgment": "本周一批「只用 Claude 做爆款动画 / 让 Opus 5.5 剪 Netflix 级纪录片 / 做 Kurzgesagt 风动画」的教程冲到 13–39 万播放，X 上 exploraX_ 用 Opus 5.5 单提示词做阿尔·卡彭纪录片，收藏多于赞。卖点从“哪个视频模型更好”变成“一个 agent 帮你出整条片”。Topview 有 Claude Plugin / MCP 和 Motion Studio，可以讲“在 Claude 里一句话调 Topview 出成片”。证据简介多挂返佣/课程链接，按教程热度看。",
+   "evidence": [
+    {
+     "title": "I Tried Making a Viral Video Using ONLY Claude AI",
+     "url": "https://www.youtube.com/watch?v=kDcxEIDC5NA",
+     "id": "kDcxEIDC5NA",
+     "channel": "ReachMora",
+     "views": 386395,
+     "views_label": "38.6万",
+     "duration_label": "7:20",
+     "upload_date": "11-03",
+     "stats": "38.6万播放 · 7:20 · 11-03 · ReachMora",
+     "thumb": "https://i.ytimg.com/vi/kDcxEIDC5NA/hqdefault.jpg",
+     "why": "简介挂 moraviral 返佣（40% off）",
+     "sponsored": true
+    },
+    {
+     "title": "I Made VIRAL Animation Videos Using Claude Code (FREE Plugin)",
+     "url": "https://www.youtube.com/watch?v=3tpaWHaiLQ8",
+     "id": "3tpaWHaiLQ8",
+     "channel": "Grow With Kaz",
+     "views": 257765,
+     "views_label": "25.8万",
+     "duration_label": "10:01",
+     "upload_date": "11-04",
+     "stats": "25.8万播放 · 10:01 · 11-04 · Grow With Kaz",
+     "thumb": "https://i.ytimg.com/vi/3tpaWHaiLQ8/hqdefault.jpg",
+     "why": "免费插件做 3D 动画，评论 314",
+     "sponsored": false
+    },
+    {
+     "title": "Claude Edited This Netflix-Level Documentary (Copy Me)",
+     "url": "https://www.youtube.com/watch?v=e2Fykz51Nxg",
+     "id": "e2Fykz51Nxg",
+     "channel": "Zane Hoyer",
+     "views": 173239,
+     "views_label": "17.3万",
+     "duration_label": "5:43",
+     "upload_date": "11-03",
+     "stats": "17.3万播放 · 5:43 · 11-03 · Zane Hoyer",
+     "thumb": "https://i.ytimg.com/vi/e2Fykz51Nxg/hqdefault.jpg",
+     "why": "只给音频+参考图+提示词；挂 Abacus 链接",
+     "sponsored": true
+    },
+    {
+     "title": "Claude Opus 5.5: How To Make Motion Graphics",
+     "url": "https://www.youtube.com/watch?v=cDb-wPq0Iyk",
+     "id": "cDb-wPq0Iyk",
+     "channel": "Rourke",
+     "views": 129673,
+     "views_label": "13.0万",
+     "duration_label": "17:58",
+     "upload_date": "11-06",
+     "stats": "13.0万播放 · 17:58 · 11-06 · Rourke",
+     "thumb": "https://i.ytimg.com/vi/cDb-wPq0Iyk/hqdefault.jpg",
+     "why": "动效教程；挂 GenHQ 课程",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "badge": "持续",
+   "title": "AI 粗制广告反噬：观众开始“专门看烂 AI 广告”",
+   "judgment": "「买最离谱的 AI 生成广告」一条 62.8 万、评论 347；OpenAI 自家广告被做成“烂广告”吐槽 14.4 万；“AI 网红假装残疾博同情”14.6 万；Dior AI 圣诞广告争议还在出新片。观众对“一眼 AI”的广告越来越敏感。对 Topview：广告别主打“全 AI 便宜”，要先给“看不出是 AI 的成片”，再讲 T1 3.8 折。",
+   "evidence": [
+    {
+     "title": "I Bought The Scammiest AI-Generated Ads",
+     "url": "https://www.youtube.com/watch?v=Dp99Gt7Htws",
+     "id": "Dp99Gt7Htws",
+     "channel": "DubDaddy",
+     "views": 628057,
+     "views_label": "62.8万",
+     "duration_label": "38:50",
+     "upload_date": "11-04",
+     "stats": "62.8万播放 · 38:50 · 11-04 · DubDaddy",
+     "thumb": "https://i.ytimg.com/vi/Dp99Gt7Htws/hqdefault.jpg",
+     "why": "测评；视频本身有 Revolut 赞助",
+     "sponsored": true
+    },
+    {
+     "title": "OpenAI Fed its Own Ad Into ChatGPT and it's Terrible.",
+     "url": "https://www.youtube.com/watch?v=03FYAptGuq4",
+     "id": "03FYAptGuq4",
+     "channel": "DM Quil",
+     "views": 143547,
+     "views_label": "14.4万",
+     "duration_label": "11:41",
+     "upload_date": "11-05",
+     "stats": "14.4万播放 · 11:41 · 11-05 · DM Quil",
+     "thumb": "https://i.ytimg.com/vi/03FYAptGuq4/hqdefault.jpg",
+     "why": "吐槽 OpenAI 新广告；评论 388",
+     "sponsored": false
+    },
+    {
+     "title": "AI Influencers Are Faking Disabilities..",
+     "url": "https://www.youtube.com/watch?v=to_N1W3fMLI",
+     "id": "to_N1W3fMLI",
+     "channel": "Luvhilal",
+     "views": 145693,
+     "views_label": "14.6万",
+     "duration_label": "34:02",
+     "upload_date": "11-03",
+     "stats": "14.6万播放 · 34:02 · 11-03 · Luvhilal",
+     "thumb": "https://i.ytimg.com/vi/to_N1W3fMLI/hqdefault.jpg",
+     "why": "AI 网红伦理反感；评论 270",
+     "sponsored": false
+    },
+    {
+     "title": "Dior's AI Slop Christmas Advert",
+     "url": "https://www.youtube.com/watch?v=OnmiGxAbrbQ",
+     "id": "OnmiGxAbrbQ",
+     "channel": "eeloftheworld",
+     "views": 5136,
+     "views_label": "0.51万",
+     "duration_label": "10:33",
+     "upload_date": "11-08",
+     "stats": "0.51万播放 · 10:33 · 11-08 · eeloftheworld",
+     "thumb": "https://i.ytimg.com/vi/OnmiGxAbrbQ/hqdefault.jpg",
+     "why": "Dior 争议第 4 天，小频道仍在跟",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "badge": "持续",
+   "title": "黑五第 5 天：CapCut PC KOL 包场 + Dreamina $0.29 画布",
+   "judgment": "「black friday ai ad」前排仍几乎全是 CapCut PC 黑五活动（简介统一 capcutpc_kol 链接），Kingy AI 10.4 万播放只有 43 赞，像带量；Dreamina 2.0 Canvas 继续用 $0.29 首月拉新，今天竞品投放 Google US 唯一有封面的新卡也是 Dreamina $0.29。自然黑五 AI 广告成片仍为 0。Topview 黑五口径：Ultra 买 2 年送 4 个月、Seedance 2.5 / T1 30 天无限。",
+   "evidence": [
+    {
+     "title": "AI Marketing Tools: Create 2 Black Friday Ads with CapCut PC’s AI Video Editor",
+     "url": "https://www.youtube.com/watch?v=ztBveoMOSHM",
+     "id": "ztBveoMOSHM",
+     "channel": "Kingy AI",
+     "views": 103586,
+     "views_label": "10.4万",
+     "duration_label": "7:40",
+     "upload_date": "11-07",
+     "stats": "10.4万播放 · 7:40 · 11-07 · Kingy AI",
+     "thumb": "https://i.ytimg.com/vi/ztBveoMOSHM/hqdefault.jpg",
+     "why": "付费合作：capcutpc_kol；赞 43",
+     "sponsored": true
+    },
+    {
+     "title": "Black Friday Advertising with an AI Video Editor | Fashion Affiliate Campaign",
+     "url": "https://www.youtube.com/watch?v=l0DJmczjF7Y",
+     "id": "l0DJmczjF7Y",
+     "channel": "Crypto SJ",
+     "views": 100486,
+     "views_label": "10.0万",
+     "duration_label": "11:00",
+     "upload_date": "11-06",
+     "stats": "10.0万播放 · 11:00 · 11-06 · Crypto SJ",
+     "thumb": "https://i.ytimg.com/vi/l0DJmczjF7Y/hqdefault.jpg",
+     "why": "付费合作：capcutpc_kol",
+     "sponsored": true
+    },
+    {
+     "title": "Black Friday Marketing: Create Product Ads with CapCut PC AI Video Editor",
+     "url": "https://www.youtube.com/watch?v=JIJ8Tdj1NTw",
+     "id": "JIJ8Tdj1NTw",
+     "channel": "MADs AI",
+     "views": 31565,
+     "views_label": "3.2万",
+     "duration_label": "5:37",
+     "upload_date": "11-04",
+     "stats": "3.2万播放 · 5:37 · 11-04 · MADs AI",
+     "thumb": "https://i.ytimg.com/vi/JIJ8Tdj1NTw/hqdefault.jpg",
+     "why": "付费合作：capcutpc_kol",
+     "sponsored": true
+    },
+    {
+     "title": "I Created a CINEMATIC Black Friday Commercial with Dreamina AI 2.0!",
+     "url": "https://www.youtube.com/watch?v=l6SC9fAU9N4",
+     "id": "l6SC9fAU9N4",
+     "channel": "LunaAi",
+     "views": 34535,
+     "views_label": "3.5万",
+     "duration_label": "7:01",
+     "upload_date": "11-05",
+     "stats": "3.5万播放 · 7:01 · 11-05 · LunaAi",
+     "thumb": "https://i.ytimg.com/vi/l6SC9fAU9N4/hqdefault.jpg",
+     "why": "付费合作：Dreamina $0.29 utm",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "badge": "持续",
+   "title": "Topview T1 被点名比价：越南、韩国、英语频道继续出（全部返佣）",
+   "judgment": "新一批 T1 vs Seedance 2.5 测评来自越南（“删掉 Seedance 2.5，我用更便宜的”）、韩国（“比 Seedance 便宜 33%”“盲测猜哪个是 Seedance”）和英语频道（“T1 just NUKED Seedance 2.5”），简介全是 Topview via= 返佣，不算自然热度。口径不统一（33% / 40% / 62% 更便宜），官方素材统一用「Seedance 2.5 一样的效果，3.8折的价格」（$0.22/s vs $0.585/s）。",
+   "evidence": [
+    {
+     "title": "Topview T1 just NUKED Seedance 2.5...",
+     "url": "https://www.youtube.com/watch?v=hBYTsbASXr0",
+     "id": "hBYTsbASXr0",
+     "channel": "Joseph Martin",
+     "views": 11004,
+     "views_label": "1.1万",
+     "duration_label": "11:12",
+     "upload_date": "11-08",
+     "stats": "1.1万播放 · 11:12 · 11-08 · Joseph Martin",
+     "thumb": "https://i.ytimg.com/vi/hBYTsbASXr0/hqdefault.jpg",
+     "why": "返佣：via=joseph-martin",
+     "sponsored": true
+    },
+    {
+     "title": "Xóa Seedance 2.5. Tôi dùng AI Video này rẻ hơn nhiều（删掉 Seedance 2.5，换更便宜的）",
+     "url": "https://www.youtube.com/watch?v=EFbEmmuziv4",
+     "id": "EFbEmmuziv4",
+     "channel": "Phan Dong Giang",
+     "views": 9043,
+     "views_label": "0.90万",
+     "duration_label": "15:18",
+     "upload_date": "11-05",
+     "stats": "0.90万播放 · 15:18 · 11-05 · Phan Dong Giang",
+     "thumb": "https://i.ytimg.com/vi/EFbEmmuziv4/hqdefault.jpg",
+     "why": "越南语；返佣：via=phandonggiang",
+     "sponsored": true
+    },
+    {
+     "title": "시댄스 끝장낸다? 가격은 33%나 더 싸다고?!（终结 Seedance？便宜 33%？）",
+     "url": "https://www.youtube.com/watch?v=W1VkdC8feY8",
+     "id": "W1VkdC8feY8",
+     "channel": "AI Astra",
+     "views": 8894,
+     "views_label": "0.89万",
+     "duration_label": "13:49",
+     "upload_date": "11-06",
+     "stats": "0.89万播放 · 13:49 · 11-06 · AI Astra",
+     "thumb": "https://i.ytimg.com/vi/W1VkdC8feY8/hqdefault.jpg",
+     "why": "韩语；返佣：via=aiastra",
+     "sponsored": true
+    },
+    {
+     "title": "시댄스보다 싼 AI로 만들어봤더니（用比 Seedance 便宜的 AI 做了一遍）",
+     "url": "https://www.youtube.com/watch?v=ndtrKxMpRXg",
+     "id": "ndtrKxMpRXg",
+     "channel": "닥또리",
+     "views": 7452,
+     "views_label": "0.75万",
+     "duration_label": "9:17",
+     "upload_date": "11-05",
+     "stats": "0.75万播放 · 9:17 · 11-05 · 닥또리",
+     "thumb": "https://i.ytimg.com/vi/ndtrKxMpRXg/hqdefault.jpg",
+     "why": "韩语盲测；返佣短链",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "badge": "持续",
+   "title": "开源 MiniMax H3 本地跑：从“免费”走到“1080p 一分钟”",
+   "judgment": "上周是“H3 $0 vs Seedance 2.5”，这周变成工作流升级：ComfyUI 25 个工作流、16GB 显存出 15 秒 1080p、544p→1080p 无缝一分钟；也开始有普通观众向的“AI 版游戏角色”短片（36 秒、评论 280）。门槛仍是本地显卡和节点。Topview 有 MiniMax H3 365 天无限，可讲“不用装 ComfyUI，网页直接用 H3”。",
+   "evidence": [
+    {
+     "title": "MiniMax H3 타일 샘플러 | 16GB VRAM에서 15초 1080p（16GB 显存出 15 秒 1080p）",
+     "url": "https://www.youtube.com/watch?v=JA4BJTvgM20",
+     "id": "JA4BJTvgM20",
+     "channel": "Deno",
+     "views": 38966,
+     "views_label": "3.9万",
+     "duration_label": "9:24",
+     "upload_date": "11-06",
+     "stats": "3.9万播放 · 9:24 · 11-06 · Deno",
+     "thumb": "https://i.ytimg.com/vi/JA4BJTvgM20/hqdefault.jpg",
+     "why": "韩语 ComfyUI 工作流",
+     "sponsored": false
+    },
+    {
+     "title": "MiniMax H3 in ComfyUI | Character Swap, Talk, Sing & Timeline (Ep41)",
+     "url": "https://www.youtube.com/watch?v=YFDXCq4qor4",
+     "id": "YFDXCq4qor4",
+     "channel": "pixaroma",
+     "views": 36504,
+     "views_label": "3.7万",
+     "duration_label": "37:18",
+     "upload_date": "11-03",
+     "stats": "3.7万播放 · 37:18 · 11-03 · pixaroma",
+     "thumb": "https://i.ytimg.com/vi/YFDXCq4qor4/hqdefault.jpg",
+     "why": "25 个免费工作流",
+     "sponsored": false
+    },
+    {
+     "title": "AI Generated Baldis Basics | MiniMax H3",
+     "url": "https://www.youtube.com/watch?v=a7zgXr419dI",
+     "id": "a7zgXr419dI",
+     "channel": "SyntheticMDProductions",
+     "views": 27258,
+     "views_label": "2.7万",
+     "duration_label": "0:35",
+     "upload_date": "11-07",
+     "stats": "2.7万播放 · 0:35 · 11-07 · SyntheticMDProductions",
+     "thumb": "https://i.ytimg.com/vi/a7zgXr419dI/hqdefault.jpg",
+     "why": "⚠️游戏 IP 角色；评论 280，观众向",
+     "sponsored": false
+    },
+    {
+     "title": "MiniMax H3 New Upscaler Is Insane: 544p → 1080p, One Seamless Minute",
+     "url": "https://www.youtube.com/watch?v=2fZoeFgRtqk",
+     "id": "2fZoeFgRtqk",
+     "channel": "CGlide",
+     "views": 16078,
+     "views_label": "1.6万",
+     "duration_label": "9:14",
+     "upload_date": "11-04",
+     "stats": "1.6万播放 · 9:14 · 11-04 · CGlide",
+     "thumb": "https://i.ytimg.com/vi/2fZoeFgRtqk/hqdefault.jpg",
+     "why": "开源放大节点",
+     "sponsored": false
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "theme_cards": 5,
+  "evidence_videos": 20
+ }
+}
