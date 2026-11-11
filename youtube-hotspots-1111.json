@@ -1,0 +1,342 @@
+{
+ "updated": "2026-11-11",
+ "market": "overseas",
+ "timezone": "Asia/Shanghai",
+ "collected_at": "2026-11-11 08:12–08:20（北京时间）",
+ "window": "本周上传＋按播放，自跑 25 词 + YouTube 采集 bot",
+ "source": "overseas-daily-1111",
+ "themes": [
+  {
+   "id": "t1",
+   "badge": "新出路",
+   "title": "Claude Fable 5.2 发布 48 小时：从测评刷屏到“让模型自己做动画、控 AI 电影”",
+   "judgment": "Fable 5.2 在 11-09 发布后，头部 AI 频道两天内测评 9–39 万播放；更值得看的是创作向用法：同一段 49 秒配音让 Fable 5.2 和 Opus 5.5 各写一条 2D 动画，以及用 Fable 5.2 控制 3D 预演再出 AI 片。X 上也已有“Fable 5.2 写提示词 + Seedance 2.5 出片”的组合说法。对 Topview：可以讲“在 Claude 里调 Topview 出片”，模型负责写和排，Seedance 2.5 / T1 负责出画面。",
+   "evidence": [
+    {
+     "title": "Anthropic has just DROPPED A NUKE! (Fable 5.2)",
+     "url": "https://www.youtube.com/watch?v=foCBPrpbO68",
+     "id": "foCBPrpbO68",
+     "channel": "Nick Saraev",
+     "views": 386790,
+     "views_label": "38.7万",
+     "duration_label": "8:29",
+     "upload_date": "11-09",
+     "stats": "38.7万播放 · 8:29 · 11-09 · Nick Saraev",
+     "thumb": "https://i.ytimg.com/vi/foCBPrpbO68/hqdefault.jpg",
+     "why": "发布当天测评；简介挂课程链接",
+     "sponsored": true
+    },
+    {
+     "title": "Fable 5.2 is ridiculous",
+     "url": "https://www.youtube.com/watch?v=0vNyVMDFdkg",
+     "id": "0vNyVMDFdkg",
+     "channel": "Matthew Berman",
+     "views": 254080,
+     "views_label": "25.4万",
+     "duration_label": "24:18",
+     "upload_date": "11-09",
+     "stats": "25.4万播放 · 24:18 · 11-09 · Matthew Berman",
+     "thumb": "https://i.ytimg.com/vi/0vNyVMDFdkg/hqdefault.jpg",
+     "why": "头部 AI 频道实测；评论 1,000；含 Eight Sleep 赞助",
+     "sponsored": true
+    },
+    {
+     "title": "Claude Fable 5.2 vs Opus 5.5 Make an Animated Video From Scratch",
+     "url": "https://www.youtube.com/watch?v=9ZxdXEd1pZw",
+     "id": "9ZxdXEd1pZw",
+     "channel": "Tensaikun",
+     "views": 90019,
+     "views_label": "9.0万",
+     "duration_label": "3:37",
+     "upload_date": "11-09",
+     "stats": "9.0万播放 · 3:37 · 11-09 · Tensaikun",
+     "thumb": "https://i.ytimg.com/vi/9ZxdXEd1pZw/hqdefault.jpg",
+     "why": "同一段 49 秒配音让两个模型从零写 2D 动画",
+     "sponsored": false
+    },
+    {
+     "title": "I Used Fable 5.2 to Control AI Film in 3D (full tutorial)",
+     "url": "https://www.youtube.com/watch?v=NViEiNQfRIM",
+     "id": "NViEiNQfRIM",
+     "channel": "Sirio",
+     "views": 34243,
+     "views_label": "3.4万",
+     "duration_label": "47:23",
+     "upload_date": "11-09",
+     "stats": "3.4万播放 · 47:23 · 11-09 · Sirio",
+     "thumb": "https://i.ytimg.com/vi/NViEiNQfRIM/hqdefault.jpg",
+     "why": "用 Fable 5.2 控 3D 预演再出片，开源 137 个模板",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "badge": "上升速",
+   "title": "圣诞广告“是不是 AI”变成舆论话题：手绘被疑 AI，品牌开始标榜“不用 AI”",
+   "judgment": "Dior 的圣诞动画其实由《疯狂约会美丽都》导演 Sylvain Chomet 手绘，却被大量观众当成 AI；“Dior vs Prada（前迪士尼动画师）”对比短视频 292.8 万、15.3 万赞，“Prada 也用 AI 了吗”140.2 万；Loewe 联名蒂姆·波顿，被解读为“反 AI”表态，37.4 万。观众对“一眼 AI”的质感高度敏感，节日广告甚至要自证不是 AI。对 Topview：广告别拿“一眼 AI”的光滑质感当卖点，先给有手作感、看不出 AI 的成片，再讲 30 天无限。",
+   "evidence": [
+    {
+     "title": "Dior’s controversial Christmas ad vs Prada’s Christmas ad made by a former Disney animator 😭",
+     "url": "https://www.youtube.com/shorts/k4whmnr5C0I",
+     "id": "k4whmnr5C0I",
+     "channel": "OFF RUNWAY",
+     "views": 2927837,
+     "views_label": "292.8万",
+     "duration_label": "0:15",
+     "upload_date": "11-06",
+     "stats": "292.8万播放 · 0:15 · 11-06 · OFF RUNWAY",
+     "thumb": "https://i.ytimg.com/vi/k4whmnr5C0I/hqdefault.jpg",
+     "why": "15 秒对比；赞 15.3 万",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "Is Prada also using AI? #prada #dior #2danimation #animation",
+     "url": "https://www.youtube.com/shorts/G3UtEPf56bo",
+     "id": "G3UtEPf56bo",
+     "channel": "isybelle ;)",
+     "views": 1401729,
+     "views_label": "140.2万",
+     "duration_label": "2:54",
+     "upload_date": "11-06",
+     "stats": "140.2万播放 · 2:54 · 11-06 · isybelle ;)",
+     "thumb": "https://i.ytimg.com/vi/G3UtEPf56bo/hqdefault.jpg",
+     "why": "评论 1,600，观众逐帧找 AI 痕迹",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "Loewe Just Went Anti A.I. With Tim Burton",
+     "url": "https://www.youtube.com/shorts/_UxUg5GLsHE",
+     "id": "_UxUg5GLsHE",
+     "channel": "Blake Finucane",
+     "views": 374427,
+     "views_label": "37.4万",
+     "duration_label": "1:39",
+     "upload_date": "11-07",
+     "stats": "37.4万播放 · 1:39 · 11-07 · Blake Finucane",
+     "thumb": "https://i.ytimg.com/vi/_UxUg5GLsHE/hqdefault.jpg",
+     "why": "品牌用档案原稿、实体玩偶表态“非 AI”",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "Dior’s Hand Drawn Christmas Film Is Being Accused of AI",
+     "url": "https://www.youtube.com/shorts/fsnMD4rPhB4",
+     "id": "fsnMD4rPhB4",
+     "channel": "Blake Finucane",
+     "views": 162853,
+     "views_label": "16.3万",
+     "duration_label": "1:41",
+     "upload_date": "11-06",
+     "stats": "16.3万播放 · 1:41 · 11-06 · Blake Finucane",
+     "thumb": "https://i.ytimg.com/vi/fsnMD4rPhB4/hqdefault.jpg",
+     "why": "澄清：Dior 片为 Sylvain Chomet 手绘",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "badge": "持续",
+   "title": "AI slop 反感从广告扩散到游戏、教育频道和 AI 短剧",
+   "judgment": "“没人想玩你的 AI 游戏”26.6 万、评论 1,900；德国 GameStar 报道 Valve 回应 Steam 上的 AI 垃圾游戏 19.4 万；“AI slop 正在毁掉教育类 YouTube”5.3 万；还有专门吐槽 TikTok AI 短剧的 reaction 15.6 万、评论 647。对 Topview：AI 短剧和 AI 广告都在被专门挑刺，广告要强调“画面质量、角色一致”，避免模板化 AI 口播和粗糙短剧镜头。",
+   "evidence": [
+    {
+     "title": "No one wants to play your AI game",
+     "url": "https://www.youtube.com/watch?v=SgDwclX9ePU",
+     "id": "SgDwclX9ePU",
+     "channel": "imAnnaMolly",
+     "views": 265627,
+     "views_label": "26.6万",
+     "duration_label": "21:56",
+     "upload_date": "11-04",
+     "stats": "26.6万播放 · 21:56 · 11-04 · imAnnaMolly",
+     "thumb": "https://i.ytimg.com/vi/SgDwclX9ePU/hqdefault.jpg",
+     "why": "评论 1,900",
+     "sponsored": false
+    },
+    {
+     "title": "KI-Slop verstopft Steam: Jetzt reagiert Valve（AI 垃圾堵满 Steam，Valve 回应）",
+     "url": "https://www.youtube.com/watch?v=-_6oajUqySA",
+     "id": "-_6oajUqySA",
+     "channel": "GameStar",
+     "views": 194092,
+     "views_label": "19.4万",
+     "duration_label": "8:44",
+     "upload_date": "11-05",
+     "stats": "19.4万播放 · 8:44 · 11-05 · GameStar",
+     "thumb": "https://i.ytimg.com/vi/-_6oajUqySA/hqdefault.jpg",
+     "why": "德语游戏新闻",
+     "sponsored": false
+    },
+    {
+     "title": "Roasting TikTok AI Dramas Until I Cringe 🤮",
+     "url": "https://www.youtube.com/watch?v=_sJUqIuubn4",
+     "id": "_sJUqIuubn4",
+     "channel": "7-ElevenZ",
+     "views": 156298,
+     "views_label": "15.6万",
+     "duration_label": "20:23",
+     "upload_date": "11-05",
+     "stats": "15.6万播放 · 20:23 · 11-05 · 7-ElevenZ",
+     "thumb": "https://i.ytimg.com/vi/_sJUqIuubn4/hqdefault.jpg",
+     "why": "专门吐槽 TikTok AI 短剧；评论 647",
+     "sponsored": false
+    },
+    {
+     "title": "AI slop is killing educational YouTube..",
+     "url": "https://www.youtube.com/watch?v=2z_9wf9vJOg",
+     "id": "2z_9wf9vJOg",
+     "channel": "SmugAlana",
+     "views": 52974,
+     "views_label": "5.3万",
+     "duration_label": "50:47",
+     "upload_date": "11-04",
+     "stats": "5.3万播放 · 50:47 · 11-04 · SmugAlana",
+     "thumb": "https://i.ytimg.com/vi/2z_9wf9vJOg/hqdefault.jpg",
+     "why": "AI 搬运号抄教育频道",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "badge": "持续",
+   "title": "黑五第 6 天：CapCut PC 创作者活动转向“修产品广告”案例",
+   "judgment": "前几天的 CapCut PC 黑五视频多是“做一条黑五广告”，这两天新一批改讲具体品牌案例：Red Bull 电影感广告、Owala 水杯“偷走颜色”创意、“修好一条半成品产品广告”，简介统一 capcutpc_kol 链接，全部是付费合作。自然黑五 AI 广告成片仍然没有。Topview 黑五口径：Ultra 买 2 年送 4 个月、Seedance 2.5 / T1 30 天无限。",
+   "evidence": [
+    {
+     "title": "CapCut Marketing + ai video editor: I Made a Cinematic Red Bull Ad",
+     "url": "https://www.youtube.com/watch?v=0JXzqbMN3wo",
+     "id": "0JXzqbMN3wo",
+     "channel": "Crypto SJ",
+     "views": 86623,
+     "views_label": "8.7万",
+     "duration_label": "8:27",
+     "upload_date": "11-05",
+     "stats": "8.7万播放 · 8:27 · 11-05 · Crypto SJ",
+     "thumb": "https://i.ytimg.com/vi/0JXzqbMN3wo/hqdefault.jpg",
+     "why": "付费合作：capcutpc_kol；赞 180",
+     "sponsored": true
+    },
+    {
+     "title": "Black Friday Advertising with AI Video Editor: Owala’s Color Thief | CapCut PC",
+     "url": "https://www.youtube.com/watch?v=PVPfLGC6JTg",
+     "id": "PVPfLGC6JTg",
+     "channel": "AI WORLDWIDE",
+     "views": 42936,
+     "views_label": "4.3万",
+     "duration_label": "6:53",
+     "upload_date": "11-05",
+     "stats": "4.3万播放 · 6:53 · 11-05 · AI WORLDWIDE",
+     "thumb": "https://i.ytimg.com/vi/PVPfLGC6JTg/hqdefault.jpg",
+     "why": "付费合作：capcutpc_kol",
+     "sponsored": true
+    },
+    {
+     "title": "Black Friday Advertising: Fix a Broken Product Ad with CapCut PC AI Video Editor",
+     "url": "https://www.youtube.com/watch?v=CHUVMLLaO8s",
+     "id": "CHUVMLLaO8s",
+     "channel": "Crypto Jazzi",
+     "views": 35890,
+     "views_label": "3.6万",
+     "duration_label": "8:33",
+     "upload_date": "11-10",
+     "stats": "3.6万播放 · 8:33 · 11-10 · Crypto Jazzi",
+     "thumb": "https://i.ytimg.com/vi/CHUVMLLaO8s/hqdefault.jpg",
+     "why": "付费合作：capcutpc_kol",
+     "sponsored": true
+    },
+    {
+     "title": "Black Friday Advertising Made Easy with CapCut AI Video Editor!",
+     "url": "https://www.youtube.com/watch?v=PA4x7vD8HD8",
+     "id": "PA4x7vD8HD8",
+     "channel": "AI Vision",
+     "views": 32517,
+     "views_label": "3.3万",
+     "duration_label": "7:27",
+     "upload_date": "11-05",
+     "stats": "3.3万播放 · 7:27 · 11-05 · AI Vision",
+     "thumb": "https://i.ytimg.com/vi/PA4x7vD8HD8/hqdefault.jpg",
+     "why": "付费合作：capcutpc_kol",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "badge": "持续",
+   "title": "“Seedance 2.5 免费无限”叫卖：免费站、Claude + Google Flow 都在抢“无限”",
+   "judgment": "本周“免费用 Seedance 2.5”的教程不断：3 个免费网站、玩具车变真车一条 prompt、“中国免费工具挑战 Higgsfield”、“Claude + Google Flow 终结 Higgsfield 和 Seedance”（西语 5.1 万）。简介多挂返佣/邀请链接，“免费”多为每日积分。对 Topview：“无限”已经被大量叫卖，要把“30 天无限”说具体（Seedance 2.5 / T1 不限次数），再配 T1「3.8折」价格，别只喊免费。",
+   "evidence": [
+    {
+     "title": "Finally! China Just Dropped FREE AI Video Tools to Challenge Higgsfield!",
+     "url": "https://www.youtube.com/watch?v=2RJsuf1Y1Cw",
+     "id": "2RJsuf1Y1Cw",
+     "channel": "Becky the Ai Girl",
+     "views": 54752,
+     "views_label": "5.5万",
+     "duration_label": "13:16",
+     "upload_date": "11-08",
+     "stats": "5.5万播放 · 13:16 · 11-08 · Becky the Ai Girl",
+     "thumb": "https://i.ytimg.com/vi/2RJsuf1Y1Cw/hqdefault.jpg",
+     "why": "3 个免登录免费工具测评",
+     "sponsored": false
+    },
+    {
+     "title": "Claude + Google Flow: El FIN de Higgsfield y Seedance（终结 Higgsfield 和 Seedance）",
+     "url": "https://www.youtube.com/watch?v=L1JEGCPOJoE",
+     "id": "L1JEGCPOJoE",
+     "channel": "Pau Rodríguez",
+     "views": 50901,
+     "views_label": "5.1万",
+     "duration_label": "15:33",
+     "upload_date": "11-08",
+     "stats": "5.1万播放 · 15:33 · 11-08 · Pau Rodríguez",
+     "thumb": "https://i.ytimg.com/vi/L1JEGCPOJoE/hqdefault.jpg",
+     "why": "西语；用 Google 每日 50 积分做广告/短片",
+     "sponsored": false
+    },
+    {
+     "title": "Seedance 2.5 Free Unlimited | 3 Free Websites for Seedance 2.5 AI Videos",
+     "url": "https://www.youtube.com/watch?v=Ag3NmdkhX3k",
+     "id": "Ag3NmdkhX3k",
+     "channel": "Mogli Ai",
+     "views": 18179,
+     "views_label": "1.8万",
+     "duration_label": "7:01",
+     "upload_date": "11-05",
+     "stats": "1.8万播放 · 7:01 · 11-05 · Mogli Ai",
+     "thumb": "https://i.ytimg.com/vi/Ag3NmdkhX3k/hqdefault.jpg",
+     "why": "免费站合集",
+     "sponsored": false
+    },
+    {
+     "title": "Free Seedance 2.5 Unlimited - Toy Car to Real Car AI Video",
+     "url": "https://www.youtube.com/watch?v=lE5BZXj2qo0",
+     "id": "lE5BZXj2qo0",
+     "channel": "Grant Wilson",
+     "views": 15204,
+     "views_label": "1.5万",
+     "duration_label": "1:39",
+     "upload_date": "11-04",
+     "stats": "1.5万播放 · 1:39 · 11-04 · Grant Wilson",
+     "thumb": "https://i.ytimg.com/vi/lE5BZXj2qo0/hqdefault.jpg",
+     "why": "返佣：everpact 邀请链接；评论 820（多为求链接）",
+     "sponsored": true
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "theme_cards": 5,
+  "evidence_videos": 20
+ }
+}

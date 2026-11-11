@@ -13,14 +13,48 @@
       "competitor": "Flova",
       "platform": "google",
       "regions": [
-        "KR"
+        "US"
       ],
-      "first_shown": "2026-11-09",
-      "title": "Flova · google · KR",
-      "stats": "首投 2026-11-09 · XIA KE XING (HONGKONG) ADVERTISING LIMITED",
-      "analysis": "对 Topview：「XIA KE XING (HONGKONG) ADVERTISING LIMITED」首投 2026-11-09。多集角色一致叙事，可用 Film Studio 对照抢说法。",
-      "link": "https://adstransparency.google.com/advertiser/AR17459733968881451009/creative/CR05171059028595310593?region=KR",
-      "cover": "media/ads_google_CR05171059028595310593.jpg",
+      "first_shown": "2026-10-23",
+      "title": "Flova · 乐高质感机甲恐龙大战飞行英雄",
+      "stats": "首投 2026-10-23 · Google US",
+      "analysis": "Google US（FLOVA PTE. LTD. 自投，10-23 首投）。横版电影感片段：积木拼成的机甲恐龙在海上咆哮，红衣英雄带闪电飞过，字幕“every step is packed with industrial-grade texture”。卖“质感”而不是价格；Topview 同类可用 Seedance 2.5 做积木/玩具变真实的镜头，再补一句 30 天无限。",
+      "link": "https://adstransparency.google.com/advertiser/AR09712393010267815937/creative/CR13995330334799953921?region=US",
+      "cover": "media/ads_google_CR13995330334799953921.jpg",
+      "is_topview_impersonation": null,
+      "is_new": true,
+      "copy": null
+    },
+    {
+      "badge": "新开投",
+      "competitor": "CapCut（WHATECH 代投）",
+      "platform": "google",
+      "regions": [
+        "US"
+      ],
+      "first_shown": "2026-10-23",
+      "title": "CapCut · 达人口播“IN 2 WEEKS”上下分屏",
+      "stats": "首投 2026-10-23 · Google US",
+      "analysis": "Google US（WHATECH 代投，10-23 首投）。竖版上下分屏：上面达人站在红色跑车前，下面戴墨镜的达人对镜头说话，字幕“IN 2 WEEKS”，角落有收入数字。走“副业两周见效”的达人证言路线；Topview 不跟收入承诺，用“同样效果 3.8 折”的价格对比更稳。",
+      "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR05414284194798895105?region=US",
+      "cover": "media/ads_google_CR05414284194798895105.jpg",
+      "is_topview_impersonation": null,
+      "is_new": true,
+      "copy": null
+    },
+    {
+      "badge": "新开投",
+      "competitor": "CapCut / Dreamina（字节）",
+      "platform": "google",
+      "regions": [
+        "US"
+      ],
+      "first_shown": "2026-10-23",
+      "title": "Dreamina · “Seedance 2.5” 纯字卡",
+      "stats": "首投 2026-10-23 · Google US",
+      "analysis": "Google US（TikTok Pte. Ltd. 投放，10-23 首投）。竖版青绿底，大字「2.5」和「Dreamina Seedance 2.5」。字节直接拿模型名当广告标题；Topview 也有 Seedance 2.5，差异要落在价格和次数：30 天无限、T1 3.8 折。",
+      "link": "https://adstransparency.google.com/advertiser/AR09122903337233022977/creative/CR13523548037263130625?region=US",
+      "cover": "media/ads_google_CR13523548037263130625.jpg",
       "is_topview_impersonation": null,
       "is_new": true,
       "copy": null
@@ -30,48 +64,14 @@
       "competitor": "Flova",
       "platform": "google",
       "regions": [
-        "US"
+        "KR"
       ],
-      "first_shown": "2026-10-23",
-      "title": "Flova · google · US",
-      "stats": "首投 2026-10-23 · FLOVA PTE. LTD.",
-      "analysis": "对 Topview：「FLOVA PTE. LTD.」首投 2026-10-23。多集角色一致叙事，可用 Film Studio 对照抢说法。",
-      "link": "https://adstransparency.google.com/advertiser/AR09712393010267815937/creative/CR13995330334799953921?region=US",
-      "cover": "media/ads_google_CR13995330334799953921.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "US"
-      ],
-      "first_shown": "2026-10-23",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-10-23 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-10-23。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR05414284194798895105?region=US",
-      "cover": "media/ads_google_CR05414284194798895105.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "US"
-      ],
-      "first_shown": "2026-10-23",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-10-23 · Tiktok Pte. Ltd.",
-      "analysis": "对 Topview：「Tiktok Pte. Ltd.」首投 2026-10-23。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR09122903337233022977/creative/CR13523548037263130625?region=US",
-      "cover": "media/ads_google_CR13523548037263130625.jpg",
+      "first_shown": "2026-11-09",
+      "title": "Flova · google · KR",
+      "stats": "首投 2026-11-09 · XIA KE XING (HONGKONG) ADVERTISING LIMITED",
+      "analysis": "对 Topview：「XIA KE XING (HONGKONG) ADVERTISING LIMITED」首投 2026-11-09。多集角色一致叙事，可用 Film Studio 对照抢说法。",
+      "link": "https://adstransparency.google.com/advertiser/AR17459733968881451009/creative/CR05171059028595310593?region=KR",
+      "cover": "media/ads_google_CR05171059028595310593.jpg",
       "is_topview_impersonation": null,
       "is_new": true,
       "copy": null
@@ -92,23 +92,7 @@
       "is_topview_impersonation": false,
       "is_new": true,
       "copy": "Free download Low impression count"
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "tiktok",
-      "regions": [
-        "US"
-      ],
-      "first_shown": null,
-      "title": "CapCut · tiktok · US",
-      "stats": "首投 未取到",
-      "analysis": "¡Helado, paleta o raspado GRATIS este 31 de octubre! Solo ven disfrazado a La… 对 Topview：首投 未知。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://ads.tiktok.com/business/creativecenter/inspiration/topads/pc/en?period=7&region=US",
-      "cover": "media/ads_tiktok_7431761690294042625.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": "¡Helado, paleta o raspado GRATIS este 31 de octubre! Solo ven disfrazado a La Michoacana, 1920 Ephriham Ave, Fort Worth. #HalloweenGratis #Michoacana #FortWorth #HeladoGratis #Paleteria #Dulces #Disfraz #Gratis #FresasConCrema #AntojitosMexicanos #SaboresMexicanos” #CapCut "
     }
-  ]
+  ],
+  "note": "今天 07:30 扫描（Google 311、Meta 192、TikTok 命中 1）；海外区 3 条 Google US 手写分析；KR 2 条留给韩国日报；TikTok 那条是冰淇淋店用 CapCut 剪的广告，非竞品，已剔除"
 }
