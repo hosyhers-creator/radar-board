@@ -1,0 +1,280 @@
+{
+ "updated": "2026-11-12",
+ "market": "overseas",
+ "timezone": "Asia/Shanghai",
+ "collected_at": "2026-11-12 08:06–08:15（北京时间）",
+ "window": "本周上传＋按播放，自跑 32 词 + YouTube 采集 bot",
+ "source": "overseas-daily-1112",
+ "themes": [
+  {
+   "id": "t1",
+   "badge": "上升速",
+   "title": "圣诞 AI 小电影抢跑：温情短片 69 万，有人拿 AI 给可口可乐做圣诞“概念广告”",
+   "judgment": "离圣诞还有六周，AI 圣诞短片已经起量：“男孩只有 12 美元给妈妈买圣诞礼物”72 秒 69.3 万、赞 1.36 万，频道只有约 3,700 订阅；婆媳吵架的 AI 圣诞喜剧、1999 年圣诞爱情片“遗失片段”连载都在 4–6 万；AI 导演 Jean Raymond 自做“可口可乐 2026 圣诞概念广告”，讲一瓶可乐传四代人。对 Topview：圣诞档可以直接做“温情小故事 + 品牌概念片”两条线，配 Seedance 2.5 / T1 30 天无限。",
+   "evidence": [
+    {
+     "title": "He Only Had $12 to Buy His Mom a Christmas Gift 🥹🎄",
+     "url": "https://www.youtube.com/shorts/JNvjJe2_f9o",
+     "id": "JNvjJe2_f9o",
+     "channel": "Mimi.AiMovie",
+     "views": 693025,
+     "views_label": "69.3万",
+     "duration_label": "1:12",
+     "upload_date": "11-05",
+     "stats": "69.3万播放 · 1:12 · 11-05 · Mimi.AiMovie",
+     "thumb": "https://i.ytimg.com/vi/JNvjJe2_f9o/hqdefault.jpg",
+     "why": "简介标“AI-generated short film”；赞 1.36 万，评论 163",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "He Defended His Mom… BIG MISTAKE 😂 | AI Christmas Comedy",
+     "url": "https://www.youtube.com/shorts/cgCST8P_hkM",
+     "id": "cgCST8P_hkM",
+     "channel": "JessElite Studios",
+     "views": 58347,
+     "views_label": "5.8万",
+     "duration_label": "0:30",
+     "upload_date": "11-05",
+     "stats": "5.8万播放 · 0:30 · 11-05 · JessElite Studios",
+     "thumb": "https://i.ytimg.com/vi/cgCST8P_hkM/hqdefault.jpg",
+     "why": "婆婆扇儿媳、丈夫只会说“她是我妈”；频道约 490 订阅",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "THIN ICE | Episode 9: THE SECOND CHOICE（1999 圣诞爱情片遗失片段）",
+     "url": "https://www.youtube.com/shorts/BM82_iGXaF4",
+     "id": "BM82_iGXaF4",
+     "channel": "Anna Movies AI",
+     "views": 42678,
+     "views_label": "4.3万",
+     "duration_label": "0:35",
+     "upload_date": "11-10",
+     "stats": "4.3万播放 · 0:35 · 11-10 · Anna Movies AI",
+     "thumb": "https://i.ytimg.com/vi/BM82_iGXaF4/hqdefault.jpg",
+     "why": "连载第 9 集；今日主榜 #2",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "Coca-Cola 2026 Christmas Spec Ad - Pass it On",
+     "url": "https://www.youtube.com/watch?v=WvqxvkkIdtY",
+     "id": "WvqxvkkIdtY",
+     "channel": "Jean Raymond - AI Filmmaker",
+     "views": 26887,
+     "views_label": "2.7万",
+     "duration_label": "0:59",
+     "upload_date": "11-07",
+     "stats": "2.7万播放 · 0:59 · 11-07 · Jean Raymond - AI Filmmaker",
+     "thumb": "https://i.ytimg.com/vi/WvqxvkkIdtY/hqdefault.jpg",
+     "why": "AI 导演自做的非官方概念广告，一瓶可乐传四代；评论 40",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "badge": "新出路",
+   "title": "Higgsfield 买下 Fable 5.2 热度：多语种付费教程统一讲“在 Claude 里一句话出整套广告”",
+   "judgment": "Fable 5.2 发布第三天，测评之外冒出一批同题教程：德语、土耳其语、阿拉伯语创作者都在讲“Claude Fable 5.2 + Higgsfield MCP，一张产品图出 4 条广告 / 5,000 美元级商业片”，简介全是同一套 higgsfield.ai/s/claude-fable-5-2-yt-… 活动链接（送 3 天、黑五最高 6 折），有的直接写“本视频由 Higgsfield 赞助”。播放不高（0.07–0.86 万），但说明竞品在抢“Claude 里出广告”这个说法。对 Topview：Topview 也有 MCP / Claude Plugin，可以抢先讲“在 Claude 里调 Topview，Seedance 2.5 一样的效果，3.8折的价格”。",
+   "evidence": [
+    {
+     "title": "Claude Fable 5.2 + Higgsfield ist unfair: So dreht Claude jetzt Werbeclips（Claude 现在这样拍广告片）",
+     "url": "https://www.youtube.com/watch?v=ISu42y2Mvlk",
+     "id": "ISu42y2Mvlk",
+     "channel": "Calvin Hollywood (AI)",
+     "views": 8588,
+     "views_label": "0.86万",
+     "duration_label": "18:13",
+     "upload_date": "11-11",
+     "stats": "0.86万播放 · 18:13 · 11-11 · Calvin Hollywood (AI)",
+     "thumb": "https://i.ytimg.com/vi/ISu42y2Mvlk/hqdefault.jpg",
+     "why": "付费合作：Higgsfield 活动链接；评论 64",
+     "sponsored": true
+    },
+    {
+     "title": "Yapay Zekayla Oyunuma Reklam Kampanyası Yaptım!!（用 AI 给我的游戏做了广告活动）",
+     "url": "https://www.youtube.com/watch?v=9tqdXgtdGs8",
+     "id": "9tqdXgtdGs8",
+     "channel": "pavlovsmurf",
+     "views": 1182,
+     "views_label": "0.12万",
+     "duration_label": "11:00",
+     "upload_date": "11-11",
+     "stats": "0.12万播放 · 11:00 · 11-11 · pavlovsmurf",
+     "thumb": "https://i.ytimg.com/vi/9tqdXgtdGs8/hqdefault.jpg",
+     "why": "付费合作：同一活动链接",
+     "sponsored": true
+    },
+    {
+     "title": "Claude ile Video ve Reklam Nasıl Yapılır?（一张照片出整套广告）",
+     "url": "https://www.youtube.com/watch?v=hmOy8yIn09I",
+     "id": "hmOy8yIn09I",
+     "channel": "Oguzhan COLAK",
+     "views": 782,
+     "views_label": "0.08万",
+     "duration_label": "11:59",
+     "upload_date": "11-10",
+     "stats": "0.08万播放 · 11:59 · 11-10 · Oguzhan COLAK",
+     "thumb": "https://i.ytimg.com/vi/hmOy8yIn09I/hqdefault.jpg",
+     "why": "简介写明 Higgsfield 赞助",
+     "sponsored": true
+    },
+    {
+     "title": "جعلت Claude Fable 5.2 ينتج إعلانات…（让 Fable 5.2 一键出 5,000 美元级广告）",
+     "url": "https://www.youtube.com/watch?v=TFcZ-CsqoKs",
+     "id": "TFcZ-CsqoKs",
+     "channel": "AI With Ahmed Maher",
+     "views": 707,
+     "views_label": "0.07万",
+     "duration_label": "8:01",
+     "upload_date": "11-10",
+     "stats": "0.07万播放 · 8:01 · 11-10 · AI With Ahmed Maher",
+     "thumb": "https://i.ytimg.com/vi/TFcZ-CsqoKs/hqdefault.jpg",
+     "why": "付费合作：同一活动链接",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "badge": "持续",
+   "title": "“90 年代 AI 迷你电影”变成生意：故事 App 引流 + 教程返佣，其中一条挂 Topview Film Studio",
+   "judgment": "90 年代胶片质感的情侣小剧这周继续出：YUK Romatic 的“去前任婚礼的复仇战袍”8.7 万，片尾打出“在 PlayOryn 看完整故事”，是故事 App 引流号；late90s.filmss 的秋日盲约 3.7 万。同时出现了专门教“怎么做爆款 90 年代爱情喜剧视频”的教程，挂 OpenArt / Higgsfield 返佣；AI Money with Lea 的教程挂的是 Topview Film Studio 的返佣链接。对 Topview：这是已经有人在用 Topview 做的形式，可以直接拿 Film Studio 做“90 年代圣诞爱情片”演示广告。",
+   "evidence": [
+    {
+     "title": "The Ultimate Revenge Dress for Your Ex's Wedding | 90s Rom-Com AI Mini Movie",
+     "url": "https://www.youtube.com/shorts/d0vHJRE4ijA",
+     "id": "d0vHJRE4ijA",
+     "channel": "YUK Romatic",
+     "views": 87219,
+     "views_label": "8.7万",
+     "duration_label": "0:30",
+     "upload_date": "11-09",
+     "stats": "8.7万播放 · 0:30 · 11-09 · YUK Romatic",
+     "thumb": "https://i.ytimg.com/vi/d0vHJRE4ijA/hqdefault.jpg",
+     "why": "片尾引流 PlayOryn 故事 App；高赞评论“没人这么好看，我就知道是 AI”",
+     "sponsored": true,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "Blind date? 🌹 She pointed at a random guy…",
+     "url": "https://www.youtube.com/shorts/JvYVsb0jfmk",
+     "id": "JvYVsb0jfmk",
+     "channel": "@late90s.filmss",
+     "views": 36684,
+     "views_label": "3.7万",
+     "duration_label": "0:25",
+     "upload_date": "11-10",
+     "stats": "3.7万播放 · 0:25 · 11-10 · @late90s.filmss",
+     "thumb": "https://i.ytimg.com/vi/JvYVsb0jfmk/hqdefault.jpg",
+     "why": "秋日街头盲约，妈妈安排的约会对象认错人；频道约 380 订阅",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "How To Make Viral 90s Romantic Comedy Videos (Fast Tutorial)",
+     "url": "https://www.youtube.com/watch?v=zbya01uTmaE",
+     "id": "zbya01uTmaE",
+     "channel": "AI Rush Hour",
+     "views": 2499,
+     "views_label": "0.25万",
+     "duration_label": "2:57",
+     "upload_date": "11-06",
+     "stats": "0.25万播放 · 2:57 · 11-06 · AI Rush Hour",
+     "thumb": "https://i.ytimg.com/vi/zbya01uTmaE/hqdefault.jpg",
+     "why": "教程；简介挂 OpenArt / Higgsfield 返佣",
+     "sponsored": true
+    },
+    {
+     "title": "I Built the Viral 90s AI Mini Movies Trend Everyone Is Using to Make Money",
+     "url": "https://www.youtube.com/watch?v=-c_F57OudjQ",
+     "id": "-c_F57OudjQ",
+     "channel": "AI Money with Lea",
+     "views": 491,
+     "views_label": "491",
+     "duration_label": "8:10",
+     "upload_date": "11-05",
+     "stats": "491播放 · 8:10 · 11-05 · AI Money with Lea",
+     "thumb": "https://i.ytimg.com/vi/-c_F57OudjQ/hqdefault.jpg",
+     "why": "教程用 Topview Film Studio，简介挂 Topview 返佣链接",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "badge": "持续",
+   "title": "黑五第 7 天：CapCut PC 创作者活动仍在出，“一张产品图 → 电影感广告”是主线",
+   "judgment": "新一批 CapCut PC 黑五视频仍是统一 capcutpc_kol 链接：“修好一条产品广告”6.4 万、“电影感自护广告”5.2 万、“用 Dreamina + CapCut PC 做两条产品广告”4.2 万、“用 AI Ad Maker 收尾一条产品广告”3.8 万，全部付费合作；自然黑五 AI 广告成片仍然没有。Topview 黑五口径：Ultra 买 2 年送 4 个月、Seedance 2.5 / T1 30 天无限。",
+   "evidence": [
+    {
+     "title": "Black Friday Marketing with an AI Video Editor | Fix Product Ads in CapCut PC",
+     "url": "https://www.youtube.com/watch?v=EaLQpzgoD-A",
+     "id": "EaLQpzgoD-A",
+     "channel": "CRYPTO VANGUARD",
+     "views": 63774,
+     "views_label": "6.4万",
+     "duration_label": "12:49",
+     "upload_date": "11-10",
+     "stats": "6.4万播放 · 12:49 · 11-10 · CRYPTO VANGUARD",
+     "thumb": "https://i.ytimg.com/vi/EaLQpzgoD-A/hqdefault.jpg",
+     "why": "付费合作：capcutpc_kol",
+     "sponsored": true
+    },
+    {
+     "title": "Black Friday Advertising: Cinematic Self-Care Ad with AI Video Editor",
+     "url": "https://www.youtube.com/watch?v=7JxWCnnbDOw",
+     "id": "7JxWCnnbDOw",
+     "channel": "AI WORLDWIDE",
+     "views": 52120,
+     "views_label": "5.2万",
+     "duration_label": "9:05",
+     "upload_date": "11-07",
+     "stats": "5.2万播放 · 9:05 · 11-07 · AI WORLDWIDE",
+     "thumb": "https://i.ytimg.com/vi/7JxWCnnbDOw/hqdefault.jpg",
+     "why": "付费合作：capcutpc_kol；评论 252",
+     "sponsored": true
+    },
+    {
+     "title": "Black Friday Advertising: Create 2 Product Ads with Dreamina & CapCut PC",
+     "url": "https://www.youtube.com/watch?v=FbhTkeWYZxM",
+     "id": "FbhTkeWYZxM",
+     "channel": "AI WORLDWIDE",
+     "views": 41516,
+     "views_label": "4.2万",
+     "duration_label": "10:02",
+     "upload_date": "11-06",
+     "stats": "4.2万播放 · 10:02 · 11-06 · AI WORLDWIDE",
+     "thumb": "https://i.ytimg.com/vi/FbhTkeWYZxM/hqdefault.jpg",
+     "why": "付费合作：capcutpc_kol；Dreamina 出素材",
+     "sponsored": true
+    },
+    {
+     "title": "Black Friday Marketing: Finish a Product Ad with AI Ad Maker | CapCut PC",
+     "url": "https://www.youtube.com/watch?v=5mKjHPz8u7I",
+     "id": "5mKjHPz8u7I",
+     "channel": "Alex Nord Ai",
+     "views": 37733,
+     "views_label": "3.8万",
+     "duration_label": "6:06",
+     "upload_date": "11-10",
+     "stats": "3.8万播放 · 6:06 · 11-10 · Alex Nord Ai",
+     "thumb": "https://i.ytimg.com/vi/5mKjHPz8u7I/hqdefault.jpg",
+     "why": "付费合作：capcutpc_kol",
+     "sponsored": true
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "theme_cards": 4,
+  "evidence_videos": 16
+ }
+}

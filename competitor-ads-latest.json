@@ -10,6 +10,40 @@
   "items": [
     {
       "badge": "新开投",
+      "competitor": "Vidu",
+      "platform": "google",
+      "regions": [
+        "US"
+      ],
+      "first_shown": "2026-11-06",
+      "title": "Vidu Q4 · 巨型狗狗戴巫师帽走在纽约街头",
+      "stats": "首投 2026-11-06 · Google US",
+      "analysis": "Google US（ShengShu AI HK 自投，11-06 首投，今天第一次扫到）。横版 23 秒：一只楼那么高的金毛戴着星月巫师帽、爪子里抓着一架小飞机走在曼哈顿街口，字幕“bringing more impact to every angle”。和这几天自然爆的“日常 + 巨型动物”（猫出租车）是同一个写法，竞品已经拿来卖画面冲击力；Topview 同类镜头用 Seedance 2.5 做，再接 30 天无限。",
+      "link": "https://adstransparency.google.com/advertiser/AR13500956930192965633/creative/CR08959778185818406913?region=US",
+      "cover": "media/ads_google_CR08959778185818406913.jpg",
+      "is_topview_impersonation": null,
+      "is_new": true,
+      "copy": null
+    },
+    {
+      "badge": "新开投",
+      "competitor": "Vidu",
+      "platform": "google",
+      "regions": [
+        "US"
+      ],
+      "first_shown": "2026-11-06",
+      "title": "Vidu Q4 · 圣诞老人驾雪橇飞过极光",
+      "stats": "首投 2026-11-06 · Google US",
+      "analysis": "Google US（ShengShu AI HK 自投，11-06 首投，今天第一次扫到）。横版 18 秒：圣诞老人坐红色雪橇飞过绿色极光，画面下方露出 Vidu 的“参考图生成视频”界面和提示词，字幕“and complex continuity”。Vidu 圣诞档已开投，主打“参考图 + 连贯性”；Topview 圣诞广告可以同样露出界面，但把卖点落在价格和次数：T1 3.8 折、30 天无限。",
+      "link": "https://adstransparency.google.com/advertiser/AR13500956930192965633/creative/CR07130837350036275201?region=US",
+      "cover": "media/ads_google_CR07130837350036275201.jpg",
+      "is_topview_impersonation": null,
+      "is_new": true,
+      "copy": null
+    },
+    {
+      "badge": "新开投",
       "competitor": "CapCut",
       "platform": "google",
       "regions": [
@@ -144,5 +178,6 @@
       "is_new": true,
       "copy": null
     }
-  ]
+  ],
+  "note": "今天 07:30 扫描（Google 349、Meta 175、TikTok 命中 1）；海外区 2 条 Vidu Google US 手写分析；KR 8 条留给韩国日报"
 }
