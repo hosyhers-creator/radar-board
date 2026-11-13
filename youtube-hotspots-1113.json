@@ -1,0 +1,276 @@
+{
+ "updated": "2026-11-13",
+ "market": "overseas",
+ "timezone": "Asia/Shanghai",
+ "collected_at": "2026-11-13 08:08–08:30（北京时间）",
+ "window": "本周上传＋按播放，自跑 38 词 + YouTube 采集 bot",
+ "source": "overseas-daily-1113",
+ "themes": [
+  {
+   "id": "t1",
+   "badge": "新出路",
+   "title": "Dreamina 上线 Marketing Studio：“$0.29 复刻爆款广告”成了黑五主话术，Google 广告同步投",
+   "judgment": "Dreamina 11-09 发布 Marketing Studio（官方介绍片 13.7 万），之后一批创作者统一讲“花 $0.29 当一人营销团队、复刻爆款广告”：整套广告活动 5.6 万、不拍摄做墨镜广告 5.1 万、“复刻爆款广告”3.0 万，还有人把一条薯片广告原镜头换成自己的产品。简介全是同一个 marketing-studio 活动链接（新会员首月 $0.29）。今天 Dreamina 在 Google US 新投的广告也写“Recreate Viral Ads”。对 Topview：Topview 本来就有 Winning Ad Recreator / Video Clone（复刻爆款结构），这个说法正被竞品抢走，可以用 T1「Seedance 2.5 一样的效果，3.8折的价格」+ 30 天无限去对比。",
+   "evidence": [
+    {
+     "title": "I Created an Entire Ad Campaign by Myself for Just $0.29 | Dreamina",
+     "url": "https://www.youtube.com/watch?v=jW8rtne6lxo",
+     "id": "jW8rtne6lxo",
+     "channel": "Mohammad Khalid Crypto",
+     "views": 56239,
+     "views_label": "5.6万",
+     "duration_label": "5:26",
+     "upload_date": "11-10",
+     "stats": "5.6万播放 · 5:26 · 11-10 · Mohammad Khalid Crypto",
+     "thumb": "https://i.ytimg.com/vi/jW8rtne6lxo/hqdefault.jpg",
+     "why": "付费合作：Dreamina marketing-studio 活动链接；评论 74",
+     "sponsored": true
+    },
+    {
+     "title": "I Made This Sunglasses Ad Without Filming for Just $0.29 | Dreamina | Black Friday",
+     "url": "https://www.youtube.com/watch?v=ruDU2KELgqc",
+     "id": "ruDU2KELgqc",
+     "channel": "Pritam Sahoo Monk - LearnAI",
+     "views": 51092,
+     "views_label": "5.1万",
+     "duration_label": "6:09",
+     "upload_date": "11-11",
+     "stats": "5.1万播放 · 6:09 · 11-11 · Pritam Sahoo Monk - LearnAI",
+     "thumb": "https://i.ytimg.com/vi/ruDU2KELgqc/hqdefault.jpg",
+     "why": "付费合作：同一活动链接；评论 138",
+     "sponsored": true
+    },
+    {
+     "title": "Recreate Viral Ads with Dreamina AI for Just $0.29 | Black Friday Deal",
+     "url": "https://www.youtube.com/watch?v=EcE9R2AsI3g",
+     "id": "EcE9R2AsI3g",
+     "channel": "TheTech",
+     "views": 29856,
+     "views_label": "3.0万",
+     "duration_label": "4:53",
+     "upload_date": "11-10",
+     "stats": "3.0万播放 · 4:53 · 11-10 · TheTech",
+     "thumb": "https://i.ytimg.com/vi/EcE9R2AsI3g/hqdefault.jpg",
+     "why": "付费合作：标题直接是“复刻爆款广告”",
+     "sponsored": true
+    },
+    {
+     "title": "I Remade a Viral Chips Ad With My Own Product | Dreamina Marketing Studio",
+     "url": "https://www.youtube.com/watch?v=VZPj4ZQYQJ0",
+     "id": "VZPj4ZQYQJ0",
+     "channel": "Mewtix AI",
+     "views": 8449,
+     "views_label": "0.84万",
+     "duration_label": "1:14",
+     "upload_date": "11-12",
+     "stats": "0.84万播放 · 1:14 · 11-12 · Mewtix AI",
+     "thumb": "https://i.ytimg.com/vi/VZPj4ZQYQJ0/hqdefault.jpg",
+     "why": "简介写明与 Dreamina 付费合作：同镜头同车窗，只换产品",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "badge": "持续",
+   "title": "圣诞 AI 小电影第二周：30–55 秒情侣小误会 + 圣诞布景，评论区开始挑细节追剧",
+   "judgment": "上周起量的圣诞 AI 小电影继续出，主流写法收窄成“一个小误会 + 圣诞布景”：男友捧花回家过圣诞却说错一句话 14.2 万（55 秒，频道约 1.7 万订阅）；给她烤圣诞饼干烤焦了 3.4 万；1998 年圣诞爱情喜剧“遗失片段”鞋跟断了被帅哥接住 2.6 万，评论区在挑“他手上戴着婚戒”；头部 AI 艺术家 Kelly Boesch 也出了 4 分钟“独自过圣诞”。对 Topview：圣诞档 16:9 广告可以直接用“30 秒一个误会”的结构，用同一对角色连拍多集演示角色一致。",
+   "evidence": [
+    {
+     "title": "He Came Home for Christmas… And Said the WRONG Thing 😭🎄",
+     "url": "https://www.youtube.com/shorts/SutA8rZvWVU",
+     "id": "SutA8rZvWVU",
+     "channel": "Ava Sterling",
+     "views": 142025,
+     "views_label": "14.2万",
+     "duration_label": "0:55",
+     "upload_date": "11-07",
+     "stats": "14.2万播放 · 0:55 · 11-07 · Ava Sterling",
+     "thumb": "https://i.ytimg.com/vi/SutA8rZvWVU/hqdefault.jpg",
+     "why": "赞 2,850；简介引流自家 AI 电影课程（Golden Reel Studio）",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "Baked With Love… Kinda 🍪",
+     "url": "https://www.youtube.com/shorts/BYh5e_ciIHY",
+     "id": "BYh5e_ciIHY",
+     "channel": "WhimsicalAcademy",
+     "views": 33588,
+     "views_label": "3.4万",
+     "duration_label": "0:30",
+     "upload_date": "11-06",
+     "stats": "3.4万播放 · 0:30 · 11-06 · WhimsicalAcademy",
+     "thumb": "https://i.ytimg.com/vi/BYh5e_ciIHY/hqdefault.jpg",
+     "why": "简介标 AI romcom；频道约 1,800 订阅",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "She Broke Her Heel… Then THIS Happened! | AI Short Film",
+     "url": "https://www.youtube.com/shorts/5ff6hNqt0Qs",
+     "id": "5ff6hNqt0Qs",
+     "channel": "Anna Movies AI",
+     "views": 26178,
+     "views_label": "2.6万",
+     "duration_label": "0:30",
+     "upload_date": "11-12",
+     "stats": "2.6万播放 · 0:30 · 11-12 · Anna Movies AI",
+     "thumb": "https://i.ytimg.com/vi/5ff6hNqt0Qs/hqdefault.jpg",
+     "why": "简介写“1998 年好莱坞圣诞爱情喜剧遗失片段，AI 制作”；评论挑出婚戒",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "Christmas AI Short - Christmas With Myself - Kelly Boesch | 4K",
+     "url": "https://www.youtube.com/watch?v=x3TtbtDbp7w",
+     "id": "x3TtbtDbp7w",
+     "channel": "Kelly Boesch AI Art",
+     "views": 19997,
+     "views_label": "2.0万",
+     "duration_label": "3:53",
+     "upload_date": "11-11",
+     "stats": "2.0万播放 · 3:53 · 11-11 · Kelly Boesch AI Art",
+     "thumb": "https://i.ytimg.com/vi/x3TtbtDbp7w/hqdefault.jpg",
+     "why": "约 33 万订阅的 AI 艺术家；个人回忆题材",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "badge": "上升速",
+   "title": "AI“真人化”：动漫、游戏角色拍成真人电影，本周多条 20 万～150 万（⚠️全部借用 IP）",
+   "judgment": "“如果 X 是真人电影”这周很热：《海贼王》罗杰 vs 白胡子 AI 电影 157.0 万；《火影》真人版连载到第 5 集 39.8 万；《阿尔卑斯山的少女》真人化 23.7 万、评论 320；还有人把 80 年代街机游戏拍成香港功夫片，评论说“说是《死亡游戏》的花絮我都快信了”。另有《植物大战僵尸》真人版 181 万（时长近 2 小时，未核实是否全 AI）。全部借用 IP，热度主要来自原作，可借鉴程度低。对 Topview：只借“如果是真人电影 / 80 年代港片质感”这个形式，换成原创角色，用 Film Studio 讲角色一致。",
+   "evidence": [
+    {
+     "title": "Roger vs Whitebeard: The Legendary Battle | One Piece AI Film",
+     "url": "https://www.youtube.com/watch?v=Hyf4l8GAQtc",
+     "id": "Hyf4l8GAQtc",
+     "channel": "OPAI",
+     "views": 1569741,
+     "views_label": "157.0万",
+     "duration_label": "8:07",
+     "upload_date": "11-06",
+     "stats": "157.0万播放 · 8:07 · 11-06 · OPAI",
+     "thumb": "https://i.ytimg.com/vi/Hyf4l8GAQtc/hqdefault.jpg",
+     "why": "⚠️IP；标题标 AI Film；评论 847",
+     "sponsored": false
+    },
+    {
+     "title": "SHINOBI (NARUTO) - EP.5 \"THE MIST ASSASSIN\" 4K AI LIVE ACTION",
+     "url": "https://www.youtube.com/watch?v=6yJiTEq06k4",
+     "id": "6yJiTEq06k4",
+     "channel": "alter.anime7",
+     "views": 397976,
+     "views_label": "39.8万",
+     "duration_label": "13:19",
+     "upload_date": "11-07",
+     "stats": "39.8万播放 · 13:19 · 11-07 · alter.anime7",
+     "thumb": "https://i.ytimg.com/vi/6yJiTEq06k4/hqdefault.jpg",
+     "why": "⚠️IP；简介写“fully made with AI”，连载第 5 集",
+     "sponsored": false
+    },
+    {
+     "title": "【阿尔卑斯山的少女】AI 真人化后克拉拉比想象的还真",
+     "url": "https://www.youtube.com/watch?v=pQvNuYnzL24",
+     "id": "pQvNuYnzL24",
+     "channel": "もし実写化されたら",
+     "views": 237194,
+     "views_label": "23.7万",
+     "duration_label": "2:19",
+     "upload_date": "11-10",
+     "stats": "23.7万播放 · 2:19 · 11-10 · もし実写化されたら",
+     "thumb": "https://i.ytimg.com/vi/pQvNuYnzL24/hqdefault.jpg",
+     "why": "⚠️IP；评论 320",
+     "sponsored": false
+    },
+    {
+     "title": "《功夫》街机如果在 80 年代拍成真人港片（李 vs 秦）",
+     "url": "https://www.youtube.com/watch?v=w7xqeiROD-0",
+     "id": "w7xqeiROD-0",
+     "channel": "Ohayo! AI Studio",
+     "views": 28363,
+     "views_label": "2.8万",
+     "duration_label": "1:14",
+     "upload_date": "11-11",
+     "stats": "2.8万播放 · 1:14 · 11-11 · Ohayo! AI Studio",
+     "thumb": "https://i.ytimg.com/vi/w7xqeiROD-0/hqdefault.jpg",
+     "why": "⚠️IP；高赞评论“说是《死亡游戏》花絮我都快信了”",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "badge": "持续",
+   "title": "黑五第 8 天：竞品开始喊“无限生成”，CapCut PC 创作者活动继续",
+   "judgment": "黑五视频里出现了直接喊“无限”的：Framia 官方号黑五广告“无限生成、零积分，Kling 4.0 / Seedance 2.5 都能用”7.0 万；Vina AI 黑五促销教程 4.2 万（返佣链接）；CapCut PC 的 capcutpc_kol 活动仍在出“仿 GTA 风格广告”“一张产品图做黑五广告”，各 4–5 万。对 Topview：“无限”已经不是独家说法，要把 Seedance 2.5 / T1 30 天无限、Wan 3.0 365 天无限和价格放在一起讲。",
+   "evidence": [
+    {
+     "title": "UNLIMITED AI GENERATION - Black Friday Sales | Framia | Marketing Studio for Top AI Models",
+     "url": "https://www.youtube.com/watch?v=5YMNm0pOn08",
+     "id": "5YMNm0pOn08",
+     "channel": "Framia by Converge AI",
+     "views": 70023,
+     "views_label": "7.0万",
+     "duration_label": "1:00",
+     "upload_date": "11-11",
+     "stats": "7.0万播放 · 1:00 · 11-11 · Framia by Converge AI",
+     "thumb": "https://i.ytimg.com/vi/5YMNm0pOn08/hqdefault.jpg",
+     "why": "品牌官方号广告：无限生成零积分",
+     "sponsored": true
+    },
+    {
+     "title": "Vina AI Black Friday Sale | Create AI Commercials with a Full AI Tutorial!",
+     "url": "https://www.youtube.com/watch?v=RQIXl_TARjY",
+     "id": "RQIXl_TARjY",
+     "channel": "Crypto Jazzi",
+     "views": 41666,
+     "views_label": "4.2万",
+     "duration_label": "5:39",
+     "upload_date": "11-11",
+     "stats": "4.2万播放 · 5:39 · 11-11 · Crypto Jazzi",
+     "thumb": "https://i.ytimg.com/vi/RQIXl_TARjY/hqdefault.jpg",
+     "why": "返佣链接 vinaai.tv/r/",
+     "sponsored": true
+    },
+    {
+     "title": "Black Friday Advertising: Create a GTA-Inspired Ad with an AI Video Editor | CapCut PC",
+     "url": "https://www.youtube.com/watch?v=0SvjEEQL9bA",
+     "id": "0SvjEEQL9bA",
+     "channel": "Prime Citycrypto GameFi & Blockchain",
+     "views": 48092,
+     "views_label": "4.8万",
+     "duration_label": "8:18",
+     "upload_date": "11-10",
+     "stats": "4.8万播放 · 8:18 · 11-10 · Prime Citycrypto GameFi & Blockchain",
+     "thumb": "https://i.ytimg.com/vi/0SvjEEQL9bA/hqdefault.jpg",
+     "why": "付费合作：capcutpc_kol",
+     "sponsored": true
+    },
+    {
+     "title": "I Turned a Product Image Into a Stunning Black Friday Ad | CapCut PC",
+     "url": "https://www.youtube.com/watch?v=uPeNUCDN3cY",
+     "id": "uPeNUCDN3cY",
+     "channel": "Crypto Jazzi",
+     "views": 46178,
+     "views_label": "4.6万",
+     "duration_label": "7:03",
+     "upload_date": "11-10",
+     "stats": "4.6万播放 · 7:03 · 11-10 · Crypto Jazzi",
+     "thumb": "https://i.ytimg.com/vi/uPeNUCDN3cY/hqdefault.jpg",
+     "why": "付费合作：capcutpc_kol；评论 169",
+     "sponsored": true
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "theme_cards": 4,
+  "evidence_videos": 16
+ }
+}

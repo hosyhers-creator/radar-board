@@ -16,9 +16,9 @@
         "US"
       ],
       "first_shown": "2026-11-12",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-12 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-12。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+      "title": "Dreamina Marketing Studio · 复刻爆款广告 · 游戏本黑五",
+      "stats": "首投 2026-11-12 · Google US · WHATECH 代投 · 同素材 2 个创意 ID（另一 ID CR11767819832483905537）",
+      "analysis": "横版封面：左边一台手机放“Original（原片）”，箭头指向右边“Recreated with Dreamina”的游戏本黑五广告，大字“RECREATE VIRAL ADS”，左下角红色 BLACK FRIDAY 价签。卖点就是“把别人的爆款广告换成你的产品”，和 YouTube 上同期一批 $0.29 付费教程是同一句话。Topview 的 Winning Ad Recreator / Video Clone 是同类功能，竞品已经先把这个说法买量了。",
       "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR13059719606841638913?region=US",
       "cover": "media/ads_google_CR13059719606841638913.jpg",
       "is_topview_impersonation": null,
@@ -32,27 +32,10 @@
       "regions": [
         "US"
       ],
-      "first_shown": "2026-11-12",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-12 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-12。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR11767819832483905537?region=US",
-      "cover": "media/ads_google_CR11767819832483905537.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "US"
-      ],
       "first_shown": "2026-11-05",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-05 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-05。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+      "title": "Dreamina Marketing Studio · 几分钟出爆款广告（护肤品前后对比）",
+      "stats": "首投 2026-11-05 · Google US · WHATECH 代投",
+      "analysis": "横版封面：左边“BEFORE”白底普通乳液瓶，经过“AI”箭头变成右边“AFTER”水花 + 白花的金色护肤品大片，标题“VIRAL ADS WITH AI! IN JUST MINUTES!”。最直白的产品图前后对比，11-05 起投，今天仍在推。",
       "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR00413342472836481025?region=US",
       "cover": "media/ads_google_CR00413342472836481025.jpg",
       "is_topview_impersonation": null,
@@ -67,9 +50,9 @@
         "US"
       ],
       "first_shown": "2026-11-12",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-12 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-12。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+      "title": "Dreamina Marketing Studio · 1 张参考图出 6 条 AI 广告（$0.29/月）",
+      "stats": "首投 2026-11-12 · Google US · WHATECH 代投",
+      "analysis": "横版封面：戴彩色眼镜的金发女主播对着麦克风讲，旁边是一台恒温器产品图，大字“1 REFERENCE. 6 AI ADS.”，右上角标“$0.29/month ONLY”，下方一排同一产品放进不同家居场景的成片。主打“一图多场景 + 极低首月价”，用真人口播做开头；和 Topview 的一图出多条产品广告是正面撞车。",
       "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR09362334681514639361?region=US",
       "cover": "media/ads_google_CR09362334681514639361.jpg",
       "is_topview_impersonation": null,
@@ -93,5 +76,6 @@
       "is_new": true,
       "copy": null
     }
-  ]
+  ],
+  "note": "今天 07:38 扫描（Google 361、Meta 173、TikTok 命中 0，新开投 14）；海外区 3 支 Dreamina Google US（同素材 2 个创意 ID 已合并）手写分析；KR 1 条留给韩国日报"
 }
