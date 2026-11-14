@@ -16,9 +16,9 @@
         "US"
       ],
       "first_shown": "2026-11-13",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-13 · Tiktok Pte. Ltd.",
-      "analysis": "对 Topview：「Tiktok Pte. Ltd.」首投 2026-11-13。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+      "title": "CapCut · 搜索文字广告：桌面版 AI 数字人（葡语文案）",
+      "stats": "首投 2026-11-13 · Google US · Tiktok Pte. Ltd.",
+      "analysis": "不是视频素材，是搜索结果页文字广告：标题“Avatares IA no Desktop”，正文“在 CapCut 桌面版创建独特的 AI 数字人！免费又快”。投放区写 US 却用葡语，像是面向美国葡语用户；和这周 YouTube 上 capcutpc_kol 创作者活动是同一个方向：CapCut 黑五主推 PC 端。",
       "link": "https://adstransparency.google.com/advertiser/AR09122903337233022977/creative/CR02109661315587899393?region=US",
       "cover": "media/ads_google_CR02109661315587899393.jpg",
       "is_topview_impersonation": null,
@@ -33,9 +33,9 @@
         "US"
       ],
       "first_shown": "2026-11-13",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-13 · Tiktok Pte. Ltd.",
-      "analysis": "对 Topview：「Tiktok Pte. Ltd.」首投 2026-11-13。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+      "title": "CapCut · 搜索文字广告：CapCut 出 PC 版了",
+      "stats": "首投 2026-11-13 · Google US · Tiktok Pte. Ltd.",
+      "analysis": "同样是文字广告：标题“CapCut Download”，正文“CapCut Is Available On PC Now”。纯下载导向，没有 AI 卖点；和上一条一起看，CapCut 在搜索端抢“下载 PC 版”的流量。Topview 网页端不需要下载，可以在对比素材里点一句“打开网页就能用”。",
       "link": "https://adstransparency.google.com/advertiser/AR09122903337233022977/creative/CR16498099175083212801?region=US",
       "cover": "media/ads_google_CR16498099175083212801.jpg",
       "is_topview_impersonation": null,
@@ -95,15 +95,15 @@
     },
     {
       "badge": "新开投",
-      "competitor": "CapCut",
+      "competitor": "Dreamina（CapCut 系）",
       "platform": "google",
       "regions": [
         "US"
       ],
       "first_shown": "2026-11-12",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-12 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-12。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+      "title": "Dreamina Marketing Studio · 灵感库：随时看到最新爆款广告",
+      "stats": "首投 2026-11-12 · Google US · WHATECH 代投 · 同素材 2 个创意 ID（另一 ID CR16281715286736896001）",
+      "analysis": "竖版录屏居中、两边铺满爆款广告海报（SORBETTE 冰沙、BERRY 饮料、女模特广告），中间是 Dreamina 的“Inspiration Library（灵感库）”页面，字幕“with the latest trending ads / so you always have the latest ad trends”。卖点从昨天的“复刻爆款”变成“给你一个随时更新的爆款广告库”，等于把找参考这一步也包了；Topview 讲复刻功能时要把“去哪找爆款”一起演示。",
       "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR05008360994498412545?region=US",
       "cover": "media/ads_google_CR05008360994498412545.jpg",
       "is_topview_impersonation": null,
@@ -112,37 +112,21 @@
     },
     {
       "badge": "新开投",
-      "competitor": "CapCut",
+      "competitor": "Dreamina（CapCut 系）",
       "platform": "google",
       "regions": [
         "US"
       ],
       "first_shown": "2026-11-12",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-12 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-12。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR16281715286736896001?region=US",
-      "cover": "media/ads_google_CR16281715286736896001.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "US"
-      ],
-      "first_shown": "2026-11-12",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-12 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-12。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+      "title": "Dreamina Marketing Studio · 女博主分屏口播“for my product”",
+      "stats": "首投 2026-11-12 · Google US · WHATECH 代投",
+      "analysis": "竖屏 UGC 风：上半屏一个女人拿着红色喷雾瓶，下半屏另一个女博主对着镜头边讲边拿化妆刷，中间字幕“for my product”，右上角 Dreamina AI MARKETING STUDIO 标，左上角有“AI”小标。用真人口播分屏讲“用它给我的产品做广告”，是这周 Dreamina 素材里最像自然 UGC 的一支。",
       "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR09631587486970937345?region=US",
       "cover": "media/ads_google_CR09631587486970937345.jpg",
       "is_topview_impersonation": null,
       "is_new": true,
       "copy": null
     }
-  ]
+  ],
+  "note": "今天 07:38 扫描（Google 324、Meta 144、TikTok 命中 0，新开投 43）；海外区 4 卡（Dreamina 2 支，同素材 2 个创意 ID 已合并；CapCut 2 条搜索文字广告）手写分析；KR 3 条 Flova 留给韩国日报"
 }

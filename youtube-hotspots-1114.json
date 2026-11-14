@@ -1,0 +1,262 @@
+{
+ "updated": "2026-11-14",
+ "market": "overseas",
+ "timezone": "Asia/Shanghai",
+ "collected_at": "2026-11-14 08:11–08:45（北京时间）",
+ "window": "本周上传＋按播放，自跑 37 词 + YouTube 采集 bot",
+ "source": "overseas-daily-1114",
+ "themes": [
+  {
+   "id": "t1",
+   "badge": "新出路",
+   "title": "印度“Sheru Bhai（狮子老大）”AI 角色系列：同一只狮子每集炫富 / 拍卖 / 报仇，反应视频和教程都破百万",
+   "judgment": "一只穿西装、戴金链的 AI 狮子“Sheru Bhai”在印度成了现象级角色：每集固定套路（拍卖会上买下浮空城、被黑豹抢金子后报仇、给儿子买游戏酒店），大量小频道在跟拍。热度已经外溢到头部反应号：FUKRA INSAAN 297.7 万、Thugesh《Sheru Bhai 和印度 AI 脑腐视频》101.1 万；一条 79 秒“用 ChatGPT 做 Sheru Bhai”教程 70.7 万（频道只有 5,340 订阅）。市场是印度，不是北美，但形式可以直接借：固定角色 + 每集一个“爽点”+ 系列编号。对 Topview：用 Topview 做“同一个角色连拍 N 集”，30 天无限正好讲“一个角色一天出一集”。",
+   "evidence": [
+    {
+     "title": "Sheru Bhai is too funny and Big Boss 20 Memes",
+     "url": "https://www.youtube.com/watch?v=2HMElFXn9M0",
+     "id": "2HMElFXn9M0",
+     "channel": "FUKRA INSAAN LIVE",
+     "views": 2977457,
+     "views_label": "297.7万",
+     "duration_label": "16:34",
+     "upload_date": "11-11",
+     "stats": "297.7万播放 · 16:34 · 11-11 · FUKRA INSAAN LIVE",
+     "thumb": "https://i.ytimg.com/vi/2HMElFXn9M0/hqdefault.jpg",
+     "why": "约 417 万订阅反应号，标题第一位就是 Sheru Bhai；赞 7.0 万",
+     "sponsored": false
+    },
+    {
+     "title": "Sheru Bhai & Brain Rot Indian A.I!",
+     "url": "https://www.youtube.com/watch?v=NjeTfjLv5AQ",
+     "id": "NjeTfjLv5AQ",
+     "channel": "Thugesh Unfiltered",
+     "views": 1011461,
+     "views_label": "101.1万",
+     "duration_label": "18:07",
+     "upload_date": "11-12",
+     "stats": "101.1万播放 · 18:07 · 11-12 · Thugesh Unfiltered",
+     "thumb": "https://i.ytimg.com/vi/NjeTfjLv5AQ/hqdefault.jpg",
+     "why": "约 305 万订阅反应号，直接把它叫“印度 AI 脑腐”；评论 935",
+     "sponsored": false
+    },
+    {
+     "title": "How to Create Viral Sheru Bhai AI Videos Using ChatGPT | Full Tutorial 🦁",
+     "url": "https://www.youtube.com/shorts/Kasq1e8rmyc",
+     "id": "Kasq1e8rmyc",
+     "channel": "Chitransh Asthana",
+     "views": 706662,
+     "views_label": "70.7万",
+     "duration_label": "1:19",
+     "upload_date": "11-07",
+     "stats": "70.7万播放 · 1:19 · 11-07 · Chitransh Asthana",
+     "thumb": "https://i.ytimg.com/vi/Kasq1e8rmyc/hqdefault.jpg",
+     "why": "79 秒教程，频道 5,340 订阅；赞 2.7 万、评论 1,500",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "Sheru Ka Sona Loot Liya Black Panther Ne! Phir Sheru Ne Liya Badla | Sheru AI Story",
+     "url": "https://www.youtube.com/watch?v=CB397FZeDRQ",
+     "id": "CB397FZeDRQ",
+     "channel": "Sheru",
+     "views": 243302,
+     "views_label": "24.3万",
+     "duration_label": "3:30",
+     "upload_date": "11-11",
+     "stats": "24.3万播放 · 3:30 · 11-11 · Sheru",
+     "thumb": "https://i.ytimg.com/vi/CB397FZeDRQ/hqdefault.jpg",
+     "why": "跟拍号（约 2,050 订阅）：黑豹抢金子 → 狮子报仇的标准一集",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "badge": "上升速",
+   "title": "黑五第 9 天：Higgsfield 官方号自己带“6 折 + 无限”，“无限生成”成了各平台标配说法",
+   "judgment": "Higgsfield 官方频道这周两条教程各 15 万左右：《怎么不再烧 AI 积分》15.0 万、《做 YouTube 不会降收益的无脸频道（Claude + Fable 5.2）》14.4 万，简介顶部都是“最高 6 折、无限”的黑五链接；Dan Kieft《用 Fable 5.2 + Seedance 2.5 做电影感 AI 广告》9.7 万，同样挂 Higgsfield 黑五链接；Framia 官方“无限生成、零积分”广告从 11-11 的 7.0 万涨到 20.0 万。对 Topview：“无限”已经被所有人喊了，Topview 要把 Seedance 2.5 / T1 30 天无限、Wan 3.0 365 天无限和具体价格（T1「Seedance 2.5 一样的效果，3.8折的价格」）一起讲，光说“无限”没有区分度。",
+   "evidence": [
+    {
+     "title": "How to Build a Faceless Channel YouTube Won't Demonetize (Claude Fable 5.2)",
+     "url": "https://www.youtube.com/watch?v=YP8D2_j3_Hc",
+     "id": "YP8D2_j3_Hc",
+     "channel": "Higgsfield AI",
+     "views": 144425,
+     "views_label": "14.4万",
+     "duration_label": "15:51",
+     "upload_date": "11-11",
+     "stats": "14.4万播放 · 15:51 · 11-11 · Higgsfield AI",
+     "thumb": "https://i.ytimg.com/vi/YP8D2_j3_Hc/hqdefault.jpg",
+     "why": "官方号；简介第一行“Up to 60% OFF SALE … UNLIMITED”",
+     "sponsored": true
+    },
+    {
+     "title": "You Will Stop Burning Your AI Credits After Watching This (3 Tips)",
+     "url": "https://www.youtube.com/watch?v=sCukTWZEt7Q",
+     "id": "sCukTWZEt7Q",
+     "channel": "Higgsfield AI",
+     "views": 150319,
+     "views_label": "15.0万",
+     "duration_label": "17:13",
+     "upload_date": "11-07",
+     "stats": "15.0万播放 · 17:13 · 11-07 · Higgsfield AI",
+     "thumb": "https://i.ytimg.com/vi/sCukTWZEt7Q/hqdefault.jpg",
+     "why": "官方号“省积分”教程，带 Higgsfield 活动链接",
+     "sponsored": true
+    },
+    {
+     "title": "How I Make Cinematic AI Ads with Fable 5.2 & Seedance 2.5",
+     "url": "https://www.youtube.com/watch?v=jeMl0OSwDss",
+     "id": "jeMl0OSwDss",
+     "channel": "Dan Kieft",
+     "views": 97456,
+     "views_label": "9.7万",
+     "duration_label": "24:06",
+     "upload_date": "11-12",
+     "stats": "9.7万播放 · 24:06 · 11-12 · Dan Kieft",
+     "thumb": "https://i.ytimg.com/vi/jeMl0OSwDss/hqdefault.jpg",
+     "why": "简介挂 Higgsfield 黑五链接（返佣）",
+     "sponsored": true
+    },
+    {
+     "title": "UNLIMITED AI GENERATION - Black Friday Sales | Framia",
+     "url": "https://www.youtube.com/watch?v=5YMNm0pOn08",
+     "id": "5YMNm0pOn08",
+     "channel": "Framia by Converge AI",
+     "views": 200171,
+     "views_label": "20.0万",
+     "duration_label": "1:00",
+     "upload_date": "11-11",
+     "stats": "20.0万播放 · 1:00 · 11-11 · Framia by Converge AI",
+     "thumb": "https://i.ytimg.com/vi/5YMNm0pOn08/hqdefault.jpg",
+     "why": "品牌官方广告；11-13 卡里是 7.0 万",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "badge": "持续",
+   "title": "Dreamina“$0.29 复刻爆款广告”第二周：扩到西语和 50 万+ 订阅的号，有人把 Claude 接进来做整套黑五活动",
+   "judgment": "上周起的 Dreamina Marketing Studio 付费潮继续扩：西语频道 KSPMN《一步步照抄爆款广告》3.4 万；57 万订阅的 AIVANTA《黑五一键复刻最新爆款广告》1.5 万；Crypto Queenverse 用 Claude 写方案 + Dreamina 出片，做了一整套黑五活动 1.9 万；还有人把 $0.29 套到 Dreamina 2.0 / Seedance 2.5 上讲。所有简介都是同一个 marketing-studio 活动链接。今天 Google US 又多了 2 支 Dreamina 新素材（灵感库、女博主分屏口播）。对 Topview：Winning Ad Recreator / Video Clone 是同类功能，竞品在用“复刻爆款”+ 极低首月价同时买量和找创作者，Topview 的对比点只能落在价格和无限：T1 3.8 折 + 30 天无限。",
+   "evidence": [
+    {
+     "title": "Copia anuncios ganadores paso a paso con Dreamina AI",
+     "url": "https://www.youtube.com/watch?v=7xvq6r9a6nQ",
+     "id": "7xvq6r9a6nQ",
+     "channel": "KSPMN | Create Videos with AI",
+     "views": 34243,
+     "views_label": "3.4万",
+     "duration_label": "10:44",
+     "upload_date": "11-08",
+     "stats": "3.4万播放 · 10:44 · 11-08 · KSPMN | Create Videos with AI",
+     "thumb": "https://i.ytimg.com/vi/7xvq6r9a6nQ/hqdefault.jpg",
+     "why": "西语；付费合作：marketing-studio 活动链接",
+     "sponsored": true
+    },
+    {
+     "title": "I Created a Complete Black Friday Ad Campaign Using Claude AI + Dreamina Marketing Studio!",
+     "url": "https://www.youtube.com/watch?v=1puU7Y3w3NQ",
+     "id": "1puU7Y3w3NQ",
+     "channel": "Crypto Queenverse",
+     "views": 18773,
+     "views_label": "1.9万",
+     "duration_label": "8:07",
+     "upload_date": "11-13",
+     "stats": "1.9万播放 · 8:07 · 11-13 · Crypto Queenverse",
+     "thumb": "https://i.ytimg.com/vi/1puU7Y3w3NQ/hqdefault.jpg",
+     "why": "付费合作：同一活动链接；Claude 写方案 + Dreamina 出片",
+     "sponsored": true
+    },
+    {
+     "title": "Black Friday is here — recreate the latest viral ads in just one click with Dreamina!",
+     "url": "https://www.youtube.com/watch?v=9_2AEFc7Xp8",
+     "id": "9_2AEFc7Xp8",
+     "channel": "AIVANTA AI",
+     "views": 15025,
+     "views_label": "1.5万",
+     "duration_label": "6:34",
+     "upload_date": "11-12",
+     "stats": "1.5万播放 · 6:34 · 11-12 · AIVANTA AI",
+     "thumb": "https://i.ytimg.com/vi/9_2AEFc7Xp8/hqdefault.jpg",
+     "why": "约 57 万订阅；标签 #DreaminaOnly29Cents",
+     "sponsored": true
+    },
+    {
+     "title": "Dreamina 2.0: The END of AI Video Prompting? (Seedance 2.5 + AI Canvas)",
+     "url": "https://www.youtube.com/watch?v=2OEG11AHosU",
+     "id": "2OEG11AHosU",
+     "channel": "Marcus AI Tool Hunt",
+     "views": 13011,
+     "views_label": "1.3万",
+     "duration_label": "5:13",
+     "upload_date": "11-09",
+     "stats": "1.3万播放 · 5:13 · 11-09 · Marcus AI Tool Hunt",
+     "thumb": "https://i.ytimg.com/vi/2OEG11AHosU/hqdefault.jpg",
+     "why": "付费合作：$0.29 限时价链接（dreaminaonly29cents）",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "badge": "持续",
+   "title": "圣诞 AI 小电影第三周：30 秒“好莱坞老片遗失片段”和连载 Part 2，小频道也能跑到 5–6 万",
+   "judgment": "圣诞 AI 小电影还在出，写法越来越固定：Anna Movies AI 把每条包装成“1999 年好莱坞圣诞爱情片的遗失片段”，“初恋圣诞节回来了”6.1 万（35 秒，频道约 1,260 订阅），已做成《THIN ICE》连载；Tory Mortis《Absolute Angel》Part 2 5.8 万（30 秒，约 540 订阅），文末写“关注看下一集”；nitta davis 21 分钟原创《回家过圣诞》3.1 万，简介直接说“万圣节过了，你们要圣诞片？安排”。对 Topview：圣诞档可以用“30 秒老片遗失片段 + 连载编号”，同一对角色连拍多集，顺带演示角色一致。",
+   "evidence": [
+    {
+     "title": "His First Love Came Back on Christmas Day… | AI Short Film",
+     "url": "https://www.youtube.com/shorts/BM82_iGXaF4",
+     "id": "BM82_iGXaF4",
+     "channel": "Anna Movies AI",
+     "views": 61493,
+     "views_label": "6.1万",
+     "duration_label": "0:35",
+     "upload_date": "11-10",
+     "stats": "6.1万播放 · 0:35 · 11-10 · Anna Movies AI",
+     "thumb": "https://i.ytimg.com/vi/BM82_iGXaF4/hqdefault.jpg",
+     "why": "简介写“1999 年好莱坞圣诞爱情片遗失片段，AI 制作”；《THIN ICE》连载",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "Absolute Angel! 🎄 Christmas RomCom Movie",
+     "url": "https://www.youtube.com/shorts/Z2X857kc8xg",
+     "id": "Z2X857kc8xg",
+     "channel": "Tory Mortis",
+     "views": 58077,
+     "views_label": "5.8万",
+     "duration_label": "0:30",
+     "upload_date": "11-07",
+     "stats": "5.8万播放 · 0:30 · 11-07 · Tory Mortis",
+     "thumb": "https://i.ytimg.com/vi/Z2X857kc8xg/hqdefault.jpg",
+     "why": "Part 2，简介写“关注看下一集”，标签 #aicreator；赞 1,154",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "Coming Home For Christmas | An Original Ai Short Film",
+     "url": "https://www.youtube.com/watch?v=GO2vcPs4ibc",
+     "id": "GO2vcPs4ibc",
+     "channel": "nitta davis",
+     "views": 30706,
+     "views_label": "3.1万",
+     "duration_label": "21:35",
+     "upload_date": "11-11",
+     "stats": "3.1万播放 · 21:35 · 11-11 · nitta davis",
+     "thumb": "https://i.ytimg.com/vi/GO2vcPs4ibc/hqdefault.jpg",
+     "why": "原创 21 分钟长片，频道约 230 订阅",
+     "sponsored": false
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "theme_cards": 4,
+  "evidence_videos": 15
+ }
+}
