@@ -1,0 +1,300 @@
+{
+ "updated": "2026-11-15",
+ "market": "overseas",
+ "timezone": "Asia/Shanghai",
+ "collected_at": "2026-11-15 08:12–08:30（北京时间）",
+ "window": "本周上传＋按播放，自跑 30 词 + YouTube 采集 bot",
+ "source": "overseas-daily-1115",
+ "themes": [
+  {
+   "id": "t1",
+   "badge": "新出路",
+   "title": "AI 假电影预告破圈：X 上《纽伦堡》918 万，YouTube 已有人搬运仿做；印度真电影预告反被骂“AI 垃圾”",
+   "judgment": "X 上 @tupacabra 用 Venice 生成的 87 秒假预告《纽伦堡》两天 918 万播放、5.6 万收藏，YouTube 当天就出现搬运和“同题再做”（AI Movie Trailers 频道 9 个订阅，标题直接写“AI Movie Trailer”）。反方向的信号：印度大片《Maatrubhumi》的真人预告被 58.9 万订阅的 Shan Prasher 骂成“AI 垃圾”，96.2 万播放——观众已经会用“AI 味”给预告片打分。对 Topview：“不存在的电影预告”是现在最容易破圈的 AI 形式，16:9 原生；关键是镜头质感和一个真实怪事做钩子，Seedance 2.5 30 天无限适合批量试镜头。",
+   "evidence": [
+    {
+     "title": "NUREMBERG 1561 AD | The Tesla Time Machine & The Mysterious Sky Battle Over Germany AI Movie Trailer",
+     "url": "https://www.youtube.com/watch?v=RVeAtXDrljI",
+     "id": "RVeAtXDrljI",
+     "channel": "AI Movie Trailers",
+     "views": 2171,
+     "views_label": "0.2万",
+     "duration_label": "1:27",
+     "upload_date": "11-14",
+     "stats": "0.2万播放 · 1:27 · 11-14 · AI Movie Trailers",
+     "thumb": "https://i.ytimg.com/vi/RVeAtXDrljI/hqdefault.jpg",
+     "why": "X 爆款当天在 YouTube 被同题再做，标题直接写 AI Movie Trailer",
+     "sponsored": false
+    },
+    {
+     "title": "Nuremberg - Trailer",
+     "url": "https://www.youtube.com/watch?v=9-gchYPBiCg",
+     "id": "9-gchYPBiCg",
+     "channel": "LONELYLOZZA",
+     "views": 6122,
+     "views_label": "0.6万",
+     "duration_label": "1:27",
+     "upload_date": "11-14",
+     "stats": "0.6万播放 · 1:27 · 11-14 · LONELYLOZZA",
+     "thumb": "https://i.ytimg.com/vi/9-gchYPBiCg/hqdefault.jpg",
+     "why": "87 秒，与原片同长，疑似搬运（未标原作者）",
+     "sponsored": false
+    },
+    {
+     "title": "Maatrubhumi Trailer Is PATHETIC AI SLOP!",
+     "url": "https://www.youtube.com/watch?v=jNPrYm0Ag6s",
+     "id": "jNPrYm0Ag6s",
+     "channel": "Shan Prasher",
+     "views": 961734,
+     "views_label": "96.2万",
+     "duration_label": "16:56",
+     "upload_date": "11-11",
+     "stats": "96.2万播放 · 16:56 · 11-11 · Shan Prasher",
+     "thumb": "https://i.ytimg.com/vi/jNPrYm0Ag6s/hqdefault.jpg",
+     "why": "58.9 万订阅；真人电影预告被评为“AI 垃圾”，评论 2,100",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "badge": "新",
+   "title": "Dior 圣诞动画被抓“六指手”：宣传说手绘，制片承认用了 AI，吐槽视频 83.8 万",
+   "judgment": "Dior 今年圣诞动画短片（《疯狂约会美丽都》导演 Sylvain Chomet 执导）宣传“用 1940 年代手绘技法”，网友截出畸形的手、六根手指；导演否认用生成式 AI，但简介显示制片方承认用了 AI。80.3 万订阅的 JJJacksfilms 直播吐槽 83.8 万，评论 1,900；西语、英语时尚号跟进“Dior vs Prada”对比，Christie Gray 讲的是“品牌信任”问题。对 Topview：大众对“偷偷用 AI”比对“AI 本身”更反感。Topview 广告可以反着用：大方写“这是 AI 做的”，并避开手指、脸部特写这类容易穿帮的镜头。",
+   "evidence": [
+    {
+     "title": "Beautiful, hand-drawn animati- OH COME ON",
+     "url": "https://www.youtube.com/watch?v=Tm3n0rojvso",
+     "id": "Tm3n0rojvso",
+     "channel": "JJJacksfilms",
+     "views": 837788,
+     "views_label": "83.8万",
+     "duration_label": "11:55",
+     "upload_date": "11-11",
+     "stats": "83.8万播放 · 11:55 · 11-11 · JJJacksfilms",
+     "thumb": "https://i.ytimg.com/vi/Tm3n0rojvso/hqdefault.jpg",
+     "why": "80.3 万订阅；简介“说是 1940 年代技法，那手怎么这么怪？”；评论 1,900",
+     "sponsored": false
+    },
+    {
+     "title": "Did Dior Use AI in Its Animation?",
+     "url": "https://www.youtube.com/watch?v=pUb4H4p6SeE",
+     "id": "pUb4H4p6SeE",
+     "channel": "Think Bigger",
+     "views": 79405,
+     "views_label": "7.9万",
+     "duration_label": "1:36",
+     "upload_date": "11-09",
+     "stats": "7.9万播放 · 1:36 · 11-09 · Think Bigger",
+     "thumb": "https://i.ytimg.com/vi/pUb4H4p6SeE/hqdefault.jpg",
+     "why": "简介：导演否认用生成式 AI，制片承认用了 AI",
+     "sponsored": false
+    },
+    {
+     "title": "¿IA detrás del corto de Dior?",
+     "url": "https://www.youtube.com/shorts/tvIX449PHmY",
+     "id": "tvIX449PHmY",
+     "channel": "MERCADO NEGRO",
+     "views": 69573,
+     "views_label": "7.0万",
+     "duration_label": "0:41",
+     "upload_date": "11-11",
+     "stats": "7.0万播放 · 0:41 · 11-11 · MERCADO NEGRO",
+     "thumb": "https://i.ytimg.com/vi/tvIX449PHmY/hqdefault.jpg",
+     "why": "西语时尚新闻号，“你觉得是 AI 还是手绘？”",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "Dior vs. Prada: la película de Navidad \"hecha a mano\" que acusan de IA",
+     "url": "https://www.youtube.com/shorts/i40ma0FkCLM",
+     "id": "i40ma0FkCLM",
+     "channel": "Naomi Hara",
+     "views": 42901,
+     "views_label": "4.3万",
+     "duration_label": "1:30",
+     "upload_date": "11-13",
+     "stats": "4.3万播放 · 1:30 · 11-13 · Naomi Hara",
+     "thumb": "https://i.ytimg.com/vi/i40ma0FkCLM/hqdefault.jpg",
+     "why": "西语；“六根手指”+ Prada 对比",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "badge": "上升速",
+   "title": "黑五第 10 天：Dreamina“$0.29 一个人的营销团队”扩到 375 万订阅大号，Framia“无限生成”官方广告涨到 49.6 万",
+   "judgment": "Dreamina Marketing Studio 的 $0.29 首月活动这周已经铺到头部科技号：NORD Tech（375 万订阅）《花 $0.29 雇了整个黑五营销团队》20.2 万，Mohammad Khalid（156 万）13.0 万，TheTech 11.1 万，11-14 又上了 CRYPTO PLATINUM（258 万）7.2 万；说法统一成“一个人的营销团队 / 复刻爆款广告”。Framia 官方“无限生成、零积分”黑五广告从 11-14 的 20.0 万涨到 49.6 万（简介写 Kling 4.0、Seedance 2.5 最长 30 天无限，11-30 截止）。对 Topview：竞品在同时讲“极低首月价”和“30 天无限”，Topview 要拿具体价格差说话：T1「Seedance 2.5 一样的效果，3.8折的价格」+ 30 天无限，Wan 3.0 365 天无限。",
+   "evidence": [
+    {
+     "title": "I Hired an Entire Black Friday Marketing Team for $0.29! (Dreamina AI Canvas)",
+     "url": "https://www.youtube.com/watch?v=JmQTCtXBWDY",
+     "id": "JmQTCtXBWDY",
+     "channel": "NORD Tech",
+     "views": 201758,
+     "views_label": "20.2万",
+     "duration_label": "9:48",
+     "upload_date": "11-08",
+     "stats": "20.2万播放 · 9:48 · 11-08 · NORD Tech",
+     "thumb": "https://i.ytimg.com/vi/JmQTCtXBWDY/hqdefault.jpg",
+     "why": "375 万订阅；付费合作：dreaminaonly29cents 链接",
+     "sponsored": true
+    },
+    {
+     "title": "I Created an Entire Ad Campaign by Myself for Just $0.29 | Dreamina",
+     "url": "https://www.youtube.com/watch?v=jW8rtne6lxo",
+     "id": "jW8rtne6lxo",
+     "channel": "Mohammad Khalid Crypto",
+     "views": 130312,
+     "views_label": "13.0万",
+     "duration_label": "5:26",
+     "upload_date": "11-10",
+     "stats": "13.0万播放 · 5:26 · 11-10 · Mohammad Khalid Crypto",
+     "thumb": "https://i.ytimg.com/vi/jW8rtne6lxo/hqdefault.jpg",
+     "why": "156 万订阅；付费合作：marketing-studio 活动链接",
+     "sponsored": true
+    },
+    {
+     "title": "Recreate Viral Ads with Dreamina AI for Just $0.29 | Black Friday Deal",
+     "url": "https://www.youtube.com/watch?v=EcE9R2AsI3g",
+     "id": "EcE9R2AsI3g",
+     "channel": "TheTech",
+     "views": 111497,
+     "views_label": "11.1万",
+     "duration_label": "4:53",
+     "upload_date": "11-10",
+     "stats": "11.1万播放 · 4:53 · 11-10 · TheTech",
+     "thumb": "https://i.ytimg.com/vi/EcE9R2AsI3g/hqdefault.jpg",
+     "why": "48.1 万订阅；“一个人的营销团队”",
+     "sponsored": true
+    },
+    {
+     "title": "I Recreated a Winning Video Ad & Poster Using AI | Dreamina Marketing Studio",
+     "url": "https://www.youtube.com/watch?v=CDta5_Qx4cw",
+     "id": "CDta5_Qx4cw",
+     "channel": "CRYPTO PLATINUM OFFICIAL",
+     "views": 72223,
+     "views_label": "7.2万",
+     "duration_label": "11:37",
+     "upload_date": "11-14",
+     "stats": "7.2万播放 · 11:37 · 11-14 · CRYPTO PLATINUM OFFICIAL",
+     "thumb": "https://i.ytimg.com/vi/CDta5_Qx4cw/hqdefault.jpg",
+     "why": "258 万订阅；新上，付费合作",
+     "sponsored": true
+    },
+    {
+     "title": "UNLIMITED AI GENERATION - Black Friday Sales | Framia",
+     "url": "https://www.youtube.com/watch?v=5YMNm0pOn08",
+     "id": "5YMNm0pOn08",
+     "channel": "Framia by Converge AI",
+     "views": 495536,
+     "views_label": "49.6万",
+     "duration_label": "1:00",
+     "upload_date": "11-11",
+     "stats": "49.6万播放 · 1:00 · 11-11 · Framia by Converge AI",
+     "thumb": "https://i.ytimg.com/vi/5YMNm0pOn08/hqdefault.jpg",
+     "why": "品牌官方广告；11-14 卡里是 20.0 万",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "badge": "持续",
+   "title": "Sheru Bhai（狮子老大）第二周：反应视频 330.6 万，扩到马拉雅拉姆语版",
+   "judgment": "印度“西装狮子炫富”AI 角色系列继续扩散：FUKRA INSAAN 反应视频从 297.7 万涨到 330.6 万，Thugesh《印度 AI 脑腐》从 101.1 万到 128.4 万；南印度马拉雅拉姆语频道 storiesof.thameem 做了 9 分钟“Sheru Bhai 买下浮空城”23.1 万——同一个角色已经跨语言被二创。对 Topview：固定角色 + 每集一个爽点的系列，最能体现“角色一致 + 无限生成”。",
+   "evidence": [
+    {
+     "title": "Sheru Bhai is too funny and Big Boss 20 Memes",
+     "url": "https://www.youtube.com/watch?v=2HMElFXn9M0",
+     "id": "2HMElFXn9M0",
+     "channel": "FUKRA INSAAN LIVE",
+     "views": 3305867,
+     "views_label": "330.6万",
+     "duration_label": "16:34",
+     "upload_date": "11-11",
+     "stats": "330.6万播放 · 16:34 · 11-11 · FUKRA INSAAN LIVE",
+     "thumb": "https://i.ytimg.com/vi/2HMElFXn9M0/hqdefault.jpg",
+     "why": "约 417 万订阅反应号；昨天 297.7 万",
+     "sponsored": false
+    },
+    {
+     "title": "Sheru Bhai & Brain Rot Indian A.I!",
+     "url": "https://www.youtube.com/watch?v=NjeTfjLv5AQ",
+     "id": "NjeTfjLv5AQ",
+     "channel": "Thugesh Unfiltered",
+     "views": 1283546,
+     "views_label": "128.4万",
+     "duration_label": "18:07",
+     "upload_date": "11-12",
+     "stats": "128.4万播放 · 18:07 · 11-12 · Thugesh Unfiltered",
+     "thumb": "https://i.ytimg.com/vi/NjeTfjLv5AQ/hqdefault.jpg",
+     "why": "约 305 万订阅；昨天 101.1 万",
+     "sponsored": false
+    },
+    {
+     "title": "Sheru Bhai Bought an Entire Floating City! | Malayalam AI Comedy Movie",
+     "url": "https://www.youtube.com/watch?v=ivZGwWSdYiQ",
+     "id": "ivZGwWSdYiQ",
+     "channel": "storiesof.thameem",
+     "views": 230919,
+     "views_label": "23.1万",
+     "duration_label": "9:26",
+     "upload_date": "11-11",
+     "stats": "23.1万播放 · 9:26 · 11-11 · storiesof.thameem",
+     "thumb": "https://i.ytimg.com/vi/ivZGwWSdYiQ/hqdefault.jpg",
+     "why": "3.7 万订阅；马拉雅拉姆语二创",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "badge": "持续",
+   "title": "圣诞 AI 小电影：Anna Movies“1998 年圣诞爱情片遗失片段”新一集 7.3 万",
+   "judgment": "Anna Movies AI（约 1,440 订阅）继续用“90 年代好莱坞圣诞爱情片遗失片段，AI 制作”包装：新一集“她在相亲路上崴断鞋跟”30 秒 7.3 万，上周“初恋圣诞节回来了”涨到 6.4 万，已编成《THIN ICE》第 9 集。对 Topview：圣诞档可以照搬“30 秒老片遗失片段 + 连载编号”，同一对角色连拍多集。",
+   "evidence": [
+    {
+     "title": "She Broke Her Heel… Then THIS Happened! | AI Short Film",
+     "url": "https://www.youtube.com/shorts/5ff6hNqt0Qs",
+     "id": "5ff6hNqt0Qs",
+     "channel": "Anna Movies AI",
+     "views": 73025,
+     "views_label": "7.3万",
+     "duration_label": "0:30",
+     "upload_date": "11-12",
+     "stats": "7.3万播放 · 0:30 · 11-12 · Anna Movies AI",
+     "thumb": "https://i.ytimg.com/vi/5ff6hNqt0Qs/hqdefault.jpg",
+     "why": "简介“1998 年好莱坞圣诞爱情喜剧遗失片段，AI 制作”",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "His First Love Came Back on Christmas Day… | AI Short Film",
+     "url": "https://www.youtube.com/shorts/BM82_iGXaF4",
+     "id": "BM82_iGXaF4",
+     "channel": "Anna Movies AI",
+     "views": 64390,
+     "views_label": "6.4万",
+     "duration_label": "0:35",
+     "upload_date": "11-10",
+     "stats": "6.4万播放 · 0:35 · 11-10 · Anna Movies AI",
+     "thumb": "https://i.ytimg.com/vi/BM82_iGXaF4/hqdefault.jpg",
+     "why": "《THIN ICE》第 9 集；昨天 6.1 万",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "theme_cards": 5,
+  "evidence_videos": 17
+ }
+}

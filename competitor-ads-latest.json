@@ -16,9 +16,9 @@
         "US"
       ],
       "first_shown": "2026-11-13",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-13 · Tiktok Pte. Ltd.",
-      "analysis": "对 Topview：「Tiktok Pte. Ltd.」首投 2026-11-13。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+      "title": "CapCut · PC 端“新用户立减 90%，仅限桌面版”",
+      "stats": "首投 2026-11-13 · Google US · Tiktok Pte. Ltd.",
+      "analysis": "16:9 双栏：左边“New Users Get 90% Off · on CapCut, Desktop Only”，右边蓝色霓虹字“IN CAPCUT PC NOW”。没有任何 AI 功能演示，纯拿折扣把人拉到桌面端；和昨天两条“CapCut 出 PC 版了”搜索广告是同一个战役。Topview 是网页端，对比时可以说“不用下载，打开就能用”。",
       "link": "https://adstransparency.google.com/advertiser/AR09122903337233022977/creative/CR17534498835424870401?region=US",
       "cover": "media/ads_google_CR17534498835424870401.jpg",
       "is_topview_impersonation": null,
@@ -33,9 +33,9 @@
         "US"
       ],
       "first_shown": "2026-11-13",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-13 · Tiktok Pte. Ltd.",
-      "analysis": "对 Topview：「Tiktok Pte. Ltd.」首投 2026-11-13。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+      "title": "CapCut · 搜索文字广告：桌面版 AI 数字人（葡语文案）",
+      "stats": "首投 2026-11-13 · Google US · Tiktok Pte. Ltd.（昨天已出现，仍在投）",
+      "analysis": "搜索结果页文字广告：标题“Avatares IA no Desktop”，正文“在 CapCut 桌面版创建独特的 AI 数字人！免费又快”。投放区写 US 却用葡语，面向美国葡语用户；和今天“新用户立减 90%，仅限桌面版”是同一个 PC 端战役。",
       "link": "https://adstransparency.google.com/advertiser/AR09122903337233022977/creative/CR02109661315587899393?region=US",
       "cover": "media/ads_google_CR02109661315587899393.jpg",
       "is_topview_impersonation": null,
@@ -50,9 +50,9 @@
         "US"
       ],
       "first_shown": "2026-11-12",
-      "title": "Vidu · google · US",
-      "stats": "首投 2026-11-12 · ShengShu AI HK Limited",
-      "analysis": "对 Topview：「ShengShu AI HK Limited」首投 2026-11-12。Vidu 模型品牌广告，看钩子是画质秀还是工作流/价格，Topview 只跟后者。",
+      "title": "Vidu · “Directing AI 第 15 期：暗黑哥特提示词”教程型广告",
+      "stats": "首投 2026-11-12 · Google US · ShengShu AI HK Limited",
+      "analysis": "封面像 YouTube 教程：戴黑纱的女人举着烛台，大字“DIRECTING AI (XV)”“Prompts for Dark Gothic Aesthetic”。Vidu 把广告做成“导演课”系列第 15 期，卖的是提示词和画面风格，不讲价格。Topview 可以学这种系列化教程广告的包装，但主打点放在价格和无限。",
       "link": "https://adstransparency.google.com/advertiser/AR13500956930192965633/creative/CR04739222538251403265?region=US",
       "cover": "media/ads_google_CR04739222538251403265.jpg",
       "is_topview_impersonation": null,
@@ -78,15 +78,15 @@
     },
     {
       "badge": "新开投",
-      "competitor": "CapCut",
+      "competitor": "Dreamina（CapCut 系）",
       "platform": "google",
       "regions": [
         "US"
       ],
       "first_shown": "2026-11-06",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-06 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-06。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+      "title": "Dreamina · 恐怖脸开场 + “$0.29/月”角标",
+      "stats": "首投 2026-11-06 · Google US · WHATECH 代投",
+      "analysis": "竖屏居中、两侧模糊铺满：白眼、裂纹皮肤的女鬼脸正对镜头，字幕“Look at these”，右上角 Dreamina AI 标 + “$0.29/month ONLY”。用强视觉冲击开场，价格一直挂在角上，是这周 Dreamina 素材里唯一用恐怖画面当钩子的。",
       "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR17725198132146339841?region=US",
       "cover": "media/ads_google_CR17725198132146339841.jpg",
       "is_topview_impersonation": null,
@@ -95,15 +95,15 @@
     },
     {
       "badge": "新开投",
-      "competitor": "CapCut",
+      "competitor": "Dreamina（CapCut 系）",
       "platform": "google",
       "regions": [
         "US"
       ],
       "first_shown": "2026-11-13",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-13 · Tiktok Pte. Ltd.",
-      "analysis": "对 Topview：「Tiktok Pte. Ltd.」首投 2026-11-13。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+      "title": "Dreamina · 搜索文字广告：Storyboard AI",
+      "stats": "首投 2026-11-13 · Google US · Tiktok Pte. Ltd.",
+      "analysis": "搜索结果页文字广告：标题“Dreamina Storyboard AI”，正文“为电影、动画和创意项目做专业分镜”。Dreamina 开始抢“AI 分镜”搜索词，说明它在往“从分镜到成片”的工作流讲。",
       "link": "https://adstransparency.google.com/advertiser/AR09122903337233022977/creative/CR13649572410771374081?region=US",
       "cover": "media/ads_google_CR13649572410771374081.jpg",
       "is_topview_impersonation": null,
@@ -118,9 +118,9 @@
         "US"
       ],
       "first_shown": "2026-11-13",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-13 · Tiktok Pte. Ltd.",
-      "analysis": "对 Topview：「Tiktok Pte. Ltd.」首投 2026-11-13。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+      "title": "CapCut · 搜索文字广告：CapCut 出 PC 版了",
+      "stats": "首投 2026-11-13 · Google US · Tiktok Pte. Ltd.（昨天已出现，仍在投）",
+      "analysis": "文字广告：标题“CapCut Download”，正文“CapCut Is Available On PC Now”。纯下载导向，没有 AI 卖点。CapCut 这三天在 Google 上全力推 PC 端下载。",
       "link": "https://adstransparency.google.com/advertiser/AR09122903337233022977/creative/CR16498099175083212801?region=US",
       "cover": "media/ads_google_CR16498099175083212801.jpg",
       "is_topview_impersonation": null,
@@ -135,14 +135,15 @@
         "US"
       ],
       "first_shown": "2026-11-13",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-13 · Tiktok Pte. Ltd.",
-      "analysis": "对 Topview：「Tiktok Pte. Ltd.」首投 2026-11-13。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+      "title": "CapCut · “文字转语音：300+ 搞笑声音”",
+      "stats": "首投 2026-11-13 · Google US · Tiktok Pte. Ltd.",
+      "analysis": "戴耳机的女生在左边口播，右边是 CapCut 声音列表“300+ funny sounds”，顶部大字“Text to speech”。卖点是 TTS 声音库，属于 CapCut 黑五在铺的功能广告之一，和 AI 视频生成不正面冲突。",
       "link": "https://adstransparency.google.com/advertiser/AR09122903337233022977/creative/CR05199975084894191617?region=US",
       "cover": "media/ads_google_CR05199975084894191617.jpg",
       "is_topview_impersonation": null,
       "is_new": true,
       "copy": null
     }
-  ]
+  ],
+  "note": "今天 07:37 扫描（Google 365、Meta 147、TikTok 命中 0，新开投 48）；海外区 7 卡（CapCut 4 + Dreamina 2 + Vidu 1）手写分析；KR 1 条 Flova 留给韩国日报"
 }
