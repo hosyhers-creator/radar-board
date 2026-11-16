@@ -10,15 +10,15 @@
   "items": [
     {
       "badge": "新开投",
-      "competitor": "CapCut",
+      "competitor": "Dreamina（CapCut 系）",
       "platform": "google",
       "regions": [
         "US"
       ],
       "first_shown": "2026-11-12",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-12 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-12。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+      "title": "Dreamina 2.0 · 达人口播“我做了一部电影感 AI 电影”（AI Canvas）",
+      "stats": "首投 2026-11-12 · Google US · WHATECH MOBILE 代投",
+      "analysis": "16:9：灰卫衣男生在左边指向右侧，背景是“Dreamina 2.0 AI MOVIE WITH CANVAS”界面和一个背影走向巨大建筑的科幻镜头，底部黄色大字“I CREATED A CINEMATIC AI MOVIE”。Dreamina 2.0 主推“画布里从分镜到成片”，用真人达人口播包装。Topview 可对照：同样是“一个人做电影”，但我们打价格和无限。",
       "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR01150673870911438849?region=US",
       "cover": "media/ads_google_CR01150673870911438849.jpg",
       "is_topview_impersonation": null,
@@ -27,15 +27,15 @@
     },
     {
       "badge": "新开投",
-      "competitor": "CapCut",
+      "competitor": "Dreamina（CapCut 系）",
       "platform": "google",
       "regions": [
         "US"
       ],
       "first_shown": "2026-11-12",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-12 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-12。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+      "title": "Dreamina 2.0 · “AI Canvas，首月只要 $1.5”",
+      "stats": "首投 2026-11-12 · Google US · WHATECH MOBILE 代投",
+      "analysis": "16:9：左边画布界面（图片/视频/画布/时间线四个入口），中间能看到“Seedance 2.5”标签和“导出到 Premiere”，右边惊讶脸男生，红色角标“ONLY $1.5 FOR 1 MONTH”。这是本周 Dreamina 第二个低价钩子（之前是 $0.29/月），而且直接写 Seedance 2.5。Topview 广告要提前准备对比话术：T1“Seedance 2.5 一样的效果，3.8 折的价格”+ 30 天无限。",
       "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR14236016728655003649?region=US",
       "cover": "media/ads_google_CR14236016728655003649.jpg",
       "is_topview_impersonation": null,
@@ -44,15 +44,15 @@
     },
     {
       "badge": "新开投",
-      "competitor": "CapCut",
+      "competitor": "Dreamina（CapCut 系）",
       "platform": "google",
       "regions": [
         "US"
       ],
       "first_shown": "2026-11-12",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-12 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-12。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+      "title": "Dreamina · “新画布：一个点子出一部 AI 电影”",
+      "stats": "首投 2026-11-12 · Google US · WHATECH MOBILE 代投",
+      "analysis": "16:9：男生拿着平板，右边是画布里排好的分镜（骑士、飞龙、城堡），大字“NEW CANVAS AI FILM FROM 1 IDEA!”。卖点是“一句话 → 一整部片”的工作流，不讲价格。和上面两条是同一个 Dreamina 2.0 战役的三个版本（结果 / 价格 / 工作流）。",
       "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR16394155743839780865?region=US",
       "cover": "media/ads_google_CR16394155743839780865.jpg",
       "is_topview_impersonation": null,
@@ -93,5 +93,6 @@
       "is_new": true,
       "copy": null
     }
-  ]
+  ],
+  "note": "今天 07:36 扫描（Google 336、Meta 176、TikTok 命中 0，新开投 11）；海外区 3 卡（Dreamina 2.0 Canvas，WHATECH 代投）手写分析；KR 2 条 CapCut 留给韩国日报"
 }

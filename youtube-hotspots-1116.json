@@ -1,0 +1,290 @@
+{
+ "updated": "2026-11-16",
+ "market": "overseas",
+ "timezone": "Asia/Shanghai",
+ "collected_at": "2026-11-16 08:10–08:30（北京时间）",
+ "window": "本周上传＋按播放，自跑 30 词 + YouTube 采集 bot",
+ "source": "overseas-daily-1116",
+ "themes": [
+  {
+   "id": "t1",
+   "badge": "新出路",
+   "title": "“90 年代电影遗失片段”AI 迷你剧：211 订阅小号 29 秒 8.9 万，“女友变 FBI 探员”23.5 万",
+   "judgment": "一批小频道在批量做“90 年代好莱坞爱情喜剧/豪门剧”质感的 30 秒短剧：胶片色调、大垫肩、一句反转台词收尾。Selling Scenes 只有 211 个订阅，第 5 集就到 8.9 万；YUK Romatic 1 万订阅，“女友在车里发现金发，当场变身 FBI 拉警戒线”23.5 万（画面带 PlayOryn 水印）。Anna Movies 的“1998 年圣诞爱情片遗失片段”系列也在持续出。对 Topview：这种形式不需要真人演员、不碰 IP，30 秒一个反转正好是 Seedance 2.5 / T1 的单条长度；可以拿来做“台词 + 口型 + 复古质感”的演示片，16:9 也成立。",
+   "evidence": [
+    {
+     "title": "Does It Come With a Yacht? 😏",
+     "url": "https://www.youtube.com/shorts/foqKr7mRkcM",
+     "id": "foqKr7mRkcM",
+     "channel": "Selling Scenes | AI mini videos",
+     "views": 88899,
+     "views_label": "8.9万",
+     "duration_label": "0:29",
+     "upload_date": "11-14",
+     "stats": "8.9万播放 · 0:29 · 11-14 · Selling Scenes | AI mini videos",
+     "thumb": "https://i.ytimg.com/vi/foqKr7mRkcM/hqdefault.jpg",
+     "why": "211 订阅；简介“Created with @dreamina_ai”；EP5 连载",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "When Your Girlfriend Turns Into an FBI Agent! | 90s Rom-Com AI Mini Movie",
+     "url": "https://www.youtube.com/shorts/QkAPwGQxUuY",
+     "id": "QkAPwGQxUuY",
+     "channel": "YUK Romatic",
+     "views": 234691,
+     "views_label": "23.5万",
+     "duration_label": "0:30",
+     "upload_date": "11-12",
+     "stats": "23.5万播放 · 0:30 · 11-12 · YUK Romatic",
+     "thumb": "https://i.ytimg.com/vi/QkAPwGQxUuY/hqdefault.jpg",
+     "why": "1.04 万订阅；简介写 AI-generated mini movie；画面带 PlayOryn 水印",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "She Broke Her Heel… Then THIS Happened! | AI Short Film",
+     "url": "https://www.youtube.com/shorts/5ff6hNqt0Qs",
+     "id": "5ff6hNqt0Qs",
+     "channel": "Anna Movies AI",
+     "views": 81229,
+     "views_label": "8.1万",
+     "duration_label": "0:30",
+     "upload_date": "11-12",
+     "stats": "8.1万播放 · 0:30 · 11-12 · Anna Movies AI",
+     "thumb": "https://i.ytimg.com/vi/5ff6hNqt0Qs/hqdefault.jpg",
+     "why": "“1998 年圣诞爱情喜剧遗失片段”系列（之前卡片收过，持续）",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "[TRAILER] My Cold CEO Hired Me to Be Her Fake Girlfriend – Season 2 | AI GL Series 2026",
+     "url": "https://www.youtube.com/watch?v=RkSuUKs3Dwc",
+     "id": "RkSuUKs3Dwc",
+     "channel": "Nocturne GL Studio",
+     "views": 51761,
+     "views_label": "5.2万",
+     "duration_label": "1:38",
+     "upload_date": "11-11",
+     "stats": "5.2万播放 · 1:38 · 11-11 · Nocturne GL Studio",
+     "thumb": "https://i.ytimg.com/vi/RkSuUKs3Dwc/hqdefault.jpg",
+     "why": "同类“假恋爱合约”AI 剧集预告，6,580 订阅",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "badge": "上升速",
+   "title": "星战角色串台美国真人秀：《法官朱迪》审达斯·维德 138.7 万，《典当之星》第 2 集 44.5 万",
+   "judgment": "“经典角色 + 美国家喻户晓的真人秀/情景喜剧格式”是这周 YouTube 最强的 AI 恶搞方向：Big Tomater 让达斯·维德和欧比旺上《法官朱迪》打官司，3 分 47 秒 138.7 万、评论 2,000（简介写“本地 5070 Ti 生成”）；Neural Derp Memes 让曼达洛人带着暗黑剑去《典当之星》，第 2 集 44.5 万，高赞评论“我一般不喜欢 AI，但这个很好”（245 赞）。X 上的 AI《宋飞正传》也是同一套路。⚠️星战/真人秀都是 IP，只借“名角色 × 熟悉节目格式”的结构。对 Topview：可以换成原创角色 + 通用节目格式（法庭、典当行、相亲节目），16:9 原生。",
+   "evidence": [
+    {
+     "title": "Judge Judy with Darth Vader and Obi Wan Kenobi",
+     "url": "https://www.youtube.com/watch?v=fEUxkcNy2p0",
+     "id": "fEUxkcNy2p0",
+     "channel": "Big Tomater",
+     "views": 1386922,
+     "views_label": "138.7万",
+     "duration_label": "3:47",
+     "upload_date": "11-12",
+     "stats": "138.7万播放 · 3:47 · 11-12 · Big Tomater",
+     "thumb": "https://i.ytimg.com/vi/fEUxkcNy2p0/hqdefault.jpg",
+     "why": "2.64 万订阅；评论 2,000；简介标“AI 恶搞，本地生成”",
+     "sponsored": false
+    },
+    {
+     "title": "The Mandalorian and Grogu try to Pawn the Darksaber - Pawn Star Wars | PART 2",
+     "url": "https://www.youtube.com/watch?v=oaz2FLP_7hg",
+     "id": "oaz2FLP_7hg",
+     "channel": "Neural Derp Memes",
+     "views": 444613,
+     "views_label": "44.5万",
+     "duration_label": "2:28",
+     "upload_date": "11-14",
+     "stats": "44.5万播放 · 2:28 · 11-14 · Neural Derp Memes",
+     "thumb": "https://i.ytimg.com/vi/oaz2FLP_7hg/hqdefault.jpg",
+     "why": "2.28 万订阅；高赞“我一般不喜欢 AI，但这个很好”",
+     "sponsored": false
+    },
+    {
+     "title": "Mando and Grogu take the Darksaber to Pawn Stars - Pawn Star Wars",
+     "url": "https://www.youtube.com/watch?v=tqJAVI7dEXM",
+     "id": "tqJAVI7dEXM",
+     "channel": "Neural Derp Memes",
+     "views": 62030,
+     "views_label": "6.2万",
+     "duration_label": "4:30",
+     "upload_date": "11-13",
+     "stats": "6.2万播放 · 4:30 · 11-13 · Neural Derp Memes",
+     "thumb": "https://i.ytimg.com/vi/tqJAVI7dEXM/hqdefault.jpg",
+     "why": "第 1 集；简介挂 OpenArt 返佣链接",
+     "sponsored": true
+    },
+    {
+     "title": "Saiyanfeld: The Androids Arrive",
+     "url": "https://www.youtube.com/watch?v=qF2kGSH9vW4",
+     "id": "qF2kGSH9vW4",
+     "channel": "Grickus AI",
+     "views": 178458,
+     "views_label": "17.8万",
+     "duration_label": "9:39",
+     "upload_date": "11-10",
+     "stats": "17.8万播放 · 9:39 · 11-10 · Grickus AI",
+     "thumb": "https://i.ytimg.com/vi/qF2kGSH9vW4/hqdefault.jpg",
+     "why": "《宋飞正传》×《龙珠》串台，评论 524",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "badge": "持续",
+   "title": "黑五第 11 天：CapCut PC 也开始大批付费达人，Framia“无限生成”广告涨到 70.8 万",
+   "judgment": "黑五达人投放从 Dreamina 扩到 CapCut PC：448 万订阅的 CRYPTO VANGUARD、225 万订阅的 James Talk 都发了“黑五营销：用 CapCut PC 做产品广告”，简介是同一个 capcutpc_kol 链接；X 上同一天也有 10 多个号发结构一样的“黑五间谍广告 + CapCut PC 多轨剪辑”。Framia 官方“30 天无限生成（Kling 4.0、Seedance 2.5）”广告从 49.6 万涨到 70.8 万，截止 11-30。Dreamina 官方发了“Seedance 2.5 支持 4K + 480p 草稿再放大”。对 Topview：“无限”已是 Framia 的主打词，Topview 要把“30 天无限 + T1 3.8 折”放在同一屏讲清，避免被当成同质化“无限”。",
+   "evidence": [
+    {
+     "title": "Black Friday Marketing: Build a Product Ad with an AI Video Editor | CapCut PC",
+     "url": "https://www.youtube.com/watch?v=Zbub9vab-Xo",
+     "id": "Zbub9vab-Xo",
+     "channel": "James Talk",
+     "views": 113798,
+     "views_label": "11.4万",
+     "duration_label": "8:18",
+     "upload_date": "11-14",
+     "stats": "11.4万播放 · 8:18 · 11-14 · James Talk",
+     "thumb": "https://i.ytimg.com/vi/Zbub9vab-Xo/hqdefault.jpg",
+     "why": "225 万订阅；capcutpc_kol 付费链接",
+     "sponsored": true
+    },
+    {
+     "title": "Black Friday Marketing with an AI Video Editor | Fix Product Ads in CapCut PC",
+     "url": "https://www.youtube.com/watch?v=EaLQpzgoD-A",
+     "id": "EaLQpzgoD-A",
+     "channel": "CRYPTO VANGUARD",
+     "views": 161077,
+     "views_label": "16.1万",
+     "duration_label": "12:49",
+     "upload_date": "11-10",
+     "stats": "16.1万播放 · 12:49 · 11-10 · CRYPTO VANGUARD",
+     "thumb": "https://i.ytimg.com/vi/EaLQpzgoD-A/hqdefault.jpg",
+     "why": "448 万订阅；同一 capcutpc_kol 链接",
+     "sponsored": true
+    },
+    {
+     "title": "UNLIMITED AI GENERATION - Black Friday Sales | Framia",
+     "url": "https://www.youtube.com/watch?v=5YMNm0pOn08",
+     "id": "5YMNm0pOn08",
+     "channel": "Framia by Converge AI",
+     "views": 708191,
+     "views_label": "70.8万",
+     "duration_label": "1:00",
+     "upload_date": "11-11",
+     "stats": "70.8万播放 · 1:00 · 11-11 · Framia by Converge AI",
+     "thumb": "https://i.ytimg.com/vi/5YMNm0pOn08/hqdefault.jpg",
+     "why": "官方广告；11-15 时 49.6 万",
+     "sponsored": true
+    },
+    {
+     "title": "Dreamina Seedance 2.5 Now Available in 4K!",
+     "url": "https://www.youtube.com/watch?v=VNf2KU-wOkg",
+     "id": "VNf2KU-wOkg",
+     "channel": "Dreamina",
+     "views": 130119,
+     "views_label": "13.0万",
+     "duration_label": "0:29",
+     "upload_date": "11-13",
+     "stats": "13.0万播放 · 0:29 · 11-13 · Dreamina",
+     "thumb": "https://i.ytimg.com/vi/VNf2KU-wOkg/hqdefault.jpg",
+     "why": "官方：480p 草稿预览再放大到 4K，主打省成本",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "badge": "新",
+   "title": "Topview T1 达人测评集中出现：5 个频道对比 Seedance 2.5，全部带 via= 返佣链接，口径不一",
+   "judgment": "11-09 到 11-13 至少 5 个频道发了 Topview T1 对比 Seedance 2.5 的测评，简介全部是 topview.ai/?via= 返佣链接。说法不统一：小薇写“便宜 62%（$0.22/秒 vs $0.585/秒）”，和官方 3.8 折一致；巴西 RENILDO 写“更少积分”；Pro Secret 标题写“Seedance 2.5 免费无限”；昨天 Joseph Martin 写“少 40% 积分”。JSFILMZ（12.5 万订阅）做了“同一场戏混剪，你能分出哪个是 T1 吗”的盲测。播放都在 1 万上下，量不大但在长尾搜索里排前面。对 Topview：盲测形式值得直接用到官方广告里；达人口径建议统一成“Seedance 2.5 一样的效果，3.8 折的价格”。",
+   "evidence": [
+    {
+     "title": "Seedance 2.5 vs Topview T1: Can You Tell the Difference?",
+     "url": "https://www.youtube.com/watch?v=BGgHxQwcW0M",
+     "id": "BGgHxQwcW0M",
+     "channel": "JSFILMZ",
+     "views": 3893,
+     "views_label": "0.4万",
+     "duration_label": "9:03",
+     "upload_date": "11-11",
+     "stats": "0.4万播放 · 9:03 · 11-11 · JSFILMZ",
+     "thumb": "https://i.ytimg.com/vi/BGgHxQwcW0M/hqdefault.jpg",
+     "why": "12.5 万订阅；同场戏盲测；via 链接",
+     "sponsored": true
+    },
+    {
+     "title": "TopView T1 VS Seedance2.5 - 全新高性价比模型实测",
+     "url": "https://www.youtube.com/watch?v=Gw6MXi33RmQ",
+     "id": "Gw6MXi33RmQ",
+     "channel": "小薇官方频道",
+     "views": 7246,
+     "views_label": "0.7万",
+     "duration_label": "6:27",
+     "upload_date": "11-10",
+     "stats": "0.7万播放 · 6:27 · 11-10 · 小薇官方频道",
+     "thumb": "https://i.ytimg.com/vi/Gw6MXi33RmQ/hqdefault.jpg",
+     "why": "简介“便宜 62%，$0.22/秒 vs $0.585/秒”，和官方口径一致",
+     "sponsored": true
+    },
+    {
+     "title": "Seedance 2.5 FREE & UNLIMITED — Create Cinematic AI Films With NEW Topview T1",
+     "url": "https://www.youtube.com/watch?v=pmtBRcfsrmY",
+     "id": "pmtBRcfsrmY",
+     "channel": "Pro Secret",
+     "views": 8849,
+     "views_label": "0.9万",
+     "duration_label": "8:40",
+     "upload_date": "11-13",
+     "stats": "0.9万播放 · 8:40 · 11-13 · Pro Secret",
+     "thumb": "https://i.ytimg.com/vi/pmtBRcfsrmY/hqdefault.jpg",
+     "why": "标题写“免费无限”，口径偏离",
+     "sponsored": true
+    },
+    {
+     "title": "MAIS VÍDEOS, MENOS CRÉDITOS! Novo Modelo de IA Topview T1",
+     "url": "https://www.youtube.com/watch?v=dqCtnK5VCuE",
+     "id": "dqCtnK5VCuE",
+     "channel": "RENILDO E MAYARA",
+     "views": 7599,
+     "views_label": "0.8万",
+     "duration_label": "15:17",
+     "upload_date": "11-09",
+     "stats": "0.8万播放 · 15:17 · 11-09 · RENILDO E MAYARA",
+     "thumb": "https://i.ytimg.com/vi/dqCtnK5VCuE/hqdefault.jpg",
+     "why": "葡语；“更少积分、更多视频”",
+     "sponsored": true
+    },
+    {
+     "title": "Create This SECRET Niche & Go VIRAL In 48hrs | With $0",
+     "url": "https://www.youtube.com/watch?v=Y35TkgZRM80",
+     "id": "Y35TkgZRM80",
+     "channel": "Jacksons AI",
+     "views": 13685,
+     "views_label": "1.4万",
+     "duration_label": "21:57",
+     "upload_date": "11-12",
+     "stats": "1.4万播放 · 21:57 · 11-12 · Jacksons AI",
+     "thumb": "https://i.ytimg.com/vi/Y35TkgZRM80/hqdefault.jpg",
+     "why": "7.4 万订阅；用 Topview 做 what-if 动画教程",
+     "sponsored": true
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "theme_cards": 4,
+  "evidence_videos": 17
+ }
+}
