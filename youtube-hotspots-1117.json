@@ -1,0 +1,280 @@
+{
+ "updated": "2026-11-17",
+ "market": "overseas",
+ "timezone": "Asia/Shanghai",
+ "collected_at": "2026-11-17 08:10–08:40（北京时间）",
+ "window": "本周上传＋按播放，自跑 30 词 + YouTube 采集 bot",
+ "source": "overseas-daily-1117",
+ "themes": [
+  {
+   "id": "t1",
+   "badge": "新出路",
+   "title": "“免费无限 Seedance 2.5”成了小频道标题潮：Malva AI 12.1 万，MiniMax H3 / Dola / Higgsfield 测评各约 1 万",
+   "judgment": "这周 YouTube 上搜 Seedance 2.5，排前面的不再是效果测评，而是“FREE & UNLIMITED”：有人说 MiniMax H3 免费无限“RIP Seedance 2.5”，有人教在 Dola AI 用技巧白嫖 30 秒，有人说 Higgsfield 送 Seedance 2.5 免费无限；Malva AI（17.9 万订阅）的“唯一 100% 免费无限 AI 视频生成器”12.1 万，简介挂 Higgsfield 返佣。昨天的 Topview T1 达人测评里也有人用“免费无限”当标题。对 Topview：“无限”这个词已经被稀释，广告里要讲清是官方渠道、不靠技巧，用“30 天无限 + T1 3.8 折”把价格和稳定性放在同一屏。",
+   "evidence": [
+    {
+     "title": "I Found the ONLY 100% Free & Unlimited AI Video Generator",
+     "url": "https://www.youtube.com/watch?v=axBF6zXzsNA",
+     "id": "axBF6zXzsNA",
+     "channel": "Malva AI",
+     "views": 120795,
+     "views_label": "12.1万",
+     "duration_label": "14:30",
+     "upload_date": "11-10",
+     "stats": "12.1万播放 · 14:30 · 11-10 · Malva AI",
+     "thumb": "https://i.ytimg.com/vi/axBF6zXzsNA/hqdefault.jpg",
+     "why": "17.9 万订阅；简介 Higgsfield 返佣链接",
+     "sponsored": true
+    },
+    {
+     "title": "🚨 RIP SEEDANCE 2.5?! NEW MiniMax H3 FREE UNLIMITED?! I TESTED IT!",
+     "url": "https://www.youtube.com/watch?v=_2Ka7q7O0Ro",
+     "id": "_2Ka7q7O0Ro",
+     "channel": "Shark Studio AI",
+     "views": 10059,
+     "views_label": "1.0万",
+     "duration_label": "4:59",
+     "upload_date": "11-13",
+     "stats": "1.0万播放 · 4:59 · 11-13 · Shark Studio AI",
+     "thumb": "https://i.ytimg.com/vi/_2Ka7q7O0Ro/hqdefault.jpg",
+     "why": "1,100 订阅；在 RunningHub 上跑 MiniMax H3，评论 194",
+     "sponsored": false
+    },
+    {
+     "title": "🚨 HIGGSFIELD JUST DROPPED SEEDANCE 2.5 FREE UNLIMITED?!",
+     "url": "https://www.youtube.com/watch?v=EOEMJE6P96s",
+     "id": "EOEMJE6P96s",
+     "channel": "Shark Studio AI",
+     "views": 8659,
+     "views_label": "0.9万",
+     "duration_label": "4:21",
+     "upload_date": "11-11",
+     "stats": "0.9万播放 · 4:21 · 11-11 · Shark Studio AI",
+     "thumb": "https://i.ytimg.com/vi/EOEMJE6P96s/hqdefault.jpg",
+     "why": "同一小号两天两条“免费无限”",
+     "sponsored": false
+    },
+    {
+     "title": "Seedance 2.5 Is BACK on Dola AI 🤯 Generate 30-Second Videos FREE & UNLIMITED",
+     "url": "https://www.youtube.com/watch?v=TmF5KyNWtls",
+     "id": "TmF5KyNWtls",
+     "channel": "The Yt Professor",
+     "views": 9357,
+     "views_label": "0.9万",
+     "duration_label": "8:48",
+     "upload_date": "11-11",
+     "stats": "0.9万播放 · 8:48 · 11-11 · The Yt Professor",
+     "thumb": "https://i.ytimg.com/vi/TmF5KyNWtls/hqdefault.jpg",
+     "why": "5,520 订阅；教“技能文件”方法白嫖 30 秒",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "badge": "持续",
+   "title": "90 年代爱情喜剧 AI 迷你剧第二周：YUK Romatic 两条新作 13.6 万 / 9.2 万",
+   "judgment": "上周出现的“90 年代好莱坞爱情喜剧遗失片段”继续出新：YUK Romatic 两天两条，“婆婆也从楼梯扶手滑下来”13.6 万、“婚礼蛋糕砸脸复仇”9.2 万（高赞评论“没想到伴郎把他的脸按进蛋糕”33 赞），两条都带 PlayOryn 水印；1,210 订阅的 Rosefield Studios 21 秒“12 月别在女生旁边单膝跪下”3.5 万，标签直接写 #90s #romcom #aifilm；Anna Movies 的圣诞系列在更第 9 集。对 Topview：不碰 IP、不用真人演员，30 秒一个反转，已经开始和圣诞结合，可提前做“复古圣诞爱情喜剧”演示片。",
+   "evidence": [
+    {
+     "title": "When You Realize You Are Exactly Like His Mom | 90s Rom-Com AI Mini Movie",
+     "url": "https://www.youtube.com/shorts/7MlpbTUe_i8",
+     "id": "7MlpbTUe_i8",
+     "channel": "YUK Romatic",
+     "views": 135699,
+     "views_label": "13.6万",
+     "duration_label": "0:29",
+     "upload_date": "11-16",
+     "stats": "13.6万播放 · 0:29 · 11-16 · YUK Romatic",
+     "thumb": "https://i.ytimg.com/vi/7MlpbTUe_i8/hqdefault.jpg",
+     "why": "1.07 万订阅；PlayOryn 水印",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "The Ultimate Wedding Cake Smash Revenge! | 90s Rom-Com AI Mini Movie",
+     "url": "https://www.youtube.com/shorts/ImXUknursrE",
+     "id": "ImXUknursrE",
+     "channel": "YUK Romatic",
+     "views": 91781,
+     "views_label": "9.2万",
+     "duration_label": "0:25",
+     "upload_date": "11-15",
+     "stats": "9.2万播放 · 0:25 · 11-15 · YUK Romatic",
+     "thumb": "https://i.ytimg.com/vi/ImXUknursrE/hqdefault.jpg",
+     "why": "高赞“没想到伴郎把他的脸按进蛋糕”",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "never kneel near a girl in december 💀",
+     "url": "https://www.youtube.com/shorts/skIu5z_gsl0",
+     "id": "skIu5z_gsl0",
+     "channel": "Rosefield Studios",
+     "views": 35002,
+     "views_label": "3.5万",
+     "duration_label": "0:21",
+     "upload_date": "11-10",
+     "stats": "3.5万播放 · 0:21 · 11-10 · Rosefield Studios",
+     "thumb": "https://i.ytimg.com/vi/skIu5z_gsl0/hqdefault.jpg",
+     "why": "1,210 订阅；#90s #romcom #aifilm",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "His First Love Came Back on Christmas Day… | AI Short Film",
+     "url": "https://www.youtube.com/shorts/BM82_iGXaF4",
+     "id": "BM82_iGXaF4",
+     "channel": "Anna Movies AI",
+     "views": 70092,
+     "views_label": "7.0万",
+     "duration_label": "0:35",
+     "upload_date": "11-10",
+     "stats": "7.0万播放 · 0:35 · 11-10 · Anna Movies AI",
+     "thumb": "https://i.ytimg.com/vi/BM82_iGXaF4/hqdefault.jpg",
+     "why": "“1999 年圣诞爱情片遗失片段”第 9 集（之前卡片收过，持续）",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "badge": "持续",
+   "title": "经典角色 AI 续集/恶搞：《法官朱迪》审达斯·维德 166.6 万，GTA 5“退休篇”9.6 万",
+   "judgment": "“经典角色 + 观众熟悉的格式”还在涨：Big Tomater 的《法官朱迪》一天从 138.7 万涨到 166.6 万、评论 2,300，同频道“绝地议会”续作 2.9 万；ContenutiAi 做了 GTA 5 三主角“13 年后退休”，最后崔佛按下遥控器把洛圣都炸了，9.6 万；95 个订阅的小号做《小鬼当家》“凯文被警察抓走”1.2 万。X 上《办公室》AI 恶搞同时在爆（150 万）。⚠️全部是 IP，只借结构。对 Topview：换成原创角色 + “经典故事的另一个结局”格式，16:9 原生。",
+   "evidence": [
+    {
+     "title": "Judge Judy with Darth Vader and Obi Wan Kenobi",
+     "url": "https://www.youtube.com/watch?v=fEUxkcNy2p0",
+     "id": "fEUxkcNy2p0",
+     "channel": "Big Tomater",
+     "views": 1666052,
+     "views_label": "166.6万",
+     "duration_label": "3:47",
+     "upload_date": "11-12",
+     "stats": "166.6万播放 · 3:47 · 11-12 · Big Tomater",
+     "thumb": "https://i.ytimg.com/vi/fEUxkcNy2p0/hqdefault.jpg",
+     "why": "2.71 万订阅；评论 2,300；简介“本地 5070 Ti 生成”（昨天卡片收过，持续涨）",
+     "sponsored": false
+    },
+    {
+     "title": "The Last Mission: Leaving Los Santos 🌴 | GTA 5 AI Movie PT.1",
+     "url": "https://www.youtube.com/shorts/3uOnsHGR01I",
+     "id": "3uOnsHGR01I",
+     "channel": "ContenutiAi",
+     "views": 95654,
+     "views_label": "9.6万",
+     "duration_label": "0:31",
+     "upload_date": "11-15",
+     "stats": "9.6万播放 · 0:31 · 11-15 · ContenutiAi",
+     "thumb": "https://i.ytimg.com/vi/3uOnsHGR01I/hqdefault.jpg",
+     "why": "2.95 万订阅；预告 Pt.2 去罪恶都市",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "Sandipro With Anakin and the Jedi Council",
+     "url": "https://www.youtube.com/watch?v=Xk-VzZlm8Ug",
+     "id": "Xk-VzZlm8Ug",
+     "channel": "Big Tomater",
+     "views": 28818,
+     "views_label": "2.9万",
+     "duration_label": "1:52",
+     "upload_date": "11-11",
+     "stats": "2.9万播放 · 1:52 · 11-11 · Big Tomater",
+     "thumb": "https://i.ytimg.com/vi/Xk-VzZlm8Ug/hqdefault.jpg",
+     "why": "同频道续作",
+     "sponsored": false
+    },
+    {
+     "title": "Home Alone: Kevin Gets ARRESTED! 🚔😂 | The Ending We Never Saw (AI Parody)",
+     "url": "https://www.youtube.com/watch?v=6Vvfvyby0fE",
+     "id": "6Vvfvyby0fE",
+     "channel": "Reel Mischief Studios",
+     "views": 11774,
+     "views_label": "1.2万",
+     "duration_label": "1:31",
+     "upload_date": "11-15",
+     "stats": "1.2万播放 · 1:31 · 11-15 · Reel Mischief Studios",
+     "thumb": "https://i.ytimg.com/vi/6Vvfvyby0fE/hqdefault.jpg",
+     "why": "95 订阅；“没看过的结局”格式",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "badge": "持续",
+   "title": "黑五第 12 天：Dreamina“$0.29 首月”达人再加 4 条，Framia“无限生成”官方广告 91.2 万",
+   "judgment": "Dreamina 黑五达人投放继续扩：258 万订阅的 CRYPTO PLATINUM“复刻爆款广告”9.2 万、Crypto Mike X“用 Dreamina 做黑五广告战役”4.9 万、Tyler Hayes“CapCut Pro 用户 $0.29 解锁 Dreamina + Seedance”4.6 万、LunaAi“一张耳机照片做完整黑五广告”4.4 万，简介全部是 dreamina.capcut.com 带 utm 的达人链接。Framia 官方“30 天无限生成”广告从 70.8 万涨到 91.2 万，11-30 截止。对 Topview：竞品在打“几毛钱首月”和“无限”，Topview 广告别只讲便宜，要讲“Seedance 2.5 一样的效果，3.8 折的价格”+ 30 天无限 + 不用技巧。",
+   "evidence": [
+    {
+     "title": "I Recreated a Winning Video Ad & Poster Using AI | Dreamina Marketing Studio",
+     "url": "https://www.youtube.com/watch?v=CDta5_Qx4cw",
+     "id": "CDta5_Qx4cw",
+     "channel": "CRYPTO PLATINUM OFFICIAL",
+     "views": 92282,
+     "views_label": "9.2万",
+     "duration_label": "11:37",
+     "upload_date": "11-14",
+     "stats": "9.2万播放 · 11:37 · 11-14 · CRYPTO PLATINUM OFFICIAL",
+     "thumb": "https://i.ytimg.com/vi/CDta5_Qx4cw/hqdefault.jpg",
+     "why": "258 万订阅；$0.29 首月达人链接",
+     "sponsored": true
+    },
+    {
+     "title": "I Created a Black Friday Ad Campaign with Dreamina AI!",
+     "url": "https://www.youtube.com/watch?v=fwZIlG2UU28",
+     "id": "fwZIlG2UU28",
+     "channel": "Crypto Mike X",
+     "views": 48812,
+     "views_label": "4.9万",
+     "duration_label": "9:37",
+     "upload_date": "11-11",
+     "stats": "4.9万播放 · 9:37 · 11-11 · Crypto Mike X",
+     "thumb": "https://i.ytimg.com/vi/fwZIlG2UU28/hqdefault.jpg",
+     "why": "25.7 万订阅；cobrand_reward 链接",
+     "sponsored": true
+    },
+    {
+     "title": "CapCut Pro Users: Unlock Dreamina AI for $0.29! AI Design + Seedance 2.0",
+     "url": "https://www.youtube.com/watch?v=kbpJOCXIvoo",
+     "id": "kbpJOCXIvoo",
+     "channel": "Tyler Hayes",
+     "views": 46481,
+     "views_label": "4.6万",
+     "duration_label": "11:22",
+     "upload_date": "11-14",
+     "stats": "4.6万播放 · 11:22 · 11-14 · Tyler Hayes",
+     "thumb": "https://i.ytimg.com/vi/kbpJOCXIvoo/hqdefault.jpg",
+     "why": "15.3 万订阅；CapCut Pro 联动",
+     "sponsored": true
+    },
+    {
+     "title": "UNLIMITED AI GENERATION - Black Friday Sales | Framia",
+     "url": "https://www.youtube.com/watch?v=5YMNm0pOn08",
+     "id": "5YMNm0pOn08",
+     "channel": "Framia by Converge AI",
+     "views": 911964,
+     "views_label": "91.2万",
+     "duration_label": "1:00",
+     "upload_date": "11-11",
+     "stats": "91.2万播放 · 1:00 · 11-11 · Framia by Converge AI",
+     "thumb": "https://i.ytimg.com/vi/5YMNm0pOn08/hqdefault.jpg",
+     "why": "官方广告；11-16 时 70.8 万",
+     "sponsored": true
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "theme_cards": 4,
+  "evidence_videos": 16
+ }
+}

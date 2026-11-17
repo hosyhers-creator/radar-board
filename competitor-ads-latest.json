@@ -10,15 +10,15 @@
   "items": [
     {
       "badge": "新开投",
-      "competitor": "CapCut",
+      "competitor": "Dreamina（CapCut 系）",
       "platform": "google",
       "regions": [
         "US"
       ],
       "first_shown": "2026-11-12",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-12 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-12。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+      "title": "Dreamina · “New Canvas Runs It All”（Dreamina AI + Codex 联名标志）",
+      "stats": "首投 2026-11-12 · Google US · WHATECH MOBILE 代投",
+      "analysis": "16:9：戴彩色墨镜的金发女主播对着麦克风说话，背景是湖边露营地和两盏复古营灯，右上角并列 Dreamina AI 和 Codex 标志，蓝色大字“NEW CANVAS RUNS IT ALL”。卖点从“画布出电影”扩到“画布做一切”，并借 Codex 背书。Topview 可对照：不跟联名，讲“一个工具从脚本到成片”+ 价格。",
       "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR13651241469422338049?region=US",
       "cover": "media/ads_google_CR13651241469422338049.jpg",
       "is_topview_impersonation": null,
@@ -27,15 +27,15 @@
     },
     {
       "badge": "新开投",
-      "competitor": "CapCut",
+      "competitor": "Dreamina / CapCut（WHATECH 代投）",
       "platform": "google",
       "regions": [
         "US"
       ],
       "first_shown": "2026-11-12",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-12 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-12。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+      "title": "WHATECH 代投 · “STOP BURNING CREDITS”",
+      "stats": "首投 2026-11-12 · Google US · WHATECH MOBILE 代投",
+      "analysis": "16:9：紫黄背景，年轻男生一手扶额、一手捧着一个正在燃烧的星形 App 图标，黄底黑字“STOP BURNING CREDITS”。打的是“积分烧太快”的痛点（图标品牌从封面无法确认，投放主体与 Dreamina 素材相同）。这正是 Topview T1 的主场：“Seedance 2.5 一样的效果，3.8 折的价格”可以直接回应积分焦虑。",
       "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR02721005173794144257?region=US",
       "cover": "media/ads_google_CR02721005173794144257.jpg",
       "is_topview_impersonation": null,
@@ -50,9 +50,9 @@
         "US"
       ],
       "first_shown": "2026-11-05",
-      "title": "Flova · google · US",
-      "stats": "首投 2026-11-05 · FLOVA PTE. LTD.",
-      "analysis": "对 Topview：「FLOVA PTE. LTD.」首投 2026-11-05。多集角色一致叙事，可用 Film Studio 对照抢说法。",
+      "title": "Flova · “Let the world see your story!”",
+      "stats": "首投 2026-11-05 · Google US · FLOVA PTE. LTD.",
+      "analysis": "16:9：Flova.ai 产品界面，底部四个标签“剧本 / 分镜 / 角色 / 视频”，画面是雨天停车场里撑伞的男生和回头笑的女生，字幕“Let the world see your story!”。卖点是“剧本到成片的多集角色一致叙事”，偏短剧创作者。Topview 可对照：用同样的四步流程讲清楚，再加 30 天无限。",
       "link": "https://adstransparency.google.com/advertiser/AR12554248788425834497/creative/CR18127142199865901057?region=US",
       "cover": "media/ads_google_CR18127142199865901057.jpg",
       "is_topview_impersonation": null,
@@ -144,5 +144,6 @@
       "is_new": true,
       "copy": null
     }
-  ]
+  ],
+  "note": "今天 07:41 扫描（Google 337、Meta 173、TikTok 命中 0）；海外区 3 卡（Dreamina ×2 WHATECH 代投、Flova）逐条看封面手写分析；KR 5 条留给韩国日报"
 }
