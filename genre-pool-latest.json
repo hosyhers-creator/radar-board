@@ -1,0 +1,86 @@
+{
+ "date": "2026-11-17",
+ "pool": {
+  "overseas": {
+   "date": "11-17",
+   "total": 141,
+   "counts": {
+    "drama": 13,
+    "other": 23,
+    "celeb": 28,
+    "food": 4,
+    "baby": 2,
+    "reveal": 5,
+    "religion": 5,
+    "politics": 7,
+    "product": 9,
+    "family": 4,
+    "webnovel": 11,
+    "bl": 3,
+    "game": 2,
+    "romance": 5,
+    "holiday": 2,
+    "mv": 2,
+    "cinema": 4,
+    "meme": 5,
+    "build": 3,
+    "animal": 3,
+    "senior": 1
+   },
+   "hist": {
+    "days": 7,
+    "total": 21,
+    "counts": {
+     "animal": 9,
+     "retro": 3,
+     "cinema": 3,
+     "meme": 1,
+     "product": 2,
+     "reveal": 1,
+     "build": 2
+    },
+    "range": "11-11～11-17"
+   }
+  },
+  "korea": {
+   "date": "11-17",
+   "total": 386,
+   "counts": {
+    "family": 134,
+    "senior": 37,
+    "reveal": 31,
+    "cinema": 15,
+    "other": 31,
+    "holiday": 7,
+    "webnovel": 28,
+    "bl": 38,
+    "game": 1,
+    "product": 9,
+    "food": 8,
+    "romance": 14,
+    "drama": 18,
+    "mv": 5,
+    "animal": 1,
+    "meme": 3,
+    "celeb": 3,
+    "baby": 3
+   },
+   "hist": {
+    "days": 7,
+    "total": 36,
+    "counts": {
+     "cinema": 4,
+     "meme": 3,
+     "family": 14,
+     "senior": 4,
+     "romance": 3,
+     "reveal": 2,
+     "game": 4,
+     "baby": 1,
+     "animal": 1
+    },
+    "range": "11-11～11-17"
+   }
+  }
+ }
+}

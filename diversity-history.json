@@ -1,0 +1,401 @@
+[
+ {
+  "date": "11-11",
+  "market": "overseas",
+  "genre": "animal",
+  "pattern": "超现实猫/动物拟人",
+  "title": "@AIslop_ 我的出租车到了（巨猫）"
+ },
+ {
+  "date": "11-11",
+  "market": "overseas",
+  "genre": "retro",
+  "pattern": "复古迷你剧+情侣话题",
+  "title": "90s Romance Club 咖啡 AA"
+ },
+ {
+  "date": "11-11",
+  "market": "overseas",
+  "genre": "animal",
+  "pattern": "野生动物故事",
+  "title": "兔狲上树"
+ },
+ {
+  "date": "11-12",
+  "market": "overseas",
+  "genre": "animal",
+  "pattern": "野生动物故事",
+  "title": "黑熊追小白熊"
+ },
+ {
+  "date": "11-12",
+  "market": "overseas",
+  "genre": "retro",
+  "pattern": "复古迷你剧+情侣话题",
+  "title": "Anna Movies THIN ICE 好莱坞遗失片段"
+ },
+ {
+  "date": "11-13",
+  "market": "overseas",
+  "genre": "animal",
+  "pattern": "超现实猫/动物拟人",
+  "title": "金毛站着走等电梯"
+ },
+ {
+  "date": "11-14",
+  "market": "overseas",
+  "genre": "animal",
+  "pattern": "超现实猫/动物拟人",
+  "title": "@AIslop_ 小猫冲咖啡"
+ },
+ {
+  "date": "11-15",
+  "market": "overseas",
+  "genre": "cinema",
+  "pattern": "大片感",
+  "title": "《纽伦堡》官方预告"
+ },
+ {
+  "date": "11-15",
+  "market": "overseas",
+  "genre": "animal",
+  "pattern": "超现实猫/动物拟人",
+  "title": "@AIslop_ 小猫蹦迪"
+ },
+ {
+  "date": "11-15",
+  "market": "overseas",
+  "genre": "cinema",
+  "pattern": "皮克斯风动物",
+  "title": "皮克斯风射箭大叔 vs 鲸头鹳"
+ },
+ {
+  "date": "11-15",
+  "market": "overseas",
+  "genre": "meme",
+  "pattern": "拟人搞笑",
+  "title": "水果人苹果派"
+ },
+ {
+  "date": "11-15",
+  "market": "overseas",
+  "genre": "product",
+  "pattern": "AI 网红带货",
+  "title": "0.3 美元 AI 网红推 App"
+ },
+ {
+  "date": "11-16",
+  "market": "overseas",
+  "genre": "animal",
+  "pattern": "超现实猫/动物拟人",
+  "title": "黑猩猩隔玻璃咧嘴笑"
+ },
+ {
+  "date": "11-16",
+  "market": "overseas",
+  "genre": "reveal",
+  "pattern": "豪门/金钱对白",
+  "title": "Selling Scenes 100 万离开我儿子"
+ },
+ {
+  "date": "11-16",
+  "market": "overseas",
+  "genre": "build",
+  "pattern": "不可能的地方盖房子",
+  "title": "悬崖石缝小木屋"
+ },
+ {
+  "date": "11-16",
+  "market": "overseas",
+  "genre": "animal",
+  "pattern": "超现实猫/动物拟人",
+  "title": "鹦鹉马路跳舞直播"
+ },
+ {
+  "date": "11-16",
+  "market": "overseas",
+  "genre": "animal",
+  "pattern": "超现实猫/动物拟人",
+  "title": "拟人小橘猫冷库"
+ },
+ {
+  "date": "11-17",
+  "market": "overseas",
+  "genre": "build",
+  "pattern": "不可能的地方盖房子",
+  "title": "CurbFlow 后院地下屋"
+ },
+ {
+  "date": "11-17",
+  "market": "overseas",
+  "genre": "retro",
+  "pattern": "复古迷你剧+情侣话题",
+  "title": "YUK Romatic 婆婆滑扶手"
+ },
+ {
+  "date": "11-17",
+  "market": "overseas",
+  "genre": "product",
+  "pattern": "技术展示/争论",
+  "title": "SyntheticBeef 长镜头"
+ },
+ {
+  "date": "11-17",
+  "market": "overseas",
+  "genre": "cinema",
+  "pattern": "大片感",
+  "title": "海怪灾难大片"
+ },
+ {
+  "date": "11-11",
+  "market": "korea",
+  "genre": "cinema",
+  "pattern": "僵尸校园",
+  "title": "转学第一天几千只丧尸"
+ },
+ {
+  "date": "11-11",
+  "market": "korea",
+  "genre": "meme",
+  "pattern": "夫妻/岳父短喜剧",
+  "title": "准女婿见岳父吹力气大"
+ },
+ {
+  "date": "11-11",
+  "market": "korea",
+  "genre": "family",
+  "pattern": "婆媳/亲家冲突→被打脸",
+  "title": "腌泡菜婆婆欺负儿媳→亲哥哥来了"
+ },
+ {
+  "date": "11-11",
+  "market": "korea",
+  "genre": "family",
+  "pattern": "身份/关系揭晓·被瞧不起的人其实是大人物",
+  "title": "爸妈住猪圈、亲家住大房子"
+ },
+ {
+  "date": "11-11",
+  "market": "korea",
+  "genre": "senior",
+  "pattern": "子女不孝/抢钱抢房→反噬",
+  "title": "针线盒诬陷妈妈偷手镯"
+ },
+ {
+  "date": "11-12",
+  "market": "korea",
+  "genre": "senior",
+  "pattern": "子女不孝/抢钱抢房→反噬",
+  "title": "替儿子顶罪的父亲出狱"
+ },
+ {
+  "date": "11-12",
+  "market": "korea",
+  "genre": "romance",
+  "pattern": "夫妻/岳父短喜剧",
+  "title": "健身搭子金秀珍是光头壮汉"
+ },
+ {
+  "date": "11-12",
+  "market": "korea",
+  "genre": "romance",
+  "pattern": "夫妻/岳父短喜剧",
+  "title": "老婆逼离婚老公当场欢呼"
+ },
+ {
+  "date": "11-12",
+  "market": "korea",
+  "genre": "reveal",
+  "pattern": "身份/关系揭晓·被瞧不起的人其实是大人物",
+  "title": "阔太太买光面包原来送孤儿院"
+ },
+ {
+  "date": "11-12",
+  "market": "korea",
+  "genre": "family",
+  "pattern": "婆媳/亲家冲突→被打脸",
+  "title": "小姑子打包嫂子的排骨"
+ },
+ {
+  "date": "11-13",
+  "market": "korea",
+  "genre": "family",
+  "pattern": "子女不孝/抢钱抢房→反噬",
+  "title": "婆婆在葬礼上要钱还贷款"
+ },
+ {
+  "date": "11-13",
+  "market": "korea",
+  "genre": "family",
+  "pattern": "婆媳/亲家冲突→被打脸",
+  "title": "婆婆寿宴掀桌+录音"
+ },
+ {
+  "date": "11-13",
+  "market": "korea",
+  "genre": "family",
+  "pattern": "婆媳/亲家冲突→被打脸",
+  "title": "儿子带小三回家→婆婆行李箱"
+ },
+ {
+  "date": "11-13",
+  "market": "korea",
+  "genre": "game",
+  "pattern": "游戏/主播真人化",
+  "title": "游戏主播「姐，给我便宜点」"
+ },
+ {
+  "date": "11-14",
+  "market": "korea",
+  "genre": "family",
+  "pattern": "婆媳/亲家冲突→被打脸",
+  "title": "新婆婆掀供桌，小姑戴亡母戒指"
+ },
+ {
+  "date": "11-14",
+  "market": "korea",
+  "genre": "cinema",
+  "pattern": "僵尸校园",
+  "title": "校服女生实验室躲僵尸潮"
+ },
+ {
+  "date": "11-14",
+  "market": "korea",
+  "genre": "romance",
+  "pattern": "夫妻/岳父短喜剧",
+  "title": "丈夫谎称加班去 KTV，陪唱是老婆"
+ },
+ {
+  "date": "11-14",
+  "market": "korea",
+  "genre": "senior",
+  "pattern": "子女不孝/抢钱抢房→反噬",
+  "title": "74 岁妈妈读房屋抵押文件"
+ },
+ {
+  "date": "11-14",
+  "market": "korea",
+  "genre": "senior",
+  "pattern": "子女不孝/抢钱抢房→反噬",
+  "title": "奶奶被送养老院，孙子对爸妈说「你们老了我也这么做」"
+ },
+ {
+  "date": "11-14",
+  "market": "korea",
+  "genre": "baby",
+  "pattern": "AI 萌娃",
+  "title": "宝宝闻小雏菊"
+ },
+ {
+  "date": "11-14",
+  "market": "korea",
+  "genre": "game",
+  "pattern": "游戏/主播真人化",
+  "title": "GTA 角色扮演警局名场面"
+ },
+ {
+  "date": "11-15",
+  "market": "korea",
+  "genre": "family",
+  "pattern": "身份/关系揭晓·被瞧不起的人其实是大人物",
+  "title": "상견례 公公要准儿媳来店干活，当场退婚"
+ },
+ {
+  "date": "11-15",
+  "market": "korea",
+  "genre": "family",
+  "pattern": "身份/关系揭晓·被瞧不起的人其实是大人物",
+  "title": "상견례 准婆婆嫌亲家，饭店老板是会长"
+ },
+ {
+  "date": "11-15",
+  "market": "korea",
+  "genre": "family",
+  "pattern": "婆媳/亲家冲突→被打脸",
+  "title": "产后婆婆倒掉亲家母的海带汤"
+ },
+ {
+  "date": "11-15",
+  "market": "korea",
+  "genre": "cinema",
+  "pattern": "僵尸校园",
+  "title": "操场尸潮，姐姐救妹妹"
+ },
+ {
+  "date": "11-15",
+  "market": "korea",
+  "genre": "meme",
+  "pattern": "AI 街访",
+  "title": "两个 AI 男生街访：你在听什么歌"
+ },
+ {
+  "date": "11-15",
+  "market": "korea",
+  "genre": "game",
+  "pattern": "游戏/主播真人化",
+  "title": "主播杯赛开幕片 Q 版角色"
+ },
+ {
+  "date": "11-16",
+  "market": "korea",
+  "genre": "family",
+  "pattern": "婆媳/亲家冲突→被打脸",
+  "title": "婆婆术后住院，大儿媳扔毯子"
+ },
+ {
+  "date": "11-16",
+  "market": "korea",
+  "genre": "family",
+  "pattern": "身份/关系揭晓·被瞧不起的人其实是大人物",
+  "title": "婆婆嫌卖鱼亲家母，亲儿子：你也卖过菜"
+ },
+ {
+  "date": "11-16",
+  "market": "korea",
+  "genre": "family",
+  "pattern": "子女不孝/抢钱抢房→反噬",
+  "title": "子女给妈妈列日程表：每月30万韩元带孙"
+ },
+ {
+  "date": "11-16",
+  "market": "korea",
+  "genre": "meme",
+  "pattern": "鬼屋反杀",
+  "title": "女友揪着女鬼扇巴掌"
+ },
+ {
+  "date": "11-16",
+  "market": "korea",
+  "genre": "game",
+  "pattern": "游戏/主播真人化",
+  "title": "NIKKE 第 50 章终战 3D 动作"
+ },
+ {
+  "date": "11-17",
+  "market": "korea",
+  "genre": "reveal",
+  "pattern": "身份/关系揭晓·被瞧不起的人其实是大人物",
+  "title": "商务舱嫌老奶奶的女老板"
+ },
+ {
+  "date": "11-17",
+  "market": "korea",
+  "genre": "animal",
+  "pattern": "动物反转",
+  "title": "八哥学爸爸说话"
+ },
+ {
+  "date": "11-17",
+  "market": "korea",
+  "genre": "family",
+  "pattern": "子女不孝/抢钱抢房→反噬",
+  "title": "腌泡菜日女儿逼爸爸卖地"
+ },
+ {
+  "date": "11-17",
+  "market": "korea",
+  "genre": "cinema",
+  "pattern": "奇幻古装",
+  "title": "《篡龙》第12集"
+ }
+]
