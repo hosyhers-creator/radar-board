@@ -1,148 +1,149 @@
 {
-  "updated": "2026-11-18",
-  "timezone": "Asia/Shanghai",
-  "baseline": false,
-  "platform_status": {
-    "Google": "部分可行（Playwright 调公开 SearchCreatives RPC，format=VIDEO）；今日取到 350 条视频创意",
-    "Meta": "部分可行（无 API token；Playwright 公开页）；今日取到 167 条。官方 API 待 token。",
-    "TikTok": "部分可行（Playwright 拦截 Top Ads 列表；未登录无品牌关键词搜）；列表素材 {'US': 20, 'KR': 4}，命中竞品 0 条"
+ "updated": "2026-11-18",
+ "timezone": "Asia/Shanghai",
+ "baseline": false,
+ "platform_status": {
+  "Google": "部分可行（Playwright 调公开 SearchCreatives RPC，format=VIDEO）；今日取到 350 条视频创意",
+  "Meta": "部分可行（无 API token；Playwright 公开页）；今日取到 167 条。官方 API 待 token。",
+  "TikTok": "部分可行（Playwright 拦截 Top Ads 列表；未登录无品牌关键词搜）；列表素材 {'US': 20, 'KR': 4}，命中竞品 0 条"
+ },
+ "items": [
+  {
+   "badge": "新开投",
+   "competitor": "CapCut",
+   "platform": "google",
+   "regions": [
+    "KR"
+   ],
+   "first_shown": "2026-11-16",
+   "title": "CapCut · google · KR",
+   "stats": "首投 2026-11-16 · Tiktok Pte. Ltd.",
+   "analysis": "对 Topview：「Tiktok Pte. Ltd.」首投 2026-11-16。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+   "link": "https://adstransparency.google.com/advertiser/AR09122903337233022977/creative/CR17664098270990827521?region=KR",
+   "cover": "media/ads_google_CR17664098270990827521.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
   },
-  "items": [
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "KR"
-      ],
-      "first_shown": "2026-11-16",
-      "title": "CapCut · google · KR",
-      "stats": "首投 2026-11-16 · Tiktok Pte. Ltd.",
-      "analysis": "对 Topview：「Tiktok Pte. Ltd.」首投 2026-11-16。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR09122903337233022977/creative/CR17664098270990827521?region=KR",
-      "cover": "media/ads_google_CR17664098270990827521.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "KR"
-      ],
-      "first_shown": "2026-11-16",
-      "title": "CapCut · google · KR",
-      "stats": "首投 2026-11-16 · Tiktok Pte. Ltd.",
-      "analysis": "对 Topview：「Tiktok Pte. Ltd.」首投 2026-11-16。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR09122903337233022977/creative/CR10249484434478727169?region=KR",
-      "cover": "media/ads_google_CR10249484434478727169.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "US"
-      ],
-      "first_shown": "2026-11-12",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-12 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-12。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR07967298517448261633?region=US",
-      "cover": "media/ads_google_CR07967298517448261633.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "US"
-      ],
-      "first_shown": "2026-11-12",
-      "title": "CapCut · google · US",
-      "stats": "首投 2026-11-12 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-12。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR01747405219584540673?region=US",
-      "cover": "media/ads_google_CR01747405219584540673.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "KR"
-      ],
-      "first_shown": "2026-11-16",
-      "title": "CapCut · google · KR",
-      "stats": "首投 2026-11-16 · Tiktok Pte. Ltd.",
-      "analysis": "对 Topview：「Tiktok Pte. Ltd.」首投 2026-11-16。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR09122903337233022977/creative/CR05899007194438828033?region=KR",
-      "cover": "media/ads_google_CR05899007194438828033.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "KR"
-      ],
-      "first_shown": "2026-11-16",
-      "title": "CapCut · google · KR",
-      "stats": "首投 2026-11-16 · Tiktok Pte. Ltd.",
-      "analysis": "对 Topview：「Tiktok Pte. Ltd.」首投 2026-11-16。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR09122903337233022977/creative/CR05309317118230003713?region=KR",
-      "cover": "media/ads_google_CR05309317118230003713.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "KR"
-      ],
-      "first_shown": "2026-11-16",
-      "title": "CapCut · google · KR",
-      "stats": "首投 2026-11-16 · Tiktok Pte. Ltd.",
-      "analysis": "对 Topview：「Tiktok Pte. Ltd.」首投 2026-11-16。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR09122903337233022977/creative/CR02495411776053575681?region=KR",
-      "cover": "media/ads_google_CR02495411776053575681.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    },
-    {
-      "badge": "新开投",
-      "competitor": "CapCut",
-      "platform": "google",
-      "regions": [
-        "KR"
-      ],
-      "first_shown": "2026-11-11",
-      "title": "CapCut · google · KR",
-      "stats": "首投 2026-11-11 · WHATECH MOBILE CO., LIMITED",
-      "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-11。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
-      "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR15697096158155374593?region=KR",
-      "cover": "media/ads_google_CR15697096158155374593.jpg",
-      "is_topview_impersonation": null,
-      "is_new": true,
-      "copy": null
-    }
-  ]
+  {
+   "badge": "新开投",
+   "competitor": "CapCut",
+   "platform": "google",
+   "regions": [
+    "KR"
+   ],
+   "first_shown": "2026-11-16",
+   "title": "CapCut · google · KR",
+   "stats": "首投 2026-11-16 · Tiktok Pte. Ltd.",
+   "analysis": "对 Topview：「Tiktok Pte. Ltd.」首投 2026-11-16。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+   "link": "https://adstransparency.google.com/advertiser/AR09122903337233022977/creative/CR10249484434478727169?region=KR",
+   "cover": "media/ads_google_CR10249484434478727169.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  },
+  {
+   "badge": "新开投",
+   "competitor": "Dreamina / CapCut（WHATECH 代投）",
+   "platform": "google",
+   "regions": [
+    "US"
+   ],
+   "first_shown": "2026-11-12",
+   "title": "Dreamina · “THE END OF PROMPTING? 画布优先 + Seedance $0.29”",
+   "stats": "首投 2026-11-12 · Google US · WHATECH MOBILE 代投",
+   "analysis": "16:9：穿深色毛衣的男主播坐在电脑前指向左侧，黄蓝大字“THE END OF PROMPTING? AI VIDEO IS NOW CANVAS-FIRST”，红底“TRY SEEDANCE FOR $0.29”，右侧是“导出到 Premiere Pro”和“Seedance 2.5（最强 AI 模型）”图标，左下 Dreamina 2.0 标志。和今天 YouTube 达人的“画布优先”标题是同一句话。Topview 可对照：不跟“不用写提示词”的说法，直接比价格——“Seedance 2.5 一样的效果，3.8折的价格”+ 30 天无限。",
+   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR07967298517448261633?region=US",
+   "cover": "media/ads_google_CR07967298517448261633.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  },
+  {
+   "badge": "新开投",
+   "competitor": "Dreamina / CapCut（WHATECH 代投）",
+   "platform": "google",
+   "regions": [
+    "US"
+   ],
+   "first_shown": "2026-11-12",
+   "title": "Dreamina · “I FOUND 4K TRICK”",
+   "stats": "首投 2026-11-12 · Google US · WHATECH MOBILE 代投",
+   "analysis": "16:9：皮克斯风卡通男孩戴灰色毛线帽、绿色卫衣，比“嘘”的手势，手里举着一个发光的蓝色星形 App 图标（和 Dreamina 图标相似），绿底黑字“I FOUND 4K TRICK”。打的是“4K 小窍门”，对应 Seedance 2.5 本周开放 4K。Topview 可对照：用真人或卡通角色演示同一个镜头，讲清楚 T1 的价格，不讲窍门。",
+   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR01747405219584540673?region=US",
+   "cover": "media/ads_google_CR01747405219584540673.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  },
+  {
+   "badge": "新开投",
+   "competitor": "CapCut",
+   "platform": "google",
+   "regions": [
+    "KR"
+   ],
+   "first_shown": "2026-11-16",
+   "title": "CapCut · google · KR",
+   "stats": "首投 2026-11-16 · Tiktok Pte. Ltd.",
+   "analysis": "对 Topview：「Tiktok Pte. Ltd.」首投 2026-11-16。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+   "link": "https://adstransparency.google.com/advertiser/AR09122903337233022977/creative/CR05899007194438828033?region=KR",
+   "cover": "media/ads_google_CR05899007194438828033.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  },
+  {
+   "badge": "新开投",
+   "competitor": "CapCut",
+   "platform": "google",
+   "regions": [
+    "KR"
+   ],
+   "first_shown": "2026-11-16",
+   "title": "CapCut · google · KR",
+   "stats": "首投 2026-11-16 · Tiktok Pte. Ltd.",
+   "analysis": "对 Topview：「Tiktok Pte. Ltd.」首投 2026-11-16。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+   "link": "https://adstransparency.google.com/advertiser/AR09122903337233022977/creative/CR05309317118230003713?region=KR",
+   "cover": "media/ads_google_CR05309317118230003713.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  },
+  {
+   "badge": "新开投",
+   "competitor": "CapCut",
+   "platform": "google",
+   "regions": [
+    "KR"
+   ],
+   "first_shown": "2026-11-16",
+   "title": "CapCut · google · KR",
+   "stats": "首投 2026-11-16 · Tiktok Pte. Ltd.",
+   "analysis": "对 Topview：「Tiktok Pte. Ltd.」首投 2026-11-16。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+   "link": "https://adstransparency.google.com/advertiser/AR09122903337233022977/creative/CR02495411776053575681?region=KR",
+   "cover": "media/ads_google_CR02495411776053575681.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  },
+  {
+   "badge": "新开投",
+   "competitor": "CapCut",
+   "platform": "google",
+   "regions": [
+    "KR"
+   ],
+   "first_shown": "2026-11-11",
+   "title": "CapCut · google · KR",
+   "stats": "首投 2026-11-11 · WHATECH MOBILE CO., LIMITED",
+   "analysis": "对 Topview：「WHATECH MOBILE CO., LIMITED」首投 2026-11-11。创作者侧渗透强，黑五等节点会放量，提前备同场景素材。",
+   "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR15697096158155374593?region=KR",
+   "cover": "media/ads_google_CR15697096158155374593.jpg",
+   "is_topview_impersonation": null,
+   "is_new": true,
+   "copy": null
+  }
+ ],
+ "note": "今天 07:37 扫描（Google 350、Meta 167、TikTok 命中 0）；海外区 2 卡（Dreamina/CapCut，WHATECH 代投）逐条看封面手写分析；KR 6 条留给韩国日报"
 }

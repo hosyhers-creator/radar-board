@@ -397,5 +397,37 @@
   "genre": "cinema",
   "pattern": "奇幻古装",
   "title": "《篡龙》第12集"
+ },
+ {
+  "date": "11-18",
+  "market": "overseas",
+  "genre": "build",
+  "pattern": "破损结构修复 before/after",
+  "title": "停车场里炸裂的混凝土柱子被一步步修好：588 万播放，评论区在吵“真的还是 AI”",
+  "manual": true
+ },
+ {
+  "date": "11-18",
+  "market": "overseas",
+  "genre": "retro",
+  "pattern": "复古迷你剧+情侣话题",
+  "title": "90 年代圣诞试装秀：男友嫌她穿得太露，他妈妈一句“去参加葬礼吗？”反转",
+  "manual": true
+ },
+ {
+  "date": "11-18",
+  "market": "overseas",
+  "genre": "meme",
+  "pattern": "真人录像+动画角色合成",
+  "title": "老式家庭录像里多了一个二次元女孩：“大多数男人想要这个吗？”",
+  "manual": true
+ },
+ {
+  "date": "11-18",
+  "market": "overseas",
+  "genre": "cinema",
+  "pattern": "不可能的力量/真假难辨",
+  "title": "“地球上最强壮的男人”：大力士把 980 公斤铁块举过头顶",
+  "manual": true
  }
 ]

@@ -1,0 +1,276 @@
+{
+ "updated": "2026-11-18",
+ "market": "overseas",
+ "timezone": "Asia/Shanghai",
+ "collected_at": "2026-11-18 08:05–08:30（北京时间）",
+ "window": "本周上传＋按播放，自跑 30 词 + YouTube 采集 bot",
+ "source": "overseas-daily-1118",
+ "themes": [
+  {
+   "id": "t1",
+   "badge": "新出路",
+   "title": "Seedance 2.5 原生 4K 上线：Higgsfield 黑五达人统一用“4K”活动链接，Dreamina 讲“480p 预览再升 4K 省成本”",
+   "judgment": "11-13 前后 Seedance 2.5 4K 在 Dreamina 和 Higgsfield 上线。本周 Higgsfield 的达人视频简介用同一种活动链接（higgsfield-seedance-2-5-4k-yt-达人名，配“黑五最高 60% off”），今天看到 3 条，按付费创作者活动处理；AI Samson 标题是“Claude 现在能做视频了（可以替代 Seedance）”，简介写明由 Higgsfield 赞助。Dreamina 官方的卖点是“先用 480p 草稿预览，选中再升 4K，省成本”。对 Topview：竞品已经把 4K 和“省积分”绑在一起讲，Topview 不用比参数，直接讲 T1“Seedance 2.5 一样的效果，3.8折的价格”+ 30 天无限。",
+   "evidence": [
+    {
+     "title": "How to Make 4K AI Videos That Look Like Real Footage (Full Workflow)",
+     "url": "https://www.youtube.com/watch?v=trM8Pe1-WlY",
+     "id": "trM8Pe1-WlY",
+     "channel": "MATLAB TECH",
+     "views": 37257,
+     "views_label": "3.7万",
+     "duration_label": "11:33",
+     "upload_date": "11-15",
+     "stats": "3.7万播放 · 11:33 · 11-15 · MATLAB TECH",
+     "thumb": "https://i.ytimg.com/vi/trM8Pe1-WlY/hqdefault.jpg",
+     "why": "20.9 万订阅；Higgsfield 4K 活动链接",
+     "sponsored": true
+    },
+    {
+     "title": "Claude Makes Insane Videos Now (It Can Replace Seedance)",
+     "url": "https://www.youtube.com/watch?v=tPiEPzy2JKU",
+     "id": "tPiEPzy2JKU",
+     "channel": "AI Samson",
+     "views": 77859,
+     "views_label": "7.8万",
+     "duration_label": "23:10",
+     "upload_date": "11-17",
+     "stats": "7.8万播放 · 23:10 · 11-17 · AI Samson",
+     "thumb": "https://i.ytimg.com/vi/tPiEPzy2JKU/hqdefault.jpg",
+     "why": "28 万订阅；简介写明 Higgsfield 赞助",
+     "sponsored": true
+    },
+    {
+     "title": "It’s here! Seedance 2.5 in 4K! How to create insane videos without wasting credits",
+     "url": "https://www.youtube.com/watch?v=Udh5yAxMeXQ",
+     "id": "Udh5yAxMeXQ",
+     "channel": "SaiRecords",
+     "views": 28663,
+     "views_label": "2.9万",
+     "duration_label": "14:12",
+     "upload_date": "11-13",
+     "stats": "2.9万播放 · 14:12 · 11-13 · SaiRecords",
+     "thumb": "https://i.ytimg.com/vi/Udh5yAxMeXQ/hqdefault.jpg",
+     "why": "1.94 万订阅；希伯来语；同一活动链接",
+     "sponsored": true
+    },
+    {
+     "title": "Dreamina Seedance 2.5 Now Available in 4K!",
+     "url": "https://www.youtube.com/watch?v=VNf2KU-wOkg",
+     "id": "VNf2KU-wOkg",
+     "channel": "Dreamina",
+     "views": 137688,
+     "views_label": "13.8万",
+     "duration_label": "0:29",
+     "upload_date": "11-13",
+     "stats": "13.8万播放 · 0:29 · 11-13 · Dreamina",
+     "thumb": "https://i.ytimg.com/vi/VNf2KU-wOkg/hqdefault.jpg",
+     "why": "官方；480p 草稿预览再升 4K（11-16 卡片收过，持续）",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "badge": "上升速",
+   "title": "“大模型写分镜 + Seedance 出片”成了 AI 广告教程标配：Higgsfield 官方两条各 13–14 万",
+   "judgment": "本周播放最高的 AI 广告教程都在讲同一个流程：先让 Claude（Fable 5.2）写角色、分镜和提示词，再交给 Seedance 2.5 出片，Higgsfield 还把这套做成“技能包 + MCP 插件”打包卖。官方“3 步拍出广告级真实感”13.1 万、“超写实角色新流程”14.1 万；Rourke 讲“Claude + MCP 做一整条广告”2.7 万；Dan Kieft 的同类教程 14.9 万。对 Topview：用户已经接受“让 AI 先想、再生成”，广告可以演示“一句需求 → 自动分镜 → 成片”，不用再从写提示词讲起。",
+   "evidence": [
+    {
+     "title": "How I Get Perfect AI Realism in Every Shot (3 Steps)",
+     "url": "https://www.youtube.com/watch?v=1BzzdY-nK9A",
+     "id": "1BzzdY-nK9A",
+     "channel": "Higgsfield AI",
+     "views": 131059,
+     "views_label": "13.1万",
+     "duration_label": "22:46",
+     "upload_date": "11-13",
+     "stats": "13.1万播放 · 22:46 · 11-13 · Higgsfield AI",
+     "thumb": "https://i.ytimg.com/vi/1BzzdY-nK9A/hqdefault.jpg",
+     "why": "官方；技能包 + 提示词售卖链接",
+     "sponsored": true
+    },
+    {
+     "title": "The Newest Workflow For Ultra Realistic AI Characters (Seedance 2.5 in 4K + Claude Fable 5.2)",
+     "url": "https://www.youtube.com/watch?v=FRukXPBqlNo",
+     "id": "FRukXPBqlNo",
+     "channel": "Higgsfield AI",
+     "views": 140539,
+     "views_label": "14.1万",
+     "duration_label": "14:49",
+     "upload_date": "11-14",
+     "stats": "14.1万播放 · 14:49 · 11-14 · Higgsfield AI",
+     "thumb": "https://i.ytimg.com/vi/FRukXPBqlNo/hqdefault.jpg",
+     "why": "官方；Claude 技能 + MCP",
+     "sponsored": true
+    },
+    {
+     "title": "Seedance 2.5 Tutorial: Full AI Commercial Workflow (Claude + MCP)",
+     "url": "https://www.youtube.com/watch?v=bt1fHL6HJvs",
+     "id": "bt1fHL6HJvs",
+     "channel": "Rourke",
+     "views": 27468,
+     "views_label": "2.7万",
+     "duration_label": "15:39",
+     "upload_date": "11-14",
+     "stats": "2.7万播放 · 15:39 · 11-14 · Rourke",
+     "thumb": "https://i.ytimg.com/vi/bt1fHL6HJvs/hqdefault.jpg",
+     "why": "9.84 万订阅；Higgsfield 黑五链接",
+     "sponsored": true
+    },
+    {
+     "title": "How I Make Cinematic AI Ads with Fable 5.2 & Seedance 2.5",
+     "url": "https://www.youtube.com/watch?v=jeMl0OSwDss",
+     "id": "jeMl0OSwDss",
+     "channel": "Dan Kieft",
+     "views": 149048,
+     "views_label": "14.9万",
+     "duration_label": "24:06",
+     "upload_date": "11-12",
+     "stats": "14.9万播放 · 24:06 · 11-12 · Dan Kieft",
+     "thumb": "https://i.ytimg.com/vi/jeMl0OSwDss/hqdefault.jpg",
+     "why": "32.7 万订阅；返佣链接（11-14 卡片收过，持续）",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "badge": "持续",
+   "title": "90 年代圣诞爱情喜剧 AI 短片第三周：Nostalgic 171 万，Anna Movies 30 万，教程号开始卖提示词",
+   "judgment": "“1998 年好莱坞圣诞爱情喜剧遗失片段”继续出新：新频道 Nostalgic Series by Anastasia 的 25 秒试装秀 171.2 万；Anna Movies“她问晚餐多少钱”30.4 万；Alexis Morielle“咖啡洒在陌生人身上”5.0 万。同时出现“我用 AI 做爆款 90 年代爱情喜剧（手把手）”这种卖提示词包的教程，说明形式已经成熟。对 Topview：圣诞前可以直接用这个画风做演示，但要换结构（比如试装、一句台词反转），别再做“邂逅 → 反转”的老路。",
+   "evidence": [
+    {
+     "title": "YOU'RE STAYING HOME! 👠 90's Comedy",
+     "url": "https://www.youtube.com/shorts/7vytp9Pnt2g",
+     "id": "7vytp9Pnt2g",
+     "channel": "Nostalgic Series by Anastasia",
+     "views": 1711710,
+     "views_label": "171.2万",
+     "duration_label": "0:25",
+     "upload_date": "11-16",
+     "stats": "171.2万播放 · 0:25 · 11-16 · Nostalgic Series by Anastasia",
+     "thumb": "https://i.ytimg.com/vi/7vytp9Pnt2g/hqdefault.jpg",
+     "why": "5,780 订阅；置顶评论卖教程",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "She Asked How Much Dinner Cost… | AI Short Film",
+     "url": "https://www.youtube.com/shorts/TzrBBWO-8aA",
+     "id": "TzrBBWO-8aA",
+     "channel": "Anna Movies AI",
+     "views": 303930,
+     "views_label": "30.4万",
+     "duration_label": "0:30",
+     "upload_date": "11-16",
+     "stats": "30.4万播放 · 0:30 · 11-16 · Anna Movies AI",
+     "thumb": "https://i.ytimg.com/vi/TzrBBWO-8aA/hqdefault.jpg",
+     "why": "高赞“结婚 43 年，我每次还是会谢谢丈夫”278 赞",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "She Spilled Coffee All Over a Stranger | AI Short Film",
+     "url": "https://www.youtube.com/shorts/ZKVOzX2BUik",
+     "id": "ZKVOzX2BUik",
+     "channel": "Alexis Morielle",
+     "views": 50374,
+     "views_label": "5.0万",
+     "duration_label": "0:30",
+     "upload_date": "11-16",
+     "stats": "5.0万播放 · 0:30 · 11-16 · Alexis Morielle",
+     "thumb": "https://i.ytimg.com/vi/ZKVOzX2BUik/hqdefault.jpg",
+     "why": "1,290 订阅；圣诞咖啡店邂逅",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "title": "I Made Viral 90s Rom-Com Videos with AI (Step-by-Step)",
+     "url": "https://www.youtube.com/watch?v=KQdRjegMJSE",
+     "id": "KQdRjegMJSE",
+     "channel": "The AI Creator Lab",
+     "views": 264,
+     "views_label": "264",
+     "duration_label": "3:05",
+     "upload_date": "11-16",
+     "stats": "264播放 · 3:05 · 11-16 · The AI Creator Lab",
+     "thumb": "https://i.ytimg.com/vi/KQdRjegMJSE/hqdefault.jpg",
+     "why": "教程号；简介卖“50+ 爆款提示词”包",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "badge": "持续",
+   "title": "Dreamina 2.0“画布优先”口号统一下发：达人标题和 Google 广告用同一句话",
+   "judgment": "11-16 同一天，多个 39–244 万订阅的达人发了几乎同名的视频：“Dreamina 2.0 是画布优先，AI 视频的新做法”，简介是 dreamina.capcut.com 的 cobrand_reward 活动链接；今天 Google 美国区新开投的 Dreamina 广告封面也写着“THE END OF PROMPTING? AI VIDEO IS NOW CANVAS-FIRST”。对 Topview：竞品在把“画布/不用写提示词”做成品类说法，Topview 广告可以用“一个工具从脚本到成片”接住，同时把价格（T1 3.8折、30 天无限）放在第一屏。",
+   "evidence": [
+    {
+     "title": "Dreamina 2.0 Is Canvas-First – The New Way AI Video Is Made!",
+     "url": "https://www.youtube.com/watch?v=FIAi6OogJG4",
+     "id": "FIAi6OogJG4",
+     "channel": "Crypto Jazzi",
+     "views": 65253,
+     "views_label": "6.5万",
+     "duration_label": "4:49",
+     "upload_date": "11-16",
+     "stats": "6.5万播放 · 4:49 · 11-16 · Crypto Jazzi",
+     "thumb": "https://i.ytimg.com/vi/FIAi6OogJG4/hqdefault.jpg",
+     "why": "63 万订阅；简介前 200 字没看到链接",
+     "sponsored": false
+    },
+    {
+     "title": "Canvas-First AI Video Creation Is Here! Dreamina 2.0 Explained",
+     "url": "https://www.youtube.com/watch?v=civMCMVr4-U",
+     "id": "civMCMVr4-U",
+     "channel": "Atlas Crypto",
+     "views": 52170,
+     "views_label": "5.2万",
+     "duration_label": "4:46",
+     "upload_date": "11-16",
+     "stats": "5.2万播放 · 4:46 · 11-16 · Atlas Crypto",
+     "thumb": "https://i.ytimg.com/vi/civMCMVr4-U/hqdefault.jpg",
+     "why": "38.9 万订阅；cobrand_reward 链接",
+     "sponsored": true
+    },
+    {
+     "title": "Dreaminaの新AI動画制作がすごい！Canvasで映像制作が激変【CapCut Pro限定特典】",
+     "url": "https://www.youtube.com/watch?v=wtuA6Eywu-o",
+     "id": "wtuA6Eywu-o",
+     "channel": "Kabu & Koin 株とコイン",
+     "views": 50702,
+     "views_label": "5.1万",
+     "duration_label": "4:15",
+     "upload_date": "11-16",
+     "stats": "5.1万播放 · 4:15 · 11-16 · Kabu & Koin 株とコイン",
+     "thumb": "https://i.ytimg.com/vi/wtuA6Eywu-o/hqdefault.jpg",
+     "why": "244 万订阅；日语；同一活动链接",
+     "sponsored": true
+    },
+    {
+     "title": "Dreamina AI + Seedance 2.5: Create Cinematic AI Videos in 4K!",
+     "url": "https://www.youtube.com/watch?v=fHE6GMz1qJY",
+     "id": "fHE6GMz1qJY",
+     "channel": "AI Explained Daily",
+     "views": 29162,
+     "views_label": "2.9万",
+     "duration_label": "5:58",
+     "upload_date": "11-17",
+     "stats": "2.9万播放 · 5:58 · 11-17 · AI Explained Daily",
+     "thumb": "https://i.ytimg.com/vi/fHE6GMz1qJY/hqdefault.jpg",
+     "why": "43.4 万订阅；Dreamina 2.0 画布链接",
+     "sponsored": true
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "theme_cards": 4,
+  "evidence_videos": 16
+ }
+}
