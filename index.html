@@ -23,8 +23,8 @@
     --amber-soft: #fffbeb;
     --shadow: 0 1px 2px rgba(15,23,42,0.04), 0 4px 12px rgba(15,23,42,0.05);
     --radius: 14px;
-    --gap: 28px;
-    --max: 1080px;
+    --gap: 20px;
+    --max: 1120px;
     --font: "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
       system-ui, -apple-system, sans-serif;
   }
@@ -167,206 +167,6 @@
     font-weight: 600;
   }
 
-  /* ——— Grid ——— */
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: var(--gap);
-    margin-top: 28px;
-  }
-
-  @media (min-width: 760px) {
-    .grid { grid-template-columns: 1fr 1fr; }
-  }
-
-  /* ——— Card ——— */
-  .card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: calc(var(--radius) + 2px);
-    box-shadow: var(--shadow);
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    transition: border-color 0.18s, transform 0.18s, box-shadow 0.18s;
-  }
-
-  .card:hover {
-    border-color: var(--border-strong);
-    box-shadow: 0 2px 4px rgba(15,23,42,0.05), 0 8px 20px rgba(15,23,42,0.07);
-    transform: translateY(-1px);
-  }
-
-  .cover {
-    position: relative;
-    aspect-ratio: 16 / 9;
-    width: 100%;
-    max-height: 180px;
-    background: #111827;
-    overflow: hidden;
-  }
-
-  .cover.is-portrait {
-    aspect-ratio: 9 / 16;
-    width: 112px;
-    max-height: 200px;
-    margin: 12px auto 0;
-    border-radius: 10px;
-  }
-
-  .cover.is-square {
-    aspect-ratio: 1 / 1;
-    width: 180px;
-    max-height: 180px;
-    margin: 12px auto 0;
-    border-radius: 10px;
-  }
-
-  .cover.no-img {
-    display: none;
-  }
-
-  .cover img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-
-  .cover-placeholder {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background:
-      linear-gradient(145deg, #eef0f4 0%, #e5e7eb 100%);
-    color: var(--text-dim);
-    font-size: 3.5rem;
-    font-weight: 700;
-    letter-spacing: -0.04em;
-    user-select: none;
-  }
-
-  .cover-placeholder span {
-    opacity: 0.45;
-  }
-
-  .cover-badges {
-    position: absolute;
-    top: 12px;
-    left: 12px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    z-index: 2;
-  }
-
-  .badge {
-    display: inline-flex;
-    align-items: center;
-    font-size: 0.6875rem;
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    padding: 4px 9px;
-    border-radius: 999px;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    border: 1px solid transparent;
-  }
-
-  .badge-NEW, .badge-主榜 {
-    background: var(--accent-soft);
-    color: #1d4ed8;
-    border-color: #bfdbfe;
-  }
-
-  .badge-Rising {
-    background: var(--green-soft);
-    color: #15803d;
-    border-color: #bbf7d0;
-  }
-
-  .badge-Trending, .badge-仍在爆 {
-    background: var(--amber-soft);
-    color: #b45309;
-    border-color: #fde68a;
-  }
-
-  .card-body {
-    padding: 18px 18px 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    flex: 1;
-  }
-
-  .card-title {
-    font-size: 1.05rem;
-    font-weight: 700;
-    line-height: 1.35;
-    letter-spacing: -0.01em;
-  }
-
-  .card-stats {
-    font-size: 0.8rem;
-    color: var(--text-muted);
-  }
-
-  .card-analysis {
-    font-size: 0.9rem;
-    color: #374151;
-    flex: 1;
-  }
-
-  .card-links {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    margin-top: 4px;
-    padding-top: 12px;
-    border-top: 1px solid var(--border);
-  }
-
-  .card-links a {
-    font-size: 0.8125rem;
-    color: #2563eb;
-    text-decoration: none;
-    line-height: 1.4;
-    word-break: break-word;
-  }
-
-  .card-links a:hover {
-    color: #1d4ed8;
-    text-decoration: underline;
-  }
-
-  .card-links a::before {
-    content: "↗ ";
-    opacity: 0.7;
-  }
-
-  .extra-thumbs {
-    display: flex;
-    gap: 8px;
-    margin-top: 2px;
-  }
-
-  .extra-thumbs img {
-    width: 72px;
-    aspect-ratio: 16 / 9;
-    height: auto;
-    object-fit: cover;
-    border-radius: 8px;
-    border: 1px solid var(--border);
-    background: #e5e7eb;
-  }
-
-  .extra-thumbs img.is-portrait {
-    width: 56px;
-    aspect-ratio: 9 / 16;
-  }
-
   footer {
     margin-top: 48px;
     padding-top: 20px;
@@ -461,94 +261,6 @@
     margin-bottom: 14px;
   }
 
-  .yt-evidence {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-  }
-
-  @media (min-width: 720px) {
-    .yt-evidence {
-      grid-template-columns: repeat(4, 1fr);
-    }
-  }
-
-  .yt-ev {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    color: inherit;
-    border-radius: 10px;
-    overflow: hidden;
-    background: var(--bg-elev);
-    border: 1px solid var(--border);
-    transition: border-color 0.15s, transform 0.15s;
-    min-width: 0;
-  }
-
-  .yt-ev:hover {
-    border-color: #93c5fd;
-    transform: translateY(-1px);
-  }
-
-  .yt-ev-thumb {
-    position: relative;
-    aspect-ratio: 16 / 9;
-    background: #e5e7eb;
-    overflow: hidden;
-  }
-
-  .yt-ev-thumb.is-portrait {
-    aspect-ratio: 9 / 16;
-    width: 96px;
-    max-height: 170px;
-    margin: 0 auto;
-    border-radius: 8px;
-  }
-
-  .yt-ev-thumb img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-
-  .yt-ev-play {
-    position: absolute;
-    right: 6px;
-    bottom: 6px;
-    font-size: 0.65rem;
-    font-weight: 700;
-    padding: 2px 6px;
-    border-radius: 4px;
-    background: rgba(0,0,0,0.72);
-    color: #fff;
-    letter-spacing: 0.02em;
-  }
-
-  .yt-ev-meta {
-    padding: 8px 9px 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-  }
-
-  .yt-ev-title {
-    font-size: 0.72rem;
-    font-weight: 600;
-    line-height: 1.35;
-    color: var(--text);
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-
-  .yt-ev-views {
-    font-size: 0.68rem;
-    color: var(--text-dim);
-  }
-
   .yt-hint {
     margin-top: 28px;
     padding: 14px 16px;
@@ -597,14 +309,6 @@
   .compads-updated {
     font-size: 0.8rem;
     color: var(--text-dim);
-  }
-  .compads-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: var(--gap);
-  }
-  @media (min-width: 720px) {
-    .compads-grid { grid-template-columns: 1fr 1fr; }
   }
   .badge-新开投 {
     background: var(--accent-soft);
@@ -668,6 +372,290 @@
   .filter-note button { appearance: none; border: 0; background: none; color: var(--accent); cursor: pointer; font: inherit; margin-left: 6px; }
   @media (max-width: 720px) { .gbar-row { grid-template-columns: 1fr; gap: 3px; } .gbar-sum { text-align: left; } }
 
+  /* ===================== v2 素材墙（2026-11-18）：封面优先 + 点击看详情 ===================== */
+  :root { --primary: #2563eb; --primary-soft: #eff6ff; --primary-line: #bfdbfe; }
+
+  .topbar { padding: 12px 20px 0; }
+  .topbar-inner { align-items: center; }
+  .brand h1 { font-size: 1.25rem; }
+  .anchors {
+    max-width: var(--max);
+    margin: 8px auto 0;
+    display: flex;
+    gap: 4px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .anchors::-webkit-scrollbar { display: none; }
+  .anchors button {
+    appearance: none; border: 0; background: none; font: inherit; cursor: pointer;
+    font-size: 0.8125rem; font-weight: 560; color: var(--text-muted);
+    padding: 8px 12px 9px; border-bottom: 2px solid transparent; white-space: nowrap;
+  }
+  .anchors button:hover { color: var(--text); }
+  .anchors button.on { color: var(--primary); border-bottom-color: var(--primary); }
+
+  .top-grid { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 22px; align-items: stretch; }
+  .top-grid > section { margin: 0; }
+  .lead {
+    flex: 1 1 560px; margin: 0; padding: 20px 24px 18px;
+    background: #fff; border: 1px solid var(--border); border-radius: 16px; box-shadow: var(--shadow);
+  }
+  .today-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; margin-bottom: 10px; }
+  .today-head h2 { font-size: 1.15rem; font-weight: 800; letter-spacing: -0.01em; }
+  .today-head span { font-size: 0.78rem; color: var(--text-dim); }
+  .today-list { list-style: none; display: flex; flex-direction: column; gap: 9px; }
+  .today-list li { position: relative; padding-left: 18px; font-size: 0.93rem; line-height: 1.65; color: #1f2937; }
+  .today-list li::before { content: ""; position: absolute; left: 2px; top: 0.72em; width: 7px; height: 7px; border-radius: 50%; background: var(--primary); }
+  .today-list li b { font-weight: 700; color: var(--text); }
+  .lead:not(.open) .today-list li { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .lead:not(.open) .today-list li:nth-child(n+5) { display: none; }
+  .lead:not(.open) .meta-row { display: none; }
+  .today-more { appearance: none; border: 0; background: none; font: inherit; font-size: .8rem; color: var(--primary); cursor: pointer; padding: 8px 0 0; }
+  .today-more:hover { text-decoration: underline; }
+  .today-more .t-close, .lead.open .today-more .t-open { display: none; }
+  .lead.open .today-more .t-close { display: inline; }
+  .lead .meta-row { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--border); font-size: 0.75rem; gap: 4px 16px; }
+  .novel-section { flex: 1 1 340px; margin: 0; padding: 18px 20px; border-radius: 16px; align-self: stretch; }
+  .novel-section h2 { font-size: 1.05rem; font-weight: 800; color: #92400e; margin-bottom: 8px; }
+
+  .gbar-wrap { margin-top: 14px; background: #fff; border: 1px solid var(--border); border-radius: 14px; }
+  .gbar-wrap > summary { cursor: pointer; padding: 11px 16px; font-size: 0.84rem; color: var(--text-muted); list-style: none; }
+  .gbar-wrap > summary::-webkit-details-marker { display: none; }
+  .gbar-wrap > summary::before { content: "▸ "; }
+  .gbar-wrap[open] > summary::before { content: "▾ "; }
+  .gbar-wrap .gbar-section { margin: 0; border: 0; box-shadow: none; border-top: 1px dashed var(--border-strong); border-radius: 0 0 14px 14px; }
+
+  .sec-head, .yt-head, .compads-head {
+    display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between;
+    gap: 4px 16px; margin: 0 0 14px;
+  }
+  .sec-head h2, .yt-head h2, .compads-head h2 { font-size: 1.3rem; font-weight: 800; letter-spacing: -0.015em; }
+  .sec-sub, .yt-updated, .compads-updated { font-size: 0.78rem; color: var(--text-dim); }
+  .wall-section { margin-top: 34px; scroll-margin-top: 108px; }
+  .yt-section, .compads-section { margin-top: 44px; scroll-margin-top: 108px; }
+  #lead { scroll-margin-top: 108px; }
+
+  /* —— 素材墙 —— */
+  .wall {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(212px, 1fr));
+    grid-auto-flow: dense;
+    gap: 18px;
+    align-items: stretch;
+  }
+  .fold .wall { padding: 16px; }
+  .wall-card {
+    position: relative;
+    display: flex; flex-direction: column;
+    grid-column: span 2;                       /* 横屏占 2 列；竖屏 / 方形 1 列 */
+    order: 2;                                  /* 先竖屏组、后横屏组（卡上有 #排名）；图片加载后才判定方向的卡也会自动归位 */
+    background: #fff; border: 1px solid var(--border); border-radius: 16px;
+    box-shadow: var(--shadow); overflow: hidden; cursor: pointer;
+    transition: transform .16s, box-shadow .16s, border-color .16s;
+    outline: none;
+  }
+  .wall-card.is-portrait, .wall-card.is-square { grid-column: span 1; order: 1; }
+  .wall-card.no-cover { grid-column: span 2; order: 3; }
+  .wall-card.no-cover .card-body { padding: 16px 18px; gap: 8px; }
+  .wall-card.no-cover .card-title { font-size: 1.04rem; }
+  .wall-card.no-cover .card-chips { margin-bottom: 2px; }
+  .wall-card:hover, .wall-card:focus-visible { transform: translateY(-3px); border-color: var(--border-strong); box-shadow: 0 10px 28px rgba(15,23,42,.14); }
+  .wall-card:focus-visible { box-shadow: 0 0 0 3px var(--primary-line); }
+
+  .cover { position: relative; width: 100%; aspect-ratio: 16 / 9; background: #111827; overflow: hidden; border-radius: 0; }
+  .cover.is-portrait { aspect-ratio: 9 / 16; }
+  .cover.is-square { aspect-ratio: 1 / 1; }
+  .cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .cover-placeholder { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
+    background: linear-gradient(145deg, #eef0f4, #dfe3ea); color: var(--text-dim); font-size: 3.5rem; font-weight: 700; }
+  .cover-placeholder span { opacity: .45; }
+  .cover::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 34%; pointer-events: none;
+    background: linear-gradient(to top, rgba(8,12,24,.78), rgba(8,12,24,0)); }
+  .cover-badges { position: absolute; top: 9px; left: 9px; z-index: 3; }
+  .rank {
+    position: absolute; top: 8px; right: 8px; z-index: 3;
+    min-width: 34px; height: 26px; padding: 0 9px; border-radius: 999px;
+    display: inline-flex; align-items: center; justify-content: center;
+    background: rgba(15,23,42,.82); color: #fff; font-size: .8rem; font-weight: 800; letter-spacing: .01em;
+    backdrop-filter: blur(6px);
+  }
+  .cm { position: absolute; left: 10px; right: 10px; bottom: 9px; z-index: 3; display: flex; align-items: flex-end; justify-content: space-between; gap: 8px; color: #fff; }
+  .cm-views { display: flex; align-items: baseline; gap: 4px; text-shadow: 0 1px 6px rgba(0,0,0,.5); line-height: 1; }
+  .cm-views b { font-size: 1.45rem; font-weight: 800; letter-spacing: -.02em; }
+  .cm-views small { font-size: .72rem; opacity: .9; }
+  .cm-r { display: flex; gap: 5px; align-items: center; }
+  .cm-pill { font-size: .66rem; font-weight: 700; padding: 2px 7px; border-radius: 6px; background: rgba(0,0,0,.55); color: #fff; line-height: 1.4; }
+  .cm-plat { background: rgba(255,255,255,.92); color: #111827; }
+
+  .badge { display: inline-flex; align-items: center; flex: none; white-space: nowrap; font-size: .6875rem; font-weight: 700;
+    line-height: 1.2; letter-spacing: .04em; padding: 3px 9px; border-radius: 999px; border: 1px solid transparent; }
+  .cover-badges .badge { box-shadow: 0 1px 4px rgba(15,23,42,.28); }
+  .badge-NEW, .badge-主榜, .badge-新出路, .badge-新开投 { background: var(--primary-soft); color: #1d4ed8; border-color: var(--primary-line); }
+  .badge-Rising, .badge-上升速 { background: var(--green-soft); color: #15803d; border-color: #bbf7d0; }
+  .badge-Trending, .badge-仍在爆, .badge-持续 { background: var(--amber-soft); color: #b45309; border-color: #fde68a; }
+  .badge-neutral, .badge-在投 { background: var(--bg-elev); color: #374151; border-color: var(--border); }
+  .badge-risk, .badge-仿冒, .badge-⚠️仿冒 { background: #fef2f2; color: #b91c1c; border-color: #fecaca; }
+
+  .card-body { display: flex; flex-direction: column; gap: 7px; padding: 12px 14px 14px; flex: 1; min-width: 0; }
+  .card-title { font-size: .96rem; font-weight: 700; line-height: 1.42; letter-spacing: -.005em; color: var(--text);
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-kv { font-size: .74rem; color: var(--text-dim); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card-why { font-size: .8rem; line-height: 1.55; color: #4b5563; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-why em { font-style: normal; font-weight: 700; color: #b45309; margin-right: 4px; }
+  .use-box { margin-top: auto; padding: 8px 10px; background: var(--primary-soft); border-left: 3px solid var(--primary); border-radius: 0 8px 8px 0;
+    font-size: .79rem; line-height: 1.55; color: #1e3a8a; }
+  .use-box b { display: block; font-size: .68rem; font-weight: 800; letter-spacing: .04em; color: var(--primary); margin-bottom: 1px; }
+  .card-body .use-box span { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .wall-card:not(.is-portrait):not(.is-square) .card-title { font-size: 1.04rem; }
+  .wall-card:not(.is-portrait):not(.is-square) > .cover { flex: 1 0 auto; }   /* 横屏封面吃掉同一行的高度差，避免卡内中间留白 */
+  .cm-views { white-space: nowrap; }
+  .wall-card:not(.is-portrait):not(.is-square) .card-why { -webkit-line-clamp: 3; }
+  .wall-card:not(.is-portrait):not(.is-square) .use-box span { -webkit-line-clamp: 4; }
+
+  .chip { display: inline-flex; align-items: center; font-size: .72rem; line-height: 1.3; padding: 2px 9px; border-radius: 999px;
+    background: var(--bg-elev); border: 1px solid var(--border); color: var(--text-muted); white-space: nowrap; }
+  .chip-warn { background: var(--amber-soft); border-color: #fde68a; color: #b45309; }
+  .card-chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+
+  .filter-note { margin: 0 0 12px; }
+  .cover:not(:has(.cm))::after { display: none; }
+  @media (min-width: 761px) {
+    #compads-grid .wall-card, #compads-grid .wall-card.is-portrait, #compads-grid .wall-card.is-square { grid-column: span 1; }
+    #compads-grid .wall-card > .cover { flex: none; }
+    #compads-grid .wall-card .card-title { font-size: .95rem; }
+  }
+  #compads-grid .wall-card > .cover { flex: none; }
+  #compads-grid .card-chips { margin-bottom: 1px; }
+
+  /* —— YouTube 主题 —— */
+  .yt-themes { display: flex; flex-direction: column; gap: 16px; }
+  .yt-theme { padding: 18px 20px; border-radius: 16px; background: #fff; border: 1px solid var(--border); box-shadow: var(--shadow); }
+  .yt-theme-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin-bottom: 12px; }
+  .yt-theme-head h3 { font-size: 1.08rem; font-weight: 750; line-height: 1.35; }
+  .yt-theme-body { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 22px; align-items: start; }
+  .yt-judgment { font-size: .9rem; line-height: 1.7; color: #374151; margin: 0 0 10px; }
+  .yt-text .use-box { font-size: .84rem; margin-top: 8px; }
+  .yt-text .use-box span { display: block; -webkit-line-clamp: unset; }
+  .yt-evidence { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .yt-ev { display: flex; align-items: stretch; gap: 10px; padding: 8px; text-decoration: none; color: inherit; border-radius: 12px;
+    background: var(--bg); border: 1px solid var(--border); min-width: 0; transition: border-color .15s, background .15s; }
+  .yt-ev:hover { border-color: #93c5fd; background: #fff; }
+  .yt-ev-thumb { position: relative; flex: none; width: 128px; aspect-ratio: 16 / 9; align-self: flex-start; background: #1f2937; overflow: hidden; border-radius: 8px; }
+  .yt-ev-thumb.is-portrait { width: 76px; aspect-ratio: 9 / 16; }
+  .yt-ev-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .yt-ev-play { position: absolute; right: 4px; bottom: 4px; font-size: .62rem; font-weight: 700; padding: 1px 5px; border-radius: 4px; background: rgba(0,0,0,.72); color: #fff; }
+  .yt-ev-meta { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; padding: 2px 0; }
+  .yt-ev-title { font-size: .82rem; font-weight: 650; line-height: 1.4; color: var(--text); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .yt-ev-views { font-size: .74rem; color: var(--text-dim); }
+  .yt-ev-views b { color: var(--text); font-weight: 800; font-size: .84rem; margin-right: 2px; }
+  .yt-hint { margin-top: 28px; }
+
+  .compads-empty { margin-top: 8px; }
+
+  /* —— 详情弹窗 —— */
+  body.dlg-open { overflow: hidden; }
+  .dlg { position: fixed; inset: 0; z-index: 100; display: flex; align-items: center; justify-content: center; padding: 24px; }
+  .dlg-mask { position: absolute; inset: 0; background: rgba(15,23,42,.58); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); }
+  .dlg-panel { position: relative; display: grid; grid-template-columns: 380px minmax(0, 1fr); width: min(1000px, 100%);
+    max-height: calc(100vh - 48px); background: #fff; border-radius: 20px; overflow: hidden; box-shadow: 0 30px 80px rgba(2,6,23,.45); }
+  .dlg-panel.land { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr); width: min(780px, 100%); }
+  .dlg-panel { --mw: 380px; --mh: min(calc(var(--mw) * 16 / 9), calc(100vh - 48px)); }
+  .dlg-media { position: relative; background: #0b1020; height: var(--mh); overflow: hidden; }
+  .dlg-panel:not(.land):not(.nocover) .dlg-main { max-height: var(--mh); }
+  .dlg-panel.nocover .dlg-main { max-height: calc(100vh - 48px); }
+  .dlg-panel.nocover { grid-template-columns: minmax(0, 1fr); width: min(720px, 100%); }
+  .dlg-panel.land .dlg-media { height: auto; aspect-ratio: 16 / 9; max-height: 52vh; }
+  .dlg-panel.sq .dlg-media { height: auto; aspect-ratio: 1 / 1; max-height: calc(100vh - 48px); }
+  .dlg-media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+  .dlg-media .cover-placeholder { position: absolute; inset: 0; }
+  .dlg-main { overflow-y: auto; padding: 26px 28px 28px; display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+  .d-tags { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; padding-right: 44px; }
+  .d-rank { font-size: .78rem; font-weight: 800; padding: 3px 10px; border-radius: 999px; background: #0f172a; color: #fff; }
+  .d-title { font-size: 1.28rem; font-weight: 800; line-height: 1.42; letter-spacing: -.01em; }
+  .d-metrics { display: flex; flex-wrap: wrap; gap: 8px 22px; padding: 12px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+  .d-metrics div { display: flex; flex-direction: column; line-height: 1.2; }
+  .d-metrics b { font-size: 1.35rem; font-weight: 800; letter-spacing: -.02em; }
+  .d-metrics span { font-size: .72rem; color: var(--text-dim); margin-top: 3px; }
+  .d-statline { font-size: .78rem; color: var(--text-dim); line-height: 1.6; }
+  .d-use { padding: 14px 16px; background: var(--primary-soft); border: 1px solid var(--primary-line); border-left: 4px solid var(--primary); border-radius: 0 12px 12px 0; }
+  .d-use h4 { font-size: .78rem; font-weight: 800; color: var(--primary); letter-spacing: .04em; margin-bottom: 4px; }
+  .d-use p { font-size: .94rem; line-height: 1.7; color: #1e3a8a; }
+  .d-sec h4 { font-size: .8rem; font-weight: 800; color: var(--text-muted); margin-bottom: 4px; letter-spacing: .03em; }
+  .d-sec p { font-size: .92rem; line-height: 1.75; color: #374151; }
+  .d-sec.why p { color: #92400e; background: var(--amber-soft); padding: 10px 12px; border-radius: 10px; }
+  .d-thumbs { display: flex; gap: 8px; flex-wrap: wrap; }
+  .d-thumbs img { height: 96px; border-radius: 8px; border: 1px solid var(--border); background: #e5e7eb; }
+  .d-links { display: flex; flex-direction: column; gap: 8px; margin-top: 2px; }
+  .d-links a { display: block; font-size: .86rem; line-height: 1.45; color: #1d4ed8; text-decoration: none; padding: 9px 12px; border: 1px solid var(--border); border-radius: 10px; word-break: break-word; }
+  .d-links a:hover { background: var(--primary-soft); border-color: var(--primary-line); }
+  .d-links a::before { content: "↗ "; opacity: .7; }
+  .dlg-x { position: absolute; top: 12px; right: 12px; z-index: 5; width: 36px; height: 36px; border-radius: 50%; border: 0; cursor: pointer;
+    background: rgba(255,255,255,.94); color: #111827; font-size: 1.05rem; line-height: 1; box-shadow: 0 2px 10px rgba(0,0,0,.28); }
+  .dlg-x:hover { background: #fff; }
+  .dlg-nav { position: absolute; top: 50%; transform: translateY(-50%); z-index: 3; width: 44px; height: 44px; border-radius: 50%; border: 0; cursor: pointer;
+    background: rgba(255,255,255,.92); color: #111827; font-size: 1.2rem; box-shadow: 0 4px 14px rgba(0,0,0,.25); }
+  .dlg-nav.prev { left: max(10px, calc(50% - 560px)); }
+  .dlg-nav.next { right: max(10px, calc(50% - 560px)); }
+  .dlg-nav:disabled { opacity: .35; cursor: default; }
+
+  /* —— 手机 —— */
+  @media (max-width: 760px) {
+    .wrap { padding: 0 12px 56px; }
+    .topbar { margin: 0 -12px; padding: 10px 12px 0; }
+    .topbar-inner { gap: 8px 12px; flex-wrap: nowrap; justify-content: space-between; }
+    .brand .date { display: none; }
+    .brand h1 { font-size: 1.1rem; white-space: nowrap; }
+    .anchors { margin-top: 4px; }
+    .anchors button { padding: 7px 10px 8px; }
+    .cm-views small { display: none; }
+    .segments button { padding: 7px 11px; }
+    .wrap { display: flex; flex-direction: column; }
+    .top-grid { display: contents; }
+    .lead { order: 1; margin-top: 14px; }
+    .gbar-wrap { order: 2; }
+    .wall-section { order: 3; margin-top: 24px; }
+    .novel-section { order: 4; margin-top: 28px; }
+    .yt-section { order: 5; }
+    .yt-hint { order: 5; }
+    .compads-section { order: 6; }
+    footer { order: 9; }
+    .lead:not(.open) .today-list li { -webkit-line-clamp: 3; }
+    .lead:not(.open) .today-list li:nth-child(n+4) { display: none; }
+    .lead { padding: 16px 16px 14px; flex-basis: 100%; }
+    .today-list li { font-size: .9rem; }
+    .novel-section { padding: 14px 16px; flex-basis: 100%; }
+    .wall { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+    .wall-card { border-radius: 12px; }
+    .card-body { padding: 9px 10px 11px; gap: 5px; }
+    .card-title { font-size: .84rem; line-height: 1.38; }
+    .wall-card:not(.is-portrait):not(.is-square) .card-title { font-size: .92rem; }
+    .card-kv, .card-why, .use-box { display: none; }
+    .wall-card:not(.is-portrait):not(.is-square) .card-why { display: -webkit-box; -webkit-line-clamp: 2; }
+    .cm-views b { font-size: 1.15rem; }
+    .cm { left: 8px; right: 8px; bottom: 7px; }
+    .rank { height: 22px; min-width: 28px; font-size: .72rem; padding: 0 7px; top: 6px; right: 6px; }
+    .cover-badges { top: 7px; left: 7px; }
+    .badge { font-size: .625rem; padding: 2px 7px; }
+    .sec-head h2, .yt-head h2, .compads-head h2 { font-size: 1.15rem; }
+    .yt-theme { padding: 14px; }
+    .yt-theme-body { grid-template-columns: minmax(0, 1fr); gap: 14px; }
+    .yt-evidence { grid-template-columns: minmax(0, 1fr); }
+    .dlg { padding: 0; align-items: stretch; }
+    .dlg-panel, .dlg-panel.land { width: 100%; max-height: none; height: 100dvh; border-radius: 0; grid-template-columns: minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr); }
+    .dlg-media, .dlg-panel.land .dlg-media { aspect-ratio: auto; height: 42vh; max-height: none; }
+    .dlg-panel:not(.land) .dlg-main { max-height: none; }
+    .dlg-panel.land .dlg-media { height: auto; aspect-ratio: 16 / 9; }
+    .dlg-panel.sq .dlg-media { height: auto; aspect-ratio: 1 / 1; max-height: 46vh; }
+    .dlg-main { padding: 18px 18px 28px; }
+    .d-title { font-size: 1.12rem; }
+    .dlg-nav { display: none; }
+  }
+  @media (min-width: 761px) and (max-width: 980px) {
+    .yt-theme-body { grid-template-columns: minmax(0, 1fr); }
+    .dlg-panel { --mw: 320px; grid-template-columns: 320px minmax(0, 1fr); }
+  }
+
   .hidden { display: none !important; }
 </style>
 </head>
@@ -685,21 +673,37 @@
           <button type="button" data-view="weekly" role="tab" aria-selected="false">周报</button>
         </nav>
       </div>
+      <nav class="anchors" id="anchors" aria-label="页面目录">
+        <button type="button" data-scroll="lead">今天结论</button>
+        <button type="button" data-scroll="sec-wall">素材墙</button>
+        <button type="button" data-scroll="yt-section">YouTube 主题</button>
+        <button type="button" data-scroll="compads-section">竞品投放</button>
+      </nav>
     </header>
 
-    <section class="lead" id="lead"></section>
+    <div class="top-grid" id="sec-today">
+      <section class="lead" id="lead"></section>
+      <section class="novel-section hidden" id="novel-section" aria-label="今天的新东西"></section>
+    </div>
 
-    <section class="gbar-section hidden" id="gbar-section" aria-label="题材分布"></section>
-    <section class="novel-section hidden" id="novel-section" aria-label="今天的新东西"></section>
-    <div class="filter-note hidden" id="filter-note"></div>
+    <details class="gbar-wrap hidden" id="gbar-wrap">
+      <summary>题材分布 · 多样性检查（点开可按题材筛选素材墙）</summary>
+      <section class="gbar-section hidden" id="gbar-section" aria-label="题材分布"></section>
+    </details>
 
-    <div class="section-label hidden" id="cards-label">素材卡</div>
-    <div class="grid" id="grid"></div>
-    <details class="fold hidden" id="fold-area"></details>
+    <section class="wall-section" id="sec-wall" aria-label="素材墙">
+      <div class="sec-head" id="cards-label">
+        <h2>素材墙</h2>
+        <span class="sec-sub" id="wall-count"></span>
+      </div>
+      <div class="filter-note hidden" id="filter-note"></div>
+      <div class="wall" id="grid"></div>
+      <details class="fold hidden" id="fold-area"></details>
+    </section>
 
     <section class="yt-section hidden" id="yt-section" aria-label="YouTube 热点更新">
       <div class="yt-head">
-        <h2>YouTube 热点更新</h2>
+        <h2>YouTube 热点主题</h2>
         <span class="yt-updated" id="yt-updated"></span>
       </div>
       <div class="yt-themes" id="yt-themes"></div>
@@ -711,7 +715,7 @@
         <h2>竞品投放日更</h2>
         <span class="compads-updated" id="compads-updated"></span>
       </div>
-      <div class="compads-grid" id="compads-grid"></div>
+      <div class="wall" id="compads-grid"></div>
       <div class="compads-empty hidden" id="compads-empty"></div>
     </section>
 
@@ -1032,14 +1036,18 @@ function isPortraitThumb(t, links) {
 function markPortraitFromImg(img) {
   if (!img || !img.naturalWidth) return;
   const box = img.closest(".cover, .yt-ev-thumb") || img;
+  // 卡片层级（article.wall-card）也要标记：墙的列宽（竖屏 1 列 / 横屏 2 列）靠它切换
+  const art = box.classList.contains("cover") ? box.closest("article.wall-card") : null;
   // YouTube Shorts 的 maxres 常是 16:9 带黑边，不能据此取消竖屏；只在图本身更高时补标竖屏
   if (img.naturalHeight > img.naturalWidth * 1.08) {
     box.classList.add("is-portrait");
     img.classList.add("is-portrait");
+    if (art) { art.classList.add("is-portrait"); art.classList.remove("is-square"); }
   }
   else if (box.classList.contains("cover") && !box.classList.contains("is-portrait") && img.naturalHeight >= img.naturalWidth * 0.92) {
     // 方形素材（如 1:1）按真实比例显示，不裁成横版
     box.classList.add("is-square");
+    if (art && !art.classList.contains("is-portrait")) art.classList.add("is-square");
   }
 }
 
@@ -1051,70 +1059,305 @@ function esc(s) {
     .replace(/"/g, "&quot;");
 }
 
-function badgeClass(badge) {
-  const known = ["NEW", "主榜", "Rising", "Trending", "仍在爆", "新出路", "上升速", "持续"];
-  return known.includes(badge) ? `badge badge-${badge}` : "badge badge-NEW";
+// 完整标签形如「主榜 · X · 搬运·原作者未知 · AI 未独立验证」：第一段是短标签，其余是 chip
+function splitBadge(badge) {
+  const parts = String(badge || "").split(" · ").map(s => s.trim()).filter(Boolean);
+  return { head: parts[0] || "", rest: parts.slice(1) };
 }
 
-function renderCover(card) {
+function badgeClass(badge) {
+  const head = splitBadge(badge).head;
+  const known = ["NEW", "主榜", "Rising", "Trending", "仍在爆", "新出路", "上升速", "持续", "新开投", "在投", "仿冒", "⚠️仿冒"];
+  if (known.includes(head)) return `badge badge-${head}`;
+  if (/风险|自查/.test(head)) return "badge badge-risk";
+  if (/今日未扫到|同类还在火|趋势|主题|节点/.test(head)) return "badge badge-neutral";
+  return "badge badge-NEW";
+}
+
+function renderChips(rest, extraHtml) {
+  const chips = (rest || []).map(t => {
+    const warn = /搬运|未知|未独立|未验证|可能|推广|待核|存疑|风险/.test(t) ? " chip-warn" : "";
+    return `<span class="chip${warn}">${esc(t)}</span>`;
+  }).join("");
+  return (chips || extraHtml) ? `<div class="card-chips">${extraHtml || ""}${chips}</div>` : "";
+}
+
+/* ——— v2：analysis 长文按关键词切成小节（抽帧/评论/热度来自/可借鉴/对 Topview/封面/【剧情】…），切不出就整段当摘要 ——— */
+const SEC_SEP = "。；;！？!?）)」”… \n\t";
+const SEC_RE = /(【[^】]{1,12}】)|((?:和[^：:。；\n]{1,40}的不同在于|抽帧|剧情|画面|封面|高赞评论|回复区|回复两极|评论|可借鉴|对 ?Topview|Topview 对策|对策)[：:]|热度来自[^：:。；]{0,24}[：:]?)/g;
+function groupOf(label) {
+  if (/可借鉴|Topview|对策/.test(label)) return "use";
+  if (/评论|回复/.test(label)) return "cmt";
+  if (/热度来自|为什么火/.test(label)) return "why";
+  if (/抽帧|剧情|画面|封面/.test(label)) return "look";
+  if (/不同在于/.test(label)) return "diff";
+  return "other";
+}
+const GROUP_TITLE = { why: "为什么火", look: "画面", cmt: "评论区", diff: "和同类的区别" };
+function parseAnalysis(text) {
+  text = String(text || "").trim();
+  const marks = [];
+  let m;
+  SEC_RE.lastIndex = 0;
+  while ((m = SEC_RE.exec(text))) {
+    if (m[0].length === 0) { SEC_RE.lastIndex++; continue; }
+    const prev = m.index === 0 ? "" : text[m.index - 1];
+    if (m[1] || m.index === 0 || SEC_SEP.indexOf(prev) >= 0) marks.push({ i: m.index, raw: m[0], br: !!m[1] });
+  }
+  const lead = marks.length ? text.slice(0, marks[0].i).trim() : text;
+  const by = {};
+  const order = [];
+  marks.forEach((mk, k) => {
+    const end = k + 1 < marks.length ? marks[k + 1].i : text.length;
+    let body = text.slice(mk.i + mk.raw.length, end).trim();
+    const colon = /[：:]$/.test(mk.raw);
+    const label = mk.br ? mk.raw.slice(1, -1) : mk.raw.replace(/[：:]$/, "");
+    const g = groupOf(label);
+    if (!mk.br && (g === "why" || g === "diff")) body = (label + (colon ? "：" : "") + body).trim();
+    if (!body) return;
+    let key = g;
+    if (g === "other") key = "o:" + label;
+    if (by[key]) by[key].text += " " + body;
+    else { by[key] = { g, label, text: body }; order.push(key); }
+  });
+  return { lead, by, order, has: marks.length > 0 };
+}
+function clip(t, n) {
+  t = String(t || "").replace(/\s+/g, " ").trim();
+  if (t.length <= n) return t;
+  const cut = t.slice(0, n);
+  const k = Math.max(cut.lastIndexOf("，"), cut.lastIndexOf("；"), cut.lastIndexOf("、"), cut.lastIndexOf("。"), cut.lastIndexOf("："));
+  return (k > n * 0.55 ? cut.slice(0, k) : cut).replace(/[，、；：]$/, "") + "…";
+}
+function firstSent(t, n) {
+  t = String(t || "").replace(/\s+/g, " ").trim();
+  const m = t.match(/^[^。！？]+[。！？]?/);
+  const s = (m ? m[0] : t).replace(/[。]$/, "");
+  return clip(s, n);
+}
+
+/* 关键数据：播放量 / 时长 / 赞 / 收藏 / 评论 / 日期 / 平台 */
+function cleanNum(s) { return String(s).replace(/\.0(?=\s|$)/, "").trim(); }
+function pickMetrics(c) {
+  const s = String(c.stats || ""), t = String(c.title || "");
+  const o = {};
+  let v = s.match(/(\d[\d.,]*)\s*(万|亿)\s*播放/);
+  if (v) o.views = cleanNum(v[1]) + " " + v[2];
+  else if ((v = s.match(/(\d[\d,]*)\s*播放/))) o.views = v[1];
+  else if (!/^(仍在爆|趋势|同类还在火|节点|风险|自查|主题)/.test(String(c.badge || "")) && (v = t.match(/(?:^|[^+＋×\d.,])(\d[\d.,]*)\s*(万|亿)/))) o.views = cleanNum(v[1]) + " " + v[2];
+  if ((v = s.match(/(\d{1,3})\s*秒/))) { const n = +v[1]; o.dur = Math.floor(n / 60) + ":" + String(n % 60).padStart(2, "0"); }
+  if ((v = s.match(/赞\s*([\d.,]+\s*[万亿]?)/))) o.likes = cleanNum(v[1]);
+  if ((v = s.match(/收藏\s*([\d.,]+\s*[万亿]?)/))) o.saves = cleanNum(v[1]);
+  if ((v = s.match(/(?:评论|回复)\s*([\d.,]+)/))) o.cmts = v[1];
+  if ((v = s.match(/(?:^|[\s·])(\d\d-\d\d)(?=[\s·]|$)/))) o.date = v[1];
+  return o;
+}
+function platOf(links) {
+  const h = String((links && links[0] && links[0].href) || "");
+  if (/x\.com|twitter\.com/i.test(h)) return "X";
+  if (/youtube\.com\/shorts/i.test(h)) return "Shorts";
+  if (/youtube\.com|youtu\.be/i.test(h)) return "YouTube";
+  if (/facebook\.com/i.test(h)) return "Meta";
+  if (/adstransparency\.google/i.test(h)) return "Google";
+  if (/tiktok/i.test(h)) return "TikTok";
+  return "";
+}
+function kvLine(c) {
+  const segs = String(c.stats || "").split(" · ").map(s => s.trim()).filter(Boolean);
+  const keep = [];
+  segs.forEach(sg => { if (/^(赞|收藏|评论|回复)\s*\d/.test(sg) && keep.length < 2) keep.push(sg); });
+  const d = segs.find(sg => /^\d\d-\d\d(\s|$)/.test(sg));
+  if (d) keep.push(d);
+  if (!keep.length) return clip(segs.slice(0, 3).join(" · "), 44);
+  return keep.join(" · ");
+}
+
+const ITEMS = [];   // 详情弹窗数据，按渲染顺序登记（卡片上 data-ci 指向这里）
+
+function coverInner(card, letter, src) {
+  if (!src) return `<div class="cover-placeholder"><span>${esc(letter)}</span></div>`;
+  const ph = `this.replaceWith(Object.assign(document.createElement('div'),{className:'cover-placeholder',innerHTML:'<span>${esc(letter)}</span>'}))`;
+  const onerr = src.fallback
+    ? `onerror="if(this.dataset.fb!=='1'){this.dataset.fb='1';this.src='${esc(src.fallback)}';}else{${ph}}"`
+    : `onerror="${ph}"`;
+  return `<img src="${esc(src.primary)}" alt="${esc(card.title)}" loading="lazy" decoding="async" onload="markPortraitFromImg(this)" ${onerr} />`;
+}
+
+function renderCover(card, ctx) {
   const thumbs = card.thumbs || [];
   const main = thumbs[0];
   const src = thumbSrc(main);
   const letter = (card.title || "?").trim().charAt(0);
   const portrait = isPortraitThumb(main, card.links);
-
-  let coverInner;
-  if (src) {
-    const onerr = src.fallback
-      ? `onerror="if(this.dataset.fb!=='1'){this.dataset.fb='1';this.src='${esc(src.fallback)}';}else{this.replaceWith(Object.assign(document.createElement('div'),{className:'cover-placeholder',innerHTML:'<span>${esc(letter)}</span>'}));}"`
-      : `onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'cover-placeholder',innerHTML:'<span>${esc(letter)}</span>'}));"`;
-    coverInner = `<img src="${esc(src.primary)}" alt="${esc(card.title)}" loading="lazy" decoding="async" onload="markPortraitFromImg(this)" ${onerr} />`;
-  } else {
-    coverInner = `<div class="cover-placeholder"><span>${esc(letter)}</span></div>`;
-  }
-
+  const bd = ctx.bd;
+  const mt = ctx.mt;
+  const views = mt.views ? `<div class="cm-views"><b>${esc(mt.views)}</b><small>播放</small></div>` : "<div></div>";
+  const right = [ctx.plat ? `<span class="cm-pill cm-plat">${esc(ctx.plat)}</span>` : "", mt.dur ? `<span class="cm-pill">${esc(mt.dur)}</span>` : ""].join("");
+  const inner = coverInner(card, letter, src);
+  const guard = ctx.removeOnError ? inner.replace(/onerror="[^"]*"/, `onerror="this.closest('article')?.remove();"`) : inner;
   return `
     <div class="cover${portrait ? " is-portrait" : ""}">
-      <div class="cover-badges"><span class="${badgeClass(card.badge)}">${esc(card.badge)}</span></div>
-      ${coverInner}
+      ${guard}
+      ${bd.head && !ctx.badgeInBody ? `<div class="cover-badges"><span class="${badgeClass(card.badge)}">${esc(bd.head)}</span></div>` : ""}
+      ${ctx.rank ? `<span class="rank">#${ctx.rank}</span>` : ""}
+      ${(mt.views || right) ? `<div class="cm">${views}<div class="cm-r">${right}</div></div>` : ""}
     </div>`;
 }
 
-function renderCard(card) {
-  const extra = (card.thumbs || []).slice(1);
-  const extraHtml = extra.length
-    ? `<div class="extra-thumbs">${extra.map(t => {
-        const s = thumbSrc(t);
-        if (!s) return "";
-        const onerr = s.fallback
-          ? `onerror="if(this.dataset.fb!=='1'){this.dataset.fb='1';this.src='${esc(s.fallback)}';}else{this.remove();}"`
-          : `onerror="this.remove();"`;
-        const port = isPortraitThumb(t, card.links) ? " is-portrait" : "";
-        return `<img class="${port.trim()}" src="${esc(s.primary)}" alt="" loading="lazy" onload="markPortraitFromImg(this)" ${onerr} />`;
-      }).join("")}</div>`
-    : "";
+function stripLead(t) { return String(t).replace(/^热度来自[^：:。；]{0,24}[：:]?/, "").replace(/^[：:。\s]+/, "") || t; }
 
-  const links = (card.links || [])
-    .map(l => `<a href="${esc(l.href)}" target="_blank" rel="noopener noreferrer">${esc(l.title)}</a>`)
-    .join("");
-
+function renderCard(card, rank, opts) {
+  opts = opts || {};
+  const parsed = parseAnalysis(card.analysis || card.copy || "");
+  const mt = pickMetrics(card);
+  const plat = opts.plat !== undefined ? opts.plat : platOf(card.links);
+  const bd = splitBadge(card.badge);
+  const portrait = isPortraitThumb((card.thumbs || [])[0], card.links);
+  const ci = ITEMS.push({ card, rank: rank || 0, parsed, mt, plat, bd, chips: opts.chips || [], portrait }) - 1;
+  const why = parsed.by.why ? `<em>为什么火</em>${esc(clip(stripLead(parsed.by.why.text), 64))}` : "";
+  let blurb = why;
+  if (!blurb) {
+    const alt = parsed.by.look ? parsed.by.look.text : parsed.lead;
+    if (alt) blurb = esc(clip(alt, 66));
+  }
+  const use = parsed.by.use ? `<div class="use-box"><b>怎么用到 Topview</b><span>${esc(clip(parsed.by.use.text, 86))}</span></div>` : "";
+  const kv = kvLine(card);
+  const noCover = !thumbSrc((card.thumbs || [])[0]);
+  const bodyBadge = noCover || opts.badgeInBody;
+  const bodyChips = (opts.badgeInBody ? (opts.chips || []).slice(0, 2).map(t => `<span class="chip">${esc(t)}</span>`).join("") : "");
+  const head = bodyBadge ? `<div class="card-chips">${rank ? `<span class="d-rank">#${rank}</span>` : ""}${bd.head ? `<span class="${badgeClass(card.badge)}">${esc(bd.head)}</span>` : ""}${bodyChips}</div>` : "";
   return `
-    <article class="card">
-      ${renderCover(card)}
+    <article class="wall-card${portrait && !noCover ? " is-portrait" : ""}${noCover ? " no-cover" : ""}" data-ci="${ci}" tabindex="0" role="button" aria-label="${esc(card.title)}">
+      ${noCover ? "" : renderCover(card, { bd, mt, plat, rank, removeOnError: opts.removeOnError, badgeInBody: opts.badgeInBody })}
       <div class="card-body">
-        <h2 class="card-title">${esc(card.title)}</h2>
-        <div class="card-stats">${esc(card.stats)}</div>
-        <p class="card-analysis">${esc(card.analysis)}</p>
-        ${extraHtml}
-        <div class="card-links">${links}</div>
+        ${head}
+        <h3 class="card-title">${esc(card.title)}</h3>
+        ${kv ? `<div class="card-kv">${esc(kv)}</div>` : ""}
+        ${blurb ? `<div class="card-why">${blurb}</div>` : ""}
+        ${use}
       </div>
     </article>`;
 }
 
+/* ——— 详情弹窗 ——— */
+function ensureDlg() {
+  let d = document.getElementById("dlg");
+  if (d) return d;
+  d = document.createElement("div");
+  d.id = "dlg"; d.className = "dlg hidden";
+  d.setAttribute("role", "dialog"); d.setAttribute("aria-modal", "true");
+  d.innerHTML = `<div class="dlg-mask" data-close="1"></div>
+    <button type="button" class="dlg-nav prev" aria-label="上一条">‹</button>
+    <button type="button" class="dlg-nav next" aria-label="下一条">›</button>
+    <div class="dlg-panel" id="dlg-panel"></div>`;
+  document.body.appendChild(d);
+  d.addEventListener("click", e => {
+    if (e.target.closest("[data-close]")) closeDlg();
+    else if (e.target.closest(".dlg-nav.prev")) stepDlg(-1);
+    else if (e.target.closest(".dlg-nav.next")) stepDlg(1);
+  });
+  return d;
+}
+let DLG_EL = null, DLG_LAST = null;
+function dlgItems() {
+  if (!DLG_EL) return [];
+  const wall = DLG_EL.closest(".wall");
+  return wall ? Array.from(wall.querySelectorAll(".wall-card")) : [];
+}
+function detailHtml(it) {
+  const c = it.card, mt = it.mt, parsed = it.parsed, bd = it.bd;
+  const metr = [];
+  if (mt.views) metr.push([mt.views, "播放"]);
+  if (mt.likes) metr.push([mt.likes, "赞"]);
+  if (mt.saves) metr.push([mt.saves, "收藏"]);
+  if (mt.cmts) metr.push([mt.cmts, "评论"]);
+  if (mt.dur) metr.push([mt.dur, "时长"]);
+  if (mt.date) metr.push([mt.date, "发布"]);
+  const platDup = it.plat && bd.rest.some(t => t.toLowerCase().indexOf(String(it.plat).toLowerCase()) >= 0);
+  const chips = (it.chips || []).map(t => `<span class="chip">${esc(t)}</span>`).join("") + (it.plat && !platDup ? `<span class="chip">${esc(it.plat)}</span>` : "") +
+    bd.rest.map(t => `<span class="chip${/搬运|未知|未独立|未验证|可能|推广|待核|存疑|风险/.test(t) ? " chip-warn" : ""}">${esc(t)}</span>`).join("");
+  const secs = [];
+  if (parsed.lead && parsed.has) secs.push(`<div class="d-sec"><h4>概述</h4><p>${esc(parsed.lead)}</p></div>`);
+  ["why", "look", "cmt", "diff"].forEach(k => {
+    const s = parsed.by[k];
+    if (s) secs.push(`<div class="d-sec ${k}"><h4>${GROUP_TITLE[k]}</h4><p>${esc(s.text)}</p></div>`);
+  });
+  parsed.order.filter(k => k.startsWith("o:")).forEach(k => {
+    const s = parsed.by[k];
+    secs.push(`<div class="d-sec"><h4>${esc(s.label)}</h4><p>${esc(s.text)}</p></div>`);
+  });
+  if (!parsed.has && parsed.lead) secs.push(`<div class="d-sec"><h4>分析</h4><p>${esc(parsed.lead)}</p></div>`);
+  const use = parsed.by.use ? `<div class="d-use"><h4>怎么用到 Topview</h4><p>${esc(parsed.by.use.text)}</p></div>` : "";
+  const extra = (c.thumbs || []).slice(1).map(t => thumbSrc(t)).filter(Boolean)
+    .map(s => `<img src="${esc(s.primary)}" alt="" loading="lazy" onerror="${s.fallback ? `if(this.dataset.fb!=='1'){this.dataset.fb='1';this.src='${esc(s.fallback)}';}else{this.remove();}` : "this.remove();"}" />`).join("");
+  const links = (c.links || []).map(l => `<a href="${esc(l.href)}" target="_blank" rel="noopener noreferrer">${esc(l.title)}</a>`).join("");
+  return `
+    <div class="d-tags">${it.rank ? `<span class="d-rank">#${it.rank}</span>` : ""}${bd.head ? `<span class="${badgeClass(c.badge)}">${esc(bd.head)}</span>` : ""}${chips}</div>
+    <h2 class="d-title">${esc(c.title)}</h2>
+    ${metr.length ? `<div class="d-metrics">${metr.map(m => `<div><b>${esc(m[0])}</b><span>${m[1]}</span></div>`).join("")}</div>` : ""}
+    ${c.stats ? `<div class="d-statline">${esc(c.stats)}</div>` : ""}
+    ${use}
+    ${secs.join("")}
+    ${extra ? `<div class="d-thumbs">${extra}</div>` : ""}
+    ${links ? `<div class="d-links">${links}</div>` : ""}`;
+}
+function openDlg(el) {
+  const it = ITEMS[+el.dataset.ci];
+  if (!it) return;
+  const d = ensureDlg();
+  DLG_EL = el;
+  const media = el.querySelector(".cover");
+  const orient = el.classList.contains("is-portrait") ? "port" : el.classList.contains("is-square") ? "sq" : "land";
+  const src = thumbSrc((it.card.thumbs || [])[0]);
+  const letter = (it.card.title || "?").trim().charAt(0);
+  const mediaHtml = coverInner(it.card, letter, src).replace(/ onload="[^"]*"/, "").replace(/ loading="lazy"/, "");
+  const panel = d.querySelector("#dlg-panel");
+  const noCover = el.classList.contains("no-cover");
+  panel.className = "dlg-panel" + (noCover ? " nocover" : orient === "land" ? " land" : orient === "sq" ? " sq" : "");
+  panel.innerHTML = `<button type="button" class="dlg-x" data-close="1" aria-label="关闭">✕</button>
+    ${noCover ? "" : `<div class="dlg-media">${mediaHtml}</div>`}<div class="dlg-main">${detailHtml(it)}</div>`;
+  const list = dlgItems(), i = list.indexOf(el);
+  d.querySelector(".dlg-nav.prev").disabled = i <= 0;
+  d.querySelector(".dlg-nav.next").disabled = i < 0 || i >= list.length - 1;
+  if (d.classList.contains("hidden")) { DLG_LAST = document.activeElement; d.classList.remove("hidden"); document.body.classList.add("dlg-open"); }
+  panel.querySelector(".dlg-main").scrollTop = 0;
+  panel.querySelector(".dlg-x").focus({ preventScroll: true });
+}
+function closeDlg() {
+  const d = document.getElementById("dlg");
+  if (!d || d.classList.contains("hidden")) return;
+  d.classList.add("hidden");
+  document.body.classList.remove("dlg-open");
+  if (DLG_LAST && DLG_LAST.focus) DLG_LAST.focus({ preventScroll: true });
+  DLG_EL = null;
+}
+function stepDlg(n) {
+  const list = dlgItems(), i = list.indexOf(DLG_EL);
+  if (i < 0 || !list[i + n]) return;
+  openDlg(list[i + n]);
+}
+document.addEventListener("click", e => {
+  const card = e.target.closest(".wall-card");
+  if (card && card.dataset.ci !== undefined && !e.target.closest("a")) openDlg(card);
+  const sc = e.target.closest("[data-scroll]");
+  if (sc) { const t = document.getElementById(sc.dataset.scroll); if (t) t.scrollIntoView({ behavior: "smooth", block: "start" }); }
+});
+document.addEventListener("keydown", e => {
+  const open = document.getElementById("dlg") && !document.getElementById("dlg").classList.contains("hidden");
+  if (open) {
+    if (e.key === "Escape") { e.preventDefault(); closeDlg(); }
+    else if (e.key === "ArrowLeft") stepDlg(-1);
+    else if (e.key === "ArrowRight") stepDlg(1);
+  } else if ((e.key === "Enter" || e.key === " ") && e.target.classList && e.target.classList.contains("wall-card")) {
+    e.preventDefault(); openDlg(e.target);
+  }
+});
+
+/* ——— YouTube 主题 ——— */
 function renderEvidence(ev) {
   const thumb = ev.thumb || ev.thumbnail || (ev.id ? `https://i.ytimg.com/vi/${ev.id}/maxresdefault.jpg` : "");
   const fallback = ev.id ? `https://i.ytimg.com/vi/${ev.id}/hqdefault.jpg` : "";
-  const views = ev.views_label ? `${esc(ev.views_label)}播放` : (ev.stats ? esc(String(ev.stats).split("·")[0].trim()) : "");
+  const vm = ev.views_label ? String(ev.views_label) : (ev.stats ? String(ev.stats).split("·")[0].replace(/播放/, "").trim() : "");
   const dur = ev.duration_label ? esc(ev.duration_label) : "";
   const portrait = ev.portrait === true || isPortraitUrl(ev.url) || (ev.format === "shorts");
   const onerr = fallback
@@ -1128,28 +1371,38 @@ function renderEvidence(ev) {
       </div>
       <div class="yt-ev-meta">
         <div class="yt-ev-title">${esc(ev.title || "")}</div>
-        <div class="yt-ev-views">${views}${ev.channel ? " · " + esc(ev.channel) : ""}</div>
+        <div class="yt-ev-views">${vm ? `<b>${esc(vm)}</b>播放` : ""}${ev.channel ? (vm ? " · " : "") + esc(ev.channel) : ""}</div>
+        ${ev.sponsored ? `<div class="card-chips"><span class="chip chip-warn">推广 / 活动链接</span></div>` : ""}
       </div>
     </a>`;
 }
 
 function renderYtTheme(theme) {
   const evidence = (theme.evidence || []).slice(0, 4);
+  const p = parseAnalysis(theme.judgment || "");
+  const body = (p.lead || "") + (p.has ? "" : "");
+  const rest = ["why", "look", "cmt", "diff"].map(k => p.by[k] ? p.by[k].text : "").filter(Boolean).join(" ");
+  const use = p.by.use ? `<div class="use-box"><b>怎么用到 Topview</b><span>${esc(p.by.use.text)}</span></div>` : "";
   return `
     <article class="yt-theme">
       <div class="yt-theme-head">
-        <span class="${badgeClass(theme.badge)}">${esc(theme.badge || "")}</span>
+        <span class="${badgeClass(theme.badge)}">${esc(splitBadge(theme.badge).head)}</span>
         <h3>${esc(theme.title || "")}</h3>
+        ${renderChips(splitBadge(theme.badge).rest)}
       </div>
-      <p class="yt-judgment">${esc(theme.judgment || "")}</p>
-      <div class="yt-evidence">${evidence.map(renderEvidence).join("")}</div>
+      <div class="yt-theme-body">
+        <div class="yt-text">
+          <p class="yt-judgment">${esc((body + " " + rest).trim())}</p>
+          ${use}
+        </div>
+        <div class="yt-evidence">${evidence.map(renderEvidence).join("")}</div>
+      </div>
     </article>`;
 }
 
 function renderYtSection(viewKey) {
   const section = document.getElementById("yt-section");
   const hint = document.getElementById("yt-hint");
-  const label = document.getElementById("cards-label");
   const themesEl = document.getElementById("yt-themes");
   const updatedEl = document.getElementById("yt-updated");
 
@@ -1160,7 +1413,6 @@ function renderYtSection(viewKey) {
   if (showFull && yd && (yd.themes || []).length) {
     section.classList.remove("hidden");
     hint.classList.add("hidden");
-    label.classList.remove("hidden");
     const upd = yd.updated || "";
     const win = yd.window ? ` · ${yd.window}` : "";
     updatedEl.textContent = upd ? `更新 ${upd}${win}` : "";
@@ -1170,15 +1422,12 @@ function renderYtSection(viewKey) {
     themesEl.innerHTML = "";
     hint.classList.remove("hidden");
     hint.innerHTML = `YouTube 热点（海外市场）详见 <a href="#overseas">海外日报</a> 或 <a href="#weekly">周报</a>。`;
-    label.classList.remove("hidden");
   } else {
     section.classList.add("hidden");
     hint.classList.add("hidden");
-    label.classList.add("hidden");
     themesEl.innerHTML = "";
   }
 }
-
 
 function filterCompads(viewKey) {
   const items = (typeof COMPADS !== "undefined" && COMPADS && COMPADS.items) ? COMPADS.items : [];
@@ -1209,23 +1458,18 @@ function renderCompadsCard(it) {
   const badge = it.badge || (it.is_new ? "新开投" : "在投");
   const cover = it.cover || "";
   if (!hasUsableCover(cover)) return "";
-  const coverHtml = `<div class="cover"><img src="${esc(cover)}" alt="" loading="lazy" decoding="async" onload="markPortraitFromImg(this)" onerror="this.closest('article')?.remove();" /></div>`;
-  const link = it.link
-    ? `<div class="card-links"><a href="${esc(it.link)}" target="_blank" rel="noopener noreferrer">查看广告</a></div>`
-    : "";
   const plat = ({meta:"Meta", google:"Google", tiktok:"TikTok"}[it.platform] || it.platform || "");
   const regs = (it.regions || []).join("/");
-  return `
-    <article class="card">
-      ${coverHtml}
-      <div class="card-body">
-        <span class="${badgeClass(badge)}">${esc(badge)}</span>
-        <h2 class="card-title">${esc(it.title || (it.competitor + " · " + plat))}</h2>
-        <div class="card-stats">${esc(it.stats || [plat, regs, it.first_shown ? ("首投 " + it.first_shown) : ""].filter(Boolean).join(" · "))}</div>
-        <p class="card-analysis">${esc(it.analysis || it.copy || "")}</p>
-        ${link}
-      </div>
-    </article>`;
+  const card = {
+    badge,
+    title: it.title || (it.competitor + " · " + plat),
+    stats: it.stats || [plat, regs, it.first_shown ? ("首投 " + it.first_shown) : ""].filter(Boolean).join(" · "),
+    analysis: it.analysis || it.copy || "",
+    links: it.link ? [{ title: "查看广告", href: it.link }] : [],
+    thumbs: [{ type: "local", src: cover }]
+  };
+  const chips = [it.competitor, plat, regs && ("地区 " + regs), it.first_shown && ("首投 " + it.first_shown)].filter(Boolean);
+  return renderCard(card, 0, { plat: "", chips, removeOnError: true, badgeInBody: true });
 }
 
 function renderCompads(viewKey) {
@@ -1239,6 +1483,7 @@ function renderCompads(viewKey) {
   if (h2) h2.textContent = viewKey === "weekly" ? "竞品本周新开投" : "竞品投放日更";
   if (viewKey === "weekly" && !items.length) {
     section.classList.add("hidden");
+    updateAnchors();
     return;
   }
   section.classList.remove("hidden");
@@ -1252,6 +1497,7 @@ function renderCompads(viewKey) {
     empty.textContent = viewKey === "korea"
       ? "韩国地区今日暂无竞品新开投条目（或未取到）。"
       : "今日暂无竞品新开投条目（或未取到）。";
+    updateAnchors();
     return;
   }
   empty.classList.add("hidden");
@@ -1262,9 +1508,45 @@ function renderCompads(viewKey) {
     empty.textContent = viewKey === "korea"
       ? "韩国地区今日暂无带封面的竞品条目。"
       : "今日暂无带封面的竞品条目（远程封面失效的已隐藏）。";
+    updateAnchors();
     return;
   }
   grid.innerHTML = cards.join("");
+  updateAnchors();
+}
+
+function updateAnchors() {
+  document.querySelectorAll("#anchors [data-scroll]").forEach(b => {
+    const t = document.getElementById(b.dataset.scroll);
+    b.classList.toggle("hidden", !!(t && t.classList.contains("hidden")));
+  });
+}
+function renderToday(view) {
+  const raw = String(view.lead || "").trim();
+  let sents = (raw.match(/[^。]+。?/g) || []).map(s => s.trim()).filter(Boolean);
+  if (sents.length < 3) sents = sents.flatMap(s => s.split(/；/).map((x, i, a) => (x.trim() + (i < a.length - 1 ? "。" : ""))).filter(Boolean));
+  if (sents.length > 3) { const f = sents.filter(s => !/^(主榜|精选)\s*\d/.test(s)); if (f.length >= 3) sents = f; }
+  sents = sents.slice(0, 5);
+  const li = sents.map(s => {
+    const m = s.match(/^([^：:，,]{1,16})[：:](.+)$/);
+    return `<li>${m ? `<b>${esc(m[1])}：</b>${esc(m[2])}` : esc(s)}</li>`;
+  }).join("");
+  const meta = (view.meta || []).map(m => `<span><strong>${esc(m.k)}</strong> ${esc(m.v)}</span>`).join("");
+  document.getElementById("lead").innerHTML = `
+    <div class="today-head"><h2>${view.leadKicker && /结论/.test(view.leadKicker) ? esc(view.leadKicker) : "今天结论"}</h2><span>${esc(view.leadKicker && !/结论/.test(view.leadKicker) ? view.leadKicker : "")}</span></div>
+    <ul class="today-list">${li}</ul>
+    <div class="meta-row">${meta}</div>
+    <button type="button" class="today-more" onclick="this.closest('.lead').classList.toggle('open')"><span class="t-open">展开全部 ▾</span><span class="t-close">收起 ▴</span></button>`;
+  document.getElementById("lead").classList.remove("open");
+}
+function updateWallCount() {
+  const n = document.querySelectorAll("#grid .wall-card").length;
+  const f = document.querySelectorAll("#fold-area .wall-card").length;
+  const el = document.getElementById("wall-count");
+  if (el) el.textContent = n + " 条" + (f ? `（另有同类折叠 ${f} 条）` : "") + " · 点击卡片看详情";
+  const wrap = document.getElementById("gbar-wrap"), gs = document.getElementById("gbar-section");
+  if (wrap && gs) { wrap.classList.toggle("hidden", gs.classList.contains("hidden")); if (GFILTER) wrap.open = true; }
+  updateAnchors();
 }
 
 
@@ -1380,13 +1662,15 @@ function renderCardsArea(key, view) {
   });
   const f = GFILTER;
   const vis = list => f ? list.filter(x => x.g === f) : list;
-  document.getElementById("grid").innerHTML = vis(shown).map(x => renderCard(x.c)).join("");
+  const rankOf = new Map(); let _rk = 0;
+  shown.forEach(x => { if (isMainCard(key, x.c)) rankOf.set(x.c, ++_rk); });
+  document.getElementById("grid").innerHTML = vis(shown).map(x => renderCard(x.c, rankOf.get(x.c) || 0)).join("");
   const fold = document.getElementById("fold-area");
   const fv = vis(folded);
   if (fv.length) {
     const cnt = countBy(folded.map(x => x.g));
     const parts = Object.entries(cnt).sort((a, b) => b[1] - a[1]).map(([k, n]) => `${(GENRE_BY_KEY[k] || { short: k }).short} ${n}`).join(" · ");
-    fold.innerHTML = `<summary>同类还在火 · 已折叠 ${folded.length} 条（${esc(parts)}）——点开看</summary><div class="grid">${fv.map(x => renderCard(x.c)).join("")}</div>`;
+    fold.innerHTML = `<summary>同类还在火 · 已折叠 ${folded.length} 条（${esc(parts)}）——点开看</summary><div class="wall">${fv.map(x => renderCard(x.c, 0)).join("")}</div>`;
     fold.classList.remove("hidden");
     fold.open = !!f;
   } else { fold.classList.add("hidden"); fold.innerHTML = ""; }
@@ -1403,6 +1687,7 @@ function refreshDiversity() {
   renderGenreBar(CURRENT_VIEW, view);
   renderNovel(view);
   renderCardsArea(CURRENT_VIEW, view);
+  updateWallCount();
 }
 
 function renderView(key) {
@@ -1411,14 +1696,7 @@ function renderView(key) {
 
   document.getElementById("dateLine").textContent = view.dateLine || REPORT.dateLabel;
 
-  const meta = (view.meta || [])
-    .map(m => `<span><strong>${esc(m.k)}</strong> ${esc(m.v)}</span>`)
-    .join("");
-
-  document.getElementById("lead").innerHTML = `
-    <div class="kicker">${esc(view.leadKicker)}</div>
-    <p>${esc(view.lead)}</p>
-    <div class="meta-row">${meta}</div>`;
+  renderToday(view);
 
   renderYtSection(key);
   renderCompads(key);
@@ -1433,6 +1711,7 @@ function renderView(key) {
     btn.setAttribute("aria-selected", on ? "true" : "false");
   });
 
+  updateWallCount();
   history.replaceState(null, "", `#${key}`);
 }
 
