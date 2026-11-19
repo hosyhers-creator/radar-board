@@ -1,0 +1,270 @@
+{
+ "updated": "2026-11-19",
+ "market": "overseas",
+ "timezone": "Asia/Shanghai",
+ "collected_at": "2026-11-19 08:10–08:40（北京时间）",
+ "window": "本周上传＋按播放，自跑 32 词 + YouTube 采集 bot",
+ "source": "overseas-daily-1119",
+ "themes": [
+  {
+   "id": "t1",
+   "badge": "上升速",
+   "title": "PixVerse Canvas 也来抢“一张产品图 → 广告”：4 个达人用同一个推广链接",
+   "judgment": "上周是 Dreamina 2.0 讲“画布优先”，这周 PixVerse 也找了一批达人讲同一件事：一张产品照片 + 参考视频，在画布上做成电影感广告或 UGC 广告。4 条简介都是 pixverse.onelink.me 推广链接 + 新用户 20% 折扣码，按付费创作者活动处理。Crypto SJ 同一周还接了 CapCut 黑五链接，说明达人在同时接几家。对 Topview：“产品图变广告”已经是各家都在讲的说法，Topview 讲价格和无限次数更容易区分：T1“Seedance 2.5 一样的效果，3.8折的价格”，30 天无限。",
+   "evidence": [
+    {
+     "title": "This Ad Looks Expensive… But I Made It with AI! | PixVerse Canvas",
+     "url": "https://www.youtube.com/watch?v=DxWDm8zTFro",
+     "id": "DxWDm8zTFro",
+     "channel": "James Talk",
+     "views": 154356,
+     "views_label": "15.4万",
+     "duration_label": "7:29",
+     "upload_date": "11-12",
+     "stats": "15.4万播放 · 7:29 · 11-12 · James Talk",
+     "thumb": "https://i.ytimg.com/vi/DxWDm8zTFro/hqdefault.jpg",
+     "why": "224 万订阅；PixVerse 推广链接 + 折扣码",
+     "sponsored": true
+    },
+    {
+     "title": "I Turned a Christmas Pet Outfit into an AI Video Ad with PixVerse Canvas",
+     "url": "https://www.youtube.com/watch?v=YosPPGjS-fE",
+     "id": "YosPPGjS-fE",
+     "channel": "Crypto SJ",
+     "views": 87066,
+     "views_label": "8.7万",
+     "duration_label": "6:35",
+     "upload_date": "11-16",
+     "stats": "8.7万播放 · 6:35 · 11-16 · Crypto SJ",
+     "thumb": "https://i.ytimg.com/vi/YosPPGjS-fE/hqdefault.jpg",
+     "why": "61.9 万订阅；圣诞宠物服装广告；同一推广链接",
+     "sponsored": true
+    },
+    {
+     "title": "I Turned ONE Product Photo Into a CINEMATIC AI Commercial! (PixVerse AI Canvas)",
+     "url": "https://www.youtube.com/watch?v=paFPJcaUIY8",
+     "id": "paFPJcaUIY8",
+     "channel": "ADDY'S WORLD",
+     "views": 25689,
+     "views_label": "2.6万",
+     "duration_label": "8:02",
+     "upload_date": "11-13",
+     "stats": "2.6万播放 · 8:02 · 11-13 · ADDY'S WORLD",
+     "thumb": "https://i.ytimg.com/vi/paFPJcaUIY8/hqdefault.jpg",
+     "why": "20.7 万订阅；同一推广链接",
+     "sponsored": true
+    },
+    {
+     "title": "I Created a Realistic Product Commercial with AI! | PixVerse Canvas UGC Ads",
+     "url": "https://www.youtube.com/watch?v=oA8cinLjHUo",
+     "id": "oA8cinLjHUo",
+     "channel": "Tyler Hayes",
+     "views": 22620,
+     "views_label": "2.3万",
+     "duration_label": "6:33",
+     "upload_date": "11-17",
+     "stats": "2.3万播放 · 6:33 · 11-17 · Tyler Hayes",
+     "thumb": "https://i.ytimg.com/vi/oA8cinLjHUo/hqdefault.jpg",
+     "why": "15.3 万订阅；UGC 广告；同一推广链接 + 折扣码",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "badge": "持续",
+   "title": "黑五 CapCut PC 达人教程还在包场：一条比一条长，Dreamina 画布链接跟上",
+   "judgment": "YouTube 搜“black friday ai ad”，前排还是 CapCut PC 的达人教程，简介都是 capcutpc_kol 黑五活动链接，内容是“修一条产品广告”“一条 AI 视频剪出 3 条广告”。BMF MEDIA 这条用的是 Dreamina 画布 cobrand 链接。全部按付费合作标注。离黑五（11-27）还有 8 天，自然爆的黑五 AI 广告还没出现。对 Topview：竞品买的是“教程”，Topview 可以直接放成片对比，不用教程。",
+   "evidence": [
+    {
+     "title": "Black Friday advertising: Fix a Product Ad with CapCut PC’s AI Video Editor",
+     "url": "https://www.youtube.com/watch?v=U5JJ9ca5Njo",
+     "id": "U5JJ9ca5Njo",
+     "channel": "CRYPTO VANGUARD",
+     "views": 105951,
+     "views_label": "10.6万",
+     "duration_label": "17:06",
+     "upload_date": "11-13",
+     "stats": "10.6万播放 · 17:06 · 11-13 · CRYPTO VANGUARD",
+     "thumb": "https://i.ytimg.com/vi/U5JJ9ca5Njo/hqdefault.jpg",
+     "why": "448 万订阅；capcutpc_kol 黑五链接",
+     "sponsored": true
+    },
+    {
+     "title": "Black Friday Advertising: 3 Ads From One AI Video | Dreamina x CapCut PC",
+     "url": "https://www.youtube.com/watch?v=czaKhkgJ5fY",
+     "id": "czaKhkgJ5fY",
+     "channel": "Crypto SJ",
+     "views": 101055,
+     "views_label": "10.1万",
+     "duration_label": "9:20",
+     "upload_date": "11-16",
+     "stats": "10.1万播放 · 9:20 · 11-16 · Crypto SJ",
+     "thumb": "https://i.ytimg.com/vi/czaKhkgJ5fY/hqdefault.jpg",
+     "why": "61.9 万订阅；capcutpc_kol + Dreamina 链接",
+     "sponsored": true
+    },
+    {
+     "title": "Black Friday Advertising with AI Video Editor: Create a Stunning Cycling Jersey Ad | CapCut PC",
+     "url": "https://www.youtube.com/watch?v=ENVn7ZxkipY",
+     "id": "ENVn7ZxkipY",
+     "channel": "AI WORLDWIDE",
+     "views": 71407,
+     "views_label": "7.1万",
+     "duration_label": "8:18",
+     "upload_date": "11-12",
+     "stats": "7.1万播放 · 8:18 · 11-12 · AI WORLDWIDE",
+     "thumb": "https://i.ytimg.com/vi/ENVn7ZxkipY/hqdefault.jpg",
+     "why": "24.3 万订阅；capcutpc_kol 黑五链接",
+     "sponsored": true
+    },
+    {
+     "title": "I Created a Black Friday Commercial With Dreamina Canvas — Full AI Design Workflow!",
+     "url": "https://www.youtube.com/watch?v=AjheITZRiiw",
+     "id": "AjheITZRiiw",
+     "channel": "BMF MEDIA",
+     "views": 49549,
+     "views_label": "5.0万",
+     "duration_label": "7:10",
+     "upload_date": "11-16",
+     "stats": "5.0万播放 · 7:10 · 11-16 · BMF MEDIA",
+     "thumb": "https://i.ytimg.com/vi/AjheITZRiiw/hqdefault.jpg",
+     "why": "55.4 万订阅；Dreamina cobrand 链接",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "badge": "上升速",
+   "title": "从“Claude 写分镜”到“Claude 直接剪片、做动画”：头部一条 68.5 万",
+   "judgment": "昨天的卡是“大模型写分镜 + Seedance 出片”，这周播放高的变成了“让 Claude 直接当剪辑师”：接开源剪辑工具自动剪、用代码出 3D 动画、只用 Claude 做一整部纪录片。Professor Of AI 的“Claude vs 剪辑师”68.5 万，高赞“欢迎来到失业时代”；其余几条都在卖课或挂推广链接。对 Topview：观众想要的是“一个工具从想法到成片”，Topview 广告可以讲“不用剪辑，一个页面出成片”，不用和 Claude 比。",
+   "evidence": [
+    {
+     "title": "Claude Vs Video Editors: Is this the END?",
+     "url": "https://www.youtube.com/watch?v=d3NJyNn6vTQ",
+     "id": "d3NJyNn6vTQ",
+     "channel": "Professor Of AI",
+     "views": 685378,
+     "views_label": "68.5万",
+     "duration_label": "26:12",
+     "upload_date": "11-13",
+     "stats": "68.5万播放 · 26:12 · 11-13 · Professor Of AI",
+     "thumb": "https://i.ytimg.com/vi/d3NJyNn6vTQ/hqdefault.jpg",
+     "why": "40.1 万订阅；印地语；高赞“欢迎来到失业时代”",
+     "sponsored": false
+    },
+    {
+     "title": "CLAUDE AI VIDEO EDITING 🔥 Complete Setup and Guide",
+     "url": "https://www.youtube.com/watch?v=2f7qW3ICqIY",
+     "id": "2f7qW3ICqIY",
+     "channel": "Raj Photo Editing and Much More",
+     "views": 219022,
+     "views_label": "21.9万",
+     "duration_label": "13:50",
+     "upload_date": "11-16",
+     "stats": "21.9万播放 · 13:50 · 11-16 · Raj Photo Editing and Much More",
+     "thumb": "https://i.ytimg.com/vi/2f7qW3ICqIY/hqdefault.jpg",
+     "why": "367 万订阅；Claude 桌面版 + 开源剪辑工具",
+     "sponsored": false
+    },
+    {
+     "title": "Claude Makes 3D Animations Easy Now",
+     "url": "https://www.youtube.com/watch?v=ZxaMmG71g8c",
+     "id": "ZxaMmG71g8c",
+     "channel": "Futurepedia",
+     "views": 201993,
+     "views_label": "20.2万",
+     "duration_label": "7:51",
+     "upload_date": "11-12",
+     "stats": "20.2万播放 · 7:51 · 11-12 · Futurepedia",
+     "thumb": "https://i.ytimg.com/vi/ZxaMmG71g8c/hqdefault.jpg",
+     "why": "77.2 万订阅；简介挂 HubSpot 资料包链接",
+     "sponsored": true
+    },
+    {
+     "title": "I Made a Full Documentary Using ONLY Claude AI (No Editing!)",
+     "url": "https://www.youtube.com/watch?v=l2_pKB1EbMQ",
+     "id": "l2_pKB1EbMQ",
+     "channel": "Grow With Kaz",
+     "views": 193424,
+     "views_label": "19.3万",
+     "duration_label": "10:39",
+     "upload_date": "11-13",
+     "stats": "19.3万播放 · 10:39 · 11-13 · Grow With Kaz",
+     "thumb": "https://i.ytimg.com/vi/l2_pKB1EbMQ/hqdefault.jpg",
+     "why": "11.8 万订阅；简介卖 Skool 课程",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "badge": "上升速",
+   "title": "AI 水果剧火出圈，吐槽视频也来了：“AI 该学会说不”",
+   "judgment": "AI 水果拟人剧已经不只在 TikTok 和 X：旁遮普语的 Vinay Vines 做到 Part 7，62.7 万；129 万订阅的 YXL Salah 发“AI 水果垃圾太恶心”，MisoForgetful 发“AI 水果 TikTok 越来越离谱”，高赞都是“AI 需要学会说不”。吐槽集中在“水果谈恋爱、出轨”这类情感狗血。X 上 clipcraft7 的水果犯罪片今天还有 242 万。对 Topview：水果拟人形式还能用，但别用情感狗血，换成动作、悬疑或产品演示。",
+   "evidence": [
+    {
+     "title": "AI Fruits dha Mass 🌶️| AI Serial Part - 7",
+     "url": "https://www.youtube.com/watch?v=2FEOXg4Mwe8",
+     "id": "2FEOXg4Mwe8",
+     "channel": "Vinay Vines",
+     "views": 626528,
+     "views_label": "62.7万",
+     "duration_label": "33:47",
+     "upload_date": "11-12",
+     "stats": "62.7万播放 · 33:47 · 11-12 · Vinay Vines",
+     "thumb": "https://i.ytimg.com/vi/2FEOXg4Mwe8/hqdefault.jpg",
+     "why": "75.1 万订阅；旁遮普语 AI 水果连续剧",
+     "sponsored": false
+    },
+    {
+     "title": "Ai Fruit Slop Is Disgusting..",
+     "url": "https://www.youtube.com/watch?v=IkFsKNg-Mq0",
+     "id": "IkFsKNg-Mq0",
+     "channel": "YXL Salah",
+     "views": 81083,
+     "views_label": "8.1万",
+     "duration_label": "25:58",
+     "upload_date": "11-14",
+     "stats": "8.1万播放 · 25:58 · 11-14 · YXL Salah",
+     "thumb": "https://i.ytimg.com/vi/IkFsKNg-Mq0/hqdefault.jpg",
+     "why": "129 万订阅；反应视频，高赞“AI 有时得学会说不”（97 赞）",
+     "sponsored": false
+    },
+    {
+     "title": "AI Fruit TikToks Have Somehow Gotten Worse…",
+     "url": "https://www.youtube.com/watch?v=zTioKDOaT9w",
+     "id": "zTioKDOaT9w",
+     "channel": "MisoForgetful",
+     "views": 59004,
+     "views_label": "5.9万",
+     "duration_label": "21:41",
+     "upload_date": "11-12",
+     "stats": "5.9万播放 · 21:41 · 11-12 · MisoForgetful",
+     "thumb": "https://i.ytimg.com/vi/zTioKDOaT9w/hqdefault.jpg",
+     "why": "12.8 万订阅；评论 271；吐槽“为什么总是水果谈恋爱”",
+     "sponsored": false
+    },
+    {
+     "title": "AI Generated Dramas Are a Wretched Abomination",
+     "url": "https://www.youtube.com/watch?v=q21EO3weMPI",
+     "id": "q21EO3weMPI",
+     "channel": "Cheesecakelover",
+     "views": 11174,
+     "views_label": "1.1万",
+     "duration_label": "32:50",
+     "upload_date": "11-14",
+     "stats": "1.1万播放 · 32:50 · 11-14 · Cheesecakelover",
+     "thumb": "https://i.ytimg.com/vi/q21EO3weMPI/hqdefault.jpg",
+     "why": "5.85 万订阅；吐槽 AI 剧；简介挂无关品牌联盟链接",
+     "sponsored": true
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "theme_cards": 4,
+  "evidence_videos": 16
+ }
+}

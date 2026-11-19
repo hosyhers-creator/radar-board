@@ -457,5 +457,45 @@
   "genre": "animal",
   "pattern": "AI 让自家宠物跳舞",
   "title": "自家的狗“蕨菜”站起来，和两个舞者一起跳《Single Ladies》：甩耳朵、甩头，比舞者还卖力"
+ },
+ {
+  "date": "11-19",
+  "market": "overseas",
+  "genre": "cinema",
+  "pattern": "皮克斯风动物冒险动画（16:9 长片）",
+  "title": "Seedance 2.5 做的皮克斯风动物冒险：鸭嘴兽、狼、老鹰从冰原追到沙漠",
+  "manual": true
+ },
+ {
+  "date": "11-19",
+  "market": "overseas",
+  "genre": "meme",
+  "pattern": "真人实拍问答 + AI 插入镜头",
+  "title": "办公室问同事“你哪年出生”，答得离谱就切 AI 画面：2,897 万播放",
+  "manual": true
+ },
+ {
+  "date": "11-19",
+  "market": "overseas",
+  "genre": "meme",
+  "pattern": "水果人拟人连续剧（犯罪片结构）",
+  "title": "水果人犯罪片《Bodycount》：每个角色额头上都有一个数字",
+  "manual": true
+ },
+ {
+  "date": "11-19",
+  "market": "overseas",
+  "genre": "animal",
+  "pattern": "野生动物求救/救助故事",
+  "title": "她以为北极熊在攻击她，其实熊妈妈是在求救",
+  "manual": true
+ },
+ {
+  "date": "11-19",
+  "market": "overseas",
+  "genre": "drama",
+  "pattern": "反乌托邦讽刺连载",
+  "title": "Gossip Goblin 反乌托邦宫廷讽刺剧《Carnal Pursuits》：老粉在追配角",
+  "manual": true
  }
 ]
