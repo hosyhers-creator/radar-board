@@ -561,14 +561,32 @@
     max-height: calc(100vh - 48px); background: #fff; border-radius: 20px; overflow: hidden; box-shadow: 0 30px 80px rgba(2,6,23,.45); }
   .dlg-panel.land { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr); width: min(780px, 100%); }
   .dlg-panel { --mw: 380px; --mh: min(calc(var(--mw) * 16 / 9), calc(100vh - 48px)); }
-  .dlg-media { position: relative; background: #0b1020; height: var(--mh); overflow: hidden; }
+  .dlg-media { position: relative; background: #0b1020; height: var(--mh); overflow: hidden; display: flex; flex-direction: column; }
+  .dlg-stage { position: relative; flex: 1 1 auto; min-height: 0; background: #000; overflow: hidden; }
+  .dlg-stage iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; background: #000; display: block; }
+  .dlg-stage.is-x iframe, .dlg-stage.is-ig iframe { background: #fff; }
+  .dlg-stage.is-x { background: #000; }
+  .dlg-stage.is-x > img, .dlg-stage.is-ig > img { display: none; }
+  .dlg-stage.is-x iframe { top: 50%; bottom: auto; height: 100%; transform: translateY(-50%); background: #000; }
+  .dlg-bar { flex: 0 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 0 14px; height: 34px; background: #0b1020; color: #cbd5e1; font-size: .74rem; }
+  .dlg-bar a { color: #e2e8f0; text-decoration: none; font-weight: 700; padding: 3px 10px; border-radius: 999px; background: rgba(255,255,255,.12); white-space: nowrap; }
+  .dlg-bar a:hover { background: rgba(255,255,255,.24); }
+  .dlg-bar span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .dlg-playbtn { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); z-index: 2; display: inline-flex; align-items: center; gap: 8px;
+    padding: 12px 22px; border-radius: 999px; background: rgba(15,23,42,.88); color: #fff; font-weight: 800; font-size: .98rem; text-decoration: none;
+    border: 2px solid rgba(255,255,255,.85); box-shadow: 0 8px 28px rgba(0,0,0,.5); white-space: nowrap; }
+  .dlg-playbtn:hover { background: #2563eb; }
+  .dlg-playhint { position: absolute; left: 0; right: 0; bottom: 14px; z-index: 2; text-align: center; font-size: .74rem; color: #e2e8f0; text-shadow: 0 1px 4px rgba(0,0,0,.9); padding: 0 16px; }
+  .dlg-stage:has(.dlg-playbtn)::after { content: ""; position: absolute; inset: 0; background: rgba(0,0,0,.28); pointer-events: none; }
   .dlg-panel:not(.land):not(.nocover) .dlg-main { max-height: var(--mh); }
   .dlg-panel.nocover .dlg-main { max-height: calc(100vh - 48px); }
   .dlg-panel.nocover { grid-template-columns: minmax(0, 1fr); width: min(720px, 100%); }
-  .dlg-panel.land .dlg-media { height: auto; aspect-ratio: 16 / 9; max-height: 52vh; }
-  .dlg-panel.sq .dlg-media { height: auto; aspect-ratio: 1 / 1; max-height: calc(100vh - 48px); }
-  .dlg-media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
-  .dlg-media .cover-placeholder { position: absolute; inset: 0; }
+  .dlg-panel.land .dlg-media { height: auto; max-height: none; }
+  .dlg-panel.land .dlg-stage { flex: none; aspect-ratio: 16 / 9; max-height: calc(52vh); }
+  .dlg-panel.sq .dlg-media { height: auto; max-height: calc(100vh - 48px); }
+  .dlg-panel.sq .dlg-stage { flex: none; aspect-ratio: 1 / 1; max-height: calc(100vh - 48px - 34px); }
+  .dlg-stage > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+  .dlg-stage .cover-placeholder { position: absolute; inset: 0; }
   .dlg-main { overflow-y: auto; padding: 26px 28px 28px; display: flex; flex-direction: column; gap: 14px; min-width: 0; }
   .d-tags { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; padding-right: 44px; }
   .d-rank { font-size: .78rem; font-weight: 800; padding: 3px 10px; border-radius: 999px; background: #0f172a; color: #fff; }
@@ -587,9 +605,14 @@
   .d-thumbs { display: flex; gap: 8px; flex-wrap: wrap; }
   .d-thumbs img { height: 96px; border-radius: 8px; border: 1px solid var(--border); background: #e5e7eb; }
   .d-links { display: flex; flex-direction: column; gap: 8px; margin-top: 2px; }
-  .d-links a { display: block; font-size: .86rem; line-height: 1.45; color: #1d4ed8; text-decoration: none; padding: 9px 12px; border: 1px solid var(--border); border-radius: 10px; word-break: break-word; }
-  .d-links a:hover { background: var(--primary-soft); border-color: var(--primary-line); }
-  .d-links a::before { content: "↗ "; opacity: .7; }
+  .d-links-h { font-size: .8rem; font-weight: 800; color: var(--text-muted); letter-spacing: .03em; margin-top: 2px; }
+  .d-link { display: flex; align-items: stretch; gap: 6px; }
+  .d-link-btn { flex: 1 1 auto; min-width: 0; text-align: left; font: inherit; font-size: .86rem; line-height: 1.45; color: #1d4ed8; background: #fff; cursor: pointer; padding: 9px 12px; border: 1px solid var(--border); border-radius: 10px; word-break: break-word; }
+  .d-link-btn:hover { background: var(--primary-soft); border-color: var(--primary-line); }
+  .d-link.on .d-link-btn { background: var(--primary-soft); border-color: var(--primary); box-shadow: inset 3px 0 0 var(--primary); font-weight: 700; }
+  .d-link-ext { flex: 0 0 auto; display: inline-flex; align-items: center; font-size: .74rem; color: var(--text-dim); text-decoration: none; padding: 0 10px; border: 1px solid var(--border); border-radius: 10px; white-space: nowrap; }
+  .d-link-ext:hover { color: #1d4ed8; border-color: var(--primary-line); background: var(--primary-soft); }
+  .d-link-plain .d-link-btn::before { content: "↗ "; opacity: .7; }
   .dlg-x { position: absolute; top: 12px; right: 12px; z-index: 5; width: 36px; height: 36px; border-radius: 50%; border: 0; cursor: pointer;
     background: rgba(255,255,255,.94); color: #111827; font-size: 1.05rem; line-height: 1; box-shadow: 0 2px 10px rgba(0,0,0,.28); }
   .dlg-x:hover { background: #fff; }
@@ -645,8 +668,11 @@
     .dlg-panel, .dlg-panel.land { width: 100%; max-height: none; height: 100dvh; border-radius: 0; grid-template-columns: minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr); }
     .dlg-media, .dlg-panel.land .dlg-media { aspect-ratio: auto; height: 42vh; max-height: none; }
     .dlg-panel:not(.land) .dlg-main { max-height: none; }
-    .dlg-panel.land .dlg-media { height: auto; aspect-ratio: 16 / 9; }
-    .dlg-panel.sq .dlg-media { height: auto; aspect-ratio: 1 / 1; max-height: 46vh; }
+    .dlg-panel.land .dlg-media { height: auto; }
+    .dlg-panel.land .dlg-stage { max-height: none; }
+    .dlg-panel:not(.land):not(.sq) .dlg-media { height: 58dvh; }
+    .dlg-panel.sq .dlg-media { height: auto; max-height: 62vh; }
+    .dlg-panel.sq .dlg-stage { max-height: calc(62vh - 34px); }
     .dlg-main { padding: 18px 18px 28px; }
     .d-title { font-size: 1.12rem; }
     .dlg-nav { display: none; }
@@ -1255,6 +1281,7 @@ function ensureDlg() {
     if (e.target.closest("[data-close]")) closeDlg();
     else if (e.target.closest(".dlg-nav.prev")) stepDlg(-1);
     else if (e.target.closest(".dlg-nav.next")) stepDlg(1);
+    else { const lb = e.target.closest(".d-link-btn"); if (lb) selectDlgLink(+lb.dataset.li); }
   });
   return d;
 }
@@ -1290,7 +1317,11 @@ function detailHtml(it) {
   const use = parsed.by.use ? `<div class="d-use"><h4>怎么用到 Topview</h4><p>${esc(parsed.by.use.text)}</p></div>` : "";
   const extra = (c.thumbs || []).slice(1).map(t => thumbSrc(t)).filter(Boolean)
     .map(s => `<img src="${esc(s.primary)}" alt="" loading="lazy" onerror="${s.fallback ? `if(this.dataset.fb!=='1'){this.dataset.fb='1';this.src='${esc(s.fallback)}';}else{this.remove();}` : "this.remove();"}" />`).join("");
-  const links = (c.links || []).map(l => `<a href="${esc(l.href)}" target="_blank" rel="noopener noreferrer">${esc(l.title)}</a>`).join("");
+  const multi = (c.links || []).length > 1;
+  const links = (c.links || []).map((l, i) => {
+    const em = embedInfo(l.href);
+    return `<div class="d-link${em ? "" : " d-link-plain"}${i === (it.sel || 0) ? " on" : ""}" data-li="${i}"><button type="button" class="d-link-btn" data-li="${i}">${em ? "▶ " : ""}${esc(l.title)}</button><a class="d-link-ext" href="${esc(l.href)}" target="_blank" rel="noopener noreferrer" title="在原平台打开">在原平台打开 ↗</a></div>`;
+  }).join("");
   return `
     <div class="d-tags">${it.rank ? `<span class="d-rank">#${it.rank}</span>` : ""}${bd.head ? `<span class="${badgeClass(c.badge)}">${esc(bd.head)}</span>` : ""}${chips}</div>
     <h2 class="d-title">${esc(c.title)}</h2>
@@ -1299,23 +1330,134 @@ function detailHtml(it) {
     ${use}
     ${secs.join("")}
     ${extra ? `<div class="d-thumbs">${extra}</div>` : ""}
-    ${links ? `<div class="d-links">${links}</div>` : ""}`;
+    ${links ? `${multi ? `<div class="d-links-h">相关视频 · 点一条在左侧播放</div>` : ""}<div class="d-links">${links}</div>` : ""}`;
 }
+/* ——— 弹窗内嵌播放器：按链接识别平台，用官方嵌入；识别不了/嵌入失败就退回封面 + “去原平台播放” ——— */
+function embedInfo(href) {
+  let u;
+  try { u = new URL(String(href || ""), location.href); } catch (e) { return null; }
+  const h = u.hostname.replace(/^(www|m|mobile)\./i, "").toLowerCase(), path = u.pathname;
+  let m;
+  if (h === "youtu.be" && (m = path.match(/^\/([\w-]{11})/))) return { plat: "YouTube", id: m[1], orient: "land", kind: "yt" };
+  if (/(^|\.)youtube(-nocookie)?\.com$/.test(h)) {
+    if ((m = path.match(/^\/shorts\/([\w-]{11})/))) return { plat: "YouTube Shorts", id: m[1], orient: "port", kind: "yt" };
+    if ((m = path.match(/^\/(?:embed|live|v)\/([\w-]{11})/))) return { plat: "YouTube", id: m[1], orient: "land", kind: "yt" };
+    if (path === "/watch" && (m = (u.searchParams.get("v") || "").match(/^[\w-]{11}$/))) return { plat: "YouTube", id: m[0], orient: "land", kind: "yt" };
+    return null;
+  }
+  if (h === "x.com" || h === "twitter.com") {
+    if ((m = path.match(/\/status(?:es)?\/(\d{5,25})/))) return { plat: "X", id: m[1], orient: "port", kind: "x" };
+    return null;
+  }
+  if (h === "tiktok.com") {
+    if ((m = path.match(/\/video\/(\d{8,25})/))) return { plat: "TikTok", id: m[1], orient: "port", kind: "tt" };
+    return null;
+  }
+  if (h === "instagram.com") {
+    if ((m = path.match(/\/(p|reel|reels|tv)\/([\w-]+)/))) return { plat: "Instagram", id: m[2], seg: m[1] === "reels" ? "reel" : m[1], orient: "port", kind: "ig" };
+    return null;
+  }
+  return null;
+}
+function embedSrc(em) {
+  if (em.kind === "yt") {
+    const o = /^https?:$/.test(location.protocol) ? "&origin=" + encodeURIComponent(location.origin) : "";
+    return `https://www.youtube-nocookie.com/embed/${em.id}?autoplay=1&playsinline=1&rel=0&enablejsapi=1${o}`;
+  }
+  if (em.kind === "tt") return `https://www.tiktok.com/player/v1/${em.id}?autoplay=1&music_info=0&description=0&rel=0`;
+  if (em.kind === "x") return `https://platform.twitter.com/embed/Tweet.html?id=${em.id}&theme=dark&dnt=true&hideThread=true&lang=zh-cn`;
+  if (em.kind === "ig") return `https://www.instagram.com/${em.seg}/${em.id}/embed/`;
+  return "";
+}
+let DLG_ST = null;   // { it, embs, sel, forceFallback:{} }
+function destroyPlayer() {
+  const d = document.getElementById("dlg");
+  if (!d) return;
+  d.querySelectorAll("iframe").forEach(f => { try { f.src = "about:blank"; } catch (e) {} f.remove(); });
+}
+function dlgCoverFor(st, i) {
+  const c = st.it.card, th = c.thumbs || [];
+  let src = thumbSrc(th[i]) || null;
+  const em = st.embs[i];
+  if (!src && em && em.kind === "yt") src = { primary: `https://i.ytimg.com/vi/${em.id}/hqdefault.jpg`, fallback: null };
+  if (!src) src = thumbSrc(th[0]);
+  return src;
+}
+function renderDlgMedia() {
+  const st = DLG_ST;
+  if (!st) return;
+  const d = document.getElementById("dlg"), panel = d.querySelector("#dlg-panel");
+  const host = panel.querySelector(".dlg-media");
+  destroyPlayer();
+  const c = st.it.card, links = c.links || [], lk = links[st.sel] || null;
+  const em = st.embs[st.sel];
+  const canEmbed = !!em && !st.bad[st.sel];
+  const letter = (c.title || "?").trim().charAt(0);
+  const href = lk ? lk.href : "";
+  let orient = canEmbed ? em.orient : st.cardOrient;
+  panel.classList.remove("land", "sq");
+  if (orient === "land") panel.classList.add("land");
+  else if (orient === "sq") panel.classList.add("sq");
+  if (!host) return;
+  host.classList.toggle("has-player", canEmbed);
+  const cover = dlgCoverFor(st, st.sel);
+  const coverHtml = coverInner(c, letter, cover).replace(/ onload="[^"]*"/, "").replace(/ loading="lazy"/, "");
+  if (canEmbed) {
+    host.innerHTML = `<div class="dlg-stage is-${em.kind}">${coverHtml}<iframe id="dlg-frame" title="${esc(c.title)}" src="${esc(embedSrc(em))}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen; clipboard-write" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" loading="eager"></iframe></div>
+      <div class="dlg-bar"><span>${esc(em.plat)} · 内嵌播放</span><a href="${esc(href)}" target="_blank" rel="noopener noreferrer">在原平台打开 ↗</a></div>`;
+    const fr = host.querySelector("#dlg-frame");
+    if (em.kind === "yt") fr.addEventListener("load", () => { try { fr.contentWindow.postMessage(JSON.stringify({ event: "listening", id: 1, channel: "widget" }), "*"); } catch (e) {} });
+  } else {
+    const why = em ? "这条视频不允许嵌入" : "该平台不支持网页内播放";
+    host.innerHTML = `<div class="dlg-stage">${coverHtml}${href ? `<a class="dlg-playbtn" href="${esc(href)}" target="_blank" rel="noopener noreferrer">▶ 去原平台播放</a>` : ""}<div class="dlg-playhint">${why}，点上方按钮在原平台打开</div></div>`;
+  }
+  panel.querySelectorAll(".d-link").forEach(n => n.classList.toggle("on", +n.dataset.li === st.sel));
+}
+function selectDlgLink(i) {
+  if (!DLG_ST || i === DLG_ST.sel) return;
+  DLG_ST.sel = i;
+  renderDlgMedia();
+}
+window.addEventListener("message", e => {
+  const st = DLG_ST, fr = document.getElementById("dlg-frame");
+  if (!st || !fr || e.source !== fr.contentWindow) return;
+  let data = e.data;
+  if (typeof data === "string") { try { data = JSON.parse(data); } catch (er) { return; } }
+  if (!data || typeof data !== "object") return;
+  const em = st.embs[st.sel];
+  if (em && em.kind === "yt" && data.event === "onError") { st.bad[st.sel] = true; renderDlgMedia(); return; }
+  if (em && em.kind === "x" && data["twttr.embed"]) {
+    const pr = data["twttr.embed"].params && data["twttr.embed"].params[0];
+    const stage = fr.parentElement;
+    if (pr && pr.height && stage) {
+      const hh = Math.ceil(pr.height) + 2;
+      if (window.matchMedia("(max-width: 760px)").matches) {
+        // 手机：播放区高度贴合推文，不留大片黑底
+        const host = stage.parentElement, mx = Math.round(window.innerHeight * 0.66);
+        host.style.height = "auto"; stage.style.flex = "none"; stage.style.height = Math.min(hh, mx) + "px";
+        fr.style.top = "0"; fr.style.transform = "none"; fr.style.height = "100%";
+      } else fr.style.height = Math.min(hh, stage.clientHeight) + "px";
+    }
+  }
+});
 function openDlg(el) {
   const it = ITEMS[+el.dataset.ci];
   if (!it) return;
   const d = ensureDlg();
   DLG_EL = el;
-  const media = el.querySelector(".cover");
-  const orient = el.classList.contains("is-portrait") ? "port" : el.classList.contains("is-square") ? "sq" : "land";
-  const src = thumbSrc((it.card.thumbs || [])[0]);
-  const letter = (it.card.title || "?").trim().charAt(0);
-  const mediaHtml = coverInner(it.card, letter, src).replace(/ onload="[^"]*"/, "").replace(/ loading="lazy"/, "");
-  const panel = d.querySelector("#dlg-panel");
+  const cardOrient = el.classList.contains("is-portrait") ? "port" : el.classList.contains("is-square") ? "sq" : "land";
   const noCover = el.classList.contains("no-cover");
-  panel.className = "dlg-panel" + (noCover ? " nocover" : orient === "land" ? " land" : orient === "sq" ? " sq" : "");
+  const embs = (it.card.links || []).map(l => embedInfo(l.href));
+  let sel = embs.findIndex(Boolean); if (sel < 0) sel = 0;
+  it.sel = sel;
+  DLG_ST = { it, embs, sel, cardOrient, bad: {} };
+  const hasMedia = !noCover || embs.some(Boolean);
+  const panel = d.querySelector("#dlg-panel");
+  destroyPlayer();
+  panel.className = "dlg-panel" + (hasMedia ? "" : " nocover");
   panel.innerHTML = `<button type="button" class="dlg-x" data-close="1" aria-label="关闭">✕</button>
-    ${noCover ? "" : `<div class="dlg-media">${mediaHtml}</div>`}<div class="dlg-main">${detailHtml(it)}</div>`;
+    ${hasMedia ? `<div class="dlg-media"></div>` : ""}<div class="dlg-main">${detailHtml(it)}</div>`;
+  if (hasMedia) renderDlgMedia();
   const list = dlgItems(), i = list.indexOf(el);
   d.querySelector(".dlg-nav.prev").disabled = i <= 0;
   d.querySelector(".dlg-nav.next").disabled = i < 0 || i >= list.length - 1;
@@ -1326,6 +1468,9 @@ function openDlg(el) {
 function closeDlg() {
   const d = document.getElementById("dlg");
   if (!d || d.classList.contains("hidden")) return;
+  destroyPlayer();                       // 先销毁 iframe，声音立刻停
+  d.querySelector("#dlg-panel").innerHTML = "";
+  DLG_ST = null;
   d.classList.add("hidden");
   document.body.classList.remove("dlg-open");
   if (DLG_LAST && DLG_LAST.focus) DLG_LAST.focus({ preventScroll: true });
