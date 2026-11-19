@@ -66,20 +66,20 @@
    },
    "hist": {
     "days": 7,
-    "total": 35,
+    "total": 33,
     "counts": {
-     "senior": 4,
-     "romance": 3,
-     "reveal": 2,
      "family": 13,
      "game": 4,
      "cinema": 3,
+     "romance": 2,
+     "senior": 3,
      "baby": 1,
      "meme": 2,
+     "reveal": 2,
      "animal": 2,
      "drama": 1
     },
-    "range": "11-12～11-18"
+    "range": "11-13～11-19"
    }
   }
  }
