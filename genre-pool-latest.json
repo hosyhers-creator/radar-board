@@ -27,16 +27,15 @@
    },
    "hist": {
     "days": 7,
-    "total": 25,
+    "total": 21,
     "counts": {
-     "animal": 7,
-     "cinema": 5,
-     "meme": 4,
+     "animal": 6,
+     "cinema": 4,
+     "meme": 3,
      "product": 2,
      "reveal": 1,
      "build": 3,
-     "retro": 2,
-     "drama": 1
+     "retro": 2
     },
     "range": "11-13～11-19"
    }
