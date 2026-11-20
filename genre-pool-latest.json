@@ -71,18 +71,19 @@
     "days": 7,
     "total": 33,
     "counts": {
-     "family": 13,
-     "game": 4,
+     "family": 10,
      "cinema": 3,
-     "romance": 2,
+     "romance": 3,
      "senior": 3,
      "baby": 1,
-     "meme": 2,
+     "game": 3,
+     "meme": 3,
      "reveal": 2,
      "animal": 2,
-     "drama": 1
+     "drama": 2,
+     "product": 1
     },
-    "range": "11-13～11-19"
+    "range": "11-14～11-20"
    }
   }
  }
