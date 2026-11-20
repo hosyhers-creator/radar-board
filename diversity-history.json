@@ -486,5 +486,29 @@
   "genre": "family",
   "pattern": "装病偷懒→老公无意一句话拆穿（无身份揭晓）",
   "title": "公公七十大寿前一天，小儿媳绑着绷带说手腕扭了，只能“尝尝咸淡”——老公进门：“你昨晚打保龄球不是破 200 分吗？”"
+ },
+ {
+  "date": "11-20",
+  "market": "overseas",
+  "genre": "cinema",
+  "pattern": "VHS 恐怖+玩偶角色",
+  "title": "VHS 恐怖：被绑在椅子上的女人，芭比娃娃给她倒茶、戴花环",
+  "manual": true
+ },
+ {
+  "date": "11-20",
+  "market": "overseas",
+  "genre": "product",
+  "pattern": "AI 工厂流水线·产品工序可视化",
+  "title": "三色眼线笔在 AI 工厂里怎么造出来：9 秒一条产品流水线",
+  "manual": true
+ },
+ {
+  "date": "11-20",
+  "market": "overseas",
+  "genre": "meme",
+  "pattern": "逼真出糗瞬间/真假难辨",
+  "title": "穿亮片裙的女人扒着游艇梯子，一松手掉进海里",
+  "manual": true
  }
 ]
