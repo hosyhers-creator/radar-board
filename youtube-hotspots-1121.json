@@ -1,0 +1,264 @@
+{
+ "updated": "2026-11-21",
+ "market": "overseas",
+ "timezone": "Asia/Shanghai",
+ "collected_at": "2026-11-21 08:20–08:35（北京时间）",
+ "window": "本周上传＋按播放，自跑 30 词 + YouTube 采集 bot",
+ "source": "overseas-daily-1121",
+ "themes": [
+  {
+   "id": "t1",
+   "badge": "新出路",
+   "title": "Seedance 2.5 4K 上线：官方和创作者开始拿“4K”当卖点",
+   "judgment": "BytePlus 官方 11-17 发 Seedance 2.5 4K 展示片，说 4K 已经能通过 API 生成；创作者马上跟进，Tha Trenchez 剧集预告直接写“Made with Seedance 2.5 4K”，X 上 @EHuanglu“现在 AI 能做 4K 电影了”57.5 万。同一周 Kling 也在推 Image 4.0，Theoretically Media 测了更便宜的 Seedance 2.5 Flash（官方说法：比旗舰便宜约 34%）。对 Topview：下一轮比的是“清晰度 + 价格”。Topview 是否已支持 4K 需要先确认；价格这边可以直接用“Seedance 2.5 一样的效果，3.8折的价格”（T1 $0.22/秒 vs 官方 $0.585/秒）。",
+   "evidence": [
+    {
+     "id": "sF9SexIUUk8",
+     "title": "Seedance 2.5 in 4K | Take a Closer Look",
+     "channel": "BytePlus",
+     "url": "https://www.youtube.com/watch?v=sF9SexIUUk8",
+     "views": 78528,
+     "views_label": "7.9万",
+     "duration": "30 秒",
+     "uploaded": "11-17",
+     "stats": "7.9万播放 · 30 秒 · 11-17 · BytePlus",
+     "thumb": "https://i.ytimg.com/vi/sF9SexIUUk8/hqdefault.jpg",
+     "why": "官方号；简介写“4K 生成已通过 Seedance 2.5 API 开放”",
+     "sponsored": false
+    },
+    {
+     "id": "Xxg5loN71hw",
+     "title": "THA TRENCHEZ | Season Finale Teaser (4K) | Made with Seedance 2.5 4K",
+     "channel": "Tha Trenchez",
+     "url": "https://www.youtube.com/watch?v=Xxg5loN71hw",
+     "views": 61258,
+     "views_label": "6.1万",
+     "duration": "81 秒",
+     "uploaded": "11-14",
+     "stats": "6.1万播放 · 81 秒 · 11-14 · Tha Trenchez",
+     "thumb": "https://i.ytimg.com/vi/Xxg5loN71hw/hqdefault.jpg",
+     "why": "1.92 万订阅的 AI 剧集号，标题直接写 Seedance 2.5 4K；评论 18",
+     "sponsored": false
+    },
+    {
+     "id": "yWSHflA8ZxU",
+     "title": "WHEN TIME STANDS STILL | KLING IMAGE 4.0",
+     "channel": "Kling AI",
+     "url": "https://www.youtube.com/watch?v=yWSHflA8ZxU",
+     "views": 77001,
+     "views_label": "7.7万",
+     "duration": "52 秒",
+     "uploaded": "11-17",
+     "stats": "7.7万播放 · 52 秒 · 11-17 · Kling AI",
+     "thumb": "https://i.ytimg.com/vi/yWSHflA8ZxU/hqdefault.jpg",
+     "why": "官方号推 Image 4.0，竞品同一周也在推画质",
+     "sponsored": false
+    },
+    {
+     "id": "oXlOoCIwJp8",
+     "title": "Seedance 2.5 Flash Is Cheap. But this AI Film Cost $102,000?",
+     "channel": "Theoretically Media",
+     "url": "https://www.youtube.com/watch?v=oXlOoCIwJp8",
+     "views": 33611,
+     "views_label": "3.4万",
+     "duration": "17:42",
+     "uploaded": "11-17",
+     "stats": "3.4万播放 · 17:42 · 11-17 · Theoretically Media",
+     "thumb": "https://i.ytimg.com/vi/oXlOoCIwJp8/hqdefault.jpg",
+     "why": "20.2 万订阅；测 Seedance 2.5 Flash（说比旗舰便宜约 34%），评论 130",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "badge": "持续",
+   "title": "圣诞“90 年代爱情喜剧”Shorts 继续铺量，开始挂教程和 App",
+   "judgment": "30 秒左右的 90 年代圣诞爱情喜剧还在涨：The Nostalgia Club 30 秒 64.0 万（2,500 订阅），Vera Bellrose 三集合一 48.9 万。结构都一样：一句尴尬台词 → 婆婆或男友撞见 → 反转。变现开始外挂：Nostalgia Club 简介卖“怎么做这些视频”的教程，YUK Romatic 画面水印引到 PlayOryn App。对 Topview：同一个“30 秒一个反转”可以批量出多版，Wan 3.0 30 秒 720p 只要 $1.20，365 天无限。",
+   "evidence": [
+    {
+     "id": "xADGUltLO0c",
+     "title": "What will you do if it was you? | 90s rom-com AI mini movie",
+     "channel": "The Nostalgia Club",
+     "url": "https://www.youtube.com/shorts/xADGUltLO0c",
+     "views": 640363,
+     "views_label": "64.0万",
+     "duration": "30 秒",
+     "uploaded": "11-20",
+     "stats": "64.0万播放 · 30 秒 · 11-20 · The Nostalgia Club",
+     "thumb": "https://i.ytimg.com/vi/xADGUltLO0c/hqdefault.jpg",
+     "why": "2,500 订阅；评论 134；简介挂“看简介学做这些视频”",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "id": "mvrNEOjcR4g",
+     "title": "Her Best Friend's Dad Asked Her Out (All 3 Parts) | Christmas Rom-Com",
+     "channel": "Vera Bellrose",
+     "url": "https://www.youtube.com/shorts/mvrNEOjcR4g",
+     "views": 489079,
+     "views_label": "48.9万",
+     "duration": "84 秒",
+     "uploaded": "11-14",
+     "stats": "48.9万播放 · 84 秒 · 11-14 · Vera Bellrose",
+     "thumb": "https://i.ytimg.com/vi/mvrNEOjcR4g/hqdefault.jpg",
+     "why": "4,190 订阅；评论 184；简介挂读者邮件名单",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "id": "mAd9pqwYoIs",
+     "title": "Caught Celebrating \"Marrying a Rich Man\" by His Mom! | 90s Rom-Com AI Mini Movie",
+     "channel": "YUK Romatic",
+     "url": "https://www.youtube.com/shorts/mAd9pqwYoIs",
+     "views": 250128,
+     "views_label": "25.0万",
+     "duration": "28 秒",
+     "uploaded": "11-19",
+     "stats": "25.0万播放 · 28 秒 · 11-19 · YUK Romatic · ⚠️疑似投流（评论/播放 0.0040%）",
+     "thumb": "https://i.ytimg.com/vi/mAd9pqwYoIs/hqdefault.jpg",
+     "why": "画面水印“View the Story on PlayOryn”",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    },
+    {
+     "id": "IR-lgGgxdiQ",
+     "title": "His Mother Said She'd NEVER Belong… She Had No Idea What Was Coming",
+     "channel": "Ava Sterling",
+     "url": "https://www.youtube.com/shorts/IR-lgGgxdiQ",
+     "views": 169069,
+     "views_label": "16.9万",
+     "duration": "29 秒",
+     "uploaded": "11-19",
+     "stats": "16.9万播放 · 29 秒 · 11-19 · Ava Sterling",
+     "thumb": "https://i.ytimg.com/vi/IR-lgGgxdiQ/hqdefault.jpg",
+     "why": "2.25 万订阅；评论 78；圣诞晚宴婆婆刁难",
+     "sponsored": false,
+     "portrait": true,
+     "format": "shorts"
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "badge": "持续",
+   "title": "黑五倒计时 6 天：CapCut / Dreamina 达人推广铺到韩语区，主打“$0.29 一条广告”",
+   "judgment": "搜“black friday ai ad”和“dreamina”，靠前的仍然全是带推广链接的教程，而且同一批活动链接（capcutpc_kol、ccblackfriday）出现在英语和韩语频道。韩国 Min Jun 标题直接打“409 韩元（$0.29）做完黑五广告”，21.8 万。自然爆的黑五 AI 广告还是 0。对 Topview：竞品拿“单条超低价”当钩子，Topview 可以把“30 天无限”和 T1 3.8 折放在开头 3 秒。",
+   "evidence": [
+    {
+     "id": "X7VmHAa0ZvM",
+     "title": "단돈 409원으로 블랙프라이데이 광고 캠페인 완성?!（只花 409 韩元做完黑五广告）Dreamina 2.0 + Seedance 2.0",
+     "channel": "Min Jun",
+     "url": "https://www.youtube.com/watch?v=X7VmHAa0ZvM",
+     "views": 217571,
+     "views_label": "21.8万",
+     "duration": "14:07",
+     "uploaded": "11-17",
+     "stats": "21.8万播放 · 14:07 · 11-17 · Min Jun",
+     "thumb": "https://i.ytimg.com/vi/X7VmHAa0ZvM/hqdefault.jpg",
+     "why": "434 万订阅；Dreamina 推广链接（utm 写 only29cents）",
+     "sponsored": true
+    },
+    {
+     "id": "0S6TAs6GvZ8",
+     "title": "누구나 쉽게 만드는 AI 광고!（人人都能做的 AI 广告）Dreamina × CapCut PC",
+     "channel": "깡쓰TV",
+     "url": "https://www.youtube.com/watch?v=0S6TAs6GvZ8",
+     "views": 149822,
+     "views_label": "15.0万",
+     "duration": "8:40",
+     "uploaded": "11-14",
+     "stats": "15.0万播放 · 8:40 · 11-14 · 깡쓰TV",
+     "thumb": "https://i.ytimg.com/vi/0S6TAs6GvZ8/hqdefault.jpg",
+     "why": "153 万订阅；CapCut 黑五链接 ccblackfriday",
+     "sponsored": true
+    },
+    {
+     "id": "6LfXdhtQ7qM",
+     "title": "Unlock the Denim Deal: GTA-Inspired Black Friday Advertising | CapCut",
+     "channel": "James Talk",
+     "url": "https://www.youtube.com/watch?v=6LfXdhtQ7qM",
+     "views": 97953,
+     "views_label": "9.8万",
+     "duration": "8:39",
+     "uploaded": "11-17",
+     "stats": "9.8万播放 · 8:39 · 11-17 · James Talk",
+     "thumb": "https://i.ytimg.com/vi/6LfXdhtQ7qM/hqdefault.jpg",
+     "why": "224 万订阅；capcutpc_kol 黑五链接",
+     "sponsored": true
+    },
+    {
+     "id": "dvsDoY8_8Hc",
+     "title": "Black Friday Advertising: Turn Product Photos into a Drawer Organizer Ad",
+     "channel": "Crypto SJ",
+     "url": "https://www.youtube.com/watch?v=dvsDoY8_8Hc",
+     "views": 86453,
+     "views_label": "8.6万",
+     "duration": "8:35",
+     "uploaded": "11-19",
+     "stats": "8.6万播放 · 8:35 · 11-19 · Crypto SJ",
+     "thumb": "https://i.ytimg.com/vi/dvsDoY8_8Hc/hqdefault.jpg",
+     "why": "61.9 万订阅；capcutpc_kol 链接",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "badge": "持续",
+   "title": "“一张产品图出整条广告”成了达人教程的标准开头",
+   "judgment": "PixVerse V6、CapCut PC、CapCut 的 GPT 插件三家的达人视频，开头都是“只给一张产品图”，最后出 15 秒成片，卖点都落在“同一件产品前后一致”。3 条都挂推广链接或折扣码。X 上 @abxxai 的写实唇膏广告（见主榜）是自然流量里对应的成片。对 Topview：广告里直接演示“一张图进去，16:9 成片出来”，再报价格，比教程更短。",
+   "evidence": [
+    {
+     "id": "ZIV7yBKD4-c",
+     "title": "Small Business Marketing Made Easy with CapCut AI Ad Generator",
+     "channel": "Eigi and AI",
+     "url": "https://www.youtube.com/watch?v=ZIV7yBKD4-c",
+     "views": 120727,
+     "views_label": "12.1万",
+     "duration": "7:01",
+     "uploaded": "11-14",
+     "stats": "12.1万播放 · 7:01 · 11-14 · Eigi and AI",
+     "thumb": "https://i.ytimg.com/vi/ZIV7yBKD4-c/hqdefault.jpg",
+     "why": "97.4 万订阅；一张产品图做黑五蜡烛广告；CapCut 推广链接",
+     "sponsored": true
+    },
+    {
+     "id": "ocumaqr7lMo",
+     "title": "I Made a Full Product Ad From One Photo with PixVerse V6",
+     "channel": "Chronos Code",
+     "url": "https://www.youtube.com/watch?v=ocumaqr7lMo",
+     "views": 88400,
+     "views_label": "8.8万",
+     "duration": "5:30",
+     "uploaded": "11-14",
+     "stats": "8.8万播放 · 5:30 · 11-14 · Chronos Code",
+     "thumb": "https://i.ytimg.com/vi/ocumaqr7lMo/hqdefault.jpg",
+     "why": "12.1 万订阅；PixVerse 八折链接",
+     "sponsored": true
+    },
+    {
+     "id": "aw0XFIQNysI",
+     "title": "CapCut ChatGPT Plugin: Keep One Product Consistent with an AI Video Editor",
+     "channel": "AI ARENA",
+     "url": "https://www.youtube.com/watch?v=aw0XFIQNysI",
+     "views": 43826,
+     "views_label": "4.4万",
+     "duration": "6:15",
+     "uploaded": "11-18",
+     "stats": "4.4万播放 · 6:15 · 11-18 · AI ARENA",
+     "thumb": "https://i.ytimg.com/vi/aw0XFIQNysI/hqdefault.jpg",
+     "why": "138 万订阅；capcutpc_kol 链接",
+     "sponsored": true
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "theme_cards": 4,
+  "evidence_videos": 15
+ }
+}
