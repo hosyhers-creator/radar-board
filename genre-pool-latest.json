@@ -69,20 +69,20 @@
    },
    "hist": {
     "days": 7,
-    "total": 29,
+    "total": 27,
     "counts": {
-     "family": 9,
-     "cinema": 3,
-     "meme": 3,
-     "game": 2,
+     "family": 7,
+     "meme": 2,
+     "game": 1,
      "reveal": 3,
-     "animal": 2,
-     "senior": 1,
+     "animal": 3,
+     "cinema": 3,
+     "senior": 2,
      "drama": 3,
      "romance": 2,
      "product": 1
     },
-    "range": "11-15～11-21"
+    "range": "11-16～11-22"
    }
   }
  }
