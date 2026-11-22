@@ -575,5 +575,29 @@
   "genre": "drama",
   "pattern": "借来的东西当自己的炫耀→失主当场把证据（大葱、油钱、报警）摆回去（证据物件反转）",
   "title": "顾客把奔驰交给店老板代停——老板开着它载女朋友逛超市，说“上周刚提的车”；顾客出来，把他买菜的大葱塞回他手里：“警察来了"
+ },
+ {
+  "date": "11-22",
+  "market": "overseas",
+  "genre": "cinema",
+  "pattern": "固定双角色系列·30 秒灾难逃生",
+  "title": "MAY & VINNY 雪崩逃生：拐错一个弯，整座山塌下来",
+  "manual": true
+ },
+ {
+  "date": "11-22",
+  "market": "overseas",
+  "genre": "product",
+  "pattern": "假黑科技设备演示·一扫就变 before/after",
+  "title": "未来理发店：发光仪器在光头上一扫，瞬间长出整头头发（搬运·原作者未知）",
+  "manual": true
+ },
+ {
+  "date": "11-22",
+  "market": "overseas",
+  "genre": "build",
+  "pattern": "烂尾房固定机位延时改造 before/after",
+  "title": "44 秒把烂尾楼改成屋顶停车的新房，评论区忙着挑刺",
+  "manual": true
  }
 ]
