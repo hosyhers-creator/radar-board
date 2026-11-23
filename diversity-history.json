@@ -627,5 +627,26 @@
   "genre": "family",
   "pattern": "亲戚拿次品讨人情→儿媳笑着端回给她（以礼还礼，无身份揭晓）",
   "title": "姑妈（婆婆的小姑子）拎着旧名牌包和一袋磕坏的苹果上门，对婆婆说：“你住地下单间那会儿我多照顾你”——儿媳笑着把这盘苹果端"
+ },
+ {
+  "date": "11-23",
+  "market": "overseas",
+  "genre": "game",
+  "pattern": "游戏角色真人化群像吐槽（借 IP 热点）",
+  "title": "GTA 历代主角坐一起，嘲笑 GTA6 的新主角（Seedance 2.5 真人化）"
+ },
+ {
+  "date": "11-23",
+  "market": "overseas",
+  "genre": "product",
+  "pattern": "A vs B 对决测试·真假难辨",
+  "title": "吉普 vs 特斯拉泥地拔河：评论区一半在吵扭矩，一半在抓 AI 穿帮"
+ },
+ {
+  "date": "11-23",
+  "market": "overseas",
+  "genre": "meme",
+  "pattern": "水果拟人家庭·护女老爸反差",
+  "title": "桃子爸爸拿电钻，赶走女儿带回家的茄子帮"
  }
 ]
