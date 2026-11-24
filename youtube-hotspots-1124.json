@@ -1,0 +1,256 @@
+{
+ "updated": "2026-11-24",
+ "market": "overseas",
+ "timezone": "Asia/Shanghai",
+ "collected_at": "2026-11-24 07:50–08:15（北京时间）",
+ "window": "本周上传＋按播放，自跑 40 词 + YouTube 采集 bot",
+ "source": "overseas-daily-1124",
+ "themes": [
+  {
+   "id": "t1",
+   "badge": "上升速",
+   "title": "AI 面试官小品扩散：从 Nick Reid 一个人到 4 个频道",
+   "judgment": "上周还是 Nick Reid 一个人在拍“穿成 XX 去面 AI 面试官 Karen”，这周 Cam Whitt（4.93 万订阅）、Bo Bongo、Deeply Corporate 都跟上了，新角度有“带 AI 面试官去面 AI 面试官”“带乱码翻译去面试”“冒充 Karen 反过来面试 AI”。四条都在 16–24 万，评论 495–901，是评论很活跃的自然流量。对 Topview：用 AI Avatar 做“AI 面试官 / AI 客服”角色，配一个离谱的求职者，30–60 秒一集。",
+   "evidence": [
+    {
+     "id": "r5lWv6d7pgc",
+     "title": "Escaped Prisoner vs. AI Job Interviewer",
+     "channel": "Nick Reid",
+     "url": "https://www.youtube.com/watch?v=r5lWv6d7pgc",
+     "views": 235629,
+     "views_label": "23.6万",
+     "duration": "6:05",
+     "uploaded": "11-21",
+     "stats": "23.6万播放 · 6:05 · 11-21 · Nick Reid",
+     "thumb": "https://i.ytimg.com/vi/r5lWv6d7pgc/hqdefault.jpg",
+     "why": "评论 564；越狱犯戴着手铐去面试",
+     "sponsored": false
+    },
+    {
+     "id": "ejDqWCzPutI",
+     "title": "I Brought An AI Interviewer To My AI Job Interview",
+     "channel": "Cam Whitt",
+     "url": "https://www.youtube.com/watch?v=ejDqWCzPutI",
+     "views": 193340,
+     "views_label": "19.3万",
+     "duration": "6:34",
+     "uploaded": "11-23",
+     "stats": "19.3万播放 · 6:34 · 11-23 · Cam Whitt",
+     "thumb": "https://i.ytimg.com/vi/ejDqWCzPutI/hqdefault.jpg",
+     "why": "评论 495；带一个 AI 去面 AI",
+     "sponsored": false
+    },
+    {
+     "id": "X-rQM-BACO8",
+     "title": "I Brought a Gibberish Interpreter to My AI Job Interview",
+     "channel": "Bo Bongo",
+     "url": "https://www.youtube.com/watch?v=X-rQM-BACO8",
+     "views": 167789,
+     "views_label": "16.8万",
+     "duration": "11:36",
+     "uploaded": "11-19",
+     "stats": "16.8万播放 · 11:36 · 11-19 · Bo Bongo",
+     "thumb": "https://i.ytimg.com/vi/X-rQM-BACO8/hqdefault.jpg",
+     "why": "评论 495；乱码翻译梗",
+     "sponsored": false
+    },
+    {
+     "id": "Za2_fXKRuoY",
+     "title": "Copying the Meanest AI Interviewer Until It Breaks",
+     "channel": "Deeply Corporate",
+     "url": "https://www.youtube.com/watch?v=Za2_fXKRuoY",
+     "views": 161162,
+     "views_label": "16.1万",
+     "duration": "8:38",
+     "uploaded": "11-19",
+     "stats": "16.1万播放 · 8:38 · 11-19 · Deeply Corporate",
+     "thumb": "https://i.ytimg.com/vi/Za2_fXKRuoY/hqdefault.jpg",
+     "why": "1,970 订阅；评论 901；冒充 Karen 反向面试",
+     "sponsored": false
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "badge": "上升速",
+   "title": "Kling 4.0 付费测评铺量，对比片都拿 Seedance 2.5 当基准",
+   "judgment": "This is James 和 AI News Vortex 简介里是同一条 Kling KOL 链接（utm_campaign=20261116），各约 10 万，按付费创作者活动看。UhBee World 的“Kling 4.0 vs Seedance 2.5 做短剧”9.9 万挂 Artlist 返佣。Topview 返佣作者也发了“Topview T1 vs Seedance 2.5”同 prompt 对比（2.1 万）。现在测评圈的基准就是 Seedance 2.5。对 Topview：同 prompt 对比 + “Seedance 2.5 一样的效果，3.8折的价格”。",
+   "evidence": [
+    {
+     "id": "sCVOfTj0kc4",
+     "title": "Kling 4.0: Cinematic AI Test",
+     "channel": "This is James",
+     "url": "https://www.youtube.com/watch?v=sCVOfTj0kc4",
+     "views": 101845,
+     "views_label": "10.2万",
+     "duration": "4:46",
+     "uploaded": "11-23",
+     "stats": "10.2万播放 · 4:46 · 11-23 · This is James",
+     "thumb": "https://i.ytimg.com/vi/sCVOfTj0kc4/hqdefault.jpg",
+     "why": "Kling KOL 链接 campaign=20261116",
+     "sponsored": true
+    },
+    {
+     "id": "sp8jk0xdBRs",
+     "title": "I Turned a Studio Into a Dragon Movie With Kling 4.0 (10 Keyframes)",
+     "channel": "AI News Vortex",
+     "url": "https://www.youtube.com/watch?v=sp8jk0xdBRs",
+     "views": 98667,
+     "views_label": "9.9万",
+     "duration": "9:42",
+     "uploaded": "11-20",
+     "stats": "9.9万播放 · 9:42 · 11-20 · AI News Vortex",
+     "thumb": "https://i.ytimg.com/vi/sp8jk0xdBRs/hqdefault.jpg",
+     "why": "同一 Kling KOL 链接；评论 142",
+     "sponsored": true
+    },
+    {
+     "id": "OWkC-7t2W_A",
+     "title": "Kling 4.0 vs Seedance 2.5: Which AI Is Better? I Created an AI Short Drama!",
+     "channel": "어비월드 UhBee World",
+     "url": "https://www.youtube.com/watch?v=OWkC-7t2W_A",
+     "views": 99377,
+     "views_label": "9.9万",
+     "duration": "12:53",
+     "uploaded": "11-20",
+     "stats": "9.9万播放 · 12:53 · 11-20 · 어비월드 UhBee World",
+     "thumb": "https://i.ytimg.com/vi/OWkC-7t2W_A/hqdefault.jpg",
+     "why": "Artlist 返佣；用短剧对比两家",
+     "sponsored": true
+    },
+    {
+     "id": "_hjqgVBXqTQ",
+     "title": "Topview T1 vs Seedance 2.5 – which AI video model delivers better results?",
+     "channel": "Create With AI",
+     "url": "https://www.youtube.com/watch?v=_hjqgVBXqTQ",
+     "views": 20779,
+     "views_label": "2.1万",
+     "duration": "6:28",
+     "uploaded": "11-17",
+     "stats": "2.1万播放 · 6:28 · 11-17 · Create With AI",
+     "thumb": "https://i.ytimg.com/vi/_hjqgVBXqTQ/hqdefault.jpg",
+     "why": "Topview 返佣链接（via=）；同 prompt 对比",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "badge": "持续",
+   "title": "黑五最后 3 天：付费教程包场，“无限”话术撞车",
+   "judgment": "黑五（11-27）还剩 3 天，“black friday ai ad”前排仍是 CapCut PC / Dreamina 的付费达人片（8–11 万），自然爆的黑五 AI 广告还是 0。Dreamina 黑五打“Unlimited AI Creation”；X 上 Picsart 推广号把“Ultra 年付无限 Seedance 2.5，12-1 截止”写进 AI 视频帖正文。对 Topview：Seedance 2.5 和 T1 都是 30 天无限；Wan 3.0 打“30 秒 720p 只要 $1.20，365 天无限”。",
+   "evidence": [
+    {
+     "id": "w0jhG3CUkVc",
+     "title": "Black Friday Marketing: Turn Product Photos into Ads with an AI Video Editor | CapCut PC",
+     "channel": "James Talk",
+     "url": "https://www.youtube.com/watch?v=w0jhG3CUkVc",
+     "views": 112714,
+     "views_label": "11.3万",
+     "duration": "12:09",
+     "uploaded": "11-21",
+     "stats": "11.3万播放 · 12:09 · 11-21 · James Talk",
+     "thumb": "https://i.ytimg.com/vi/w0jhG3CUkVc/hqdefault.jpg",
+     "why": "capcutpc_kol 黑五链接",
+     "sponsored": true
+    },
+    {
+     "id": "OoQAHkHuJQM",
+     "title": "Black Friday Marketing: Fix Product Ads with an AI Video Editor | CapCut PC",
+     "channel": "This is James",
+     "url": "https://www.youtube.com/watch?v=OoQAHkHuJQM",
+     "views": 89968,
+     "views_label": "9.0万",
+     "duration": "10:46",
+     "uploaded": "11-22",
+     "stats": "9.0万播放 · 10:46 · 11-22 · This is James",
+     "thumb": "https://i.ytimg.com/vi/OoQAHkHuJQM/hqdefault.jpg",
+     "why": "capcutpc_kol 黑五链接",
+     "sponsored": true
+    },
+    {
+     "id": "q6TaSu4Fk7M",
+     "title": "I Let AI Create an Entire Commercial — Dreamina's NEW Canvas Changes Everything!",
+     "channel": "Mevesa",
+     "url": "https://www.youtube.com/watch?v=q6TaSu4Fk7M",
+     "views": 81254,
+     "views_label": "8.1万",
+     "duration": "6:27",
+     "uploaded": "11-23",
+     "stats": "8.1万播放 · 6:27 · 11-23 · Mevesa",
+     "thumb": "https://i.ytimg.com/vi/q6TaSu4Fk7M/hqdefault.jpg",
+     "why": "Dreamina 黑五“Unlimited AI Creation”注册链接",
+     "sponsored": true
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "badge": "持续",
+   "title": "Claude 做视频转向“免费做火柴人/卡通 Shorts”教程",
+   "judgment": "昨天是“Claude + Blender 出动画和广告”，今天前排变成“免费做火柴人/2D 卡通 Shorts”：Caffeinated Blogger 19.4 万（主打不用 Claude Code、全免费），印地语 Arvind 20.4 万，ProvenTube 5.8 万；Zane Hoyer 7.6 万挂 Higgsfield 返佣。卖点都是“免费、无限、不用拍”，画风是卡通和火柴人。对 Topview：不跟卡通拼免费，差异点放在写实成片；T1 打“Seedance 2.5 一样的效果，3.8折的价格”。",
+   "evidence": [
+    {
+     "id": "9MTsuXHt1Q4",
+     "title": "How to Make 2d Animation Shorts Using Ai",
+     "channel": "Arvind zone Extra",
+     "url": "https://www.youtube.com/watch?v=9MTsuXHt1Q4",
+     "views": 204326,
+     "views_label": "20.4万",
+     "duration": "8:05",
+     "uploaded": "11-19",
+     "stats": "20.4万播放 · 8:05 · 11-19 · Arvind zone Extra",
+     "thumb": "https://i.ytimg.com/vi/9MTsuXHt1Q4/hqdefault.jpg",
+     "why": "印地语；评论 95",
+     "sponsored": false
+    },
+    {
+     "id": "M_1IGXSQX_g",
+     "title": "Make Viral Stickman Shorts using FREE TOOLS (NO CLAUDE CODE) like Ricks Clips",
+     "channel": "Caffeinated Blogger",
+     "url": "https://www.youtube.com/watch?v=M_1IGXSQX_g",
+     "views": 193884,
+     "views_label": "19.4万",
+     "duration": "11:33",
+     "uploaded": "11-18",
+     "stats": "19.4万播放 · 11:33 · 11-18 · Caffeinated Blogger",
+     "thumb": "https://i.ytimg.com/vi/M_1IGXSQX_g/hqdefault.jpg",
+     "why": "评论 1,900；对标 Ricks Clips 火柴人",
+     "sponsored": false
+    },
+    {
+     "id": "qgZsNSs5qX0",
+     "title": "I Pushed Claude Animations to the Max (Copy My Prompt)",
+     "channel": "Zane Hoyer",
+     "url": "https://www.youtube.com/watch?v=qgZsNSs5qX0",
+     "views": 75577,
+     "views_label": "7.6万",
+     "duration": "5:53",
+     "uploaded": "11-21",
+     "stats": "7.6万播放 · 5:53 · 11-21 · Zane Hoyer",
+     "thumb": "https://i.ytimg.com/vi/qgZsNSs5qX0/hqdefault.jpg",
+     "why": "简介挂 Higgsfield 返佣",
+     "sponsored": true
+    },
+    {
+     "id": "KrD2pcBrzII",
+     "title": "I Made Viral 3D Animated Stickman Videos Using Only Claude Code (FREE PLUGIN)",
+     "channel": "ProvenTube",
+     "url": "https://www.youtube.com/watch?v=KrD2pcBrzII",
+     "views": 58312,
+     "views_label": "5.8万",
+     "duration": "11:09",
+     "uploaded": "11-17",
+     "stats": "5.8万播放 · 11:09 · 11-17 · ProvenTube",
+     "thumb": "https://i.ytimg.com/vi/KrD2pcBrzII/hqdefault.jpg",
+     "why": "评论 140",
+     "sponsored": false
+    }
+   ]
+  }
+ ],
+ "stats": {
+  "theme_cards": 4,
+  "evidence_videos": 15
+ }
+}

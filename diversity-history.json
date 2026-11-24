@@ -683,5 +683,37 @@
   "genre": "baby",
   "pattern": "网络梗角色手办化日常连载（ChatGPT 出图 + Seedance 动起来，放在真人手心/房间里）",
   "title": "“没公开过的天使弟弟！”——穿企鹅连体装、头顶光环、背着小翅膀的 Q 版小人站在真人手心里眨眼、扑腾翅膀，在客厅里飞一圈"
+ },
+ {
+  "date": "11-24",
+  "market": "overseas",
+  "genre": "cinema",
+  "pattern": "动漫角色写实化·闯进 N 个日常场景蒙太奇（借 IP）",
+  "title": "少年悟空穿街头潮服，闯进美国街区日常",
+  "manual": true
+ },
+ {
+  "date": "11-24",
+  "market": "overseas",
+  "genre": "animal",
+  "pattern": "写实动物误会→求救→报恩（字幕推进）",
+  "title": "狼獾把小女孩追回家，原来是来求救：救出幼崽后回来送鱼",
+  "manual": true
+ },
+ {
+  "date": "11-24",
+  "market": "overseas",
+  "genre": "holiday",
+  "pattern": "节日家庭梗·孩子学大人",
+  "title": "感恩节饭后，爸爸只端一个盘子，儿子有样学样",
+  "manual": true
+ },
+ {
+  "date": "11-24",
+  "market": "overseas",
+  "genre": "product",
+  "pattern": "AI 数字人 UGC 口播·成本对比",
+  "title": "“这些女孩不存在，15 秒只要 0.6 美元”：AI 数字人 UGC 口播",
+  "manual": true
  }
 ]
