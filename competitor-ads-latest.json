@@ -1438,5 +1438,39 @@
       "gatc_link": "https://adstransparency.google.com/advertiser/AR12554248788425834497/creative/CR18279766783307022337?region=KR"
     }
   ],
+  "hidden_no_video": [
+    {
+      "link": "https://adstransparency.google.com/advertiser/AR17459733968881451009/creative/CR05547574690899296257?region=KR",
+      "competitor": "Flova",
+      "regions": [
+        "KR"
+      ],
+      "reason": "no_video:透明度中心没有返回任何变体预览（GetCreativeById 无变体，疑似已下架/不再展示）"
+    },
+    {
+      "link": "https://adstransparency.google.com/advertiser/AR17459733968881451009/creative/CR05171059028595310593?region=KR",
+      "competitor": "Flova",
+      "regions": [
+        "KR"
+      ],
+      "reason": "no_video:透明度中心没有返回任何变体预览（GetCreativeById 无变体，疑似已下架/不再展示）"
+    },
+    {
+      "link": "https://adstransparency.google.com/advertiser/AR17224474171715616769/creative/CR07335049644663111681?region=KR",
+      "competitor": "CapCut / Dreamina",
+      "regions": [
+        "KR"
+      ],
+      "reason": "no_video:透明度中心没有返回任何变体预览（GetCreativeById 无变体，疑似已下架/不再展示）"
+    },
+    {
+      "link": "https://adstransparency.google.com/advertiser/AR12554248788425834497/creative/CR07015634369968603137?region=KR",
+      "competitor": "Flova",
+      "regions": [
+        "KR"
+      ],
+      "reason": "no_video:透明度中心没有返回任何变体预览（GetCreativeById 无变体，疑似已下架/不再展示）"
+    }
+  ],
   "note_kr": "韩国日报：KR 条目取自 2026-11-24 07:38 竞品扫描（KR 共 135 条：Google 115、Meta 20）。今天 KR 没有带封面的新开投；沿用之前上页的 43 条，并按今天扫描更新“末次展示”（今天仍扫到 19 条）。KR 标新开投的 5 条全是 Meta 上的 VerseIn（土耳其语漫剧文案、德语佛教故事），Meta 封面在 box 网络拿不到（fbcdn 403），未上页。Topview 不投 Meta，今天 Meta KR 没有“Topview”名义广告。另：X 上韩国平台 젠트리（Gentry）在推“黑色周 Seedance 2.5 最高 7 折”，不是广告库数据，写在节点卡里。"
 }
