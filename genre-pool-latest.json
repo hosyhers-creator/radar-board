@@ -70,21 +70,23 @@
    },
    "hist": {
     "days": 7,
-    "total": 27,
+    "total": 29,
     "counts": {
-     "reveal": 3,
-     "animal": 4,
-     "family": 5,
-     "cinema": 3,
      "senior": 2,
+     "family": 5,
      "drama": 3,
+     "animal": 4,
      "romance": 2,
+     "reveal": 2,
      "product": 1,
      "meme": 2,
+     "cinema": 4,
      "game": 1,
-     "baby": 1
+     "baby": 1,
+     "mv": 1,
+     "other": 1
     },
-    "range": "11-17～11-23"
+    "range": "11-18～11-24"
    }
   }
  }
