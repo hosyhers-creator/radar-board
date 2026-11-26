@@ -792,5 +792,37 @@
   "genre": "bl",
   "pattern": "AI 角色“人事档案录像”：用公司内部档案 + 面试录像介绍连载男主（作者在评论区扮人事部）",
   "title": "“人事档案 · 仅限内部使用 · 姓名 李汉 · 30 岁 · 身高 6 英尺 2 英寸 · 曾服兵役、做过私人保镖”—"
+ },
+ {
+  "date": "11-26",
+  "market": "overseas",
+  "genre": "reveal",
+  "pattern": "被看不起→权威到场打脸（警察歧视屋主，30 秒）",
+  "title": "“你这种人住不起橡树岭大道”——警察嘲笑屋主，直到他老板来了",
+  "manual": true
+ },
+ {
+  "date": "11-26",
+  "market": "overseas",
+  "genre": "animal",
+  "pattern": "写实动物求助→带人救幼崽（字幕推进）",
+  "title": "冻得发抖的狐狸在门口，原来是带人去救雪地里的幼崽",
+  "manual": true
+ },
+ {
+  "date": "11-26",
+  "market": "overseas",
+  "genre": "retro",
+  "pattern": "90 年代爱情喜剧·小报复反转",
+  "title": "90 年代爱情喜剧：他趁她睡着剪了她的头发，她去划他的车——划错了",
+  "manual": true
+ },
+ {
+  "date": "11-26",
+  "market": "overseas",
+  "genre": "cinema",
+  "pattern": "城市地标 + 怪兽灾难片镜头",
+  "title": "海怪冲上旧金山金门大桥：44 秒好莱坞灾难片",
+  "manual": true
  }
 ]
