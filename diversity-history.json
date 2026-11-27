@@ -824,5 +824,75 @@
   "pattern": "城市地标 + 怪兽灾难片镜头",
   "title": "海怪冲上旧金山金门大桥：44 秒好莱坞灾难片",
   "manual": true
+ },
+ {
+  "date": "11-26",
+  "market": "korea",
+  "genre": "reveal",
+  "pattern": "富豪爸爸拿钱逼分手→女主拒收→“合格”+送商铺",
+  "title": "《来到花店的会长》第 120 集 It's super fun 57.0 万"
+ },
+ {
+  "date": "11-26",
+  "market": "korea",
+  "genre": "family",
+  "pattern": "妈妈逼儿子女友分手→转身去约会，对象是女友的爸爸",
+  "title": "《冷水也有上下之分》김치스매시 18.1 万"
+ },
+ {
+  "date": "11-26",
+  "market": "korea",
+  "genre": "bl",
+  "pattern": "AI 男生角色自拍 POV：被困保安室，一个害羞一个盯着看",
+  "title": "《SOS》CLIFF STUDIO 10.6 万"
+ },
+ {
+  "date": "11-26",
+  "market": "korea",
+  "genre": "other",
+  "pattern": "老照片复活：黑白照片倒数 3-2-1 变彩色（AI 上色）",
+  "title": "백년컬러 兴亲王军装像 7.5 万"
+ },
+ {
+  "date": "11-27",
+  "market": "overseas",
+  "genre": "retro",
+  "pattern": "死神上门→主人护宠把死神赶走（90 年代家庭喜剧质感）",
+  "title": "死神来接老金毛，老太太把死神轰出门（NOT THE DOG）"
+ },
+ {
+  "date": "11-27",
+  "market": "overseas",
+  "genre": "meme",
+  "pattern": "同机位只换一个变量的 AI 选择题（你选哪张床）",
+  "title": "“你选哪张床？”8 张床铺满老鼠、狼蛛、蛇、蛆"
+ },
+ {
+  "date": "11-27",
+  "market": "overseas",
+  "genre": "animal",
+  "pattern": "死神来接→宠物上前替主人（借“守护天使”热度的宠物版）",
+  "title": "死神来到门廊，橘猫走上前：“守护天使”的宠物版"
+ },
+ {
+  "date": "11-27",
+  "market": "overseas",
+  "genre": "holiday",
+  "pattern": "90 年代圣诞爱情喜剧·爸爸惊喜被女儿看上送货小哥",
+  "title": "爸爸准备了圣诞惊喜，女儿却看上了送货小哥"
+ },
+ {
+  "date": "11-27",
+  "market": "overseas",
+  "genre": "couple",
+  "pattern": "开门→关门→再开门的前后对照（双方都敷面膜）",
+  "title": "她以为被拒是因为没敷面膜：开门、关门、再开门"
+ },
+ {
+  "date": "11-27",
+  "market": "overseas",
+  "genre": "cinema",
+  "pattern": "VHS 恐怖开场→温情反转",
+  "title": "VHS 恐怖片的温情反转：“要是她知道他有多孤独就好了”"
  }
 ]
